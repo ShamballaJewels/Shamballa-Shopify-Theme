@@ -1218,6 +1218,28 @@ a.product__text {
   --icon-spacing: calc(var(--font-heading-scale) * 1rem);
 }
 
+/* Mobile gallery nav overlay */
+@media screen and (max-width: 749px) {
+  .product__media-slider-buttons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    justify-content: space-between;
+    padding: 0 1rem;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .product__media-slider-buttons .slider-button {
+    pointer-events: auto;
+    background-color: rgb(var(--color-background));
+    border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+    border-radius: 50%;
+  }
+}
+
 .icon-with-text--horizontal {
   display: flex;
   justify-content: center;
