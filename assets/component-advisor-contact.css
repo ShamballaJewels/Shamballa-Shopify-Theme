@@ -1,0 +1,28 @@
+.product__advisor-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+  padding: 1.6rem 2rem;
+  border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
+  border-radius: var(--border-radius);
+  background: rgba(var(--color-foreground), 0.03);
+}
+
+.product__advisor-contact-icon svg {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  fill: rgb(var(--color-foreground));
+}
+
+.product__advisor-contact-text {
+  margin: 0 0 0.6rem;
+  font-size: 1.4rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+}
+
+.product__advisor-contact-link {
+  font-size: 1.3rem;
+  white-space: nowrap;
+}

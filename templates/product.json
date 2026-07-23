@@ -75,6 +75,15 @@
             "show_gift_card_recipient": true
           }
         },
+        "advisor_contact": {
+          "type": "advisor_contact",
+          "settings": {
+            "heading": "Considering this piece?",
+            "text": "Speak with a Shamballa advisor about fit and customization.",
+            "button_label": "Contact a Shamballa advisor",
+            "button_link": ""
+          }
+        },
         "icon_with_text_NtNQJr": {
           "type": "icon-with-text",
           "disabled": true,
@@ -158,6 +167,7 @@
         "af32eada-4304-4eca-a35c-619c5f5f2895",
         "5c274390-3fa7-45c4-843d-6f0d02d6fb55",
         "buy_buttons",
+        "advisor_contact",
         "icon_with_text_NtNQJr",
         "icon_with_text_DHN9BG",
         "description",
