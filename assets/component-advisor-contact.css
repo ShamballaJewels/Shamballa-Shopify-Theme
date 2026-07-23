@@ -25,6 +25,9 @@
 .product__advisor-contact-link {
   font-size: 1.3rem;
   white-space: nowrap;
+  padding: 0;
+  background: none;
+  border: none;
 }
 
 .product-popup-modal__content-info .field {
