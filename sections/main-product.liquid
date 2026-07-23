@@ -877,7 +877,8 @@
           </button>
           <div class="product-popup-modal__content-info">
             <h2 class="h3">{{ block.settings.button_label }}</h2>
-            {%- form 'contact', id: 'AdvisorContactForm-' | append: block.id, class: 'isolate' -%}
+            {%- assign advisor_contact_form_id = 'AdvisorContactForm-' | append: block.id -%}
+            {%- form 'contact', id: advisor_contact_form_id, class: 'isolate' -%}
               {%- if form.posted_successfully? -%}
                 <h3 class="form-status form-status-list form__message" tabindex="-1" autofocus>
                   {{- 'icon-success.svg' | inline_asset_content -}}
