@@ -573,7 +573,7 @@
     </div>
   {% endif %}
 {%- when 'description' -%}
-                {%- assign description_text = product.description | strip_html | strip -%}
+                {%- assign description_text = product.description | strip_html | replace: '&nbsp;', '' | strip -%}
                 {%- if description_text != blank -%}
                   <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                     <details id="Details-{{ block.id }}-{{ section.id }}" open>
