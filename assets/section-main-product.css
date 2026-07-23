@@ -1220,7 +1220,7 @@ a.product__text {
 
 /* Mobile gallery nav overlay */
 @media screen and (max-width: 749px) {
-  .product__media-slider-buttons {
+  .slider-buttons.product__media-slider-buttons {
     position: absolute;
     top: 50%;
     left: 0;
