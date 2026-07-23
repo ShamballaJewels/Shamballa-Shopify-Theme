@@ -1,0 +1,19 @@
+@media screen and (max-width: 749px) {
+  .slideshow__slide .banner__content {
+    justify-content: flex-end !important;
+    padding-bottom: 110px !important;
+  }
+}
+
+  /* Subtle gradient behind image for readability */
+  .slideshow__media {
+    position: relative;
+  }
+  .slideshow__media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%);
+    pointer-events: none;
+  }
+}
