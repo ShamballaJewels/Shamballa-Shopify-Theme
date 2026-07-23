@@ -583,12 +583,11 @@
                       <strong>{{ block.settings.heading }}</strong>
                       {{ block.settings.text }}
                     </p>
-                    <a
-                      href="{{ block.settings.button_link | default: pages['contact-us'].url }}"
-                      class="product__advisor-contact-link link"
-                    >
-                      {{ block.settings.button_label }}
-                    </a>
+                    <modal-opener data-modal="#AdvisorContactModal-{{ block.id }}">
+                      <button type="button" class="product__advisor-contact-link link">
+                        {{ block.settings.button_label }}
+                      </button>
+                    </modal-opener>
                   </div>
                 </div>
               {%- when 'description' -%}
@@ -858,6 +857,113 @@
       </modal-dialog>
     {%- endfor -%}
 
+    {% assign advisor_contact_blocks = section.blocks | where: 'type', 'advisor_contact' %}
+    {%- for block in advisor_contact_blocks -%}
+      <modal-dialog id="AdvisorContactModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
+        <div
+          role="dialog"
+          aria-label="{{ block.settings.button_label }}"
+          aria-modal="true"
+          class="product-popup-modal__content"
+          tabindex="-1"
+        >
+          <button
+            id="ModalClose-{{ block.id }}"
+            type="button"
+            class="product-popup-modal__toggle"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {{- 'icon-close.svg' | inline_asset_content -}}
+          </button>
+          <div class="product-popup-modal__content-info">
+            <h2 class="h3">{{ block.settings.button_label }}</h2>
+            {%- form 'contact', id: 'AdvisorContactForm-' | append: block.id, class: 'isolate' -%}
+              {%- if form.posted_successfully? -%}
+                <h3 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                  {{- 'icon-success.svg' | inline_asset_content -}}
+                  {{ 'templates.contact.form.post_success' | t }}
+                </h3>
+              {%- else -%}
+                {%- if form.errors -%}
+                  <div class="form__message">
+                    <p class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                      {{- 'icon-error.svg' | inline_asset_content -}}
+                      {{ 'templates.contact.form.error_heading' | t }}
+                    </p>
+                  </div>
+                {%- endif -%}
+                <div class="field">
+                  <input
+                    class="field__input"
+                    autocomplete="name"
+                    type="text"
+                    id="AdvisorContactForm-name-{{ block.id }}"
+                    name="contact[{{ 'templates.contact.form.name' | t }}]"
+                    value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                    placeholder="{{ 'templates.contact.form.name' | t }}"
+                  >
+                  <label class="field__label" for="AdvisorContactForm-name-{{ block.id }}">
+                    {{- 'templates.contact.form.name' | t -}}
+                  </label>
+                </div>
+                <div class="field field--with-error">
+                  <input
+                    autocomplete="email"
+                    type="email"
+                    id="AdvisorContactForm-email-{{ block.id }}"
+                    class="field__input"
+                    name="contact[email]"
+                    spellcheck="false"
+                    autocapitalize="off"
+                    value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                    aria-required="true"
+                    {% if form.errors contains 'email' %}
+                      aria-invalid="true"
+                      aria-describedby="AdvisorContactForm-email-error-{{ block.id }}"
+                    {% endif %}
+                    placeholder="{{ 'templates.contact.form.email' | t }}"
+                  >
+                  <label class="field__label" for="AdvisorContactForm-email-{{ block.id }}">
+                    {{- 'templates.contact.form.email' | t }}
+                    <span aria-hidden="true">*</span>
+                  </label>
+                  {%- if form.errors contains 'email' -%}
+                    <small class="contact__field-error" id="AdvisorContactForm-email-error-{{ block.id }}">
+                      <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                      <span class="form__message">
+                        <span class="svg-wrapper">
+                          {{- 'icon-error.svg' | inline_asset_content -}}
+                        </span>
+                        {{- form.errors.translated_fields.email | capitalize }}
+                        {{ form.errors.messages.email -}}
+                      </span>
+                    </small>
+                  {%- endif -%}
+                </div>
+                <div class="field">
+                  <textarea
+                    rows="6"
+                    id="AdvisorContactForm-body-{{ block.id }}"
+                    class="text-area field__input"
+                    name="contact[{{ 'templates.contact.form.comment' | t }}]"
+                    placeholder="{{ 'templates.contact.form.comment' | t }}"
+                  >{%- if form.body -%}{{ form.body }}{%- else -%}Regarding: {{ product.title }} ({{ product.url | prepend: request.origin }}){%- endif -%}</textarea>
+                  <label class="form__label field__label" for="AdvisorContactForm-body-{{ block.id }}">
+                    {{- 'templates.contact.form.comment' | t -}}
+                  </label>
+                </div>
+                <div class="contact__button">
+                  <button type="submit" class="button">
+                    {{ 'templates.contact.form.send' | t }}
+                  </button>
+                </div>
+              {%- endif -%}
+            {%- endform -%}
+          </div>
+        </div>
+      </modal-dialog>
+    {%- endfor -%}
+
     {%- if product.media.size > 0 -%}
       <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
@@ -1097,12 +1203,6 @@
           "id": "button_label",
           "label": "Button label",
           "default": "Contact a Shamballa advisor"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "Button link",
-          "info": "Defaults to the Contact Us page if left blank"
         }
       ]
     },

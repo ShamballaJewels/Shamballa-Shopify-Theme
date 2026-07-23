@@ -26,3 +26,7 @@
   font-size: 1.3rem;
   white-space: nowrap;
 }
+
+.product-popup-modal__content-info .field {
+  margin-bottom: 1.5rem;
+}
