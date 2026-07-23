@@ -16,6 +16,12 @@
   fill: rgb(var(--color-foreground));
 }
 
+.product__advisor-contact-heading {
+  margin: 0 0 0.3rem;
+  font-size: 1.4rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+}
+
 .product__advisor-contact-text {
   margin: 0 0 0.6rem;
   font-size: 1.4rem;

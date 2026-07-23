@@ -591,8 +591,10 @@
                     {{ 'icon-chat-bubble.svg' | inline_asset_content }}
                   </div>
                   <div class="product__advisor-contact-body">
-                    <p class="product__advisor-contact-text">
+                    <p class="product__advisor-contact-heading">
                       <strong>{{ block.settings.heading }}</strong>
+                    </p>
+                    <p class="product__advisor-contact-text">
                       {{ block.settings.text }}
                     </p>
                     <modal-opener data-modal="#AdvisorContactModal-{{ block.id }}">
@@ -1209,7 +1211,7 @@
           "type": "text",
           "id": "text",
           "label": "Text",
-          "default": "Speak with a Shamballa advisor about fit and customization."
+          "default": "Want to know more about sizing or customization?"
         },
         {
           "type": "text",
