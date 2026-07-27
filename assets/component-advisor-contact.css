@@ -39,3 +39,22 @@
 .product-popup-modal__content-info .field {
   margin-bottom: 1.5rem;
 }
+
+.product-popup-modal__content-info .text-area {
+  scrollbar-width: thin;
+  padding-right: 2rem;
+}
+
+.product-popup-modal__content-info .text-area::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+.product-popup-modal__content-info .text-area::-webkit-scrollbar-track {
+  margin: 1.2rem 0;
+  background: transparent;
+}
+
+.product-popup-modal__content-info .text-area::-webkit-scrollbar-thumb {
+  background-color: rgba(var(--color-foreground), 0.25);
+  border-radius: 1rem;
+}
