@@ -17,23 +17,25 @@
 <div class="trust-badges color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <ul class="trust-badges__list page-width" role="list">
     {%- for block in section.blocks -%}
-      <li class="trust-badges__item" {{ block.shopify_attributes }}>
-        {%- if block.settings.icon != blank -%}
-          <div class="trust-badges__icon">
-            {{
-              block.settings.icon
-              | image_url: width: 100
-              | image_tag: loading: 'lazy', widths: '40, 60, 80, 100'
-            }}
-          </div>
-        {%- endif -%}
-        {%- if block.settings.heading != blank -%}
-          <h3 class="trust-badges__heading">{{ block.settings.heading | escape }}</h3>
-        {%- endif -%}
-        {%- if block.settings.text != blank -%}
-          <p class="trust-badges__text">{{ block.settings.text | escape }}</p>
-        {%- endif -%}
-      </li>
+      {%- if block.settings.required_tag == blank or product.tags contains block.settings.required_tag -%}
+        <li class="trust-badges__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}
+            <div class="trust-badges__icon">
+              {{
+                block.settings.icon
+                | image_url: width: 100
+                | image_tag: loading: 'lazy', widths: '40, 60, 80, 100'
+              }}
+            </div>
+          {%- endif -%}
+          {%- if block.settings.heading != blank -%}
+            <h3 class="trust-badges__heading">{{ block.settings.heading | escape }}</h3>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <p class="trust-badges__text">{{ block.settings.text | escape }}</p>
+          {%- endif -%}
+        </li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 </div>
@@ -96,6 +98,12 @@
           "id": "text",
           "label": "Text",
           "default": "Numbered certificate with every piece"
+        },
+        {
+          "type": "text",
+          "id": "required_tag",
+          "label": "Only show if product has this tag",
+          "info": "Leave blank to always show this badge. Example: made-in-copenhagen"
         }
       ]
     }

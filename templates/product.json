@@ -213,7 +213,8 @@
           "type": "badge",
           "settings": {
             "heading": "Made in Copenhagen",
-            "text": "Hand-assembled by our atelier"
+            "text": "Hand-assembled by our atelier",
+            "required_tag": "made-in-copenhagen"
           }
         },
         "badge_service": {
