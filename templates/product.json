@@ -193,6 +193,46 @@
         "padding_bottom": 12
       }
     },
+    "trust_badges": {
+      "type": "trust-badges",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 40
+      },
+      "blocks": {
+        "badge_certified": {
+          "type": "badge",
+          "settings": {
+            "heading": "Certified",
+            "text": "Numbered certificate with every piece"
+          }
+        },
+        "badge_copenhagen": {
+          "type": "badge",
+          "settings": {
+            "heading": "Made in Copenhagen",
+            "text": "Hand-assembled by our atelier"
+          }
+        },
+        "badge_service": {
+          "type": "badge",
+          "settings": {
+            "heading": "Lifetime Service",
+            "text": "Restringing, repair & care"
+          }
+        },
+        "badge_delivery": {
+          "type": "badge",
+          "settings": {
+            "heading": "Insured Delivery",
+            "text": "Complimentary, fully tracked"
+          }
+        }
+      },
+      "block_order": ["badge_certified", "badge_copenhagen", "badge_service", "badge_delivery"]
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -319,6 +359,7 @@
   "order": [
     "16947741896a850266",
     "main",
+    "trust_badges",
     "related-products",
     "e3fe9022-f39b-4a25-a7d8-71542822eaef",
     "16947744846cd93355",
