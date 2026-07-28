@@ -200,14 +200,17 @@
           "type": "badge",
           "settings": {
             "heading": "Certified",
-            "text": "Numbered certificate with every piece"
+            "text": "Numbered certificate included",
+            "required_tag": "",
+            "required_bracelet_designs": ""
           }
         },
         "badge_copenhagen": {
           "type": "badge",
           "settings": {
             "heading": "Made in Copenhagen",
-            "text": "Hand-assembled by Shamball Staff",
+            "text": "Hand-assembled by Shamballa Staff",
+            "required_tag": "",
             "required_bracelet_designs": "Beaded, Braided, Orb"
           }
         },
@@ -215,14 +218,18 @@
           "type": "badge",
           "settings": {
             "heading": "Lifetime Service",
-            "text": "Restringing, repair & care"
+            "text": "Restringing, repair and care",
+            "required_tag": "",
+            "required_bracelet_designs": ""
           }
         },
         "badge_delivery": {
           "type": "badge",
           "settings": {
             "heading": "Insured Delivery",
-            "text": "Complimentary, fully tracked"
+            "text": "No risk if lost or damaged",
+            "required_tag": "",
+            "required_bracelet_designs": ""
           }
         }
       },
