@@ -17,7 +17,32 @@
 <div class="trust-badges color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <ul class="trust-badges__list page-width" role="list">
     {%- for block in section.blocks -%}
-      {%- if block.settings.required_tag == blank or product.tags contains block.settings.required_tag -%}
+      {%- liquid
+        assign show_badge = true
+
+        if block.settings.required_tag != blank
+          unless product.tags contains block.settings.required_tag
+            assign show_badge = false
+          endunless
+        endif
+
+        if show_badge and block.settings.required_bracelet_designs != blank
+          assign required_designs = block.settings.required_bracelet_designs | split: ','
+          assign design_match = false
+          for design in product.metafields.shopify['bracelet-design']
+            for required in required_designs
+              assign required_trimmed = required | strip
+              if design.system.label == required_trimmed
+                assign design_match = true
+              endif
+            endfor
+          endfor
+          unless design_match
+            assign show_badge = false
+          endunless
+        endif
+      -%}
+      {%- if show_badge -%}
         <li class="trust-badges__item" {{ block.shopify_attributes }}>
           {%- if block.settings.icon != blank -%}
             <div class="trust-badges__icon">
@@ -104,6 +129,12 @@
           "id": "required_tag",
           "label": "Only show if product has this tag",
           "info": "Leave blank to always show this badge. Example: made-in-copenhagen"
+        },
+        {
+          "type": "text",
+          "id": "required_bracelet_designs",
+          "label": "Only show if Bracelet design metafield matches (comma-separated)",
+          "info": "Matches Shopify's standard \"Bracelet design\" category metafield. Example: Beaded, Braided, Orb. Leave blank to ignore."
         }
       ]
     }
