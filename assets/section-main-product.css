@@ -1244,36 +1244,54 @@ a.product__text {
 }
 
 /* Share button next to SKU */
-product-info .product__sku {
-  display: inline-flex;
+.product__sku-share-row {
+  display: flex;
   align-items: center;
-  font-size: 1.4rem;
+  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 
-product-info .share-button {
+.product__sku-share-row .product__sku {
+  margin: 0;
+}
+
+.product__sku-share-row .share-button {
   display: inline-flex;
+  align-items: center;
   width: auto;
 }
 
-product-info .product__sku + .share-button::before {
-  content: '•';
-  margin: 0 0.8rem;
-  color: rgba(var(--color-foreground), 0.75);
+.product__sku-share-row .share-button details {
+  width: auto;
 }
 
-product-info .share-button .share-button__button {
-  font-size: 1.4rem;
-  color: rgba(var(--color-foreground), 0.75);
-  min-height: auto;
-  padding: 0;
+.product__sku-share-row .share-button__button {
+  font-size: 1.4rem !important;
+  font-family: inherit !important;
+  color: rgba(var(--color-foreground), 0.75) !important;
+  min-height: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-product-info .share-button .share-button__button:hover {
-  color: rgb(var(--color-foreground));
+.product__sku-share-row .share-button__button:hover {
+  color: rgb(var(--color-foreground)) !important;
 }
 
-product-info .share-button__button .icon-share {
+.product__sku-share-row .share-button__button .icon-share {
   display: none;
+}
+
+@media screen and (max-width: 749px) {
+  .product__sku-share-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .product__sku-share-row .product__sku-share-separator {
+    display: none;
+  }
 }
 
 .icon-with-text--horizontal {

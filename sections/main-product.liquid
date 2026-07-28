@@ -227,15 +227,25 @@
                   {%- endif -%}
                 </p>
               {%- when 'sku' -%}
-                <p
-                  class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                  id="Sku-{{ section.id }}"
-                  role="status"
-                  {{ block.shopify_attributes }}
-                >
-                  <span>Style ID:&nbsp;</span>
-                  {{- product.selected_or_first_available_variant.sku -}}
-                </p>
+                {%- assign share_block = section.blocks | where: 'type', 'share' | first -%}
+                <div class="product__sku-share-row">
+                  <p
+                    class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                    id="Sku-{{ section.id }}"
+                    role="status"
+                    {{ block.shopify_attributes }}
+                  >
+                    <span>Style ID:&nbsp;</span>
+                    {{- product.selected_or_first_available_variant.sku -}}
+                  </p>
+                  {%- if share_block -%}
+                    <span class="product__sku-share-separator" aria-hidden="true">&bull;</span>
+                    {% liquid
+                      assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
+                      render 'share-button', block: share_block, share_link: share_url
+                    %}
+                  {%- endif -%}
+                </div>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
@@ -631,10 +641,7 @@
                   </div>
                 {%- endif -%}
               {%- when 'share' -%}
-                {% liquid
-                  assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
-                  render 'share-button', block: block, share_link: share_url
-                %}
+                {%- comment -%}Rendered inline next to the SKU block above{%- endcomment -%}
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
