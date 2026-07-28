@@ -199,8 +199,8 @@
         "badge_certified": {
           "type": "badge",
           "settings": {
-            "heading": "Certified",
-            "text": "Numbered certificate included",
+            "heading": "Certified jewelry",
+            "text": "Certificate always available upon request",
             "required_tag": "",
             "required_bracelet_designs": ""
           }
