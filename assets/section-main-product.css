@@ -1248,27 +1248,36 @@ a.product__text {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 0;
 }
 
 .product__sku-share-row .product__sku {
   margin: 0;
+  padding: 0;
+  color: rgba(var(--color-foreground), 0.6) !important;
+}
+
+.product__sku-share-row .product__sku-share-separator {
+  margin: 0 0.8rem;
+  color: rgba(var(--color-foreground), 0.6);
 }
 
 .product__sku-share-row .share-button {
   display: inline-flex;
   align-items: center;
   width: auto;
+  margin: 0;
 }
 
 .product__sku-share-row .share-button details {
   width: auto;
+  margin: 0;
 }
 
 .product__sku-share-row .share-button__button {
   font-size: 1.4rem !important;
   font-family: inherit !important;
-  color: rgba(var(--color-foreground), 0.75) !important;
+  color: rgba(var(--color-foreground), 0.6) !important;
   min-height: auto !important;
   padding: 0 !important;
   margin: 0 !important;
