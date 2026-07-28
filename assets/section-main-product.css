@@ -1277,17 +1277,17 @@ a.product__text {
 .product__sku-share-row .share-button__button {
   font-size: 1.4rem !important;
   font-family: inherit !important;
-  color: rgba(var(--color-foreground), 0.6) !important;
+  color: rgb(var(--color-foreground)) !important;
   min-height: auto !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
 .product__sku-share-row .share-button__button:hover {
-  color: rgb(var(--color-foreground)) !important;
+  color: rgba(var(--color-foreground), 0.75) !important;
 }
 
-.product__sku-share-row .share-button__button .icon-share {
+.product__sku-share-row .share-button__button .svg-wrapper {
   display: none;
 }
 
