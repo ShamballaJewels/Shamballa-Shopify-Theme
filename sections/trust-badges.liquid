@@ -16,7 +16,19 @@
 
 <div class="trust-badges color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <pre style="background:#fff;color:#000;padding:1rem;white-space:pre-wrap;word-break:break-all;font-size:1.2rem;">DEBUG bracelet-design metafield:
-{{ product.metafields.shopify['bracelet-design'] | json }}</pre>
+type: {{ product.metafields.shopify['bracelet-design'].type }}
+via .value:
+{%- for design in product.metafields.shopify['bracelet-design'].value -%}
+- label=[{{ design.system.label }}] handle=[{{ design.system.handle }}] type=[{{ design.system.type }}]
+{%- else -%}
+(empty via .value)
+{%- endfor %}
+via direct:
+{%- for design in product.metafields.shopify['bracelet-design'] -%}
+- label=[{{ design.system.label }}] handle=[{{ design.system.handle }}]
+{%- else -%}
+(empty via direct)
+{%- endfor %}</pre>
   <ul class="trust-badges__list page-width" role="list">
     {%- for block in section.blocks -%}
       {%- liquid
