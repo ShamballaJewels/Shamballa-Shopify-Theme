@@ -1,3 +1,8 @@
+.trust-badges {
+  background-color: rgb(var(--color-background)) !important;
+  background-image: none !important;
+}
+
 .trust-badges__list {
   display: flex;
   flex-wrap: wrap;
