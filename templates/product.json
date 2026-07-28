@@ -141,6 +141,12 @@
             "text_style": "body"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "0663d01d-c38e-40af-87d7-d9927cd76645": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -149,12 +155,6 @@
             "icon": "ruler",
             "content": "",
             "page": "sizing-charts"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -195,12 +195,6 @@
     },
     "trust_badges": {
       "type": "trust-badges",
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "padding_top": 40,
-        "padding_bottom": 40
-      },
       "blocks": {
         "badge_certified": {
           "type": "badge",
@@ -213,7 +207,7 @@
           "type": "badge",
           "settings": {
             "heading": "Made in Copenhagen",
-            "text": "Hand-assembled by our atelier",
+            "text": "Hand-assembled by Shamball Staff",
             "required_bracelet_designs": "Beaded, Braided, Orb"
           }
         },
@@ -232,7 +226,18 @@
           }
         }
       },
-      "block_order": ["badge_certified", "badge_copenhagen", "badge_service", "badge_delivery"]
+      "block_order": [
+        "badge_certified",
+        "badge_copenhagen",
+        "badge_service",
+        "badge_delivery"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     },
     "related-products": {
       "type": "related-products",
