@@ -227,7 +227,7 @@
           "type": "badge",
           "settings": {
             "heading": "Insured Delivery",
-            "text": "No risk if lost or damaged",
+            "text": "No risk if lost or damaged during transit",
             "required_tag": "",
             "required_bracelet_designs": ""
           }
