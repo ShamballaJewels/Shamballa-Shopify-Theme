@@ -33,7 +33,7 @@
 }
 
 .bracelet-picker__progress-track {
-  height: 0.5rem;
+  height: 0.6rem;
   border-radius: 10rem;
   background-color: rgba(var(--color-foreground), 0.15);
   overflow: hidden;
@@ -42,7 +42,7 @@
 .bracelet-picker__progress-fill {
   height: 100%;
   width: 0%;
-  background-color: #c0a765;
+  background-color: rgb(var(--color-foreground));
   border-radius: 10rem;
   transition: width 0.3s ease;
 }
