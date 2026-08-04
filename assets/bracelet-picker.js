@@ -139,10 +139,24 @@ class BraceletPicker extends HTMLElement {
     this.backBtn.hidden = this.stepIndex === 0;
 
     this.optionsEl.innerHTML = '';
+    this.optionsEl.classList.toggle('bracelet-picker__options--with-images', Boolean(step.hasImages));
+
     options.forEach((option) => {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'bracelet-picker__option';
+      button.dataset.optionValue = option.value;
+
+      if (step.hasImages) {
+        const imageWrap = document.createElement('span');
+        imageWrap.className = 'bracelet-picker__option-image';
+        const img = document.createElement('img');
+        img.alt = '';
+        img.loading = 'lazy';
+        img.addEventListener('load', () => imageWrap.classList.add('is-loaded'));
+        imageWrap.appendChild(img);
+        button.appendChild(imageWrap);
+      }
 
       const labelSpan = document.createElement('span');
       labelSpan.className = 'bracelet-picker__option-label';
@@ -159,6 +173,37 @@ class BraceletPicker extends HTMLElement {
       button.addEventListener('click', () => this.advanceStep(option.value));
       this.optionsEl.appendChild(button);
     });
+
+    if (step.hasImages) {
+      this.loadOptionImages(step, options);
+    }
+  }
+
+  async loadOptionImages(step, options) {
+    await Promise.all(
+      options.map(async (option) => {
+        try {
+          const params = new URLSearchParams();
+          params.set(step.param, option.value);
+          params.set('section_id', this.sectionId);
+          const url = `${this.config.collectionUrl}?${params.toString()}`;
+          const response = await fetch(url);
+          const text = await response.text();
+          const doc = new DOMParser().parseFromString(text, 'text/html');
+          const cardImage = doc.querySelector('.card__media img');
+          if (!cardImage) return;
+
+          const button = this.optionsEl.querySelector(`[data-option-value="${window.CSS.escape(option.value)}"]`);
+          const img = button ? button.querySelector('.bracelet-picker__option-image img') : null;
+          if (img) {
+            img.src = cardImage.getAttribute('src');
+            img.srcset = cardImage.getAttribute('srcset') || '';
+          }
+        } catch (error) {
+          // Leave the placeholder if a specific option's image fails to load.
+        }
+      })
+    );
   }
 
   advanceStep(value) {
