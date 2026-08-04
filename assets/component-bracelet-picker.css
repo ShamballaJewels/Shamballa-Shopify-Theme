@@ -1,0 +1,123 @@
+.bracelet-picker-section {
+  background-color: rgb(var(--color-background)) !important;
+  background-image: none !important;
+}
+
+.bracelet-picker__heading {
+  text-align: center;
+  margin: 0 0 0.6rem;
+}
+
+.bracelet-picker__subheading {
+  text-align: center;
+  max-width: 60rem;
+  margin: 0 auto 3.2rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.bracelet-picker {
+  display: block;
+  max-width: 76rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bracelet-picker__wizard--loading {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.bracelet-picker__progress {
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #c0a765;
+  margin-bottom: 0.8rem;
+}
+
+.bracelet-picker__step-label {
+  text-align: center;
+  margin: 0 0 2.4rem;
+}
+
+.bracelet-picker__options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.bracelet-picker__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 12rem;
+  padding: 1.6rem 2.4rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  background: transparent;
+  color: rgb(var(--color-foreground));
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.bracelet-picker__option:hover,
+.bracelet-picker__option:focus-visible {
+  border-color: #c0a765;
+  background-color: rgba(192, 167, 101, 0.08);
+}
+
+.bracelet-picker__option-label {
+  font-size: 1.6rem;
+}
+
+.bracelet-picker__option-count {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.bracelet-picker__nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.bracelet-picker__back,
+.bracelet-picker__skip,
+.bracelet-picker__restart {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.4rem;
+}
+
+.bracelet-picker__loading {
+  display: flex;
+  justify-content: center;
+  padding: 2.4rem 0;
+}
+
+.bracelet-picker__results-header {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.bracelet-picker__empty {
+  text-align: center;
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.bracelet-picker__empty p {
+  margin-bottom: 1.6rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.bracelet-picker__results-grid .grid {
+  margin: 0;
+}
+
+.bracelet-picker__results-grid .loading-overlay {
+  display: none;
+}
