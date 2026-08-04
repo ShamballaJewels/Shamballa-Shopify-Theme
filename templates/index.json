@@ -1,1 +1,1014 @@
-{"sections":{"slideshow_X3pnQk":{"type":"slideshow","blocks":{"slide_iGTwLT":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/High_summer_banner.jpg","heading":"High Summer 2026 collection","heading_size":"h2","subheading":"Exclusively on display in the Flagship Store in Copenhagen","button_label":"Explore the new collection","link":"shopify:\/\/blogs\/news\/high-summer-2026","button_style_secondary":true,"box_align":"bottom-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":30,"color_scheme":"scheme-6f0c72ec-a3f7-4cf0-adf3-931ce363d99e","text_alignment_mobile":"center"}},"slide_kPCnCW":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/setup_05_low.jpg","heading":"AUTUMN\/WINTER COLLECTION","heading_size":"h2","subheading":"THE SYMBOLS OF SHAMBALLA","button_label":"Discover here","link":"shopify:\/\/collections\/autumn-winter-2025","button_style_secondary":true,"box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":40,"color_scheme":"accent-1","text_alignment_mobile":"center"}},"slide_iKrTQF":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Banner_Xmas_collection_212.jpg","heading":"HOLIDAY SEASON","heading_size":"h2","subheading":"","button_label":"Discover more","link":"shopify:\/\/blogs\/whats-new\/holiday-season-discover-our-festive-collection","button_style_secondary":true,"box_align":"middle-right","show_text_box":false,"text_alignment":"right","image_overlay_opacity":40,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_iGTwLT","slide_kPCnCW","slide_iKrTQF"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile--center {background: transparent !important;}",".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--right.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"large","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"bracelet_picker_1":{"type":"bracelet-picker","settings":{"heading":"Find your bracelet","subheading":"Answer a few quick questions to discover the styles made for you","collection":"all-bracelets","back_label":"Back","skip_label":"Skip this question","restart_label":"Start over","empty_results_text":"We couldn't find a bracelet matching all of your choices. Try starting over with fewer selections.","color_scheme":"scheme-4","padding_top":40,"padding_bottom":40}},"5d2fd6c4-0aae-43b1-99e6-de4a64bae307":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<style>\n    .video-container {\n        position: relative;\n        width: 100%;\n        margin: 0 auto;\n        overflow: hidden;\n        padding-top: 36.2319%; \/* 69:25 Aspect Ratio for larger screens *\/\n    }\n\n    .video-container video {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        object-fit: cover; \/* Ensure video covers the container, cropping as necessary *\/\n    }\n\n    @media (max-width: 768px) {\n        .video-container {\n            padding-top: 56.25%; \/* 16:9 Aspect Ratio for mobile devices *\/\n        }\n    }\n<\/style>\n\n<div class=\"video-container\">\n    <video poster=\" https:\/\/cdn.shopify.com\/s\/files\/1\/0250\/0611\/2828\/files\/e591ae6970054d0eade789f0cb68ac86.00_00_00_00.Still001.jpg?v=1713381106\" muted=\"true\" autoplay playsinline loop>\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e591ae6970054d0eade789f0cb68ac86.mp4\">\n    <\/video>\n<\/div>","color_scheme":"","padding_top":0,"padding_bottom":20}},"ss_feature_1_ky4DWc":{"type":"ss-feature-1","blocks":{"image_gpx8GF":{"type":"image","settings":{"feature_title":"FREE SHIPPING","feature_text":"","feature_image":"shopify:\/\/shop_images\/free_shipping_worldwide_2.png","feature_url":"","hide_image":false}},"image_QEYd6T":{"type":"image","disabled":true,"settings":{"feature_title":"EASY RETURN OR EXCHANGE","feature_text":"","feature_image":"shopify:\/\/shop_images\/return-box.png","feature_url":"","hide_image":false}},"image_pXz4rd":{"type":"image","settings":{"feature_title":"BUYER PROTECTION","feature_text":"","feature_image":"shopify:\/\/shop_images\/insurance.png","feature_url":"","hide_image":false}},"image_bfhDJk":{"type":"image","settings":{"feature_title":"PICK UP IN BOUTIQUE","feature_text":"","feature_image":"shopify:\/\/shop_images\/location_2.png","feature_url":"","hide_image":false}}},"block_order":["image_gpx8GF","image_QEYd6T","image_pXz4rd","image_bfhDJk"],"disabled":true,"settings":{"feature_row":3,"feature_row_mobile":3,"feature_gap":20,"feature_gap_mobile":20,"feature_padding_vertical":0,"feature_padding_horizontal":0,"feature_radius":16,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":true,"feature_heading_font":"josefin_sans_n4","feature_heading_size":14,"feature_heading_size_mobile":12,"feature_heading_height":140,"feature_heading_mt":16,"feature_text_custom":false,"feature_text_font":"josefin_sans_n4","feature_text_size":16,"feature_text_size_mobile":14,"feature_text_height":140,"feature_text_mt":4,"feature_icon_size":42,"feature_icon_size_mobile":42,"feature_bg":"rgba(0,0,0,0)","feature_border_color":"#000000","feature_shadow_color":"#000000","feature_heading_color":"#000000","feature_text_color":"#000000","feature_icon_color":"#000000","background_color":"rgba(0,0,0,0)","background_gradient":"","border_color":"#000000","margin_top":12,"margin_bottom":0,"padding_top":20,"padding_bottom":28,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":120,"border_thickness":0,"lazy":true}},"rich_text_rJNpdR":{"type":"rich-text","blocks":{"heading_Ewid9T":{"type":"heading","settings":{"heading":"Spring\/Summer 2026","heading_size":"h2"}}},"block_order":["heading_Ewid9T"],"custom_css":["@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":52,"padding_bottom":4}},"featured_collection_f8F9BT":{"type":"featured-collection","custom_css":[".full-unstyled-link {text-align: center;}",".price {display: none !important;}","@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"],"name":"t:sections.featured-collection.presets.name","settings":{"title":"","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"spring-summer-2026","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":4,"padding_bottom":36}},"rich_text_pFxqYa":{"type":"rich-text","blocks":{"heading_kMgxHe":{"type":"heading","settings":{"heading":"The Core Collection","heading_size":"h2"}}},"block_order":["heading_kMgxHe"],"custom_css":["@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":52,"padding_bottom":4}},"featured_collection_dCRzkD":{"type":"featured-collection","custom_css":[".full-unstyled-link {text-align: center;}",".price {display: none !important;}","@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"],"name":"t:sections.featured-collection.presets.name","settings":{"title":"","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"the-core","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":4,"padding_bottom":36}},"rich_text_Xx8mkj":{"type":"rich-text","blocks":{"heading_ageti6":{"type":"heading","settings":{"heading":"The Timeless Collection","heading_size":"h2"}}},"block_order":["heading_ageti6"],"custom_css":["@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":52,"padding_bottom":4}},"featured_collection_NLf8By":{"type":"featured-collection","custom_css":[".full-unstyled-link {text-align: center;}",".price {display: none !important;}","@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"],"name":"t:sections.featured-collection.presets.name","settings":{"title":"","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"timeless-collection","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":4,"padding_bottom":36}},"ea782ae8-e865-4a27-8952-ce80160d9528":{"type":"rich-text","blocks":{"7aa75584-c7dc-496a-bc20-8f9e8a766e1b":{"type":"heading","disabled":true,"settings":{"heading":"Eastern Philosophies with Nordic Design Principles","heading_size":"h2"}},"f43bac66-977c-46dd-bb17-f4ee92d9a8f9":{"type":"text","settings":{"text":"<h2>every bracelet tells a story, it's a timeline of your journey<\/h2>"}},"8eadb49a-576e-49e5-bd22-a1187de6ab0c":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["7aa75584-c7dc-496a-bc20-8f9e8a766e1b","f43bac66-977c-46dd-bb17-f4ee92d9a8f9","8eadb49a-576e-49e5-bd22-a1187de6ab0c"],"custom_css":["h2 {font-size: 22px;}","@media (max-width: 768px) {h2 {font-size: 14px; padding-top: 10px; padding-bottom: 10px; margin-top: -20px; margin-bottom: -20px; }}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":44,"padding_bottom":36}},"afbafc88-a6ee-4eb0-9164-62a4eae78f66":{"type":"multicolumn","blocks":{"template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-1":{"type":"column","disabled":true,"settings":{"title":"<a href=\"\/pages\/jewelry\" title=\"Jewelry\">SHOP OUR JEWELRY<\/a>","text":"","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/aw24-front-page.jpg","title":"","text":"","link_label":"","link":"https:\/\/www.shamballajewels.com\/collections\/all","landing_page_url":"","title_button":"SHOP OUR JEWELRY","url_button":"https:\/\/www.shamballajewels.com\/collections\/all"}},"column_nU7w6J":{"type":"column","settings":{"video":"shopify:\/\/files\/videos\/column_02.mp4","title":"","text":"","link_label":"","link":"https:\/\/creator.shamballajewels.com\/","landing_page_url":"https:\/\/creator.shamballajewels.com\/","title_button":"CREATE YOUR OWN BRACELET","url_button":"https:\/\/creator.shamballajewels.com\/"}}},"block_order":["template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-1","template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-2","column_nU7w6J"],"custom_css":[".media.media--transparent.media--adapt img {transform: scale(1); object-fit: contain !important; width: 100% !important; height: 100% !important;}","@media (max-width: 768px) {.multicolumn.color-background-1.gradient.background-none.no-heading h3 {margin-bottom: -5px; font-size: 14px; }}",".background-none .multicolumn-card__image-wrapper {margin-left: 0rem; margin-right: 0rem; margin-bottom: -1.5rem;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":24,"padding_bottom":24}},"multicolumn_FQY3kL":{"type":"multicolumn","blocks":{"column_dtLwNa":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/the_phil_bead_1_abef7346-19f1-4bd6-b69a-c64c4a98fdb5.jpg","title":"1. THE BEADS","text":"<p>The creation of a SHAMBALLA JEWELS bracelet starts with selecting the beads, a step that infuses the piece with personal meaning. Choose from a variety of 18K gold beads, precious and semi-precious stones, each representing different aspects of life and personal values.<\/p>","link_label":"","link":"","landing_page_url":"shopify:\/\/pages\/the-philosophy","title_button":"Test","url_button":"\/"}},"column_j4FfQU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/the_phil_string_1_2df90488-c20b-4733-8913-dcda470a3106.jpg","title":"2. THE STRINGS","text":"<p>Selecting the string color is a crucial step that not only allows for personal expression but also brings the entire bracelet together, both visually and symbolically. It's a unique opportunity for clients to add a layer of meaning, whether through a favorite color or one that holds special significance.<\/p>","link_label":"","link":"","landing_page_url":"shopify:\/\/pages\/the-philosophy","title_button":"Test","url_button":"\/"}},"column_zgLGV4":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/the_phil_braiding_1_2617bf89-7c64-44dd-b7da-dc768a3ccd5e.jpg","title":"3. THE BRAIDING","text":"<p>The final step of a SHAMBALLA JEWELS bracelet is the art of macramé braiding which is hallmark of every bracelet, executed with unparalleled skill by our artisans in Copenhagen. The handbraiding reflects our dedication to craftsmanship, merging traditional techniques with individual expression.<\/p>","link_label":"","link":"","landing_page_url":"shopify:\/\/pages\/the-philosophy","title_button":"Test","url_button":"\/"}},"column_z8NNeF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/your_bracelet_2_09e5c5df-d461-4c6b-a068-1688722c5acd.jpg","title":"4. YOUR BRACELET","text":"<p>Rather than acquiring a new piece  of jewelry for every trend or whim, you have the option to refresh your bracelet by simply altering the beads or string. As you modify your jewelry, it becomes a living reflection of your personal growth and the chapters that shape your story.<\/p>","link_label":"","link":"","landing_page_url":"shopify:\/\/pages\/the-philosophy","title_button":"Test","url_button":"\/"}}},"block_order":["column_dtLwNa","column_j4FfQU","column_zgLGV4","column_z8NNeF"],"custom_css":[".multicolumn.color-inverse.gradient.background-primary {background: #ffff !important; background-image: none !important;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin {display: flex; flex-direction: column; justify-content: center; align-items: center;}",".button.button--primary {display: none;}",".h2,h3 {font-size: 14px;}","@media (max-width: 768px) {.h2, h3 {font-size: 12px; }}"],"settings":{"title":"THE PHILOSOPHY","heading_size":"h2","image_width":"full","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"shopify:\/\/pages\/the-philosophy","color_scheme":"inverse","columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"rich_text_jrLDfQ":{"type":"rich-text","blocks":{"button_aeGcmT":{"type":"button","settings":{"button_label":"LEARN MORE","button_link":"shopify:\/\/pages\/the-philosophy","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_aeGcmT"],"custom_css":[".gradient {background: #ffff !important; background-image: none !important;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":4,"padding_bottom":40}},"d8ede82c-9bbb-4c9b-bba0-f0afc99580b8":{"type":"image-with-text","blocks":{"template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-0":{"type":"heading","settings":{"heading":"FLAGSHIP STORE","heading_size":"h1"}},"template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-1":{"type":"text","settings":{"text":"<h2>Copenhagen<\/h2><p>Opening hours:<\/p><p>Monday 10:00 - 18:00<br\/>Tuesday 10:00 - 18:00<br\/>Wednesday 10:00 - 18:00<br\/>Thursday 10:00 - 18:00<br\/>Friday 10:00 - 19:00<br\/>Saturday 10:00 - 16:00<br\/>Sunday: Closed<\/p><p><a href=\"\/pages\/stores\" title=\"Flagship Stores\">Learn more<\/a><\/p>","text_style":"body"}},"template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-2":{"type":"button","disabled":true,"settings":{"button_label":"Learn more","button_link":"shopify:\/\/pages\/stores","button_style_secondary":false}}},"block_order":["template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-0","template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-1","template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-2"],"custom_css":[".content-container {background: #ffffff !important;}",".h1 {font-size: 14px;}","h2 {font-size: 13px;}","@media (max-width: 768px) {.h2, h3 {font-size: 12px; }}"],"settings":{"image":"shopify:\/\/shop_images\/flagship_cph2_d1975e58-380c-4d6f-8cf0-f04ad23fc560.jpg","height":"large","desktop_image_width":"large","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"accent-2","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"d46a3dbd-6739-4978-978d-fd58fe0671bb":{"type":"featured-blog","custom_css":[".blog.color-inverse.gradient {background: #ffffff !important; \/* Replace with your desired hex color *\/}",".title-wrapper-with-link.title-wrapper--self-padded-tablet-down.title-wrapper--no-top-margin {display: flex; flex-direction: column; justify-content: center; align-items: center;}",".card__heading.h2 a {font-family: \"TrajanPro\" !important; font-size: 14px !important;}",".h2 {font-size: 14px;}","@media (max-width: 768px) {.h2 {font-size: 12px; }}"],"settings":{"heading":"STORIES","heading_size":"h2","blog":"whats-new","post_limit":3,"columns_desktop":3,"color_scheme":"inverse","show_image":true,"show_date":true,"show_author":true,"show_view_all":false,"padding_top":40,"padding_bottom":20}},"rich_text_VtE9z6":{"type":"rich-text","blocks":{"button_A9Fhzt":{"type":"button","settings":{"button_label":"VIEW ALL","button_link":"https:\/\/webshop.shamballajewels.com\/blogs\/whats-new","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_A9Fhzt"],"custom_css":[".gradient {background: #ffff !important; background-image: none !important;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":4,"padding_bottom":40}},"ss_feature_1_wAGUaT":{"type":"ss-feature-1","blocks":{"image_9LHN6d":{"type":"image","settings":{"feature_title":"FULLY INSURED DELIVERY","feature_text":"","feature_image":"shopify:\/\/shop_images\/life-insurance.png","feature_url":"","hide_image":false}},"image_eM8aAi":{"type":"image","settings":{"feature_title":"CERTIFICATE INCLUDED","feature_text":"","feature_image":"shopify:\/\/shop_images\/award.png","feature_url":"","hide_image":false}},"image_K4fKUU":{"type":"image","settings":{"feature_title":"QUALITY GUARANTEED","feature_text":"","feature_image":"shopify:\/\/shop_images\/diamond_2.png","feature_url":"","hide_image":false}},"image_JCkqD4":{"type":"image","settings":{"feature_title":"E-MAIL SUPPORT","feature_text":"","feature_image":"shopify:\/\/shop_images\/email_3.png","feature_url":"shopify:\/\/pages\/contact-us","hide_image":false}}},"block_order":["image_9LHN6d","image_eM8aAi","image_K4fKUU","image_JCkqD4"],"settings":{"feature_row":4,"feature_row_mobile":2,"feature_gap":20,"feature_gap_mobile":20,"feature_padding_vertical":0,"feature_padding_horizontal":0,"feature_radius":16,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":true,"feature_heading_font":"josefin_sans_n4","feature_heading_size":14,"feature_heading_size_mobile":12,"feature_heading_height":140,"feature_heading_mt":16,"feature_text_custom":false,"feature_text_font":"josefin_sans_n4","feature_text_size":16,"feature_text_size_mobile":14,"feature_text_height":140,"feature_text_mt":4,"feature_icon_size":42,"feature_icon_size_mobile":42,"feature_bg":"rgba(0,0,0,0)","feature_border_color":"#000000","feature_shadow_color":"#000000","feature_heading_color":"#000000","feature_text_color":"#000000","feature_icon_color":"#000000","background_color":"rgba(0,0,0,0)","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":32,"padding_bottom":48,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":120,"border_thickness":0,"lazy":true}},"21edda04-c017-410a-afa9-8a2f5ac0d92f":{"type":"rich-text","blocks":{"3ad71146-9404-4994-ab87-b893f47d7e61":{"type":"heading","disabled":true,"settings":{"heading":"<a href=\"https:\/\/www.instagram.com\/shamballajewels\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/shamballajewels\/\">FOLLOW US ON INSTAGRAM<\/a>","heading_size":"h2"}},"38c7783e-daf9-42d6-a160-d98231f214f3":{"type":"text","settings":{"text":"<h3><a href=\"https:\/\/www.instagram.com\/shamballajewels\/\" title=\"https:\/\/www.instagram.com\/shamballajewels\/\">FOLLOW US ON INSTAGRAM<\/a><\/h3>"}},"3ab25f6d-0a1e-4e11-856f-e051a2e98cad":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["3ad71146-9404-4994-ab87-b893f47d7e61","38c7783e-daf9-42d6-a160-d98231f214f3","3ab25f6d-0a1e-4e11-856f-e051a2e98cad"],"custom_css":[".rich-text__text.rte.scroll-trigger.animate--slide-in a {font-family: \"TrajanPro\" !important; font-size: 14px !important;}","@media (max-width: 768px) {.rich-text__text.rte.scroll-trigger.animate--slide-in a {font-family: \"TrajanPro\" !important; font-size: 12px !important; }}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":28,"padding_bottom":24}},"1697027197216b13f7":{"type":"apps","settings":{"include_margins":true}},"1697027208207784f6":{"type":"apps","settings":{"include_margins":true}},"1be12e2a-e63c-4471-872b-69d480b20e5a":{"type":"slideshow","blocks":{"template--19102483841360__1be12e2a-e63c-4471-872b-69d480b20e5a-16881173283df459bd-1":{"type":"slide","disabled":true,"settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--19102483841360__1be12e2a-e63c-4471-872b-69d480b20e5a-16881173283df459bd-1"],"settings":{"layout":"grid","slide_height":"large","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"d3b993f4-9cb1-4e79-8592-2a5fb157f91b":{"type":"rich-text","blocks":{"template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-heading-1":{"type":"heading","disabled":true,"settings":{"heading":"Talk about your brand","heading_size":"h1"}},"template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-heading-1","template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-text-1","template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":40}}},"order":["slideshow_X3pnQk","bracelet_picker_1","5d2fd6c4-0aae-43b1-99e6-de4a64bae307","ss_feature_1_ky4DWc","rich_text_rJNpdR","featured_collection_f8F9BT","rich_text_pFxqYa","featured_collection_dCRzkD","rich_text_Xx8mkj","featured_collection_NLf8By","ea782ae8-e865-4a27-8952-ce80160d9528","afbafc88-a6ee-4eb0-9164-62a4eae78f66","multicolumn_FQY3kL","rich_text_jrLDfQ","d8ede82c-9bbb-4c9b-bba0-f0afc99580b8","d46a3dbd-6739-4978-978d-fd58fe0671bb","rich_text_VtE9z6","ss_feature_1_wAGUaT","21edda04-c017-410a-afa9-8a2f5ac0d92f","1697027197216b13f7","1697027208207784f6","1be12e2a-e63c-4471-872b-69d480b20e5a","d3b993f4-9cb1-4e79-8592-2a5fb157f91b"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_X3pnQk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iGTwLT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/High_summer_banner.jpg",
+            "heading": "High Summer 2026 collection",
+            "heading_size": "h2",
+            "subheading": "Exclusively on display in the Flagship Store in Copenhagen",
+            "button_label": "Explore the new collection",
+            "link": "shopify://blogs/news/high-summer-2026",
+            "button_style_secondary": true,
+            "button_label_2": "BROWSE ALL JEWELS",
+            "link_2": "shopify://collections/all-bracelets",
+            "button_style_secondary_2": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
+            "color_scheme": "scheme-6f0c72ec-a3f7-4cf0-adf3-931ce363d99e",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kPCnCW": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/setup_05_low.jpg",
+            "heading": "AUTUMN/WINTER COLLECTION",
+            "heading_size": "h2",
+            "subheading": "THE SYMBOLS OF SHAMBALLA",
+            "button_label": "Discover here",
+            "link": "shopify://collections/autumn-winter-2025",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iKrTQF": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner_Xmas_collection_212.jpg",
+            "heading": "HOLIDAY SEASON",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Discover more",
+            "link": "shopify://blogs/whats-new/holiday-season-discover-our-festive-collection",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iGTwLT",
+        "slide_kPCnCW",
+        "slide_iKrTQF"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile--center {background: transparent !important;}",
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--right.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "bracelet_picker_1": {
+      "type": "bracelet-picker",
+      "settings": {
+        "heading": "Find your bracelet",
+        "subheading": "Answer a few quick questions to discover the styles made for you",
+        "collection": "all-bracelets",
+        "back_label": "Back",
+        "skip_label": "Skip this question",
+        "restart_label": "Start over",
+        "empty_results_text": "We couldn't find a bracelet matching all of your choices. Try starting over with fewer selections.",
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "5d2fd6c4-0aae-43b1-99e6-de4a64bae307": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n    .video-container {\n        position: relative;\n        width: 100%;\n        margin: 0 auto;\n        overflow: hidden;\n        padding-top: 36.2319%; /* 69:25 Aspect Ratio for larger screens */\n    }\n\n    .video-container video {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        object-fit: cover; /* Ensure video covers the container, cropping as necessary */\n    }\n\n    @media (max-width: 768px) {\n        .video-container {\n            padding-top: 56.25%; /* 16:9 Aspect Ratio for mobile devices */\n        }\n    }\n</style>\n\n<div class=\"video-container\">\n    <video poster=\" https://cdn.shopify.com/s/files/1/0250/0611/2828/files/e591ae6970054d0eade789f0cb68ac86.00_00_00_00.Still001.jpg?v=1713381106\" muted=\"true\" autoplay playsinline loop>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/e591ae6970054d0eade789f0cb68ac86.mp4\">\n    </video>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "ss_feature_1_ky4DWc": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_gpx8GF": {
+          "type": "image",
+          "settings": {
+            "feature_title": "FREE SHIPPING",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/free_shipping_worldwide_2.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_QEYd6T": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "feature_title": "EASY RETURN OR EXCHANGE",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/return-box.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_pXz4rd": {
+          "type": "image",
+          "settings": {
+            "feature_title": "BUYER PROTECTION",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/insurance.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_bfhDJk": {
+          "type": "image",
+          "settings": {
+            "feature_title": "PICK UP IN BOUTIQUE",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/location_2.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_gpx8GF",
+        "image_QEYd6T",
+        "image_pXz4rd",
+        "image_bfhDJk"
+      ],
+      "disabled": true,
+      "settings": {
+        "feature_row": 3,
+        "feature_row_mobile": 3,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_vertical": 0,
+        "feature_padding_horizontal": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 140,
+        "feature_heading_mt": 16,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 140,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "rgba(0,0,0,0)",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 12,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 28,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_rJNpdR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ewid9T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spring/Summer 2026",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ewid9T"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection_f8F9BT": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".full-unstyled-link {text-align: center;}",
+        ".price {display: none !important;}",
+        "@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "spring-summer-2026",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_pFxqYa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kMgxHe": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Core Collection",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kMgxHe"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection_dCRzkD": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".full-unstyled-link {text-align: center;}",
+        ".price {display: none !important;}",
+        "@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "the-core",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Xx8mkj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ageti6": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Timeless Collection",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ageti6"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection_NLf8By": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".full-unstyled-link {text-align: center;}",
+        ".price {display: none !important;}",
+        "@media (max-width: 768px) {.full-unstyled-link {font-size: 13px; text-align: center; } .price {display: none !important; }}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "timeless-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "ea782ae8-e865-4a27-8952-ce80160d9528": {
+      "type": "rich-text",
+      "blocks": {
+        "7aa75584-c7dc-496a-bc20-8f9e8a766e1b": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Eastern Philosophies with Nordic Design Principles",
+            "heading_size": "h2"
+          }
+        },
+        "f43bac66-977c-46dd-bb17-f4ee92d9a8f9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>every bracelet tells a story, it's a timeline of your journey</h2>"
+          }
+        },
+        "8eadb49a-576e-49e5-bd22-a1187de6ab0c": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "7aa75584-c7dc-496a-bc20-8f9e8a766e1b",
+        "f43bac66-977c-46dd-bb17-f4ee92d9a8f9",
+        "8eadb49a-576e-49e5-bd22-a1187de6ab0c"
+      ],
+      "custom_css": [
+        "h2 {font-size: 22px;}",
+        "@media (max-width: 768px) {h2 {font-size: 14px; padding-top: 10px; padding-bottom: 10px; margin-top: -20px; margin-bottom: -20px; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "afbafc88-a6ee-4eb0-9164-62a4eae78f66": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "<a href=\"/pages/jewelry\" title=\"Jewelry\">SHOP OUR JEWELRY</a>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/aw24-front-page.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.shamballajewels.com/collections/all",
+            "landing_page_url": "",
+            "title_button": "SHOP OUR JEWELRY",
+            "url_button": "https://www.shamballajewels.com/collections/all"
+          }
+        },
+        "column_nU7w6J": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/column_02.mp4",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://creator.shamballajewels.com/",
+            "landing_page_url": "https://creator.shamballajewels.com/",
+            "title_button": "CREATE YOUR OWN BRACELET",
+            "url_button": "https://creator.shamballajewels.com/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-1",
+        "template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-2",
+        "column_nU7w6J"
+      ],
+      "custom_css": [
+        ".media.media--transparent.media--adapt img {transform: scale(1); object-fit: contain !important; width: 100% !important; height: 100% !important;}",
+        "@media (max-width: 768px) {.multicolumn.color-background-1.gradient.background-none.no-heading h3 {margin-bottom: -5px; font-size: 14px; }}",
+        ".background-none .multicolumn-card__image-wrapper {margin-left: 0rem; margin-right: 0rem; margin-bottom: -1.5rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_FQY3kL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dtLwNa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/the_phil_bead_1_abef7346-19f1-4bd6-b69a-c64c4a98fdb5.jpg",
+            "title": "1. THE BEADS",
+            "text": "<p>The creation of a SHAMBALLA JEWELS bracelet starts with selecting the beads, a step that infuses the piece with personal meaning. Choose from a variety of 18K gold beads, precious and semi-precious stones, each representing different aspects of life and personal values.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "shopify://pages/the-philosophy",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "column_j4FfQU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/the_phil_string_1_2df90488-c20b-4733-8913-dcda470a3106.jpg",
+            "title": "2. THE STRINGS",
+            "text": "<p>Selecting the string color is a crucial step that not only allows for personal expression but also brings the entire bracelet together, both visually and symbolically. It's a unique opportunity for clients to add a layer of meaning, whether through a favorite color or one that holds special significance.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "shopify://pages/the-philosophy",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "column_zgLGV4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/the_phil_braiding_1_2617bf89-7c64-44dd-b7da-dc768a3ccd5e.jpg",
+            "title": "3. THE BRAIDING",
+            "text": "<p>The final step of a SHAMBALLA JEWELS bracelet is the art of macramé braiding which is hallmark of every bracelet, executed with unparalleled skill by our artisans in Copenhagen. The handbraiding reflects our dedication to craftsmanship, merging traditional techniques with individual expression.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "shopify://pages/the-philosophy",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "column_z8NNeF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/your_bracelet_2_09e5c5df-d461-4c6b-a068-1688722c5acd.jpg",
+            "title": "4. YOUR BRACELET",
+            "text": "<p>Rather than acquiring a new piece  of jewelry for every trend or whim, you have the option to refresh your bracelet by simply altering the beads or string. As you modify your jewelry, it becomes a living reflection of your personal growth and the chapters that shape your story.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "shopify://pages/the-philosophy",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "column_dtLwNa",
+        "column_j4FfQU",
+        "column_zgLGV4",
+        "column_z8NNeF"
+      ],
+      "custom_css": [
+        ".multicolumn.color-inverse.gradient.background-primary {background: #ffff !important; background-image: none !important;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin {display: flex; flex-direction: column; justify-content: center; align-items: center;}",
+        ".button.button--primary {display: none;}",
+        ".h2,h3 {font-size: 14px;}",
+        "@media (max-width: 768px) {.h2, h3 {font-size: 12px; }}"
+      ],
+      "settings": {
+        "title": "THE PHILOSOPHY",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "shopify://pages/the-philosophy",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jrLDfQ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aeGcmT": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://pages/the-philosophy",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_aeGcmT"
+      ],
+      "custom_css": [
+        ".gradient {background: #ffff !important; background-image: none !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 40
+      }
+    },
+    "d8ede82c-9bbb-4c9b-bba0-f0afc99580b8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FLAGSHIP STORE",
+            "heading_size": "h1"
+          }
+        },
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Copenhagen</h2><p>Opening hours:</p><p>Monday 10:00 - 18:00<br/>Tuesday 10:00 - 18:00<br/>Wednesday 10:00 - 18:00<br/>Thursday 10:00 - 18:00<br/>Friday 10:00 - 19:00<br/>Saturday 10:00 - 16:00<br/>Sunday: Closed</p><p><a href=\"/pages/stores\" title=\"Flagship Stores\">Learn more</a></p>",
+            "text_style": "body"
+          }
+        },
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/stores",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-0",
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-1",
+        "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-2"
+      ],
+      "custom_css": [
+        ".content-container {background: #ffffff !important;}",
+        ".h1 {font-size: 14px;}",
+        "h2 {font-size: 13px;}",
+        "@media (max-width: 768px) {.h2, h3 {font-size: 12px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/flagship_cph2_d1975e58-380c-4d6f-8cf0-f04ad23fc560.jpg",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d46a3dbd-6739-4978-978d-fd58fe0671bb": {
+      "type": "featured-blog",
+      "custom_css": [
+        ".blog.color-inverse.gradient {background: #ffffff !important; /* Replace with your desired hex color */}",
+        ".title-wrapper-with-link.title-wrapper--self-padded-tablet-down.title-wrapper--no-top-margin {display: flex; flex-direction: column; justify-content: center; align-items: center;}",
+        ".card__heading.h2 a {font-family: \"TrajanPro\" !important; font-size: 14px !important;}",
+        ".h2 {font-size: 14px;}",
+        "@media (max-width: 768px) {.h2 {font-size: 12px; }}"
+      ],
+      "settings": {
+        "heading": "STORIES",
+        "heading_size": "h2",
+        "blog": "whats-new",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": false,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_VtE9z6": {
+      "type": "rich-text",
+      "blocks": {
+        "button_A9Fhzt": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW ALL",
+            "button_link": "https://webshop.shamballajewels.com/blogs/whats-new",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_A9Fhzt"
+      ],
+      "custom_css": [
+        ".gradient {background: #ffff !important; background-image: none !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 40
+      }
+    },
+    "ss_feature_1_wAGUaT": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_9LHN6d": {
+          "type": "image",
+          "settings": {
+            "feature_title": "FULLY INSURED DELIVERY",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/life-insurance.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_eM8aAi": {
+          "type": "image",
+          "settings": {
+            "feature_title": "CERTIFICATE INCLUDED",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/award.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_K4fKUU": {
+          "type": "image",
+          "settings": {
+            "feature_title": "QUALITY GUARANTEED",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/diamond_2.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_JCkqD4": {
+          "type": "image",
+          "settings": {
+            "feature_title": "E-MAIL SUPPORT",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/email_3.png",
+            "feature_url": "shopify://pages/contact-us",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9LHN6d",
+        "image_eM8aAi",
+        "image_K4fKUU",
+        "image_JCkqD4"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 2,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_vertical": 0,
+        "feature_padding_horizontal": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 140,
+        "feature_heading_mt": 16,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 140,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "rgba(0,0,0,0)",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 48,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "21edda04-c017-410a-afa9-8a2f5ac0d92f": {
+      "type": "rich-text",
+      "blocks": {
+        "3ad71146-9404-4994-ab87-b893f47d7e61": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<a href=\"https://www.instagram.com/shamballajewels/\" target=\"_blank\" title=\"https://www.instagram.com/shamballajewels/\">FOLLOW US ON INSTAGRAM</a>",
+            "heading_size": "h2"
+          }
+        },
+        "38c7783e-daf9-42d6-a160-d98231f214f3": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><a href=\"https://www.instagram.com/shamballajewels/\" title=\"https://www.instagram.com/shamballajewels/\">FOLLOW US ON INSTAGRAM</a></h3>"
+          }
+        },
+        "3ab25f6d-0a1e-4e11-856f-e051a2e98cad": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "3ad71146-9404-4994-ab87-b893f47d7e61",
+        "38c7783e-daf9-42d6-a160-d98231f214f3",
+        "3ab25f6d-0a1e-4e11-856f-e051a2e98cad"
+      ],
+      "custom_css": [
+        ".rich-text__text.rte.scroll-trigger.animate--slide-in a {font-family: \"TrajanPro\" !important; font-size: 14px !important;}",
+        "@media (max-width: 768px) {.rich-text__text.rte.scroll-trigger.animate--slide-in a {font-family: \"TrajanPro\" !important; font-size: 12px !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "1697027197216b13f7": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1697027208207784f6": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1be12e2a-e63c-4471-872b-69d480b20e5a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19102483841360__1be12e2a-e63c-4471-872b-69d480b20e5a-16881173283df459bd-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19102483841360__1be12e2a-e63c-4471-872b-69d480b20e5a-16881173283df459bd-1"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "d3b993f4-9cb1-4e79-8592-2a5fb157f91b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-heading-1",
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-text-1",
+        "template--19710896800080__d3b993f4-9cb1-4e79-8592-2a5fb157f91b-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "slideshow_X3pnQk",
+    "bracelet_picker_1",
+    "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
+    "ss_feature_1_ky4DWc",
+    "rich_text_rJNpdR",
+    "featured_collection_f8F9BT",
+    "rich_text_pFxqYa",
+    "featured_collection_dCRzkD",
+    "rich_text_Xx8mkj",
+    "featured_collection_NLf8By",
+    "ea782ae8-e865-4a27-8952-ce80160d9528",
+    "afbafc88-a6ee-4eb0-9164-62a4eae78f66",
+    "multicolumn_FQY3kL",
+    "rich_text_jrLDfQ",
+    "d8ede82c-9bbb-4c9b-bba0-f0afc99580b8",
+    "d46a3dbd-6739-4978-978d-fd58fe0671bb",
+    "rich_text_VtE9z6",
+    "ss_feature_1_wAGUaT",
+    "21edda04-c017-410a-afa9-8a2f5ac0d92f",
+    "1697027197216b13f7",
+    "1697027208207784f6",
+    "1be12e2a-e63c-4471-872b-69d480b20e5a",
+    "d3b993f4-9cb1-4e79-8592-2a5fb157f91b"
+  ]
+}
