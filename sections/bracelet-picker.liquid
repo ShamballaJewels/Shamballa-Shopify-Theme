@@ -37,7 +37,6 @@
         <script type="application/json" data-bracelet-picker-config>
           {
             "collectionUrl": {{ picker_collection.url | json }},
-            "sectionId": {{ section.settings.section_id | json }},
             "steps": [
               { "param": "filter.p.m.custom.bracelet_type", "label": "Bracelet Type" },
               { "param": "filter.p.m.custom.end_beads", "label": "End Beads" },
@@ -97,13 +96,6 @@
       "id": "collection",
       "label": "Collection to search",
       "info": "Must have Search & Discovery filters enabled for Bracelet Type, End Beads, Bead Size, Gold Color and Diamond Color."
-    },
-    {
-      "type": "text",
-      "id": "section_id",
-      "label": "Product grid section ID",
-      "default": "product-grid",
-      "info": "Advanced: the section ID of the main-collection-product-grid section on the chosen collection's template. Only change this if results stop loading."
     },
     {
       "type": "text",

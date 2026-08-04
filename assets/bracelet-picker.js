@@ -22,6 +22,29 @@ class BraceletPicker extends HTMLElement {
     this.backBtn.addEventListener('click', this.goBack.bind(this));
     this.skipBtn.addEventListener('click', () => this.advanceStep(null));
 
+    this.init();
+  }
+
+  async init() {
+    this.debugLog = [];
+    try {
+      const response = await fetch(this.config.collectionUrl);
+      const text = await response.text();
+      const doc = new DOMParser().parseFromString(text, 'text/html');
+      const grid = doc.querySelector('#product-grid, [id^="product-grid"]');
+      this.sectionId = grid ? grid.dataset.id : null;
+      this.debugLog.push(
+        `Base page fetch: ${this.config.collectionUrl}\nStatus: ${response.status}\nResolved sectionId: ${this.sectionId}`
+      );
+    } catch (error) {
+      this.debugLog.push(`Base page fetch FAILED: ${error.message}`);
+    }
+
+    if (!this.sectionId) {
+      this.showResults();
+      return;
+    }
+
     this.loadStep(0);
   }
 
@@ -36,7 +59,7 @@ class BraceletPicker extends HTMLElement {
   }
 
   async fetchFilterDocument(params) {
-    params.set('section_id', this.config.sectionId);
+    params.set('section_id', this.sectionId);
     const url = `${this.config.collectionUrl}?${params.toString()}`;
     this.debugLog = this.debugLog || [];
     try {
