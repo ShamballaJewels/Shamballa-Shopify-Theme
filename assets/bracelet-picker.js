@@ -183,7 +183,7 @@ class BraceletPicker extends HTMLElement {
     await Promise.all(
       options.map(async (option) => {
         try {
-          const params = new URLSearchParams();
+          const params = this.buildParams(this.stepIndex);
           params.set(step.param, option.value);
           params.set('section_id', this.sectionId);
           const url = `${this.config.collectionUrl}?${params.toString()}`;
