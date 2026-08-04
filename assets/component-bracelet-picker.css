@@ -71,9 +71,9 @@
 }
 
 .bracelet-picker__options--with-images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  flex-wrap: unset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.8rem;
   max-width: 46rem;
   margin: 0 auto 2.4rem;
@@ -81,7 +81,7 @@
 
 .bracelet-picker__options--with-images .bracelet-picker__option {
   min-width: 0;
-  width: 100%;
+  flex: 0 0 10rem;
   padding: 0.6rem;
   gap: 0.6rem;
 }
