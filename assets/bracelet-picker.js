@@ -38,9 +38,20 @@ class BraceletPicker extends HTMLElement {
   async fetchFilterDocument(params) {
     params.set('section_id', this.config.sectionId);
     const url = `${this.config.collectionUrl}?${params.toString()}`;
-    const response = await fetch(url);
-    const text = await response.text();
-    return new DOMParser().parseFromString(text, 'text/html');
+    this.debugLog = this.debugLog || [];
+    try {
+      const response = await fetch(url);
+      const text = await response.text();
+      this.debugLog.push(
+        `URL: ${url}\nStatus: ${response.status}\nLength: ${text.length}\nHas ProductGridContainer: ${text.includes(
+          'ProductGridContainer'
+        )}\nFirst 200 chars: ${text.slice(0, 200)}`
+      );
+      return new DOMParser().parseFromString(text, 'text/html');
+    } catch (error) {
+      this.debugLog.push(`URL: ${url}\nFETCH ERROR: ${error.message}`);
+      throw error;
+    }
   }
 
   setLoading(isLoading) {
@@ -162,10 +173,14 @@ class BraceletPicker extends HTMLElement {
     const cards = grid ? grid.querySelectorAll('.grid__item') : [];
 
     if (!grid || cards.length === 0) {
+      const debugHtml = (this.debugLog || [])
+        .map((entry, i) => `<p><strong>Fetch ${i + 1}:</strong></p><pre style="white-space:pre-wrap;text-align:left;font-size:1.1rem;">${entry.replace(/</g, '&lt;')}</pre>`)
+        .join('');
       this.resultsEl.innerHTML = `
         <div class="bracelet-picker__empty">
           <p>${this.config.text.empty}</p>
           <button type="button" class="button button--secondary" data-picker-restart>${this.config.text.restart}</button>
+          <div data-picker-debug>${debugHtml}</div>
         </div>
       `;
     } else {
