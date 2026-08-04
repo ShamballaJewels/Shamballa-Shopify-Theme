@@ -17,7 +17,7 @@
 
 .bracelet-picker {
   display: block;
-  max-width: 76rem;
+  max-width: 84rem;
   margin: 0 auto;
   position: relative;
 }
@@ -86,14 +86,14 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.6rem;
-  max-width: 70rem;
+  max-width: 82rem;
   margin: 0 auto 2.4rem;
 }
 
 .bracelet-picker__options--with-images .bracelet-picker__option {
   min-width: 0;
-  flex: 0 1 16rem;
-  max-width: 16rem;
+  flex: 0 1 19rem;
+  max-width: 19rem;
   padding: 1.2rem;
   gap: 1rem;
 }
