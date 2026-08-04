@@ -11,7 +11,7 @@ class BraceletPicker extends HTMLElement {
     this.wizardEl = this.querySelector('[data-picker-wizard]');
     this.resultsEl = this.querySelector('[data-picker-results]');
     this.loadingEl = this.querySelector('[data-picker-loading]');
-    this.progressFillEl = this.querySelector('[data-picker-progress-fill]');
+    this.progressBarEl = this.querySelector('[data-picker-progress-bar]');
     this.progressTextEl = this.querySelector('[data-picker-progress-text]');
     this.stepLabelEl = this.querySelector('[data-picker-step-label]');
     this.optionsEl = this.querySelector('[data-picker-options]');
@@ -72,16 +72,8 @@ class BraceletPicker extends HTMLElement {
   updateProgress() {
     const total = this.steps.length;
     const percent = Math.round((this.stepIndex / total) * 100);
-    this.progressFillEl.style.width = `${percent}%`;
+    this.progressBarEl.value = percent;
     this.progressTextEl.textContent = `Step ${this.stepIndex + 1} of ${total}`;
-
-    if (!this.debugProgressEl) {
-      this.debugProgressEl = document.createElement('div');
-      this.debugProgressEl.style.cssText = 'font-size:1.1rem;text-align:center;opacity:0.6;margin:0.4rem 0;';
-      this.progressFillEl.closest('[data-picker-progress]').insertAdjacentElement('afterend', this.debugProgressEl);
-    }
-    const rect = this.progressFillEl.getBoundingClientRect();
-    this.debugProgressEl.textContent = `DEBUG: stepIndex=${this.stepIndex}, total=${total}, percent=${percent}%, rect.width=${rect.width}px, trackWidth=${this.progressFillEl.parentElement.getBoundingClientRect().width}px, steps=${this.steps.map((s) => s.param).join(',')}`;
   }
 
   async loadStep(index) {
