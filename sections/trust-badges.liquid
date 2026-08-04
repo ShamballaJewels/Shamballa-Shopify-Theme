@@ -28,14 +28,13 @@
 
         if show_badge and block.settings.required_bracelet_designs != blank
           assign required_designs = block.settings.required_bracelet_designs | split: ','
+          assign bracelet_type_name = product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase
           assign design_match = false
-          for design in product.metafields.shopify['bracelet-design'].value
-            for required in required_designs
-              assign required_trimmed = required | strip | downcase
-              if design.system.handle == required_trimmed
-                assign design_match = true
-              endif
-            endfor
+          for required in required_designs
+            assign required_trimmed = required | strip | downcase
+            if bracelet_type_name == required_trimmed
+              assign design_match = true
+            endif
           endfor
           unless design_match
             assign show_badge = false
@@ -133,8 +132,8 @@
         {
           "type": "text",
           "id": "required_bracelet_designs",
-          "label": "Only show if Bracelet design metafield matches (comma-separated)",
-          "info": "Matches Shopify's standard \"Bracelet design\" category metafield. Example: Beaded, Braided, Orb. Leave blank to ignore."
+          "label": "Only show if Bracelet Type matches (comma-separated)",
+          "info": "Matches the Bracelet Type metafield (custom.bracelet_type). Example: Beaded, Lock, Orb. Leave blank to ignore."
         }
       ]
     }
