@@ -71,18 +71,9 @@ class BraceletPicker extends HTMLElement {
 
   updateProgress() {
     const total = this.steps.length;
-    const percent = Math.round(((this.stepIndex + 1) / total) * 100);
+    const percent = Math.round((this.stepIndex / total) * 100);
     this.progressFillEl.style.width = `${percent}%`;
     this.progressTextEl.textContent = `Step ${this.stepIndex + 1} of ${total}`;
-
-    if (!this.debugProgressEl) {
-      this.debugProgressEl = document.createElement('div');
-      this.debugProgressEl.style.cssText = 'font-size:1.1rem;text-align:center;opacity:0.6;margin-bottom:0.8rem;';
-      this.progressFillEl.closest('[data-picker-progress]').insertAdjacentElement('afterend', this.debugProgressEl);
-    }
-    this.debugProgressEl.textContent = `DEBUG: stepIndex=${this.stepIndex}, total=${total}, percent=${percent}%, fillFound=${Boolean(
-      this.progressFillEl
-    )}, computedWidth=${this.progressFillEl ? getComputedStyle(this.progressFillEl).width : 'n/a'}`;
   }
 
   async loadStep(index) {
