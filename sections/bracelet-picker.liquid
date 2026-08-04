@@ -42,6 +42,13 @@
               { "param": "filter.p.m.custom.end_beads", "label": "End Beads", "hasImages": true },
               { "param": "filter.p.m.custom.bead_size", "label": "Bead Size", "hasImages": true }
             ],
+            "conditionalSteps": [
+              {
+                "afterParam": "filter.p.m.custom.bracelet_type",
+                "whenLabel": "Beaded",
+                "step": { "param": "filter.p.m.custom.design", "label": "Braiding", "hasImages": true }
+              }
+            ],
             "text": {
               "back": {{ section.settings.back_label | json }},
               "skip": {{ section.settings.skip_label | json }},
@@ -52,7 +59,12 @@
         </script>
 
         <div class="bracelet-picker__wizard" data-picker-wizard>
-          <div class="bracelet-picker__progress" data-picker-progress></div>
+          <div class="bracelet-picker__progress" data-picker-progress>
+            <div class="bracelet-picker__progress-track">
+              <div class="bracelet-picker__progress-fill" data-picker-progress-fill></div>
+            </div>
+            <span class="visually-hidden" data-picker-progress-text></span>
+          </div>
           <h3 class="bracelet-picker__step-label" data-picker-step-label></h3>
           <div class="bracelet-picker__options" data-picker-options></div>
           <div class="bracelet-picker__nav">
