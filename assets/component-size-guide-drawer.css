@@ -61,6 +61,12 @@
   overflow-x: auto;
 }
 
+.size-guide-drawer__content table {
+  border-collapse: collapse;
+  border-left: 0.1rem solid rgba(var(--color-foreground), 0.15);
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.15);
+}
+
 .size-guide-drawer__close {
   position: absolute;
   top: 1.5rem;

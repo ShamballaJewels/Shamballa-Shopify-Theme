@@ -30,7 +30,14 @@ customElements.define('size-guide-drawer', SizeGuideDrawer);
 
 document.addEventListener('click', (event) => {
   const trigger = event.target.closest('[data-size-guide-open]');
-  if (!trigger) return;
-  const drawer = document.querySelector('size-guide-drawer');
-  if (drawer) drawer.open(trigger);
+  if (trigger) {
+    const drawer = document.querySelector('size-guide-drawer');
+    if (drawer) drawer.open(trigger);
+    return;
+  }
+
+  const activeDrawer = document.querySelector('size-guide-drawer.active');
+  if (activeDrawer && activeDrawer.inner && !activeDrawer.inner.contains(event.target)) {
+    activeDrawer.close();
+  }
 });
