@@ -100,6 +100,7 @@
     },
     "bracelet_picker_1": {
       "type": "bracelet-picker",
+      "disabled": true,
       "settings": {
         "heading": "Find your bracelet",
         "subheading": "Answer a few quick questions to discover the styles made for you",
