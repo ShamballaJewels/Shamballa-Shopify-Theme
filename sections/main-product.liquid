@@ -640,6 +640,26 @@
                     </details>
                   </div>
                 {%- endif -%}
+              {%- when 'materials' -%}
+                {%- assign materials_text = product.metafields.custom.materials.value | strip_html | strip -%}
+                {%- if materials_text != blank -%}
+                  <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                    <details id="Details-{{ block.id }}-{{ section.id }}">
+                      <summary>
+                        <div class="summary__title">
+                          {% render 'icon-accordion', icon: 'none' %}
+                          <h2 class="h4 accordion__title inline-richtext">
+                            Materials
+                          </h2>
+                        </div>
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      </summary>
+                      <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                        {{ product.metafields.custom.materials.value }}
+                      </div>
+                    </details>
+                  </div>
+                {%- endif -%}
               {%- when 'share' -%}
                 {%- comment -%}Rendered inline next to the SKU block above{%- endcomment -%}
 
@@ -1233,6 +1253,11 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1
+    },
+    {
+      "type": "materials",
+      "name": "Materials",
       "limit": 1
     },
     {
