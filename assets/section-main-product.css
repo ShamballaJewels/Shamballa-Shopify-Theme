@@ -1577,3 +1577,29 @@ a.product__text {
     border: none;
   }
 }
+
+.form__label--with-size-guide {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form__label-row {
+  margin-bottom: 0.5rem;
+}
+
+.form__label-row--with-size-guide {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.form__label-row--with-size-guide .form__label {
+  margin-bottom: 0;
+}
+
+.size-guide-link {
+  font-size: 1.3rem;
+  color: rgba(var(--color-foreground), 0.75);
+}

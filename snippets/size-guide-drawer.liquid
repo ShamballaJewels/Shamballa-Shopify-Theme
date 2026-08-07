@@ -1,0 +1,36 @@
+{% comment %}
+  Renders a slide-in drawer showing the content of the "Sizing Charts" page.
+
+  Usage:
+  {% render 'size-guide-drawer' %}
+{% endcomment %}
+{%- if pages['sizing-charts'] != blank -%}
+  {{ 'component-size-guide-drawer.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'size-guide-drawer.js' | asset_url }}" defer="defer"></script>
+
+  <size-guide-drawer class="size-guide-drawer">
+    <div class="size-guide-drawer__overlay" data-size-guide-overlay></div>
+    <div
+      class="size-guide-drawer__inner"
+      role="dialog"
+      aria-modal="true"
+      aria-label="{{ pages['sizing-charts'].title | escape }}"
+      tabindex="-1"
+    >
+      <div class="size-guide-drawer__header">
+        <h2 class="size-guide-drawer__heading h4">{{ pages['sizing-charts'].title }}</h2>
+        <button
+          type="button"
+          class="size-guide-drawer__close"
+          data-size-guide-close
+          aria-label="{{ 'accessibility.close' | t }}"
+        >
+          {{- 'icon-close.svg' | inline_asset_content -}}
+        </button>
+      </div>
+      <div class="size-guide-drawer__content rte">
+        {{ pages['sizing-charts'].content }}
+      </div>
+    </div>
+  </size-guide-drawer>
+{%- endif -%}
