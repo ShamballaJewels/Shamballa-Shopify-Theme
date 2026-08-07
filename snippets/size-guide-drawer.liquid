@@ -17,16 +17,16 @@
       aria-label="{{ pages['sizing-charts'].title | escape }}"
       tabindex="-1"
     >
+      <button
+        type="button"
+        class="size-guide-drawer__close"
+        data-size-guide-close
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {{- 'icon-close.svg' | inline_asset_content -}}
+      </button>
       <div class="size-guide-drawer__header">
         <h2 class="size-guide-drawer__heading h4">{{ pages['sizing-charts'].title }}</h2>
-        <button
-          type="button"
-          class="size-guide-drawer__close"
-          data-size-guide-close
-          aria-label="{{ 'accessibility.close' | t }}"
-        >
-          {{- 'icon-close.svg' | inline_asset_content -}}
-        </button>
       </div>
       <div class="size-guide-drawer__content rte">
         {{ pages['sizing-charts'].content }}

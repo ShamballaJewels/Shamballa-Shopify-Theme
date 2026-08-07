@@ -48,10 +48,8 @@
 }
 
 .size-guide-drawer__header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 2rem;
+  padding-right: 3rem;
 }
 
 .size-guide-drawer__heading {
@@ -59,11 +57,14 @@
 }
 
 .size-guide-drawer__close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  margin: -0.5rem;
   color: rgb(var(--color-foreground));
 }
 
