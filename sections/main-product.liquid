@@ -641,8 +641,7 @@
                   </div>
                 {%- endif -%}
               {%- when 'materials' -%}
-                {%- assign materials_text = product.metafields.custom.materials.value | strip_html | strip -%}
-                {%- if materials_text != blank -%}
+                {%- if product.metafields.custom.materials.value != blank -%}
                   <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                     <details id="Details-{{ block.id }}-{{ section.id }}">
                       <summary>
@@ -655,7 +654,7 @@
                         {{- 'icon-caret.svg' | inline_asset_content -}}
                       </summary>
                       <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                        {{ product.metafields.custom.materials.value }}
+                        {{ product.metafields.custom.materials | metafield_tag }}
                       </div>
                     </details>
                   </div>
