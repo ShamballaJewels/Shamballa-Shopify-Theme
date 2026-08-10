@@ -81,6 +81,7 @@
       {%- for block in section.blocks -%}
         {%- if block.type == 'title' -%}
           <div class="grid__item product__title product__title--mobile medium-hide large-up-hide">
+            {% render 'product-design-collection', product: product %}
             <h1>{{ product.title | escape }}</h1>
             <a href="{{ product.url }}" class="product__title">
               <h2 class="h1">
@@ -133,6 +134,7 @@
                 </p>
               {%- when 'title' -%}
                 <div class="product__title small-hide" {{ block.shopify_attributes }}>
+                  {% render 'product-design-collection', product: product %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
