@@ -19,14 +19,9 @@
   endfor
 -%}
 {%- if design_collection != blank -%}
-  <a href="{{ design_collection.url }}" class="product__design-collection">
-    {{- design_collection.title | escape -}}
-  </a>
+  <p class="product__design-collection-wrap">
+    <a href="{{ design_collection.url }}" class="product__design-collection">
+      {{- design_collection.title | escape -}}
+    </a>
+  </p>
 {%- endif -%}
-<pre style="font-size:1.1rem;white-space:pre-wrap;background:#eee;padding:1rem;">DEBUG
-design_collection found: {{ design_collection.title | default: 'NONE' }}
-product.collections.size: {{ product.collections.size }}
-{%- for collection in product.collections %}
-- {{ collection.title }} | metafield value: [{{ collection.metafields.custom.is_design_collection.value | json }}]
-{%- endfor %}
-</pre>
