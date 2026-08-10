@@ -12,7 +12,7 @@
 {%- liquid
   assign design_collection = blank
   for collection in product.collections
-    if collection.metafields.custom.is_design_collection.value == true
+    if collection.metafields.custom.is_design_collection.value
       assign design_collection = collection
       break
     endif
