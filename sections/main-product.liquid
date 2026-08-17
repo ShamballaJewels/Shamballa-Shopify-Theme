@@ -618,6 +618,12 @@
                     </modal-opener>
                   </div>
                 </div>
+                {%- assign bracelet_type_name = product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase -%}
+                {%- if bracelet_type_name == 'beaded' or bracelet_type_name == 'orb' or bracelet_type_name == 'lock' -%}
+                  <p class="product__size-note">
+                    Please note: The bracelet is displayed in size medium. Number of beads, gemstones and their arrangement may vary depending on size you select.
+                  </p>
+                {%- endif -%}
               {%- when 'description' -%}
                 {%- assign description_text = product.description | strip_html | replace: '&nbsp;', '' | strip -%}
                 {%- if description_text != blank -%}

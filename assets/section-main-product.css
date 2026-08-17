@@ -1620,3 +1620,9 @@ a.product__text {
 .product__design-collection:hover {
   text-decoration: underline;
 }
+
+.product__size-note {
+  margin: 1rem 0 0;
+  font-size: 1.3rem;
+  color: rgba(var(--color-foreground), 0.6);
+}
