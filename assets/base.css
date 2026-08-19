@@ -3698,3 +3698,7 @@ details-disclosure > details {
     justify-content: flex-end;
     padding-bottom: 80px;
   }
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

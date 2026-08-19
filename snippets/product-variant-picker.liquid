@@ -29,11 +29,18 @@
       -%}
       {%- if picker_type == 'swatch' -%}
         <fieldset class="js product-form__input product-form__input--swatch">
-          <legend class="form__label">
-            {{ option.name }}:
-            <span data-selected-value>
-              {{- option.selected_value -}}
+          <legend class="form__label{% if option.name == 'Size' %} form__label--with-size-guide{% endif %}">
+            <span>
+              {{ option.name }}:
+              <span data-selected-value>
+                {{- option.selected_value -}}
+              </span>
             </span>
+            {%- if option.name == 'Size' -%}
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
+                Size guide
+              </button>
+            {%- endif -%}
           </legend>
           {% render 'product-variant-options',
             product: product,
@@ -44,7 +51,14 @@
         </fieldset>
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
-          <legend class="form__label">{{ option.name }}</legend>
+          <legend class="form__label{% if option.name == 'Size' %} form__label--with-size-guide{% endif %}">
+            <span>{{ option.name }}</span>
+            {%- if option.name == 'Size' -%}
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
+                Size guide
+              </button>
+            {%- endif -%}
+          </legend>
           {% render 'product-variant-options',
             product: product,
             option: option,
@@ -54,9 +68,16 @@
         </fieldset>
       {%- else -%}
         <div class="product-form__input product-form__input--dropdown">
-          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-            {{ option.name }}
-          </label>
+          <div class="form__label-row{% if option.name == 'Size' %} form__label-row--with-size-guide{% endif %}">
+            <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+              {{ option.name }}
+            </label>
+            {%- if option.name == 'Size' -%}
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
+                Size guide
+              </button>
+            {%- endif -%}
+          </div>
           <div class="select">
             {%- if picker_type == 'swatch_dropdown' -%}
               <span

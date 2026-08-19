@@ -1,1 +1,390 @@
-{"sections":{"16947741896a850266":{"type":"apps","settings":{"include_margins":true}},"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"dropdown","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"af32eada-4304-4eca-a35c-619c5f5f2895":{"type":"shopify:\/\/apps\/request-a-quote-hide-price-b2b\/blocks\/easy-quote-sealapps\/414e3c56-ba13-45bb-9f54-87077e6b11d9","settings":{"eq_quote_button_color":"#ffffff","eq_quote_button_color_hover":"#c0a765","eq_quote_button_background":"#c0a765","eq_quote_button_background_hover":"#fafafa","eq_quote_border_color":"#c0a765","eq_quote_border_color_hover":"#c0a765","eq_quote_border_width":2,"eq_quote_border_radius":2,"eq_quote_button_margin_top":10,"eq_quote_button_content":"Request for quote","eq_quote_button_text_align":"center","eq_quote_font_size":14,"eq_quote_button_height":44,"eq_quote_button_width_customizable":false,"eq_quote_button_width":344,"eq_quote_button_font_family":"inherit","eq_quote_button_font_weight":"inherit"}},"5c274390-3fa7-45c4-843d-6f0d02d6fb55":{"type":"popup","disabled":true,"settings":{"text":"Customize this bracelet","page":""}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":true}},"icon_with_text_NtNQJr":{"type":"icon-with-text","disabled":true,"settings":{"layout":"vertical","icon_1":"none","image_1":"shopify:\/\/shop_images\/output-onlinegiftools.gif","heading_1":"<a href=\"\/pages\/cryptocurrency\" title=\"Cryptocurrency\">Pay with crypto<\/a>","icon_2":"none","heading_2":"","icon_3":"none","heading_3":""}},"icon_with_text_DHN9BG":{"type":"icon-with-text","disabled":true,"settings":{"layout":"vertical","icon_1":"none","image_1":"shopify:\/\/shop_images\/free_shipping_worldwide_2.png","heading_1":"free express shipping","icon_2":"return","image_2":"shopify:\/\/shop_images\/life-insurance.png","heading_2":"fully insured delivery","icon_3":"truck","image_3":"shopify:\/\/shop_images\/return-box.png","heading_3":"30 days return policy"}},"collapsible_tab_qi8twC":{"type":"collapsible_tab","settings":{"heading":"Size Guide","icon":"none","content":"","page":"sizing-charts"}},"collapsible_tab_UnntA6":{"type":"collapsible_tab","settings":{"heading":"Shipping","icon":"none","content":"","page":"shipping"}},"description":{"type":"description","settings":{}},"6116aa3f-164e-45a2-a236-6e0a67f85188":{"type":"sku","settings":{"text_style":"body"}},"0663d01d-c38e-40af-87d7-d9927cd76645":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Sizing Guide","icon":"ruler","content":"","page":"sizing-charts"}},"share":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["title","price","variant_picker","quantity_selector","af32eada-4304-4eca-a35c-619c5f5f2895","5c274390-3fa7-45c4-843d-6f0d02d6fb55","buy_buttons","icon_with_text_NtNQJr","icon_with_text_DHN9BG","collapsible_tab_qi8twC","collapsible_tab_UnntA6","description","6116aa3f-164e-45a2-a236-6e0a67f85188","0663d01d-c38e-40af-87d7-d9927cd76645","share"],"custom_css":[],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-83ebf94c-3c12-4872-9f51-b8761cb295ac","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":true,"padding_top":36,"padding_bottom":12}},"related-products":{"type":"related-products","disabled":true,"custom_css":[],"settings":{"heading":"You May Also Like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"e3fe9022-f39b-4a25-a7d8-71542822eaef":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div class=\"last-viewed\">\n  <h2>Last Viewed<\/h2>\n  <div class=\"product-list\">\n    <!-- Produktliste vil blive fyldt dynamisk via JavaScript -->\n  <\/div>\n<\/div>","color_scheme":"","padding_top":40,"padding_bottom":52}},"16947744846cd93355":{"type":"apps","settings":{"include_margins":true}},"fb29f12a-9504-4a94-af23-271fbc5cea2b":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"","color_scheme":"","padding_top":40,"padding_bottom":52}},"1723713188c25cff0f":{"type":"apps","blocks":{"ultimate_recently_viewed_recently_viewed_bnpGjE":{"type":"shopify:\/\/apps\/ultimate-recently-viewed\/blocks\/recently-viewed\/b33bd8dd-4a93-43a7-b989-694e289aa9e8","settings":{"headline":"Recently Viewed Products","product_title_enabled":true,"product_price_enabled":true,"product_type_enabled":false,"product_vendor_enabled":false,"quick_add_button_enabled":false}}},"block_order":["ultimate_recently_viewed_recently_viewed_bnpGjE"],"custom_css":[".ultimate-recently-viewed-price-wrap {display: none !important;}",".ultimate-recently-viewed-info {text-align: center;}"],"settings":{"include_margins":true}},"image_with_text_gz4Gzz":{"type":"image-with-text","blocks":{"heading_7CVxaX":{"type":"heading","settings":{"heading":"the brothers","heading_size":"h2"}},"text_6fx9zx":{"type":"text","settings":{"text":"<p>Mads Kornerup and Mikkel Kornerup, the dynamic duo behind Shamballa Jewels, are not just visionary founders but also embodiments of the brand's philosophy.<\/p>","text_style":"body"}},"button_CpTjJj":{"type":"button","settings":{"button_label":"Learn more","button_link":"shopify:\/\/pages\/about","button_style_secondary":false}}},"block_order":["heading_7CVxaX","text_6fx9zx","button_CpTjJj"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/the_story_1.jpg","height":"adapt","desktop_image_width":"large","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"background-1","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"left","padding_top":48,"padding_bottom":36}}},"order":["16947741896a850266","main","related-products","e3fe9022-f39b-4a25-a7d8-71542822eaef","16947744846cd93355","fb29f12a-9504-4a94-af23-271fbc5cea2b","1723713188c25cff0f","image_with_text_gz4Gzz"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16947741896a850266": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "af32eada-4304-4eca-a35c-619c5f5f2895": {
+          "type": "shopify://apps/request-a-quote-hide-price-b2b/blocks/easy-quote-sealapps/414e3c56-ba13-45bb-9f54-87077e6b11d9",
+          "settings": {
+            "eq_quote_button_color": "#ffffff",
+            "eq_quote_button_color_hover": "#c0a765",
+            "eq_quote_button_background": "#c0a765",
+            "eq_quote_button_background_hover": "#fafafa",
+            "eq_quote_border_color": "#c0a765",
+            "eq_quote_border_color_hover": "#c0a765",
+            "eq_quote_border_width": 2,
+            "eq_quote_border_radius": 2,
+            "eq_quote_button_margin_top": 10,
+            "eq_quote_button_content": "Request for quote",
+            "eq_quote_button_text_align": "center",
+            "eq_quote_font_size": 14,
+            "eq_quote_button_height": 44,
+            "eq_quote_button_width_customizable": false,
+            "eq_quote_button_width": 344,
+            "eq_quote_button_font_family": "inherit",
+            "eq_quote_button_font_weight": "inherit"
+          }
+        },
+        "5c274390-3fa7-45c4-843d-6f0d02d6fb55": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Customize this bracelet",
+            "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "advisor_contact": {
+          "type": "advisor_contact",
+          "settings": {
+            "heading": "Considering this piece?",
+            "text": "Want to know more about sizing or customization?",
+            "button_label": "Contact a Shamballa advisor"
+          }
+        },
+        "icon_with_text_NtNQJr": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/output-onlinegiftools.gif",
+            "heading_1": "<a href=\"/pages/cryptocurrency\" title=\"Cryptocurrency\">Pay with crypto</a>",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_DHN9BG": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/free_shipping_worldwide_2.png",
+            "heading_1": "free express shipping",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/life-insurance.png",
+            "heading_2": "fully insured delivery",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/return-box.png",
+            "heading_3": "30 days return policy"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "materials": {
+          "type": "materials",
+          "settings": {}
+        },
+        "collapsible_tab_UnntA6": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "",
+            "page": "shipping"
+          }
+        },
+        "collapsible_tab_qi8twC": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Size Guide",
+            "icon": "none",
+            "content": "",
+            "page": "sizing-charts"
+          }
+        },
+        "6116aa3f-164e-45a2-a236-6e0a67f85188": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "0663d01d-c38e-40af-87d7-d9927cd76645": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Sizing Guide",
+            "icon": "ruler",
+            "content": "",
+            "page": "sizing-charts"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "af32eada-4304-4eca-a35c-619c5f5f2895",
+        "5c274390-3fa7-45c4-843d-6f0d02d6fb55",
+        "buy_buttons",
+        "advisor_contact",
+        "icon_with_text_NtNQJr",
+        "icon_with_text_DHN9BG",
+        "description",
+        "materials",
+        "collapsible_tab_UnntA6",
+        "collapsible_tab_qi8twC",
+        "6116aa3f-164e-45a2-a236-6e0a67f85188",
+        "share",
+        "0663d01d-c38e-40af-87d7-d9927cd76645"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-83ebf94c-3c12-4872-9f51-b8761cb295ac",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "trust_badges": {
+      "type": "trust-badges",
+      "blocks": {
+        "badge_certified": {
+          "type": "badge",
+          "settings": {
+            "heading": "Certified jewelry",
+            "text": "Certificate always available upon request",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        },
+        "badge_copenhagen": {
+          "type": "badge",
+          "settings": {
+            "heading": "Made in Copenhagen",
+            "text": "Hand-assembled by Shamballa Artisans",
+            "required_tag": "",
+            "required_bracelet_designs": "Beaded, Lock, Orb"
+          }
+        },
+        "badge_service": {
+          "type": "badge",
+          "settings": {
+            "heading": "Never Beyond Repair",
+            "text": "We are always available for restringing and repair upon request",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        },
+        "badge_delivery": {
+          "type": "badge",
+          "settings": {
+            "heading": "Insured Delivery",
+            "text": "No risk if lost or damaged during transit",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        }
+      },
+      "block_order": [
+        "badge_certified",
+        "badge_copenhagen",
+        "badge_service",
+        "badge_delivery"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading": "You May Also Like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "e3fe9022-f39b-4a25-a7d8-71542822eaef": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"last-viewed\">\n  <h2>Last Viewed</h2>\n  <div class=\"product-list\">\n    <!-- Produktliste vil blive fyldt dynamisk via JavaScript -->\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16947744846cd93355": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "fb29f12a-9504-4a94-af23-271fbc5cea2b": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1723713188c25cff0f": {
+      "type": "apps",
+      "blocks": {
+        "ultimate_recently_viewed_recently_viewed_bnpGjE": {
+          "type": "shopify://apps/ultimate-recently-viewed/blocks/recently-viewed/b33bd8dd-4a93-43a7-b989-694e289aa9e8",
+          "settings": {
+            "headline": "Recently Viewed Products",
+            "product_title_enabled": true,
+            "product_price_enabled": true,
+            "product_type_enabled": false,
+            "product_vendor_enabled": false,
+            "quick_add_button_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "ultimate_recently_viewed_recently_viewed_bnpGjE"
+      ],
+      "custom_css": [
+        ".ultimate-recently-viewed-price-wrap {display: none !important;}",
+        ".ultimate-recently-viewed-info {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_gz4Gzz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7CVxaX": {
+          "type": "heading",
+          "settings": {
+            "heading": "the brothers",
+            "heading_size": "h2"
+          }
+        },
+        "text_6fx9zx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mads Kornerup and Mikkel Kornerup, the dynamic duo behind Shamballa Jewels, are not just visionary founders but also embodiments of the brand's philosophy.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_CpTjJj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/about",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7CVxaX",
+        "text_6fx9zx",
+        "button_CpTjJj"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/the_story_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16947741896a850266",
+    "main",
+    "trust_badges",
+    "related-products",
+    "e3fe9022-f39b-4a25-a7d8-71542822eaef",
+    "16947744846cd93355",
+    "fb29f12a-9504-4a94-af23-271fbc5cea2b",
+    "1723713188c25cff0f",
+    "image_with_text_gz4Gzz"
+  ]
+}

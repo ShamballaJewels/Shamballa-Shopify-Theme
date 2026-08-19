@@ -1,0 +1,32 @@
+{% comment %}
+  Renders a breadcrumb trail: Home / [Collection] / Current page
+
+  Accepts:
+  - current_title: {String} required, the current page's title
+  - collection_object: {Object} optional, a collection to show as a middle crumb
+
+  Usage:
+  {% render 'breadcrumbs', current_title: product.title, collection_object: collection %}
+{% endcomment %}
+
+<nav class="breadcrumbs" aria-label="{{ 'breadcrumbs.label' | t }}">
+  <ol class="breadcrumbs__list caption" role="list">
+    <li class="breadcrumbs__item">
+      <a href="{{ routes.root_url }}" class="breadcrumbs__link link link--text">
+        {{- 'breadcrumbs.home' | t -}}
+      </a>
+    </li>
+    {%- if collection_object != blank and collection_object.title != blank -%}
+      <li class="breadcrumbs__item breadcrumbs__separator" aria-hidden="true">/</li>
+      <li class="breadcrumbs__item">
+        <a href="{{ collection_object.url }}" class="breadcrumbs__link link link--text">
+          {{- collection_object.title | escape -}}
+        </a>
+      </li>
+    {%- endif -%}
+    <li class="breadcrumbs__item breadcrumbs__separator" aria-hidden="true">/</li>
+    <li class="breadcrumbs__item breadcrumbs__item--current" aria-current="page">
+      {{- current_title | escape -}}
+    </li>
+  </ol>
+</nav>

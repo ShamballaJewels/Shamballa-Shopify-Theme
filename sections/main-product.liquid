@@ -15,6 +15,8 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'component-advisor-contact.css' | asset_url | stylesheet_tag }}
+  {{ 'component-breadcrumbs.css' | asset_url | stylesheet_tag }}
 
   {% unless product.has_only_default_variant %}
     {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
@@ -74,7 +76,21 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
+    {%- render 'breadcrumbs', current_title: product.title, collection_object: collection -%}
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'title' -%}
+          <div class="grid__item product__title product__title--mobile medium-hide large-up-hide">
+            {% render 'product-design-collection', product: product %}
+            <h1>{{ product.title | escape }}</h1>
+            <a href="{{ product.url }}" class="product__title">
+              <h2 class="h1">
+                {{ product.title | escape }}
+              </h2>
+            </a>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
@@ -117,7 +133,8 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'title' -%}
-                <div class="product__title" {{ block.shopify_attributes }}>
+                <div class="product__title small-hide" {{ block.shopify_attributes }}>
+                  {% render 'product-design-collection', product: product %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
@@ -212,15 +229,25 @@
                   {%- endif -%}
                 </p>
               {%- when 'sku' -%}
-                <p
-                  class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                  id="Sku-{{ section.id }}"
-                  role="status"
-                  {{ block.shopify_attributes }}
-                >
-                  <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
-                  {{- product.selected_or_first_available_variant.sku -}}
-                </p>
+                {%- assign share_block = section.blocks | where: 'type', 'share' | first -%}
+                <div class="product__sku-share-row">
+                  <p
+                    class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                    id="Sku-{{ section.id }}"
+                    role="status"
+                    {{ block.shopify_attributes }}
+                  >
+                    <span>Style ID:&nbsp;</span>
+                    {{- product.selected_or_first_available_variant.sku -}}
+                  </p>
+                  {%- if share_block -%}
+                    <span class="product__sku-share-separator" aria-hidden="true">&bull;</span>
+                    {% liquid
+                      assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
+                      render 'share-button', block: share_block, share_link: share_url
+                    %}
+                  {%- endif -%}
+                </div>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
@@ -572,35 +599,76 @@
       </button>
     </div>
   {% endif %}
-{%- when 'description' -%}
-  {%if product.description contains '<!-- split -->' %}
-    <div class="Rte">
-      {{ product.description | split: '<!-- split -->' | first }}
-    </div>
-  {% else %}
-    <div class="Rte">
-      {{ product.description }}
-    </div>
-  {%- endif -%}
-                <modal-opener
-                  class="product-popup-modal__opener quick-add-hidden"
-                  data-modal="#PopupModal-{{ block.id }}"
-                  {{ block.shopify_attributes }}
-                >
-                  <button
-                    id="ProductPopup-{{ block.id }}"
-                    class="product-popup-modal__button link"
-                    type="button"
-                    aria-haspopup="dialog"
-                  >
-                    {{ block.settings.text | default: block.settings.page.title | escape }}
-                  </button>
-                </modal-opener>
+{%- when 'advisor_contact' -%}
+                <div class="product__advisor-contact quick-add-hidden" {{ block.shopify_attributes }}>
+                  <div class="product__advisor-contact-icon">
+                    {{ 'icon-chat-bubble.svg' | inline_asset_content }}
+                  </div>
+                  <div class="product__advisor-contact-body">
+                    <p class="product__advisor-contact-heading">
+                      <strong>{{ block.settings.heading }}</strong>
+                    </p>
+                    <p class="product__advisor-contact-text">
+                      {{ block.settings.text }}
+                    </p>
+                    <modal-opener data-modal="#AdvisorContactModal-{{ block.id }}">
+                      <button type="button" class="product__advisor-contact-link link">
+                        {{ block.settings.button_label }}
+                      </button>
+                    </modal-opener>
+                  </div>
+                </div>
+                {%- assign bracelet_type_name = product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase -%}
+                {%- if bracelet_type_name == 'beaded' or bracelet_type_name == 'orb' or bracelet_type_name == 'lock' -%}
+                  <p class="product__size-note">
+                    Please note: The product picture is shown in one fixed size. The number of beads and their layout may vary depending on the size selected.
+                  </p>
+                {%- endif -%}
+              {%- when 'description' -%}
+                {%- assign description_text = product.description | strip_html | replace: '&nbsp;', '' | strip -%}
+                {%- if description_text != blank -%}
+                  <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                    <details id="Details-{{ block.id }}-{{ section.id }}" open>
+                      <summary>
+                        <div class="summary__title">
+                          {% render 'icon-accordion', icon: 'none' %}
+                          <h2 class="h4 accordion__title inline-richtext">
+                            Description
+                          </h2>
+                        </div>
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      </summary>
+                      <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                        {%- if product.description contains '<!-- split -->' -%}
+                          {{ product.description | split: '<!-- split -->' | first }}
+                        {%- else -%}
+                          {{ product.description }}
+                        {%- endif -%}
+                      </div>
+                    </details>
+                  </div>
+                {%- endif -%}
+              {%- when 'materials' -%}
+                {%- if product.metafields.custom.materials.value != blank -%}
+                  <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                    <details id="Details-{{ block.id }}-{{ section.id }}">
+                      <summary>
+                        <div class="summary__title">
+                          {% render 'icon-accordion', icon: 'none' %}
+                          <h2 class="h4 accordion__title inline-richtext">
+                            Materials
+                          </h2>
+                        </div>
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      </summary>
+                      <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                        {{ product.metafields.custom.materials | metafield_tag }}
+                      </div>
+                    </details>
+                  </div>
+                {%- endif -%}
               {%- when 'share' -%}
-                {% liquid
-                  assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
-                  render 'share-button', block: block, share_link: share_url
-                %}
+                {%- comment -%}Rendered inline next to the SKU block above{%- endcomment -%}
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
@@ -612,6 +680,12 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
+                {%- if pages['shipping'] != blank -%}
+                  <button type="button" class="product__shipping-link link" data-open-drawer="shipping">
+                    <span class="svg-wrapper">{{- 'icon-box.svg' | inline_asset_content -}}</span>
+                    Worldwide shipping
+                  </button>
+                {%- endif -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
@@ -812,6 +886,8 @@
     </div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
+    {% render 'info-drawer', page_handle: 'sizing-charts', drawer_id: 'size-guide' %}
+    {% render 'info-drawer', page_handle: 'shipping', drawer_id: 'shipping' %}
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
     {%- for block in popups -%}
@@ -834,6 +910,114 @@
           <div class="product-popup-modal__content-info">
             <h1 class="h2">{{ block.settings.page.title | escape }}</h1>
             {{ block.settings.page.content }}
+          </div>
+        </div>
+      </modal-dialog>
+    {%- endfor -%}
+
+    {% assign advisor_contact_blocks = section.blocks | where: 'type', 'advisor_contact' %}
+    {%- for block in advisor_contact_blocks -%}
+      <modal-dialog id="AdvisorContactModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
+        <div
+          role="dialog"
+          aria-label="{{ block.settings.button_label }}"
+          aria-modal="true"
+          class="product-popup-modal__content"
+          tabindex="-1"
+        >
+          <button
+            id="ModalClose-{{ block.id }}"
+            type="button"
+            class="product-popup-modal__toggle"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {{- 'icon-close.svg' | inline_asset_content -}}
+          </button>
+          <div class="product-popup-modal__content-info">
+            <h2 class="h3">{{ block.settings.button_label }}</h2>
+            {%- assign advisor_contact_form_id = 'AdvisorContactForm-' | append: block.id -%}
+            {%- form 'contact', id: advisor_contact_form_id, class: 'isolate' -%}
+              {%- if form.posted_successfully? -%}
+                <h3 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                  {{- 'icon-success.svg' | inline_asset_content -}}
+                  {{ 'templates.contact.form.post_success' | t }}
+                </h3>
+              {%- else -%}
+                {%- if form.errors -%}
+                  <div class="form__message">
+                    <p class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                      {{- 'icon-error.svg' | inline_asset_content -}}
+                      {{ 'templates.contact.form.error_heading' | t }}
+                    </p>
+                  </div>
+                {%- endif -%}
+                <div class="field">
+                  <input
+                    class="field__input"
+                    autocomplete="name"
+                    type="text"
+                    id="AdvisorContactForm-name-{{ block.id }}"
+                    name="contact[{{ 'templates.contact.form.name' | t }}]"
+                    value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                    placeholder="{{ 'templates.contact.form.name' | t }}"
+                  >
+                  <label class="field__label" for="AdvisorContactForm-name-{{ block.id }}">
+                    {{- 'templates.contact.form.name' | t -}}
+                  </label>
+                </div>
+                <div class="field field--with-error">
+                  <input
+                    autocomplete="email"
+                    type="email"
+                    id="AdvisorContactForm-email-{{ block.id }}"
+                    class="field__input"
+                    name="contact[email]"
+                    spellcheck="false"
+                    autocapitalize="off"
+                    value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                    aria-required="true"
+                    {% if form.errors contains 'email' %}
+                      aria-invalid="true"
+                      aria-describedby="AdvisorContactForm-email-error-{{ block.id }}"
+                    {% endif %}
+                    placeholder="{{ 'templates.contact.form.email' | t }}"
+                  >
+                  <label class="field__label" for="AdvisorContactForm-email-{{ block.id }}">
+                    {{- 'templates.contact.form.email' | t }}
+                    <span aria-hidden="true">*</span>
+                  </label>
+                  {%- if form.errors contains 'email' -%}
+                    <small class="contact__field-error" id="AdvisorContactForm-email-error-{{ block.id }}">
+                      <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                      <span class="form__message">
+                        <span class="svg-wrapper">
+                          {{- 'icon-error.svg' | inline_asset_content -}}
+                        </span>
+                        {{- form.errors.translated_fields.email | capitalize }}
+                        {{ form.errors.messages.email -}}
+                      </span>
+                    </small>
+                  {%- endif -%}
+                </div>
+                <div class="field">
+                  <textarea
+                    rows="6"
+                    id="AdvisorContactForm-body-{{ block.id }}"
+                    class="text-area field__input"
+                    name="contact[{{ 'templates.contact.form.comment' | t }}]"
+                    placeholder="{{ 'templates.contact.form.comment' | t }}"
+                  >{%- if form.body -%}{{ form.body }}{%- else -%}Regarding: {{ product.title }} ({{ product.url | prepend: request.origin }}){%- endif -%}</textarea>
+                  <label class="form__label field__label" for="AdvisorContactForm-body-{{ block.id }}">
+                    {{- 'templates.contact.form.comment' | t -}}
+                  </label>
+                </div>
+                <div class="contact__button">
+                  <button type="submit" class="button">
+                    {{ 'templates.contact.form.send' | t }}
+                  </button>
+                </div>
+              {%- endif -%}
+            {%- endform -%}
           </div>
         </div>
       </modal-dialog>
@@ -1057,8 +1241,38 @@
       ]
     },
     {
+      "type": "advisor_contact",
+      "name": "Advisor contact",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Considering this piece?"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Want to know more about sizing or customization?"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Contact a Shamballa advisor"
+        }
+      ]
+    },
+    {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1
+    },
+    {
+      "type": "materials",
+      "name": "Materials",
       "limit": 1
     },
     {
