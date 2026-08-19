@@ -1,1 +1,185 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"slideshow_UpXAnU":{"type":"slideshow","blocks":{"slide_yY7gE3":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/R004312.jpg","heading":"hirshleifers","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":60,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_yY7gE3"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"rich_text_ir4zby":{"type":"rich-text","blocks":{"heading_fXpai6":{"type":"heading","settings":{"heading":"about hirshleifers","heading_size":"h2"}},"text_b4kyW8":{"type":"text","settings":{"text":"<p>HIRSHLEIFERS is situated in the heart of Americana Manhasset shopping center with over 20,000 square feet of main floor selling space, housing over 100 of the world's most coveted designer collections. Founded in 1910, the specialty retailer is run today by the fourth and fifth generation of the Hirshleifer family and has evolved into a full-blown fashion hub where clients can connect with unique, personal buys and discover the ultimate luxury shopping adventure.<\/p>"}},"heading_Vn49Yk":{"type":"heading","settings":{"heading":"testimonial","heading_size":"h2"}},"text_yURTAe":{"type":"text","settings":{"text":"<p><em>“We strive to work with partners who are the best at what they do and fit within the Hirshleifers world. Shamballa is no exception. Their craftsmanship is like no other and we have proudly carried the brand in our store for many years. <br\/>We look forward to continuing our partnership for years to come.”<\/em><\/p>"}}},"block_order":["heading_fXpai6","text_b4kyW8","heading_Vn49Yk","text_yURTAe"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":44}},"rich_text_UCTgRz":{"type":"rich-text","blocks":{"heading_Dr7npN":{"type":"heading","settings":{"heading":"find shamballa at this location","heading_size":"h2"}}},"block_order":["heading_Dr7npN"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":0}},"image_with_text_GMjeyB":{"type":"image-with-text","blocks":{"caption_a3qMxA":{"type":"caption","settings":{"caption":"New York City, New York, USA","text_style":"subtitle","text_size":"medium"}},"heading_amtJVd":{"type":"heading","settings":{"heading":"hirshleifers","heading_size":"h2"}},"text_QhbxKa":{"type":"text","settings":{"text":"<p>Hirshleifers is a luxury retailer based in Manhasset, New York, specializing in high-end fashion, accessories, and jewelry from top global designers. Known for its curated selection and personalized service, Hirshleifers offers an exclusive shopping experience, featuring pieces from the world’s most prestigious brands. With a rich family heritage, it’s a sought-after destination for fashion connoisseurs seeking unique and luxurious finds.<\/p><p><strong>Opening hours:<\/strong><br\/>Monday – Saturday: 10am – 6pm<br\/>Sunday: 12am - 6pm<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Hirshleifers\/@40.7960767,-73.673825,17z\/data=!3m1!4b1!4m6!3m5!1s0x89c2888c2a701d03:0x10f08607ab63601b!8m2!3d40.7960727!4d-73.6712501!16s%2Fg%2F1q2vy3r6l?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Hirshleifers\">2080 Northern Blvd.<br\/>Manhasset, NY 11030, USA<\/a><\/p>","text_style":"body"}}},"block_order":["caption_a3qMxA","heading_amtJVd","text_QhbxKa"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/R004306.jpg","height":"adapt","desktop_image_width":"large","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":28,"padding_bottom":36}}},"order":["main","slideshow_UpXAnU","rich_text_ir4zby","rich_text_UCTgRz","image_with_text_GMjeyB"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "slideshow_UpXAnU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_yY7gE3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/R004312.jpg",
+            "heading": "hirshleifers",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_yY7gE3"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_ir4zby": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fXpai6": {
+          "type": "heading",
+          "settings": {
+            "heading": "about hirshleifers",
+            "heading_size": "h2"
+          }
+        },
+        "text_b4kyW8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HIRSHLEIFERS is situated in the heart of Americana Manhasset shopping center with over 20,000 square feet of main floor selling space, housing over 100 of the world's most coveted designer collections. Founded in 1910, the specialty retailer is run today by the fourth and fifth generation of the Hirshleifer family and has evolved into a full-blown fashion hub where clients can connect with unique, personal buys and discover the ultimate luxury shopping adventure.</p>"
+          }
+        },
+        "heading_Vn49Yk": {
+          "type": "heading",
+          "settings": {
+            "heading": "testimonial",
+            "heading_size": "h2"
+          }
+        },
+        "text_yURTAe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>“We strive to work with partners who are the best at what they do and fit within the Hirshleifers world. Shamballa is no exception. Their craftsmanship is like no other and we have proudly carried the brand in our store for many years. <br/>We look forward to continuing our partnership for years to come.”</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fXpai6",
+        "text_b4kyW8",
+        "heading_Vn49Yk",
+        "text_yURTAe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "rich_text_UCTgRz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dr7npN": {
+          "type": "heading",
+          "settings": {
+            "heading": "find shamballa at this location",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dr7npN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_GMjeyB": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_a3qMxA": {
+          "type": "caption",
+          "settings": {
+            "caption": "New York City, New York, USA",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_amtJVd": {
+          "type": "heading",
+          "settings": {
+            "heading": "hirshleifers",
+            "heading_size": "h2"
+          }
+        },
+        "text_QhbxKa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hirshleifers is a luxury retailer based in Manhasset, New York, specializing in high-end fashion, accessories, and jewelry from top global designers. Known for its curated selection and personalized service, Hirshleifers offers an exclusive shopping experience, featuring pieces from the world’s most prestigious brands. With a rich family heritage, it’s a sought-after destination for fashion connoisseurs seeking unique and luxurious finds.</p><p><strong>Opening hours:</strong><br/>Monday – Saturday: 10am – 6pm<br/>Sunday: 12am - 6pm</p><p><a href=\"https://www.google.com/maps/place/Hirshleifers/@40.7960767,-73.673825,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2888c2a701d03:0x10f08607ab63601b!8m2!3d40.7960727!4d-73.6712501!16s%2Fg%2F1q2vy3r6l?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Hirshleifers\">2080 Northern Blvd.<br/>Manhasset, NY 11030, USA</a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_a3qMxA",
+        "heading_amtJVd",
+        "text_QhbxKa"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/R004306.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_UpXAnU",
+    "rich_text_ir4zby",
+    "rich_text_UCTgRz",
+    "image_with_text_GMjeyB"
+  ]
+}

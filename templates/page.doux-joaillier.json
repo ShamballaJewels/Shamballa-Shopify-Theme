@@ -1,1 +1,170 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"slideshow_D3giif":{"type":"slideshow","blocks":{"slide_FcyPm8":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/63af1c1725f41_rolex-courchevel-exterieur_1.webp","heading":"doux joaillier","heading_size":"h0","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":60,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_FcyPm8"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"rich_text_wq3Dd7":{"type":"rich-text","blocks":{"heading_FjhjbJ":{"type":"heading","settings":{"heading":"about doux joaillier","heading_size":"h2"}},"text_VB7Uzj":{"type":"text","settings":{"text":"<p>Text about doux joaillier here.........<\/p>"}}},"block_order":["heading_FjhjbJ","text_VB7Uzj"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"rich_text_8BrJcP":{"type":"rich-text","blocks":{"heading_76UJ9i":{"type":"heading","settings":{"heading":"find shamballa at this location","heading_size":"h2"}}},"block_order":["heading_76UJ9i"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":0}},"image_with_text_JJ7jJT":{"type":"image-with-text","blocks":{"caption_a64NDb":{"type":"caption","settings":{"caption":"Courchevel, France","text_style":"subtitle","text_size":"medium"}},"heading_6ppfAQ":{"type":"heading","settings":{"heading":"doux joaillier","heading_size":"h2"}},"text_deWkFV":{"type":"text","settings":{"text":"<p>Located in the prestigious ski resort of Courchevel 1850, DOUX Joaillier is a luxury jewelry store known for its exquisite collection of high-end pieces crafted from the finest materials. With an elegant design and attentive staff, it offers a welcoming atmosphere for discerning clients. Whether seeking a statement necklace, an engagement ring, or a special gift, DOUX Joaillier provides an exceptional shopping experience in the heart of the French Alps.<\/p><p>Opening hours:<br\/>Monday: Closed<br\/>Tuesday - Sunday: 10:30 - 20:00<\/p><p><a href=\"https:\/\/www.google.com\/maps\/search\/Doux+Joaillier+-+D%C3%A9taillant+Officiel+Rolex,+Coeur+de+Courchevel,+2+Rue+du+Rocher,+73120+Courchevel,+Frankrig\/@45.4145267,6.6319497,17z\/data=!3m1!4b1?hl=da&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Doux Joaillier Courchevel\">2 Rue du Rocher,<br\/>73120 Courchevel, France<\/a><\/p>","text_style":"body"}}},"block_order":["caption_a64NDb","heading_6ppfAQ","text_deWkFV"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/63af0bf873508_doux-courchevel-4.webp","height":"adapt","desktop_image_width":"large","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":0,"padding_bottom":36}}},"order":["main","slideshow_D3giif","rich_text_wq3Dd7","rich_text_8BrJcP","image_with_text_JJ7jJT"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "slideshow_D3giif": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FcyPm8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/63af1c1725f41_rolex-courchevel-exterieur_1.webp",
+            "heading": "doux joaillier",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FcyPm8"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_wq3Dd7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FjhjbJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "about doux joaillier",
+            "heading_size": "h2"
+          }
+        },
+        "text_VB7Uzj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text about doux joaillier here.........</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FjhjbJ",
+        "text_VB7Uzj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_8BrJcP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_76UJ9i": {
+          "type": "heading",
+          "settings": {
+            "heading": "find shamballa at this location",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_76UJ9i"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_JJ7jJT": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_a64NDb": {
+          "type": "caption",
+          "settings": {
+            "caption": "Courchevel, France",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_6ppfAQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "doux joaillier",
+            "heading_size": "h2"
+          }
+        },
+        "text_deWkFV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Located in the prestigious ski resort of Courchevel 1850, DOUX Joaillier is a luxury jewelry store known for its exquisite collection of high-end pieces crafted from the finest materials. With an elegant design and attentive staff, it offers a welcoming atmosphere for discerning clients. Whether seeking a statement necklace, an engagement ring, or a special gift, DOUX Joaillier provides an exceptional shopping experience in the heart of the French Alps.</p><p>Opening hours:<br/>Monday: Closed<br/>Tuesday - Sunday: 10:30 - 20:00</p><p><a href=\"https://www.google.com/maps/search/Doux+Joaillier+-+D%C3%A9taillant+Officiel+Rolex,+Coeur+de+Courchevel,+2+Rue+du+Rocher,+73120+Courchevel,+Frankrig/@45.4145267,6.6319497,17z/data=!3m1!4b1?hl=da&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Doux Joaillier Courchevel\">2 Rue du Rocher,<br/>73120 Courchevel, France</a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_a64NDb",
+        "heading_6ppfAQ",
+        "text_deWkFV"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/63af0bf873508_doux-courchevel-4.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_D3giif",
+    "rich_text_wq3Dd7",
+    "rich_text_8BrJcP",
+    "image_with_text_JJ7jJT"
+  ]
+}

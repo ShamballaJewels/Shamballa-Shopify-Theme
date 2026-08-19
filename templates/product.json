@@ -189,7 +189,7 @@
         "color_scheme": "scheme-83ebf94c-3c12-4872-9f51-b8761cb295ac",
         "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
@@ -255,7 +255,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "heading": "You May Also Like",
@@ -384,7 +383,7 @@
     "e3fe9022-f39b-4a25-a7d8-71542822eaef",
     "16947744846cd93355",
     "fb29f12a-9504-4a94-af23-271fbc5cea2b",
-    "1723713188c25cff0f",
-    "image_with_text_gz4Gzz"
+    "image_with_text_gz4Gzz",
+    "1723713188c25cff0f"
   ]
 }

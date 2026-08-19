@@ -1,1 +1,372 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"slideshow_dqnhVz":{"type":"slideshow","blocks":{"slide_GkmCYa":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/inside_sj_ss24_1.jpg","heading":"","heading_size":"h2","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_GkmCYa"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"d8ab06da-6ac5-4214-974a-2b8ea2685326":{"type":"rich-text","blocks":{"template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-heading-1":{"type":"heading","settings":{"heading":"We accept Crypto","heading_size":"h1"}},"f18cfb16-d0f6-4227-af22-d2694d93c230":{"type":"heading","settings":{"heading":"In 25+ different cryptocurrencies","heading_size":"h2"}},"template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-heading-1","f18cfb16-d0f6-4227-af22-d2694d93c230","template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-text-1","template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":0}},"da0dfd81-166c-4971-a545-ee93224e8c14":{"type":"slideshow","blocks":{"template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/crypto_banner_10_919adc67-56bc-4187-b4ef-a9bd1eb7b7e9.jpg","heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-2":{"type":"slide","disabled":true,"settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-1","template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-2"],"disabled":true,"settings":{"layout":"grid","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0":{"type":"rich-text","blocks":{"template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-heading-1":{"type":"heading","disabled":true,"settings":{"heading":"Talk about your brand","heading_size":"h1"}},"template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}},"4b4ad186-e4ae-4eb7-8b22-ac9a3b2db517":{"type":"caption","settings":{"caption":"Bitcoin, Bitcoin Cash, Bitcoin SV, Cardano, Dogecoin, Ethereum, Voyager Token, Litecoin, Nano, OmiseGo, Paxos Standard Token, Polkadot, Stellar, Solana, Qtum, Tron, TrueUSD, USD coin, Tether ERC-20, USDTTRC20, Aave, Binance chain(BEP2), Binance Smart Chain(BEP20), Chainlink, Polygon...","text_style":"caption-with-letter-spacing","text_size":"medium"}},"button_pxUVCA":{"type":"button","settings":{"button_label":"see all jewelry","button_link":"shopify:\/\/collections\/all","button_style_secondary":false,"button_label_2":"create your own","button_link_2":"shopify:\/\/pages\/the-creator","button_style_secondary_2":false}}},"block_order":["template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-heading-1","template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-text-1","template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-button-1","4b4ad186-e4ae-4eb7-8b22-ac9a3b2db517","button_pxUVCA"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":20,"padding_bottom":20}},"624ea36e-bac9-4fb8-81a4-a44ac03ce1f1":{"type":"rich-text","blocks":{"template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-heading-1":{"type":"heading","disabled":true,"settings":{"heading":"Talk about your brand","heading_size":"h1"}},"template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-text-1":{"type":"text","settings":{"text":"<p>We are happy to share that from now on, you can pay for your unique SHAMBALLA® creation in 25+ cryptocurrencies. In the beginning of June, we teamed up with the payment portal Coinify and decided to bring the one-of-a-kind SHAMBALLA® Universe closer to our fellow crypto fans.<\/p><p>We are excited to enter this new, digital chapter and cannot wait to have more crypto enthusiasts on board!<\/p><p>Simply visit our flagship store in Copenhagen, or fill out the form below so our kind sales support can guide you through the process.<\/p>"}},"template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-heading-1","template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-text-1","template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":16,"padding_bottom":52}},"5e856f42-dcd4-4d60-9eb7-fa57883e1105":{"type":"contact-form","custom_css":[".contact__button {display: flex; justify-content: center; align-items: center;}"],"settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":12,"padding_bottom":36}},"rich_text_tbmT3D":{"type":"rich-text","blocks":{"heading_MrEQrc":{"type":"heading","settings":{"heading":"discover our jewelry","heading_size":"h2"}}},"block_order":["heading_MrEQrc"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":0}},"collection_list_qnggzH":{"type":"collection-list","blocks":{"featured_collection_JirCga":{"type":"featured_collection","settings":{"collection":"all-bracelets"}},"featured_collection_h7QxrQ":{"type":"featured_collection","settings":{"collection":"beaded-bracelets"}},"featured_collection_qqzf6A":{"type":"featured_collection","settings":{"collection":"lock-bracelets-1"}},"featured_collection_k8GGG9":{"type":"featured_collection","settings":{"collection":"all-necklaces"}}},"block_order":["featured_collection_JirCga","featured_collection_h7QxrQ","featured_collection_qqzf6A","featured_collection_k8GGG9"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":4,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":12,"padding_bottom":36}}},"order":["main","slideshow_dqnhVz","d8ab06da-6ac5-4214-974a-2b8ea2685326","da0dfd81-166c-4971-a545-ee93224e8c14","4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0","624ea36e-bac9-4fb8-81a4-a44ac03ce1f1","5e856f42-dcd4-4d60-9eb7-fa57883e1105","rich_text_tbmT3D","collection_list_qnggzH"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_dqnhVz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_GkmCYa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/inside_sj_ss24_1.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GkmCYa"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "d8ab06da-6ac5-4214-974a-2b8ea2685326": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We accept Crypto",
+            "heading_size": "h1"
+          }
+        },
+        "f18cfb16-d0f6-4227-af22-d2694d93c230": {
+          "type": "heading",
+          "settings": {
+            "heading": "In 25+ different cryptocurrencies",
+            "heading_size": "h2"
+          }
+        },
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-heading-1",
+        "f18cfb16-d0f6-4227-af22-d2694d93c230",
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-text-1",
+        "template--19102483939664__d8ab06da-6ac5-4214-974a-2b8ea2685326-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "da0dfd81-166c-4971-a545-ee93224e8c14": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/crypto_banner_10_919adc67-56bc-4187-b4ef-a9bd1eb7b7e9.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-1",
+        "template--19293346824528__da0dfd81-166c-4971-a545-ee93224e8c14-slide-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "4b4ad186-e4ae-4eb7-8b22-ac9a3b2db517": {
+          "type": "caption",
+          "settings": {
+            "caption": "Bitcoin, Bitcoin Cash, Bitcoin SV, Cardano, Dogecoin, Ethereum, Voyager Token, Litecoin, Nano, OmiseGo, Paxos Standard Token, Polkadot, Stellar, Solana, Qtum, Tron, TrueUSD, USD coin, Tether ERC-20, USDTTRC20, Aave, Binance chain(BEP2), Binance Smart Chain(BEP20), Chainlink, Polygon...",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_pxUVCA": {
+          "type": "button",
+          "settings": {
+            "button_label": "see all jewelry",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "create your own",
+            "button_link_2": "shopify://pages/the-creator",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-heading-1",
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-text-1",
+        "template--19293346824528__4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0-button-1",
+        "4b4ad186-e4ae-4eb7-8b22-ac9a3b2db517",
+        "button_pxUVCA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "624ea36e-bac9-4fb8-81a4-a44ac03ce1f1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are happy to share that from now on, you can pay for your unique SHAMBALLA® creation in 25+ cryptocurrencies. In the beginning of June, we teamed up with the payment portal Coinify and decided to bring the one-of-a-kind SHAMBALLA® Universe closer to our fellow crypto fans.</p><p>We are excited to enter this new, digital chapter and cannot wait to have more crypto enthusiasts on board!</p><p>Simply visit our flagship store in Copenhagen, or fill out the form below so our kind sales support can guide you through the process.</p>"
+          }
+        },
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-heading-1",
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-text-1",
+        "template--19293346824528__624ea36e-bac9-4fb8-81a4-a44ac03ce1f1-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 52
+      }
+    },
+    "5e856f42-dcd4-4d60-9eb7-fa57883e1105": {
+      "type": "contact-form",
+      "custom_css": [
+        ".contact__button {display: flex; justify-content: center; align-items: center;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tbmT3D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MrEQrc": {
+          "type": "heading",
+          "settings": {
+            "heading": "discover our jewelry",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MrEQrc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_qnggzH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_JirCga": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-bracelets"
+          }
+        },
+        "featured_collection_h7QxrQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beaded-bracelets"
+          }
+        },
+        "featured_collection_qqzf6A": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lock-bracelets-1"
+          }
+        },
+        "featured_collection_k8GGG9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-necklaces"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_JirCga",
+        "featured_collection_h7QxrQ",
+        "featured_collection_qqzf6A",
+        "featured_collection_k8GGG9"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_dqnhVz",
+    "d8ab06da-6ac5-4214-974a-2b8ea2685326",
+    "da0dfd81-166c-4971-a545-ee93224e8c14",
+    "4c8d4c47-0d9c-4b73-af79-8767bb8ed7d0",
+    "624ea36e-bac9-4fb8-81a4-a44ac03ce1f1",
+    "5e856f42-dcd4-4d60-9eb7-fa57883e1105",
+    "rich_text_tbmT3D",
+    "collection_list_qnggzH"
+  ]
+}

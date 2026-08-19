@@ -1,1 +1,55 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"8fe7c957-24b9-44e1-8ccb-b7823ce72895":{"type":"rich-text","blocks":{"template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-heading-1":{"type":"heading","settings":{"heading":"Return Policy","heading_size":"h1"}},"template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-text-1":{"type":"text","settings":{"text":"<p>This return and exchange policy applies <strong>exclusively to purchases made through our online store at www.shamballajewels.com<\/strong>. Items purchased in our physical store are <strong>not eligible<\/strong> for return or exchange under this policy. For in-store purchases, please refer to the return policy provided at the point of sale or contact our store directly.<\/p><p>If you’ve placed an order online and wish to return or exchange it for any reason, we’re here to help! We offer returns or exchanges within <strong>14 days<\/strong> of receiving your online order. You can return your product for a different item or a refund to the original payment method.<\/p><p><strong>Please note the following exceptions to our online return and exchange policy:<\/strong><\/p><p><strong>- <\/strong>Customized items are final and cannot be returned or exchanged.<br\/>- Returned items must be in their original packaging.<br\/>- Returned items must show no visible signs of wear or use.<\/p><p>If an online item is defective or damaged, we will exchange it for the same item if possible. Please contact us at <strong>support@shamballajewels.com<\/strong> to check availability.<\/p><p><strong>To initiate a return or exchange for an online purchase:<\/strong><\/p><p>1. Email us at <strong>support@shamballajewels.com<\/strong> with your order confirmation or proof of purchase.<br\/>2. Indicate which item(s) you wish to return or exchange, including your order number. <br\/>3. Include the order confirmation in the return package and send it to:<br\/><strong>SHAMBALLA JEWELS<\/strong><br\/>Ny Østergade 7, 1.<br\/>1101 Copenhagen<br\/>Denmark<\/p><p>Once we receive and inspect your returned item(s), we’ll notify you via email. If approved, your refund will be processed and applied to your original method of payment within a few business days.<\/p><p><strong>Important Notes:<\/strong><\/p><p><strong>- <\/strong>This policy applies only to online purchases. In-store purchases are not eligible.<br\/>- Return shipping costs are the responsibility of the buyer.<br\/>- The buyer is responsible for the returned product until it reaches us—we strongly recommend using a traceable shipping service.<\/p><p><\/p>"}}},"block_order":["template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-heading-1","template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["main","8fe7c957-24b9-44e1-8ccb-b7823ce72895"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "8fe7c957-24b9-44e1-8ccb-b7823ce72895": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Return Policy",
+            "heading_size": "h1"
+          }
+        },
+        "template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This return and exchange policy applies <strong>exclusively to purchases made through our online store at www.shamballajewels.com</strong>. Items purchased in our physical store are <strong>not eligible</strong> for return or exchange under this policy. For in-store purchases, please refer to the return policy provided at the point of sale or contact our store directly.</p><p>If you’ve placed an order online and wish to return or exchange it for any reason, we’re here to help! We offer returns or exchanges within <strong>14 days</strong> of receiving your online order. You can return your product for a different item or a refund to the original payment method.</p><p><strong>Please note the following exceptions to our online return and exchange policy:</strong></p><p><strong>- </strong>Customized items are final and cannot be returned or exchanged.<br/>- Returned items must be in their original packaging.<br/>- Returned items must show no visible signs of wear or use.</p><p>If an online item is defective or damaged, we will exchange it for the same item if possible. Please contact us at <strong>support@shamballajewels.com</strong> to check availability.</p><p><strong>To initiate a return or exchange for an online purchase:</strong></p><p>1. Email us at <strong>support@shamballajewels.com</strong> with your order confirmation or proof of purchase.<br/>2. Indicate which item(s) you wish to return or exchange, including your order number. <br/>3. Include the order confirmation in the return package and send it to:<br/><strong>SHAMBALLA JEWELS</strong><br/>Ny Østergade 7, 1.<br/>1101 Copenhagen<br/>Denmark</p><p>Once we receive and inspect your returned item(s), we’ll notify you via email. If approved, your refund will be processed and applied to your original method of payment within a few business days.</p><p><strong>Important Notes:</strong></p><p><strong>- </strong>This policy applies only to online purchases. In-store purchases are not eligible.<br/>- Return shipping costs are the responsibility of the buyer.<br/>- The buyer is responsible for the returned product until it reaches us—we strongly recommend using a traceable shipping service.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-heading-1",
+        "template--19293866328400__8fe7c957-24b9-44e1-8ccb-b7823ce72895-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8fe7c957-24b9-44e1-8ccb-b7823ce72895"
+  ]
+}

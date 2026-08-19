@@ -1,1 +1,371 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"eb74327b-02cd-4953-8ed8-80bbf0f3356e":{"type":"rich-text","blocks":{"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1":{"type":"heading","settings":{"heading":"Our trusted retailers","heading_size":"h1"}},"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1":{"type":"text","settings":{"text":"<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br\/>Locate the nearest retailer on the map below. <\/p>"}}},"block_order":["template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1","template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":8}},"ca6bd71a-4f6b-4519-87ed-eaa60beb5242":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->","color_scheme":"","padding_top":40,"padding_bottom":52}},"fdba67d2-8d13-4293-bf27-a75a3c8fb347":{"type":"custom-liquid","settings":{"custom_liquid":"<style>\n    .video-container {\n        position: relative;\n        width: 100%;\n        display: inline-block;\n        overflow: hidden;  \/* Hide any portion of the video that extends beyond the container *\/\n    }\n\n    @media (min-width: 768px) {\n        .video-container {\n            height: 75vh;  \/* Adjust this value to achieve the desired height *\/\n        }\n    }\n\n    video {\n        width: 100%;\n        height: auto;  \/* Allows the video to maintain its aspect ratio *\/\n        display: block;\n        margin: 0 auto;\n    }\n\n    .video-overlay {\n        position: absolute;\n        top: 0;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        background: rgba(0, 0, 0, 0.5);  \/* Black overlay with 50% opacity *\/\n        display: flex;\n        align-items: center;  \/* Center the text vertically *\/\n        justify-content: center;  \/* Center the text horizontally *\/\n    }\n\n    .video-overlay h2 {\n        color: white;  \/* Change as needed *\/\n        text-align: center;  \/* Center the text *\/\n        line-height: 1.8;  \/* Adjust this value for spacing between lines *\/\n        opacity: 0;  \/* Start with the text hidden *\/\n        transition: opacity 1s;  \/* Add a transition effect for smooth fade-in *\/\n    }\n\n    .show-text {\n        opacity: 1 !important;  \/* Make the text visible *\/\n    }\n<\/style>\n\n<div class=\"video-container\">\n    <video muted autoplay playsinline loop>\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f9c7294ac2bc4e33b785df753d1abb87.mp4\" type=\"video\/mp4\">\n    <\/video>\n    <div class=\"video-overlay\">\n        <h2 id=\"scrollingText\">INSIDE<br>SHAMBALLA JEWELS<\/h2>\n    <\/div>\n<\/div>\n\n<script>\n    document.addEventListener('scroll', function() {\n        const el = document.getElementById('scrollingText');\n        const rect = el.getBoundingClientRect();\n        const isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight);\n\n        if(isVisible) {\n            el.classList.add('show-text');\n        } else {\n            el.classList.remove('show-text');\n        }\n    });\n<\/script>","color_scheme":"","padding_top":0,"padding_bottom":4}},"6660bc0e-fe03-4f90-8caf-8fea95be8d11":{"type":"rich-text","blocks":{"template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-heading-1":{"type":"heading","settings":{"heading":"the process","heading_size":"h2"}},"template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-text-1":{"type":"text","settings":{"text":"<p>At Shamballa Jewels, we do the utmost best to be transparent about our production. Below you can read more about our processes from sourcing the unique gemstones to the actual hand-braiding of each bracelet.<\/p>"}},"template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-heading-1","template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-text-1","template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":32,"padding_bottom":28}},"1a88f4c1-6106-4456-b3a0-6651ccad61f3":{"type":"image-with-text","blocks":{"5640beeb-c355-485b-84a4-064ac06633f5":{"type":"caption","settings":{"caption":"SOURCING","text_style":"subtitle","text_size":"medium"}},"template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-heading-1":{"type":"heading","settings":{"heading":"THE DIAMONDS","heading_size":"h2"}},"template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-text-1":{"type":"text","settings":{"text":"<p>Shamballa Jewels' diamonds are sourced with consideration and care with zero tolerance policy in regards to conflict diamonds. Through collaboration with trusted diamond suppliers, Shamballa Jewels makes sure to support and follow the internationally agreed Kimberley Process. The Kimberley Process is an initiative to block the flow of conflict blood diamonds, and only support the purchase of rough, conflict-free diamonds from trusted, respectful sources whose standards also strictly follow the Kimberley Process declaration.<br\/><\/p>","text_style":"body"}}},"block_order":["5640beeb-c355-485b-84a4-064ac06633f5","template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-heading-1","template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-text-1"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"],"settings":{"image":"shopify:\/\/shop_images\/inside_sj_1.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"87165d0e-a2f1-46cd-acb4-d88560b1246d":{"type":"image-with-text","blocks":{"96b30fc9-3d13-4d7f-a2b4-dcb5299d29f7":{"type":"caption","settings":{"caption":"SOURCING","text_style":"subtitle","text_size":"medium"}},"b33481b0-374a-4065-9dbf-71510410bca1":{"type":"heading","settings":{"heading":"THE GEMSTONES","heading_size":"h2"}},"564ac05c-5c4f-4e34-8415-37fb3be1194b":{"type":"text","settings":{"text":"<p>When sourcing precious and\/or semi-precious stones, Shamballa Jewels carefully considers the origin of each material, how it is formed and crafted. The sourcing process is done transparently, in collaboration with trustworthy suppliers that meet strict protocols for mining of precious minerals to ensure a full traceability. To support and protect certain endangered species, Shamballa Jewels does not use materials such as ivory in any of its jewelry designs. <\/p>","text_style":"body"}}},"block_order":["96b30fc9-3d13-4d7f-a2b4-dcb5299d29f7","b33481b0-374a-4065-9dbf-71510410bca1","564ac05c-5c4f-4e34-8415-37fb3be1194b"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"],"settings":{"image":"shopify:\/\/shop_images\/inside_sj_5.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"5cdb1e4a-fee1-4309-89e1-bdd3461f4945":{"type":"image-with-text","blocks":{"073e8653-b062-4167-be92-1e061b513119":{"type":"caption","settings":{"caption":"CRAFTING","text_style":"subtitle","text_size":"medium"}},"65c614cd-df73-44bf-88da-20de49d2686e":{"type":"heading","settings":{"heading":"THE BEADS","heading_size":"h2"}},"22f3d474-3cc1-4f91-9406-71d6156fed7f":{"type":"text","settings":{"text":"<p>From the moment we ethically source our diamonds to the final touch of our master craftsmen, the journey of creating each of our beads is a testament to uncompromising quality and artistry. Selected for their radiant brilliance, our diamonds are meticulously hand-set onto beads crafted from 18K gold by skilled jewelry craftsmen, melding the lustrous sheen of precious metal with the sparkling allure of nature's finest gemstones. The result is a radiant bead, shimmering with every facet and gleam.<\/p>","text_style":"body"}}},"block_order":["073e8653-b062-4167-be92-1e061b513119","65c614cd-df73-44bf-88da-20de49d2686e","22f3d474-3cc1-4f91-9406-71d6156fed7f"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"],"settings":{"image":"shopify:\/\/shop_images\/inside_sj_6.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"20f2bcd9-4006-49b9-93e9-fb1ff323dd95":{"type":"image-with-text","blocks":{"5f70a82e-edaf-4647-87bf-b91f6470100d":{"type":"caption","settings":{"caption":"BRAIDING","text_style":"subtitle","text_size":"medium"}},"08c14c21-864a-420f-9bc3-16b284d655be":{"type":"heading","settings":{"heading":"THE BRACELET","heading_size":"h2"}},"15aa95b8-a3b2-4185-ae61-28deeb4c5c79":{"type":"text","settings":{"text":"<p>Upon acquiring our ethically-sourced gemstones and beads from trusted suppliers, we bring these treasures to our headquarters in Copenhagen, Denmark, where artistry meets craftsmanship. Here, every piece of jewelry is hand-braided with precision and care, ensuring a fusion of beauty and durability. Our dedication to maintaining high quality is unwavering, as each creation embodies the design passion and meticulous attention to detail that Denmark is renowned for, resulting in pieces that are not only stunning but also crafted to stand the test of time.<\/p>","text_style":"body"}}},"block_order":["5f70a82e-edaf-4647-87bf-b91f6470100d","08c14c21-864a-420f-9bc3-16b284d655be","15aa95b8-a3b2-4185-ae61-28deeb4c5c79"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"],"settings":{"image":"shopify:\/\/shop_images\/inside_sj_3.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"5c6bb559-da61-4cda-92bb-49d2244e9cf8":{"type":"image-with-text","blocks":{"83f092fb-1917-45d9-b20d-5b139bd5c014":{"type":"caption","settings":{"caption":"REPURPOSING","text_style":"subtitle","text_size":"medium"}},"3a473594-3221-45f6-94a9-287dd62480f2":{"type":"heading","settings":{"heading":"YOUR BRACELET","heading_size":"h2"}},"a192a1b0-03bb-4f87-8202-3e3b428fcef4":{"type":"text","settings":{"text":"<p>Our bracelets are a blend of long-lasting quality and personal expression. Rather than acquiring a new piece for every trend or whim, you have the option to refresh your bracelet by simply altering the beads or string. This approach not only reduces waste but also adds layers of meaning to your bracelet. Every modification becomes a chapter in your bracelet's evolving story, reflecting both individual style and a commitment to the environment. It's a timeless and responsible choice, encapsulating a jewelry creation with purpose.<\/p>","text_style":"body"}}},"block_order":["83f092fb-1917-45d9-b20d-5b139bd5c014","3a473594-3221-45f6-94a9-287dd62480f2","a192a1b0-03bb-4f87-8202-3e3b428fcef4"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"],"settings":{"image":"shopify:\/\/shop_images\/inside_sj_7.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}}},"order":["main","eb74327b-02cd-4953-8ed8-80bbf0f3356e","ca6bd71a-4f6b-4519-87ed-eaa60beb5242","fdba67d2-8d13-4293-bf27-a75a3c8fb347","6660bc0e-fe03-4f90-8caf-8fea95be8d11","1a88f4c1-6106-4456-b3a0-6651ccad61f3","87165d0e-a2f1-46cd-acb4-d88560b1246d","5cdb1e4a-fee1-4309-89e1-bdd3461f4945","20f2bcd9-4006-49b9-93e9-fb1ff323dd95","5c6bb559-da61-4cda-92bb-49d2244e9cf8"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our trusted retailers",
+            "heading_size": "h1"
+          }
+        },
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br/>Locate the nearest retailer on the map below. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1",
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https://stockist.co\">Stockist store locator</a>...</div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','//stockist.co/embed/v1/widget.min.js');\n</script>\n<!-- End Stockist.co widget -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fdba67d2-8d13-4293-bf27-a75a3c8fb347": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .video-container {\n        position: relative;\n        width: 100%;\n        display: inline-block;\n        overflow: hidden;  /* Hide any portion of the video that extends beyond the container */\n    }\n\n    @media (min-width: 768px) {\n        .video-container {\n            height: 75vh;  /* Adjust this value to achieve the desired height */\n        }\n    }\n\n    video {\n        width: 100%;\n        height: auto;  /* Allows the video to maintain its aspect ratio */\n        display: block;\n        margin: 0 auto;\n    }\n\n    .video-overlay {\n        position: absolute;\n        top: 0;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        background: rgba(0, 0, 0, 0.5);  /* Black overlay with 50% opacity */\n        display: flex;\n        align-items: center;  /* Center the text vertically */\n        justify-content: center;  /* Center the text horizontally */\n    }\n\n    .video-overlay h2 {\n        color: white;  /* Change as needed */\n        text-align: center;  /* Center the text */\n        line-height: 1.8;  /* Adjust this value for spacing between lines */\n        opacity: 0;  /* Start with the text hidden */\n        transition: opacity 1s;  /* Add a transition effect for smooth fade-in */\n    }\n\n    .show-text {\n        opacity: 1 !important;  /* Make the text visible */\n    }\n</style>\n\n<div class=\"video-container\">\n    <video muted autoplay playsinline loop>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/f9c7294ac2bc4e33b785df753d1abb87.mp4\" type=\"video/mp4\">\n    </video>\n    <div class=\"video-overlay\">\n        <h2 id=\"scrollingText\">INSIDE<br>SHAMBALLA JEWELS</h2>\n    </div>\n</div>\n\n<script>\n    document.addEventListener('scroll', function() {\n        const el = document.getElementById('scrollingText');\n        const rect = el.getBoundingClientRect();\n        const isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight);\n\n        if(isVisible) {\n            el.classList.add('show-text');\n        } else {\n            el.classList.remove('show-text');\n        }\n    });\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "6660bc0e-fe03-4f90-8caf-8fea95be8d11": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "the process",
+            "heading_size": "h2"
+          }
+        },
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Shamballa Jewels, we do the utmost best to be transparent about our production. Below you can read more about our processes from sourcing the unique gemstones to the actual hand-braiding of each bracelet.</p>"
+          }
+        },
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-heading-1",
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-text-1",
+        "template--19874993799504__6660bc0e-fe03-4f90-8caf-8fea95be8d11-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 28
+      }
+    },
+    "1a88f4c1-6106-4456-b3a0-6651ccad61f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "5640beeb-c355-485b-84a4-064ac06633f5": {
+          "type": "caption",
+          "settings": {
+            "caption": "SOURCING",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE DIAMONDS",
+            "heading_size": "h2"
+          }
+        },
+        "template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shamballa Jewels' diamonds are sourced with consideration and care with zero tolerance policy in regards to conflict diamonds. Through collaboration with trusted diamond suppliers, Shamballa Jewels makes sure to support and follow the internationally agreed Kimberley Process. The Kimberley Process is an initiative to block the flow of conflict blood diamonds, and only support the purchase of rough, conflict-free diamonds from trusted, respectful sources whose standards also strictly follow the Kimberley Process declaration.<br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5640beeb-c355-485b-84a4-064ac06633f5",
+        "template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-heading-1",
+        "template--19874993799504__1a88f4c1-6106-4456-b3a0-6651ccad61f3-text-1"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/inside_sj_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "87165d0e-a2f1-46cd-acb4-d88560b1246d": {
+      "type": "image-with-text",
+      "blocks": {
+        "96b30fc9-3d13-4d7f-a2b4-dcb5299d29f7": {
+          "type": "caption",
+          "settings": {
+            "caption": "SOURCING",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "b33481b0-374a-4065-9dbf-71510410bca1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GEMSTONES",
+            "heading_size": "h2"
+          }
+        },
+        "564ac05c-5c4f-4e34-8415-37fb3be1194b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When sourcing precious and/or semi-precious stones, Shamballa Jewels carefully considers the origin of each material, how it is formed and crafted. The sourcing process is done transparently, in collaboration with trustworthy suppliers that meet strict protocols for mining of precious minerals to ensure a full traceability. To support and protect certain endangered species, Shamballa Jewels does not use materials such as ivory in any of its jewelry designs. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "96b30fc9-3d13-4d7f-a2b4-dcb5299d29f7",
+        "b33481b0-374a-4065-9dbf-71510410bca1",
+        "564ac05c-5c4f-4e34-8415-37fb3be1194b"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/inside_sj_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5cdb1e4a-fee1-4309-89e1-bdd3461f4945": {
+      "type": "image-with-text",
+      "blocks": {
+        "073e8653-b062-4167-be92-1e061b513119": {
+          "type": "caption",
+          "settings": {
+            "caption": "CRAFTING",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "65c614cd-df73-44bf-88da-20de49d2686e": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BEADS",
+            "heading_size": "h2"
+          }
+        },
+        "22f3d474-3cc1-4f91-9406-71d6156fed7f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the moment we ethically source our diamonds to the final touch of our master craftsmen, the journey of creating each of our beads is a testament to uncompromising quality and artistry. Selected for their radiant brilliance, our diamonds are meticulously hand-set onto beads crafted from 18K gold by skilled jewelry craftsmen, melding the lustrous sheen of precious metal with the sparkling allure of nature's finest gemstones. The result is a radiant bead, shimmering with every facet and gleam.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "073e8653-b062-4167-be92-1e061b513119",
+        "65c614cd-df73-44bf-88da-20de49d2686e",
+        "22f3d474-3cc1-4f91-9406-71d6156fed7f"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/inside_sj_6.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "20f2bcd9-4006-49b9-93e9-fb1ff323dd95": {
+      "type": "image-with-text",
+      "blocks": {
+        "5f70a82e-edaf-4647-87bf-b91f6470100d": {
+          "type": "caption",
+          "settings": {
+            "caption": "BRAIDING",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "08c14c21-864a-420f-9bc3-16b284d655be": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BRACELET",
+            "heading_size": "h2"
+          }
+        },
+        "15aa95b8-a3b2-4185-ae61-28deeb4c5c79": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Upon acquiring our ethically-sourced gemstones and beads from trusted suppliers, we bring these treasures to our headquarters in Copenhagen, Denmark, where artistry meets craftsmanship. Here, every piece of jewelry is hand-braided with precision and care, ensuring a fusion of beauty and durability. Our dedication to maintaining high quality is unwavering, as each creation embodies the design passion and meticulous attention to detail that Denmark is renowned for, resulting in pieces that are not only stunning but also crafted to stand the test of time.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5f70a82e-edaf-4647-87bf-b91f6470100d",
+        "08c14c21-864a-420f-9bc3-16b284d655be",
+        "15aa95b8-a3b2-4185-ae61-28deeb4c5c79"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/inside_sj_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5c6bb559-da61-4cda-92bb-49d2244e9cf8": {
+      "type": "image-with-text",
+      "blocks": {
+        "83f092fb-1917-45d9-b20d-5b139bd5c014": {
+          "type": "caption",
+          "settings": {
+            "caption": "REPURPOSING",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "3a473594-3221-45f6-94a9-287dd62480f2": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR BRACELET",
+            "heading_size": "h2"
+          }
+        },
+        "a192a1b0-03bb-4f87-8202-3e3b428fcef4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our bracelets are a blend of long-lasting quality and personal expression. Rather than acquiring a new piece for every trend or whim, you have the option to refresh your bracelet by simply altering the beads or string. This approach not only reduces waste but also adds layers of meaning to your bracelet. Every modification becomes a chapter in your bracelet's evolving story, reflecting both individual style and a commitment to the environment. It's a timeless and responsible choice, encapsulating a jewelry creation with purpose.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "83f092fb-1917-45d9-b20d-5b139bd5c014",
+        "3a473594-3221-45f6-94a9-287dd62480f2",
+        "a192a1b0-03bb-4f87-8202-3e3b428fcef4"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.gradient.color-background-1.content-container {background-image: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/inside_sj_7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242",
+    "fdba67d2-8d13-4293-bf27-a75a3c8fb347",
+    "6660bc0e-fe03-4f90-8caf-8fea95be8d11",
+    "1a88f4c1-6106-4456-b3a0-6651ccad61f3",
+    "87165d0e-a2f1-46cd-acb4-d88560b1246d",
+    "5cdb1e4a-fee1-4309-89e1-bdd3461f4945",
+    "20f2bcd9-4006-49b9-93e9-fb1ff323dd95",
+    "5c6bb559-da61-4cda-92bb-49d2244e9cf8"
+  ]
+}

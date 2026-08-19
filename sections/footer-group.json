@@ -1,1 +1,70 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"43b8a7dd-3628-4958-90af-0f977fe6573e":{"type":"text","settings":{"heading":"SHAMBALLA® JEWELS","subtext":"<p>Shamballa Jewels A\/S<br\/>CVR: 28495293<br\/>info@shamballajewels.com<br\/><\/p><p>Office:<br\/>Ny Østergade 7, 1st fl., <br\/>1101 Copenhagen, <br\/>Denmark<br\/><\/p><p>Store: <br\/>Ny Østergade 7, <br\/>1101 Copenhagen, <br\/>Denmark<\/p>"}},"2e7e7cba-3b20-4cd1-a4d2-65c5d8f1af4c":{"type":"brand_information","settings":{"show_social":true}},"f5ad7f3d-d129-4160-ae46-c63fc3d90ba8":{"type":"link_list","settings":{"heading":"Policies","menu":"policies-2"}},"5670272a-1df7-4b55-be99-1ec7df7cc172":{"type":"link_list","settings":{"heading":"Help","menu":"help-2"}}},"block_order":["43b8a7dd-3628-4958-90af-0f977fe6573e","2e7e7cba-3b20-4cd1-a4d2-65c5d8f1af4c","f5ad7f3d-d129-4160-ae46-c63fc3d90ba8","5670272a-1df7-4b55-be99-1ec7df7cc172"],"settings":{"color_scheme":"background-1","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":false,"show_social":false,"enable_country_selector":false,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":44,"padding_bottom":36}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "43b8a7dd-3628-4958-90af-0f977fe6573e": {
+          "type": "text",
+          "settings": {
+            "heading": "SHAMBALLA® JEWELS",
+            "subtext": "<p>Shamballa Jewels A/S<br/>CVR: 28495293<br/>info@shamballajewels.com<br/></p><p>Office:<br/>Ny Østergade 7, 1st fl., <br/>1101 Copenhagen, <br/>Denmark<br/></p><p>Store: <br/>Ny Østergade 7, <br/>1101 Copenhagen, <br/>Denmark</p>"
+          }
+        },
+        "2e7e7cba-3b20-4cd1-a4d2-65c5d8f1af4c": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "f5ad7f3d-d129-4160-ae46-c63fc3d90ba8": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "policies-2"
+          }
+        },
+        "5670272a-1df7-4b55-be99-1ec7df7cc172": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "help-2"
+          }
+        }
+      },
+      "block_order": [
+        "43b8a7dd-3628-4958-90af-0f977fe6573e",
+        "2e7e7cba-3b20-4cd1-a4d2-65c5d8f1af4c",
+        "f5ad7f3d-d129-4160-ae46-c63fc3d90ba8",
+        "5670272a-1df7-4b55-be99-1ec7df7cc172"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
