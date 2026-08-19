@@ -123,6 +123,7 @@
         },
         "collapsible_tab_UnntA6": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping",
             "icon": "none",
