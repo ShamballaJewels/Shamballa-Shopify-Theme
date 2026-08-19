@@ -223,8 +223,8 @@
         "badge_service": {
           "type": "badge",
           "settings": {
-            "heading": "Lifetime Service",
-            "text": "Restringing, repair and care",
+            "heading": "Never Beyond Repair",
+            "text": "We are always available for restringing and repair upon request",
             "required_tag": "",
             "required_bracelet_designs": ""
           }
