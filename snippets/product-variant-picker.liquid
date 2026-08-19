@@ -37,7 +37,7 @@
               </span>
             </span>
             {%- if option.name == 'Size' -%}
-              <button type="button" class="size-guide-link link" data-size-guide-open>
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
                 Size guide
               </button>
             {%- endif -%}
@@ -54,7 +54,7 @@
           <legend class="form__label{% if option.name == 'Size' %} form__label--with-size-guide{% endif %}">
             <span>{{ option.name }}</span>
             {%- if option.name == 'Size' -%}
-              <button type="button" class="size-guide-link link" data-size-guide-open>
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
                 Size guide
               </button>
             {%- endif -%}
@@ -73,7 +73,7 @@
               {{ option.name }}
             </label>
             {%- if option.name == 'Size' -%}
-              <button type="button" class="size-guide-link link" data-size-guide-open>
+              <button type="button" class="size-guide-link link" data-open-drawer="size-guide">
                 Size guide
               </button>
             {%- endif -%}

@@ -680,6 +680,12 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
+                {%- if pages['shipping'] != blank -%}
+                  <button type="button" class="product__shipping-link link" data-open-drawer="shipping">
+                    <span class="svg-wrapper">{{- 'icon-truck.svg' | inline_asset_content -}}</span>
+                    Worldwide shipping
+                  </button>
+                {%- endif -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
@@ -880,7 +886,8 @@
     </div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
-    {% render 'size-guide-drawer' %}
+    {% render 'info-drawer', page_handle: 'sizing-charts', drawer_id: 'size-guide' %}
+    {% render 'info-drawer', page_handle: 'shipping', drawer_id: 'shipping' %}
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
     {%- for block in popups -%}

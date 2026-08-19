@@ -1626,3 +1626,26 @@ a.product__text {
   font-size: 1.3rem;
   color: rgb(var(--color-foreground));
 }
+
+.product__shipping-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: rgb(var(--color-foreground));
+}
+
+.product__shipping-link .svg-wrapper {
+  display: flex;
+  width: 1.8rem;
+}
+
+.product__shipping-link .svg-wrapper svg {
+  width: 100%;
+  height: auto;
+}
+
+.product__shipping-link:hover {
+  text-decoration: underline;
+}

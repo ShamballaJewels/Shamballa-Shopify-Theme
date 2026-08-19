@@ -1,9 +1,9 @@
-class SizeGuideDrawer extends HTMLElement {
+class InfoDrawer extends HTMLElement {
   constructor() {
     super();
-    this.overlay = this.querySelector('[data-size-guide-overlay]');
-    this.closeButton = this.querySelector('[data-size-guide-close]');
-    this.inner = this.querySelector('.size-guide-drawer__inner');
+    this.overlay = this.querySelector('[data-info-drawer-overlay]');
+    this.closeButton = this.querySelector('[data-info-drawer-close]');
+    this.inner = this.querySelector('.info-drawer__inner');
 
     this.closeButton.addEventListener('click', this.close.bind(this));
     this.overlay.addEventListener('click', this.close.bind(this));
@@ -26,18 +26,20 @@ class SizeGuideDrawer extends HTMLElement {
   }
 }
 
-customElements.define('size-guide-drawer', SizeGuideDrawer);
+customElements.define('info-drawer', InfoDrawer);
 
 document.addEventListener('click', (event) => {
-  const trigger = event.target.closest('[data-size-guide-open]');
+  const trigger = event.target.closest('[data-open-drawer]');
   if (trigger) {
-    const drawer = document.querySelector('size-guide-drawer');
+    const drawerId = trigger.getAttribute('data-open-drawer');
+    const drawer = document.querySelector(`info-drawer[data-drawer-id="${drawerId}"]`);
     if (drawer) drawer.open(trigger);
     return;
   }
 
-  const activeDrawer = document.querySelector('size-guide-drawer.active');
-  if (activeDrawer && activeDrawer.inner && !activeDrawer.inner.contains(event.target)) {
-    activeDrawer.close();
-  }
+  document.querySelectorAll('info-drawer.active').forEach((drawer) => {
+    if (drawer.inner && !drawer.inner.contains(event.target)) {
+      drawer.close();
+    }
+  });
 });
