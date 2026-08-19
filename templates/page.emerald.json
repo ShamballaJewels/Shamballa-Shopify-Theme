@@ -1,1 +1,434 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"slideshow_h89GQy":{"type":"slideshow","blocks":{"slide_ee8jF4":{"type":"slide","settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"scheme-1","text_alignment_mobile":"center"}},"slide_C7qw3h":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/SS23_modelimageswebshop_male_1200x1200px.jpg","heading":"Aquamarine Gemstones","heading_size":"h2","subheading":"Discover the beauty of Aquamarines","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":50,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_ee8jF4","slide_C7qw3h"],"disabled":true,"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"image_banner_rBJHVC":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/Tennis_Bracelet_1.jpg","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"rich_text_deHPzt":{"type":"rich-text","blocks":{"caption_EnAW7h":{"type":"caption","settings":{"caption":"Discover the Timeless Elegance of","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_KFqhzV":{"type":"heading","settings":{"heading":"emerald Gemstones","heading_size":"h2"}},"text_LHqTey":{"type":"text","settings":{"text":"<p>Experience the allure of emerald gemstones, a symbol of rebirth and renewal cherished throughout history for their lush, vibrant green hues. At our store, we specialize in exquisite emerald jewelry that captures the essence of luxury and sophistication.<\/p>"}},"button_tUzrTm":{"type":"button","settings":{"button_label":"Explore our emerald jewelry now","button_link":"shopify:\/\/collections\/aquamarine","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["caption_EnAW7h","heading_KFqhzV","text_LHqTey","button_tUzrTm"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"image_with_text_yMLj4y":{"type":"image-with-text","blocks":{"caption_Mz7PWw":{"type":"caption","settings":{"caption":"What is","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_QdRqzw":{"type":"heading","settings":{"heading":"Emerald gemstones","heading_size":"h2"}},"text_Ub8JaM":{"type":"text","settings":{"text":"<p>Emeralds are celebrated as one of the four precious gemstones, known for their deep green color and rarity. Mined primarily in Colombia, Brazil, and Zambia, these gemstones range in shades from translucent lime to rich, dark forest green. The vibrant green of an emerald, often associated with the rejuvenating energy of spring, makes it a popular choice for high-end jewelry and significant gifts.<\/p><p><\/p>","text_style":"body"}}},"block_order":["caption_Mz7PWw","heading_QdRqzw","text_Ub8JaM"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/discover_our_jewelry_1.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_BjPjVh":{"type":"image-with-text","blocks":{"caption_9mLyHP":{"type":"caption","settings":{"caption":"why choose","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_PUrVyE":{"type":"heading","settings":{"heading":"emerald jewelry","heading_size":"h2"}},"text_CP3wyY":{"type":"text","settings":{"text":"<p>Our emerald jewelry collection stands out for its deep green color and luxurious appearance. Emeralds have long been valued in high society, and today, they make stunning statements set in everything from engagement rings to emerald bracelets. Known for their rich hue and clarity, our emeralds can enhance well-being and bring a touch of elegance to any attire.<\/p>","text_style":"body"}}},"block_order":["caption_9mLyHP","heading_PUrVyE","text_CP3wyY"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/SS23_modelimageswebshop_female_1200x1200px_5f1954cd-783b-47a6-a42d-ea4bcd2e8c5a.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_ftzwzA":{"type":"image-with-text","blocks":{"caption_fLkAtq":{"type":"caption","settings":{"caption":"how is","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_jJmqX8":{"type":"heading","settings":{"heading":"emerald formed","heading_size":"h2"}},"text_BebBLq":{"type":"text","settings":{"text":"<p>The process begins deep within the Earth where the right combination of silicate minerals and elemental impurities like chromium exists. Over millions of years, these materials are subjected to intense heat and pressure, causing them to melt and reform. As these mineral solutions cool and crystallize, they form beryl crystals. If chromium or vanadium is present during this crystallization, the beryl will turn into the green gemstone known as emerald.<\/p><p>This combination of rare conditions explains why high-quality emeralds are so valued and sought after. Their formation process not only results in beautiful gemstones but also makes each emerald unique, with its own set of characteristics and intrinsic patterns.<\/p><p>Understanding the origins and formation of emeralds can enhance your appreciation for each gemstone's unique beauty and the remarkable natural processes that create them. This deep connection to the earth adds an extra layer of value and fascination to every piece of emerald jewelry.<\/p>","text_style":"body"}}},"block_order":["caption_fLkAtq","heading_jJmqX8","text_BebBLq"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/Modelshots_AW23_webshop8_22102e9b-9998-4295-a769-123f9ffb29e7.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"featured_collection_kzJCPj":{"type":"featured-collection","settings":{"title":"Emerald Bracelets - A Touch of Opulence","heading_size":"h2","description":"<p>Explore our exclusive collection of emerald bracelets. Each piece is crafted to showcase the unique beauty of emerald gemstones, set in designs that blend classic elegance with modern sophistication. An emerald bracelet is not just an accessory; it's a statement of style and luxury.<\/p>","show_description":false,"description_style":"body","collection":"emerald-bracelets","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"outline","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":8}},"rich_text_WE9kWX":{"type":"rich-text","blocks":{"button_aB678C":{"type":"button","settings":{"button_label":"Discover all emerald bracelets","button_link":"shopify:\/\/collections\/aquamarine-bracelets-1","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_aB678C"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":52}},"featured_product_pny9HG":{"type":"featured-product","blocks":{"text_dednrj":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_style":"uppercase"}},"title_kNd77W":{"type":"title","settings":{"heading_size":"h1"}},"price_VtTtAz":{"type":"price","settings":{}},"variant_picker_6wNn9h":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"buy_buttons_Aqw3Uz":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"text_myH9PR":{"type":"text","settings":{"text":"Elevate your jewelry collection with this magnificent necklace, a masterpiece crafted with meticulous attention to detail. Adorned with a selection of G\/VS diamonds, vivid blue sapphires, lush green emeralds, and captivating guava quartzes, each set in gleaming 18K white gold, this piece is a testament to luxury and design. The ensemble is beautifully complemented by a delicate silver string, adding a contemporary elegance that is both striking and refined.","text_style":"body"}},"share_9gT8iN":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["text_dednrj","title_kNd77W","price_VtTtAz","variant_picker_6wNn9h","buy_buttons_Aqw3Uz","text_myH9PR","share_9gT8iN"],"settings":{"product":"necklace","color_scheme":"","secondary_background":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"padding_top":36,"padding_bottom":36}}},"order":["main","slideshow_h89GQy","image_banner_rBJHVC","rich_text_deHPzt","image_with_text_yMLj4y","image_with_text_BjPjVh","image_with_text_ftzwzA","featured_collection_kzJCPj","rich_text_WE9kWX","featured_product_pny9HG"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "slideshow_h89GQy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ee8jF4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_C7qw3h": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SS23_modelimageswebshop_male_1200x1200px.jpg",
+            "heading": "Aquamarine Gemstones",
+            "heading_size": "h2",
+            "subheading": "Discover the beauty of Aquamarines",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 50,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ee8jF4",
+        "slide_C7qw3h"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_banner_rBJHVC": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Tennis_Bracelet_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_deHPzt": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_EnAW7h": {
+          "type": "caption",
+          "settings": {
+            "caption": "Discover the Timeless Elegance of",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_KFqhzV": {
+          "type": "heading",
+          "settings": {
+            "heading": "emerald Gemstones",
+            "heading_size": "h2"
+          }
+        },
+        "text_LHqTey": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the allure of emerald gemstones, a symbol of rebirth and renewal cherished throughout history for their lush, vibrant green hues. At our store, we specialize in exquisite emerald jewelry that captures the essence of luxury and sophistication.</p>"
+          }
+        },
+        "button_tUzrTm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore our emerald jewelry now",
+            "button_link": "shopify://collections/aquamarine",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_EnAW7h",
+        "heading_KFqhzV",
+        "text_LHqTey",
+        "button_tUzrTm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_yMLj4y": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_Mz7PWw": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_QdRqzw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Emerald gemstones",
+            "heading_size": "h2"
+          }
+        },
+        "text_Ub8JaM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emeralds are celebrated as one of the four precious gemstones, known for their deep green color and rarity. Mined primarily in Colombia, Brazil, and Zambia, these gemstones range in shades from translucent lime to rich, dark forest green. The vibrant green of an emerald, often associated with the rejuvenating energy of spring, makes it a popular choice for high-end jewelry and significant gifts.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_Mz7PWw",
+        "heading_QdRqzw",
+        "text_Ub8JaM"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/discover_our_jewelry_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_BjPjVh": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_9mLyHP": {
+          "type": "caption",
+          "settings": {
+            "caption": "why choose",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_PUrVyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "emerald jewelry",
+            "heading_size": "h2"
+          }
+        },
+        "text_CP3wyY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our emerald jewelry collection stands out for its deep green color and luxurious appearance. Emeralds have long been valued in high society, and today, they make stunning statements set in everything from engagement rings to emerald bracelets. Known for their rich hue and clarity, our emeralds can enhance well-being and bring a touch of elegance to any attire.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_9mLyHP",
+        "heading_PUrVyE",
+        "text_CP3wyY"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SS23_modelimageswebshop_female_1200x1200px_5f1954cd-783b-47a6-a42d-ea4bcd2e8c5a.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ftzwzA": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_fLkAtq": {
+          "type": "caption",
+          "settings": {
+            "caption": "how is",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_jJmqX8": {
+          "type": "heading",
+          "settings": {
+            "heading": "emerald formed",
+            "heading_size": "h2"
+          }
+        },
+        "text_BebBLq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The process begins deep within the Earth where the right combination of silicate minerals and elemental impurities like chromium exists. Over millions of years, these materials are subjected to intense heat and pressure, causing them to melt and reform. As these mineral solutions cool and crystallize, they form beryl crystals. If chromium or vanadium is present during this crystallization, the beryl will turn into the green gemstone known as emerald.</p><p>This combination of rare conditions explains why high-quality emeralds are so valued and sought after. Their formation process not only results in beautiful gemstones but also makes each emerald unique, with its own set of characteristics and intrinsic patterns.</p><p>Understanding the origins and formation of emeralds can enhance your appreciation for each gemstone's unique beauty and the remarkable natural processes that create them. This deep connection to the earth adds an extra layer of value and fascination to every piece of emerald jewelry.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_fLkAtq",
+        "heading_jJmqX8",
+        "text_BebBLq"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Modelshots_AW23_webshop8_22102e9b-9998-4295-a769-123f9ffb29e7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_kzJCPj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Emerald Bracelets - A Touch of Opulence",
+        "heading_size": "h2",
+        "description": "<p>Explore our exclusive collection of emerald bracelets. Each piece is crafted to showcase the unique beauty of emerald gemstones, set in designs that blend classic elegance with modern sophistication. An emerald bracelet is not just an accessory; it's a statement of style and luxury.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "emerald-bracelets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_WE9kWX": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aB678C": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover all emerald bracelets",
+            "button_link": "shopify://collections/aquamarine-bracelets-1",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_aB678C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_pny9HG": {
+      "type": "featured-product",
+      "blocks": {
+        "text_dednrj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_kNd77W": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_VtTtAz": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_6wNn9h": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons_Aqw3Uz": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_myH9PR": {
+          "type": "text",
+          "settings": {
+            "text": "Elevate your jewelry collection with this magnificent necklace, a masterpiece crafted with meticulous attention to detail. Adorned with a selection of G/VS diamonds, vivid blue sapphires, lush green emeralds, and captivating guava quartzes, each set in gleaming 18K white gold, this piece is a testament to luxury and design. The ensemble is beautifully complemented by a delicate silver string, adding a contemporary elegance that is both striking and refined.",
+            "text_style": "body"
+          }
+        },
+        "share_9gT8iN": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_dednrj",
+        "title_kNd77W",
+        "price_VtTtAz",
+        "variant_picker_6wNn9h",
+        "buy_buttons_Aqw3Uz",
+        "text_myH9PR",
+        "share_9gT8iN"
+      ],
+      "settings": {
+        "product": "necklace",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_h89GQy",
+    "image_banner_rBJHVC",
+    "rich_text_deHPzt",
+    "image_with_text_yMLj4y",
+    "image_with_text_BjPjVh",
+    "image_with_text_ftzwzA",
+    "featured_collection_kzJCPj",
+    "rich_text_WE9kWX",
+    "featured_product_pny9HG"
+  ]
+}

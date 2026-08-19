@@ -1,1 +1,380 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"image_banner_gHipET":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/D211775.jpg","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"rich_text_UEhzwk":{"type":"rich-text","blocks":{"caption_XnRCgr":{"type":"caption","settings":{"caption":"A Legacy of Beauty and Elegance","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_3iMBKm":{"type":"heading","settings":{"heading":"Turquoise gemstones","heading_size":"h2"}},"text_3N8zqw":{"type":"text","settings":{"text":"<p>Discover the allure of Turquoise jewelry, renowned for its vivid colors and historical richness. Our curated collection features sophisticated Turquoise bracelets and eye-catching Turquoise necklaces, including pieces that highlight the intriguing beauty of green Turquoise. Each design is crafted to elevate your fashion sense and showcase a legacy of artisan craftsmanship.<\/p>"}},"button_HtEpTT":{"type":"button","settings":{"button_label":"explore our turquoise jewelry now","button_link":"shopify:\/\/collections\/turquoise","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["caption_XnRCgr","heading_3iMBKm","text_3N8zqw","button_HtEpTT"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"image_with_text_JpBQem":{"type":"image-with-text","blocks":{"caption_Vqf6y8":{"type":"caption","settings":{"caption":"What is","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_4rkg3r":{"type":"heading","settings":{"heading":"Turquoise gemstones","heading_size":"h2"}},"text_GVXNCf":{"type":"text","settings":{"text":"<p>A Gemstone of Captivating Colors and Timeless Elegance.<\/p><p>Known for its shades from sea green to deep azure, Turquoise is one of the oldest gemstones cherished in adornments from antiquity to contemporary fashion. This gemstone combines vibrant colors and unique veining, making it a favorite among those who value jewelry with both beauty and a storied past. Particularly, the green Turquoise, with its earthy tones and soothing appeal, offers a refreshing variation that is as stylish as it is rare.<\/p>","text_style":"body"}}},"block_order":["caption_Vqf6y8","heading_4rkg3r","text_GVXNCf"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/ss2023_banner_homepage.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_DFPGiJ":{"type":"image-with-text","blocks":{"caption_ECE864":{"type":"caption","settings":{"caption":"why choose","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_H7kB6y":{"type":"heading","settings":{"heading":"turquoise jewelry","heading_size":"h2"}},"text_HXBRgP":{"type":"text","settings":{"text":"<p>Turquoise jewelry impresses with its natural veining and dynamic color spectrum, transforming accessories into exquisite statements. Whether you seek a minimalist Turquoise bracelet or a bold Turquoise necklace, our jewelry encapsulates versatility and style, perfectly complementing any wardrobe. The green Turquoise pieces are particularly notable for their unique color, offering a distinct look that stands out in both formal and casual settings.<\/p>","text_style":"body"}}},"block_order":["caption_ECE864","heading_H7kB6y","text_HXBRgP"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/Website_vertical_750x1100px.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_EjqgF6":{"type":"image-with-text","blocks":{"caption_676M4y":{"type":"caption","settings":{"caption":"how is","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_pbTgjR":{"type":"heading","settings":{"heading":"turquoise made","heading_size":"h1"}},"text_hmK3UR":{"type":"text","settings":{"text":"<p>Turquoise undergoes a fascinating formation process through weathering and oxidation in copper-rich areas, where its signature blue and green hues emerge from the presence of copper. Sourced primarily from the arid landscapes of Iran and the southwestern United States, each Turquoise gem tells a unique story of earth’s artistry, with green Turquoise often found where there are higher concentrations of aluminum.<\/p>","text_style":"body"}}},"block_order":["caption_676M4y","heading_pbTgjR","text_hmK3UR"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/Kessaris_image.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"featured_collection_g9CT6R":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"turquoise-bracelets","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":8}},"rich_text_Binwwb":{"type":"rich-text","blocks":{"button_3CXzfh":{"type":"button","settings":{"button_label":"Discover all turquoise bracelets","button_link":"shopify:\/\/collections\/turquoise-bracelets","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_3CXzfh"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":52}},"featured_product_CMYrBt":{"type":"featured-product","blocks":{"text_eagnBt":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_style":"uppercase"}},"title_DY6VLe":{"type":"title","settings":{"heading_size":"h1"}},"price_wb8ANE":{"type":"price","settings":{}},"variant_picker_hmnkCj":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector_hft47i":{"type":"quantity_selector","settings":{}},"buy_buttons_4c8a9P":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"text_zFmmF8":{"type":"text","settings":{"text":"Indulge in the luxury and distinctiveness of the SHAMBALLA® Choker, a stunning piece of jewelry that embodies sophistication and high-end craftsmanship. This exquisite choker features an array of premium G\/VS diamonds, rare Pink Greenland sapphires, vibrant green sapphires, and captivating turquoises, all meticulously set in radiant 18K yellow gold. The unique turquoise string adds a modern twist, enhancing the necklace’s visual appeal and showcasing SHAMBALLA®'s signature style.","text_style":"body"}},"share_QBJaWG":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["text_eagnBt","title_DY6VLe","price_wb8ANE","variant_picker_hmnkCj","quantity_selector_hft47i","buy_buttons_4c8a9P","text_zFmmF8","share_QBJaWG"],"settings":{"product":"shamballa®-choker","color_scheme":"","secondary_background":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"padding_top":36,"padding_bottom":36}}},"order":["main","image_banner_gHipET","rich_text_UEhzwk","image_with_text_JpBQem","image_with_text_DFPGiJ","image_with_text_EjqgF6","featured_collection_g9CT6R","rich_text_Binwwb","featured_product_CMYrBt"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "image_banner_gHipET": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/D211775.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_UEhzwk": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_XnRCgr": {
+          "type": "caption",
+          "settings": {
+            "caption": "A Legacy of Beauty and Elegance",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_3iMBKm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turquoise gemstones",
+            "heading_size": "h2"
+          }
+        },
+        "text_3N8zqw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the allure of Turquoise jewelry, renowned for its vivid colors and historical richness. Our curated collection features sophisticated Turquoise bracelets and eye-catching Turquoise necklaces, including pieces that highlight the intriguing beauty of green Turquoise. Each design is crafted to elevate your fashion sense and showcase a legacy of artisan craftsmanship.</p>"
+          }
+        },
+        "button_HtEpTT": {
+          "type": "button",
+          "settings": {
+            "button_label": "explore our turquoise jewelry now",
+            "button_link": "shopify://collections/turquoise",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_XnRCgr",
+        "heading_3iMBKm",
+        "text_3N8zqw",
+        "button_HtEpTT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_JpBQem": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_Vqf6y8": {
+          "type": "caption",
+          "settings": {
+            "caption": "What is",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_4rkg3r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turquoise gemstones",
+            "heading_size": "h2"
+          }
+        },
+        "text_GVXNCf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Gemstone of Captivating Colors and Timeless Elegance.</p><p>Known for its shades from sea green to deep azure, Turquoise is one of the oldest gemstones cherished in adornments from antiquity to contemporary fashion. This gemstone combines vibrant colors and unique veining, making it a favorite among those who value jewelry with both beauty and a storied past. Particularly, the green Turquoise, with its earthy tones and soothing appeal, offers a refreshing variation that is as stylish as it is rare.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_Vqf6y8",
+        "heading_4rkg3r",
+        "text_GVXNCf"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ss2023_banner_homepage.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_DFPGiJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_ECE864": {
+          "type": "caption",
+          "settings": {
+            "caption": "why choose",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_H7kB6y": {
+          "type": "heading",
+          "settings": {
+            "heading": "turquoise jewelry",
+            "heading_size": "h2"
+          }
+        },
+        "text_HXBRgP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Turquoise jewelry impresses with its natural veining and dynamic color spectrum, transforming accessories into exquisite statements. Whether you seek a minimalist Turquoise bracelet or a bold Turquoise necklace, our jewelry encapsulates versatility and style, perfectly complementing any wardrobe. The green Turquoise pieces are particularly notable for their unique color, offering a distinct look that stands out in both formal and casual settings.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_ECE864",
+        "heading_H7kB6y",
+        "text_HXBRgP"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_vertical_750x1100px.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EjqgF6": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_676M4y": {
+          "type": "caption",
+          "settings": {
+            "caption": "how is",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_pbTgjR": {
+          "type": "heading",
+          "settings": {
+            "heading": "turquoise made",
+            "heading_size": "h1"
+          }
+        },
+        "text_hmK3UR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Turquoise undergoes a fascinating formation process through weathering and oxidation in copper-rich areas, where its signature blue and green hues emerge from the presence of copper. Sourced primarily from the arid landscapes of Iran and the southwestern United States, each Turquoise gem tells a unique story of earth’s artistry, with green Turquoise often found where there are higher concentrations of aluminum.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_676M4y",
+        "heading_pbTgjR",
+        "text_hmK3UR"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Kessaris_image.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_g9CT6R": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "turquoise-bracelets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_Binwwb": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3CXzfh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover all turquoise bracelets",
+            "button_link": "shopify://collections/turquoise-bracelets",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_3CXzfh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_CMYrBt": {
+      "type": "featured-product",
+      "blocks": {
+        "text_eagnBt": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_DY6VLe": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_wb8ANE": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_hmnkCj": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_hft47i": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_4c8a9P": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_zFmmF8": {
+          "type": "text",
+          "settings": {
+            "text": "Indulge in the luxury and distinctiveness of the SHAMBALLA® Choker, a stunning piece of jewelry that embodies sophistication and high-end craftsmanship. This exquisite choker features an array of premium G/VS diamonds, rare Pink Greenland sapphires, vibrant green sapphires, and captivating turquoises, all meticulously set in radiant 18K yellow gold. The unique turquoise string adds a modern twist, enhancing the necklace’s visual appeal and showcasing SHAMBALLA®'s signature style.",
+            "text_style": "body"
+          }
+        },
+        "share_QBJaWG": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_eagnBt",
+        "title_DY6VLe",
+        "price_wb8ANE",
+        "variant_picker_hmnkCj",
+        "quantity_selector_hft47i",
+        "buy_buttons_4c8a9P",
+        "text_zFmmF8",
+        "share_QBJaWG"
+      ],
+      "settings": {
+        "product": "shamballa®-choker",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_gHipET",
+    "rich_text_UEhzwk",
+    "image_with_text_JpBQem",
+    "image_with_text_DFPGiJ",
+    "image_with_text_EjqgF6",
+    "featured_collection_g9CT6R",
+    "rich_text_Binwwb",
+    "featured_product_CMYrBt"
+  ]
+}

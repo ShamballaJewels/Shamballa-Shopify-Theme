@@ -1,1 +1,842 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"eb74327b-02cd-4953-8ed8-80bbf0f3356e":{"type":"rich-text","blocks":{"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1":{"type":"heading","settings":{"heading":"Our trusted retailers","heading_size":"h1"}},"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1":{"type":"text","settings":{"text":"<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br\/>Locate the nearest retailer on the map below. <\/p>"}}},"block_order":["template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1","template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":8}},"ca6bd71a-4f6b-4519-87ed-eaa60beb5242":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->","color_scheme":"","padding_top":40,"padding_bottom":52}},"8509d1a8-ecf4-4bb3-af69-d47a2d4058c3":{"type":"rich-text","blocks":{"template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1":{"type":"heading","settings":{"heading":"OUR COLLECTORS","heading_size":"h1"}},"template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1":{"type":"text","settings":{"text":""}}},"block_order":["template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1","template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":8}},"dee84769-1138-4e12-a6a5-bd34ae1887c1":{"type":"rich-text","blocks":{"template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-heading-1":{"type":"heading","settings":{"heading":"ENTERTAINTMENT & FASHION","heading_size":"h2"}},"template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-text-1":{"type":"text","settings":{"text":""}},"template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-button-1":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-heading-1","template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-text-1","template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-button-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":16,"padding_bottom":8}},"5fe6985f-109d-4bb6-a3c5-9635679fab22":{"type":"multicolumn","blocks":{"template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-1":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/11zon_cropped.png","title":"Jay Z","text":"<p>Jay-Z is a highly influential American rapper, songwriter, and businessman known for his successful music career and extensive business ventures. He's won multiple Grammy Awards and is recognized for his social activism.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_1.jpg","title":"Karl Lagerfeld","text":"<p>Karl Lagerfeld was a renowned German fashion designer known for his iconic role as creative director at Chanel and Fendi. His distinctive style and influence left a lasting mark on the fashion world. He passed away in February 2019.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_2.jpg","title":"Holger Rune","text":"<p>Holger Rune is a Danish professional tennis player who has been ranked as world No. 4 in men's singles by ATP, making him the highest-ranked male Danish player in the history of these rankings.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"e5e6e49b-13ff-4f40-a213-599b33f4b4c0":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/ourcollectors_3.jpg","title":"Valentino","text":"<p>Valentino Garavani is an Italian fashion designer who founded the Valentino fashion brand in 1960. Since then, the brand has gained international recognition and it is often connected with the Italian timeless style and elegance.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-1","template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-2","template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-3","e5e6e49b-13ff-4f40-a213-599b33f4b4c0"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h2","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":12}},"149dca5a-ce3c-4fab-b0cb-75edd1351a97":{"type":"multicolumn","blocks":{"column_DKqYmW":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_3.jpg","title":"Valentino","text":"<p>Valentino Garavani is an Italian fashion designer who founded the Valentino fashion brand in 1960. Since then, the brand has gained international recognition and it is often connected with the Italian timeless style and elegance.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/11zon_cropped_11.png","title":"Ozzy Osbourne","text":"<p>Ozzy Osbourne is a British rock legend known for his role as the lead vocalist of Black Sabbath and a successful solo career. He's often referred to as the \"Prince of Darkness\" and is a pivotal figure in heavy metal music.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_10.jpg","title":"Maria Grazia Chiuri","text":"<p>Maria Grazia Chiuri is an Italian fashion designer who has been the creative director of Dior since 2016. Before Dior, she worked for Fendi and Valentino. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"column_HiMhW4":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_9.jpg","title":"Thorbjørn Olesen","text":"<p>Thorbjørn Olesen is a Danish professional golf player who plays on the European Tour where he has won seven times. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["column_DKqYmW","template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-1","template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-2","column_HiMhW4"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":32}},"95ebf3d5-37be-4d10-a0d8-9d371ff32163":{"type":"multicolumn","blocks":{"column_Wcz67H":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_8.jpg","title":"Remo Ruffini","text":"<p>Remo Ruffini is an Italian businessman and the chairman of the fashion company Moncler. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_4.jpg","title":"Michael Jordan","text":"<p>Michael Jordan is a former professional basketball player who played fifteen seasons in the NBA (National Basketball Association) until 2003, winning six championship with the Chicago Bulls. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-2":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/ourcollectors_5.jpg","title":"HRHMette-Marit of Norway","text":"<p>Mette-Marit, the Crown Princess of Norway, is a member of the Norwegian royal family. She is married to HRH Crown Prince Haakon, the heir apparent to the Norwegian throne. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"293c6ecb-94f0-4fef-9570-a879d0f9c12f":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_6.jpg","title":"Lewis Hamilton","text":"<p>Sir Lewis Hamilton is a British Formula One racing driver who has won seven World-Drivers’ Championship titles and holds the records for the most pole positions, podium finishes and wins.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"f88d8d61-ced3-45c3-9394-e04450be4ecf":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ourcollectors_7.jpg","title":"Diane von Furstenberg","text":"<p>Diane von Furstenberg is a Belgian fashion designer best known for her signature wrap dress worn by many celebrities and socialites including Catherine - Princess of Wales, Michelle Obama, Madonna or Whitney Houston. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["column_Wcz67H","template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-1","template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-2","293c6ecb-94f0-4fef-9570-a879d0f9c12f","f88d8d61-ced3-45c3-9394-e04450be4ecf"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h2","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":12}},"b833ab45-18d0-4c95-b3a3-0777cfc212b2":{"type":"multicolumn","blocks":{"template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-1":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/11zon_cropped_8.png","title":"Vladimir Roitfeld","text":"<p>Vladimir Restoin Roitfeld is a French-American businessman and President of CR Fashion Book Ltd., the media company that publishes the namesake biannual style magazine founded by his mother, Carine Roitfeld.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-2":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/ourcollectors_8.jpg","title":"Remo Ruffini","text":"<p>Remo Ruffini is an Italian businessman and the chairman of the fashion company Moncler. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"03ff72a8-497e-4292-9c84-4e602ee0c5cd":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Untitled_design_34.png","title":"Uma Thurman","text":"<p>Uma Thurman is an American actress and model known for her roles in films like \"Pulp Fiction\" and \"Kill Bill.\" She is celebrated for her striking beauty and versatile acting career.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"259837b0-f034-4163-9fe2-82dceb381db1":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/ourcollectors_9.jpg","title":"Thorbjørn Olesen","text":"<p>Thorbjørn Olesen is a Danish professional golf player who plays on the European Tour where he has won seven times. <\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-1","template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-2","03ff72a8-497e-4292-9c84-4e602ee0c5cd","259837b0-f034-4163-9fe2-82dceb381db1"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":12}},"9db73af3-ac03-49dc-9f96-1d3cdcc25ac4":{"type":"rich-text","blocks":{"template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-heading-1":{"type":"heading","settings":{"heading":"Supermodels","heading_size":"h2"}},"template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-text-1":{"type":"text","settings":{"text":""}},"template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-button-1":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-heading-1","template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-text-1","template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-button-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"f74cc76f-8b8e-484e-8218-df66d47e3b84":{"type":"multicolumn","blocks":{"template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_20.png","title":"Magdalena Frackowiak","text":"<p>Magdalena Frackowiak is a Polish model known for her successful career in the fashion industry, with numerous runway appearances and fashion campaigns.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_21.png","title":"Bar Rafaeli","text":"<p>Bar Refaeli is an Israeli supermodel known for her work in the fashion industry, including appearances in Sports Illustrated's Swimsuit Issue, and for her business ventures.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"6a361843-f90a-413d-8e68-20266ba778e5":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_29.png","title":"Josephine Skriver","text":"<p>Josephine Skriver is a Danish model known for her work with brands like Victoria's Secret and her advocacy for charitable causes, including LGBTQ+ rights.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"28a9d91f-c3d7-4e21-8e5c-c89f4bc7a7b8":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_30.png","title":"Jessica Hart","text":"<p>Jessica Hart is an Australian model and entrepreneur known for her work in the fashion industry and her skincare brand.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-1","template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-2","6a361843-f90a-413d-8e68-20266ba778e5","28a9d91f-c3d7-4e21-8e5c-c89f4bc7a7b8"],"disabled":true,"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":12}},"b7352e25-0c9a-4267-a17e-613d5667483c":{"type":"multicolumn","blocks":{"template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_22.png","title":"Bianca Brandolini","text":"<p>Bianca Brandolini d'Adda is an Italian socialite and fashion model known for her presence in high-profile fashion events and social scenes.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sharon_Stone_31.png","title":"Helena Christensen","text":"<p>Helena Christensen is a Danish supermodel and photographer known for her iconic modeling career and her work in photography.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"33af51b9-dbff-414b-8440-7ca18a1d1061":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-1","template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-2","33af51b9-dbff-414b-8440-7ca18a1d1061"],"disabled":true,"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":12}},"c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6":{"type":"rich-text","blocks":{"template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-heading-1":{"type":"heading","settings":{"heading":"Royality","heading_size":"h2"}},"template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-text-1":{"type":"text","settings":{"text":""}},"template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-button-1":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-heading-1","template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-text-1","template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-button-1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"a6e3c0de-94df-47c4-813f-ffa166be2994":{"type":"rich-text","blocks":{"template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-heading-1":{"type":"heading","settings":{"heading":"Sportstars","heading_size":"h2"}},"template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-text-1":{"type":"text","settings":{"text":""}},"template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-button-1":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}},"2f696dc4-c217-4954-9e7d-bf0d82c4b6d1":{"type":"caption","settings":{"caption":"Add a tagline","text_style":"caption-with-letter-spacing","text_size":"medium"}}},"block_order":["template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-heading-1","template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-text-1","template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-button-1","2f696dc4-c217-4954-9e7d-bf0d82c4b6d1"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"67e252fc-2361-4c3f-a16b-6b842fc436e5":{"type":"multicolumn","blocks":{"template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}},"template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-2":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":"","landing_page_url":"","title_button":"Test","url_button":"\/"}}},"block_order":["template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-1","template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-2"],"disabled":true,"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"portrait","columns_desktop":2,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["main","eb74327b-02cd-4953-8ed8-80bbf0f3356e","ca6bd71a-4f6b-4519-87ed-eaa60beb5242","8509d1a8-ecf4-4bb3-af69-d47a2d4058c3","dee84769-1138-4e12-a6a5-bd34ae1887c1","5fe6985f-109d-4bb6-a3c5-9635679fab22","149dca5a-ce3c-4fab-b0cb-75edd1351a97","95ebf3d5-37be-4d10-a0d8-9d371ff32163","b833ab45-18d0-4c95-b3a3-0777cfc212b2","9db73af3-ac03-49dc-9f96-1d3cdcc25ac4","f74cc76f-8b8e-484e-8218-df66d47e3b84","b7352e25-0c9a-4267-a17e-613d5667483c","c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6","a6e3c0de-94df-47c4-813f-ffa166be2994","67e252fc-2361-4c3f-a16b-6b842fc436e5"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our trusted retailers",
+            "heading_size": "h1"
+          }
+        },
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br/>Locate the nearest retailer on the map below. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1",
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https://stockist.co\">Stockist store locator</a>...</div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','//stockist.co/embed/v1/widget.min.js');\n</script>\n<!-- End Stockist.co widget -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8509d1a8-ecf4-4bb3-af69-d47a2d4058c3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR COLLECTORS",
+            "heading_size": "h1"
+          }
+        },
+        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1",
+        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "dee84769-1138-4e12-a6a5-bd34ae1887c1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENTERTAINTMENT & FASHION",
+            "heading_size": "h2"
+          }
+        },
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-heading-1",
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-text-1",
+        "template--19747420373328__dee84769-1138-4e12-a6a5-bd34ae1887c1-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "5fe6985f-109d-4bb6-a3c5-9635679fab22": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/11zon_cropped.png",
+            "title": "Jay Z",
+            "text": "<p>Jay-Z is a highly influential American rapper, songwriter, and businessman known for his successful music career and extensive business ventures. He's won multiple Grammy Awards and is recognized for his social activism.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_1.jpg",
+            "title": "Karl Lagerfeld",
+            "text": "<p>Karl Lagerfeld was a renowned German fashion designer known for his iconic role as creative director at Chanel and Fendi. His distinctive style and influence left a lasting mark on the fashion world. He passed away in February 2019.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_2.jpg",
+            "title": "Holger Rune",
+            "text": "<p>Holger Rune is a Danish professional tennis player who has been ranked as world No. 4 in men's singles by ATP, making him the highest-ranked male Danish player in the history of these rankings.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "e5e6e49b-13ff-4f40-a213-599b33f4b4c0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_3.jpg",
+            "title": "Valentino",
+            "text": "<p>Valentino Garavani is an Italian fashion designer who founded the Valentino fashion brand in 1960. Since then, the brand has gained international recognition and it is often connected with the Italian timeless style and elegance.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-1",
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-2",
+        "template--19747420373328__5fe6985f-109d-4bb6-a3c5-9635679fab22-column-3",
+        "e5e6e49b-13ff-4f40-a213-599b33f4b4c0"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "149dca5a-ce3c-4fab-b0cb-75edd1351a97": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DKqYmW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_3.jpg",
+            "title": "Valentino",
+            "text": "<p>Valentino Garavani is an Italian fashion designer who founded the Valentino fashion brand in 1960. Since then, the brand has gained international recognition and it is often connected with the Italian timeless style and elegance.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/11zon_cropped_11.png",
+            "title": "Ozzy Osbourne",
+            "text": "<p>Ozzy Osbourne is a British rock legend known for his role as the lead vocalist of Black Sabbath and a successful solo career. He's often referred to as the \"Prince of Darkness\" and is a pivotal figure in heavy metal music.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_10.jpg",
+            "title": "Maria Grazia Chiuri",
+            "text": "<p>Maria Grazia Chiuri is an Italian fashion designer who has been the creative director of Dior since 2016. Before Dior, she worked for Fendi and Valentino. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "column_HiMhW4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_9.jpg",
+            "title": "Thorbjørn Olesen",
+            "text": "<p>Thorbjørn Olesen is a Danish professional golf player who plays on the European Tour where he has won seven times. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "column_DKqYmW",
+        "template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-1",
+        "template--19747420373328__149dca5a-ce3c-4fab-b0cb-75edd1351a97-column-2",
+        "column_HiMhW4"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "95ebf3d5-37be-4d10-a0d8-9d371ff32163": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Wcz67H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_8.jpg",
+            "title": "Remo Ruffini",
+            "text": "<p>Remo Ruffini is an Italian businessman and the chairman of the fashion company Moncler. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_4.jpg",
+            "title": "Michael Jordan",
+            "text": "<p>Michael Jordan is a former professional basketball player who played fifteen seasons in the NBA (National Basketball Association) until 2003, winning six championship with the Chicago Bulls. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_5.jpg",
+            "title": "HRHMette-Marit of Norway",
+            "text": "<p>Mette-Marit, the Crown Princess of Norway, is a member of the Norwegian royal family. She is married to HRH Crown Prince Haakon, the heir apparent to the Norwegian throne. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "293c6ecb-94f0-4fef-9570-a879d0f9c12f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_6.jpg",
+            "title": "Lewis Hamilton",
+            "text": "<p>Sir Lewis Hamilton is a British Formula One racing driver who has won seven World-Drivers’ Championship titles and holds the records for the most pole positions, podium finishes and wins.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "f88d8d61-ced3-45c3-9394-e04450be4ecf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_7.jpg",
+            "title": "Diane von Furstenberg",
+            "text": "<p>Diane von Furstenberg is a Belgian fashion designer best known for her signature wrap dress worn by many celebrities and socialites including Catherine - Princess of Wales, Michelle Obama, Madonna or Whitney Houston. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "column_Wcz67H",
+        "template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-1",
+        "template--19747420373328__95ebf3d5-37be-4d10-a0d8-9d371ff32163-column-2",
+        "293c6ecb-94f0-4fef-9570-a879d0f9c12f",
+        "f88d8d61-ced3-45c3-9394-e04450be4ecf"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "b833ab45-18d0-4c95-b3a3-0777cfc212b2": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/11zon_cropped_8.png",
+            "title": "Vladimir Roitfeld",
+            "text": "<p>Vladimir Restoin Roitfeld is a French-American businessman and President of CR Fashion Book Ltd., the media company that publishes the namesake biannual style magazine founded by his mother, Carine Roitfeld.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_8.jpg",
+            "title": "Remo Ruffini",
+            "text": "<p>Remo Ruffini is an Italian businessman and the chairman of the fashion company Moncler. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "03ff72a8-497e-4292-9c84-4e602ee0c5cd": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_34.png",
+            "title": "Uma Thurman",
+            "text": "<p>Uma Thurman is an American actress and model known for her roles in films like \"Pulp Fiction\" and \"Kill Bill.\" She is celebrated for her striking beauty and versatile acting career.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "259837b0-f034-4163-9fe2-82dceb381db1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ourcollectors_9.jpg",
+            "title": "Thorbjørn Olesen",
+            "text": "<p>Thorbjørn Olesen is a Danish professional golf player who plays on the European Tour where he has won seven times. </p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-1",
+        "template--19747420373328__b833ab45-18d0-4c95-b3a3-0777cfc212b2-column-2",
+        "03ff72a8-497e-4292-9c84-4e602ee0c5cd",
+        "259837b0-f034-4163-9fe2-82dceb381db1"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "9db73af3-ac03-49dc-9f96-1d3cdcc25ac4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Supermodels",
+            "heading_size": "h2"
+          }
+        },
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-heading-1",
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-text-1",
+        "template--19747420373328__9db73af3-ac03-49dc-9f96-1d3cdcc25ac4-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f74cc76f-8b8e-484e-8218-df66d47e3b84": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_20.png",
+            "title": "Magdalena Frackowiak",
+            "text": "<p>Magdalena Frackowiak is a Polish model known for her successful career in the fashion industry, with numerous runway appearances and fashion campaigns.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_21.png",
+            "title": "Bar Rafaeli",
+            "text": "<p>Bar Refaeli is an Israeli supermodel known for her work in the fashion industry, including appearances in Sports Illustrated's Swimsuit Issue, and for her business ventures.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "6a361843-f90a-413d-8e68-20266ba778e5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_29.png",
+            "title": "Josephine Skriver",
+            "text": "<p>Josephine Skriver is a Danish model known for her work with brands like Victoria's Secret and her advocacy for charitable causes, including LGBTQ+ rights.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "28a9d91f-c3d7-4e21-8e5c-c89f4bc7a7b8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_30.png",
+            "title": "Jessica Hart",
+            "text": "<p>Jessica Hart is an Australian model and entrepreneur known for her work in the fashion industry and her skincare brand.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-1",
+        "template--19747420373328__f74cc76f-8b8e-484e-8218-df66d47e3b84-column-2",
+        "6a361843-f90a-413d-8e68-20266ba778e5",
+        "28a9d91f-c3d7-4e21-8e5c-c89f4bc7a7b8"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "b7352e25-0c9a-4267-a17e-613d5667483c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_22.png",
+            "title": "Bianca Brandolini",
+            "text": "<p>Bianca Brandolini d'Adda is an Italian socialite and fashion model known for her presence in high-profile fashion events and social scenes.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sharon_Stone_31.png",
+            "title": "Helena Christensen",
+            "text": "<p>Helena Christensen is a Danish supermodel and photographer known for her iconic modeling career and her work in photography.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "33af51b9-dbff-414b-8440-7ca18a1d1061": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-1",
+        "template--19747420373328__b7352e25-0c9a-4267-a17e-613d5667483c-column-2",
+        "33af51b9-dbff-414b-8440-7ca18a1d1061"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Royality",
+            "heading_size": "h2"
+          }
+        },
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-heading-1",
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-text-1",
+        "template--19747420373328__c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "a6e3c0de-94df-47c4-813f-ffa166be2994": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sportstars",
+            "heading_size": "h2"
+          }
+        },
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "2f696dc4-c217-4954-9e7d-bf0d82c4b6d1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-heading-1",
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-text-1",
+        "template--19747420373328__a6e3c0de-94df-47c4-813f-ffa166be2994-button-1",
+        "2f696dc4-c217-4954-9e7d-bf0d82c4b6d1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "67e252fc-2361-4c3f-a16b-6b842fc436e5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        },
+        "template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
+          }
+        }
+      },
+      "block_order": [
+        "template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-1",
+        "template--19747420373328__67e252fc-2361-4c3f-a16b-6b842fc436e5-column-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242",
+    "8509d1a8-ecf4-4bb3-af69-d47a2d4058c3",
+    "dee84769-1138-4e12-a6a5-bd34ae1887c1",
+    "5fe6985f-109d-4bb6-a3c5-9635679fab22",
+    "149dca5a-ce3c-4fab-b0cb-75edd1351a97",
+    "95ebf3d5-37be-4d10-a0d8-9d371ff32163",
+    "b833ab45-18d0-4c95-b3a3-0777cfc212b2",
+    "9db73af3-ac03-49dc-9f96-1d3cdcc25ac4",
+    "f74cc76f-8b8e-484e-8218-df66d47e3b84",
+    "b7352e25-0c9a-4267-a17e-613d5667483c",
+    "c6d3a76c-74fc-4a6e-a18e-56dbc7cfebe6",
+    "a6e3c0de-94df-47c4-813f-ffa166be2994",
+    "67e252fc-2361-4c3f-a16b-6b842fc436e5"
+  ]
+}

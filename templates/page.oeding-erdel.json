@@ -1,1 +1,168 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"slideshow_D3giif":{"type":"slideshow","blocks":{"slide_FcyPm8":{"type":"slide","settings":{"heading":"oeding-erdel","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":60,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_FcyPm8"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"rich_text_wq3Dd7":{"type":"rich-text","blocks":{"heading_FjhjbJ":{"type":"heading","settings":{"heading":"about oeding-erdel","heading_size":"h2"}},"text_VB7Uzj":{"type":"text","settings":{"text":"<p>Text about Oeding-Erdel here.........<\/p>"}}},"block_order":["heading_FjhjbJ","text_VB7Uzj"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"rich_text_8BrJcP":{"type":"rich-text","blocks":{"heading_76UJ9i":{"type":"heading","settings":{"heading":"find shamballa at this location","heading_size":"h2"}}},"block_order":["heading_76UJ9i"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":0}},"image_with_text_JJ7jJT":{"type":"image-with-text","blocks":{"caption_a64NDb":{"type":"caption","settings":{"caption":"Münster, Germany","text_style":"subtitle","text_size":"medium"}},"heading_6ppfAQ":{"type":"heading","settings":{"heading":"Oeding-erdel","heading_size":"h2"}},"text_deWkFV":{"type":"text","settings":{"text":"<p>Oeding-Erdel in Münster is a prestigious jewelry store known for its exquisite selection of fine jewelry and luxury timepieces. Committed to quality and craftsmanship, it offers a range of stunning pieces, from elegant rings to sophisticated watches. The knowledgeable staff provides personalized service, making it the perfect destination for unique gifts and timeless additions to any collection.<\/p><p><strong>Opening hours:<\/strong><br\/>Monday – Friday: 10:00 – 18:30<br\/>Saturday: 10:00 – 18:00<br\/>Sunday: Closed<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Juwelier+Oeding-Erdel\/@51.9620088,7.6252215,17z\/data=!3m1!4b1!4m6!3m5!1s0x47b9bac313ee0f15:0x76e9e12be72b1e50!8m2!3d51.9620055!4d7.6277964!16s%2Fg%2F1tgxh4ps?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Oeding-Erdel Münster\">Prinzipalmarkt 29<br\/>48143 Münster, Germany<\/a><\/p>","text_style":"body"}}},"block_order":["caption_a64NDb","heading_6ppfAQ","text_deWkFV"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"height":"adapt","desktop_image_width":"large","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":0,"padding_bottom":36}}},"order":["main","slideshow_D3giif","rich_text_wq3Dd7","rich_text_8BrJcP","image_with_text_JJ7jJT"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "slideshow_D3giif": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FcyPm8": {
+          "type": "slide",
+          "settings": {
+            "heading": "oeding-erdel",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FcyPm8"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_wq3Dd7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FjhjbJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "about oeding-erdel",
+            "heading_size": "h2"
+          }
+        },
+        "text_VB7Uzj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text about Oeding-Erdel here.........</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FjhjbJ",
+        "text_VB7Uzj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_8BrJcP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_76UJ9i": {
+          "type": "heading",
+          "settings": {
+            "heading": "find shamballa at this location",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_76UJ9i"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_JJ7jJT": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_a64NDb": {
+          "type": "caption",
+          "settings": {
+            "caption": "Münster, Germany",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_6ppfAQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oeding-erdel",
+            "heading_size": "h2"
+          }
+        },
+        "text_deWkFV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Oeding-Erdel in Münster is a prestigious jewelry store known for its exquisite selection of fine jewelry and luxury timepieces. Committed to quality and craftsmanship, it offers a range of stunning pieces, from elegant rings to sophisticated watches. The knowledgeable staff provides personalized service, making it the perfect destination for unique gifts and timeless additions to any collection.</p><p><strong>Opening hours:</strong><br/>Monday – Friday: 10:00 – 18:30<br/>Saturday: 10:00 – 18:00<br/>Sunday: Closed</p><p><a href=\"https://www.google.com/maps/place/Juwelier+Oeding-Erdel/@51.9620088,7.6252215,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9bac313ee0f15:0x76e9e12be72b1e50!8m2!3d51.9620055!4d7.6277964!16s%2Fg%2F1tgxh4ps?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Oeding-Erdel Münster\">Prinzipalmarkt 29<br/>48143 Münster, Germany</a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_a64NDb",
+        "heading_6ppfAQ",
+        "text_deWkFV"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_D3giif",
+    "rich_text_wq3Dd7",
+    "rich_text_8BrJcP",
+    "image_with_text_JJ7jJT"
+  ]
+}

@@ -1,1 +1,86 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement_gHcFwe":{"type":"announcement","settings":{"text":"CREATE YOUR OWN BRACELET","link":"shopify:\/\/pages\/the-creator"}},"announcement-bar-0":{"type":"announcement","settings":{"text":"WORLDWIDE SHIPPING","link":""}},"announcement_f677Vr":{"type":"announcement","settings":{"text":"SPRING\/SUMMER 2026 COLLECTION","link":"shopify:\/\/collections\/spring-summer-2026"}}},"block_order":["announcement_gHcFwe","announcement-bar-0","announcement_f677Vr"],"custom_css":[".utility-bar.color-background-1.gradient {background: #ffffff !important; background-image: none !important;}"],"settings":{"color_scheme":"background-1","show_line_separator":false,"show_social":false,"auto_rotate":true,"change_slides_speed":7,"enable_country_selector":false,"enable_language_selector":false}},"header":{"type":"header","custom_css":[".gradient.menu-drawer.motion-reduce.color-background-1 {background: #fafafa !important; background-image: none !important;}",".menu-drawer__submenu.has-submenu.gradient.motion-reduce {background: #fafafa !important; background-image: none !important;}",".menu-drawer__navigation,.menu-drawer__menu-item,.list-menu__item,.link,.link--text,.focus-inset,.menu-drawer__menu-item--active {font-family: \"TrajanPro\" !important; font-size: 14px !important;}"],"settings":{"logo_position":"top-center","menu":"version-2","menu_type_desktop":"drawer","sticky_header_type":"always","show_line_separator":false,"color_scheme":"background-1","menu_color_scheme":"","enable_country_selector":false,"enable_language_selector":false,"enable_customer_avatar":true,"mobile_logo_position":"center","margin_bottom":0,"padding_top":16,"padding_bottom":16}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_gHcFwe": {
+          "type": "announcement",
+          "settings": {
+            "text": "CREATE YOUR OWN BRACELET",
+            "link": "shopify://pages/the-creator"
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "WORLDWIDE SHIPPING",
+            "link": ""
+          }
+        },
+        "announcement_f677Vr": {
+          "type": "announcement",
+          "settings": {
+            "text": "SPRING/SUMMER 2026 COLLECTION",
+            "link": "shopify://collections/spring-summer-2026"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_gHcFwe",
+        "announcement-bar-0",
+        "announcement_f677Vr"
+      ],
+      "custom_css": [
+        ".utility-bar.color-background-1.gradient {background: #ffffff !important; background-image: none !important;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "show_line_separator": false,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".gradient.menu-drawer.motion-reduce.color-background-1 {background: #fafafa !important; background-image: none !important;}",
+        ".menu-drawer__submenu.has-submenu.gradient.motion-reduce {background: #fafafa !important; background-image: none !important;}",
+        ".menu-drawer__navigation,.menu-drawer__menu-item,.list-menu__item,.link,.link--text,.focus-inset,.menu-drawer__menu-item--active {font-family: \"TrajanPro\" !important; font-size: 14px !important;}"
+      ],
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "version-2",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "always",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,1 +1,68 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"eb74327b-02cd-4953-8ed8-80bbf0f3356e":{"type":"rich-text","blocks":{"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1":{"type":"heading","disabled":true,"settings":{"heading":"Our trusted retailers","heading_size":"h1"}},"template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br\/>Locate the nearest retailer on the map below. <\/p>"}}},"block_order":["template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1","template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":8}},"ca6bd71a-4f6b-4519-87ed-eaa60beb5242":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->","color_scheme":"","padding_top":40,"padding_bottom":52}}},"order":["main","eb74327b-02cd-4953-8ed8-80bbf0f3356e","ca6bd71a-4f6b-4519-87ed-eaa60beb5242"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Our trusted retailers",
+            "heading_size": "h1"
+          }
+        },
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover our global network of trustworthy retailers. We've carefully chosen these partners to provide you with a secure and reliable shopping experience. Our commitment to your satisfaction extends beyond our products and services. It encompasses the confidence we have in our chosen retailers, reaffirming our commitment to providing you with an unparalleled and dependable shopping experience. <br/>Locate the nearest retailer on the map below. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1",
+        "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u19031\">Loading store locator\nfrom <a href=\"https://stockist.co\">Stockist store locator</a>...</div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','//stockist.co/embed/v1/widget.min.js');\n</script>\n<!-- End Stockist.co widget -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
+    "ca6bd71a-4f6b-4519-87ed-eaa60beb5242"
+  ]
+}

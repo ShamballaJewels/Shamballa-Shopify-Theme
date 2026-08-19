@@ -1,1 +1,343 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"slideshow_h89GQy":{"type":"slideshow","blocks":{"slide_C7qw3h":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/webshop_aquamarine3.jpg","heading":"Aquamarine Gemstones","heading_size":"h2","subheading":"Discover the beauty of Aquamarines","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":50,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["slide_C7qw3h"],"disabled":true,"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"image_banner_rBJHVC":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/D208149.jpg","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"rich_text_deHPzt":{"type":"rich-text","blocks":{"caption_EnAW7h":{"type":"caption","settings":{"caption":"Experience the Vibrant Allure of","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_KFqhzV":{"type":"heading","settings":{"heading":"ruby Gemstones","heading_size":"h2"}},"text_LHqTey":{"type":"text","settings":{"text":"<p>Welcome to Shamballa Jewels, where the vibrant allure and rich history of ruby gemstones come to life. Known for their captivating red hues, our rubies transform any jewelry piece into a statement of passion and elegance. Perfect for creating luxurious ruby bracelets, stunning ruby necklaces, and more, our ruby collection enhances both your style and spirit.<\/p>"}},"button_tUzrTm":{"type":"button","settings":{"button_label":"Explore our ruby jewelry now","button_link":"shopify:\/\/collections\/aquamarine","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["caption_EnAW7h","heading_KFqhzV","text_LHqTey","button_tUzrTm"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"image_with_text_yMLj4y":{"type":"image-with-text","blocks":{"caption_Mz7PWw":{"type":"caption","settings":{"caption":"What are","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_QdRqzw":{"type":"heading","settings":{"heading":"Rubies","heading_size":"h2"}},"text_Ub8JaM":{"type":"text","settings":{"text":"<p>Ruby is a dazzling red gemstone that belongs to the corundum family, sharing its mineral makeup with sapphire. Revered for its deep crimson to pale rose hues, ruby symbolizes passion and vitality. Its color comes from traces of chromium, and the term \"ruby\" derives from the Latin word <em>ruber<\/em>, meaning red.<\/p>","text_style":"body"}}},"block_order":["caption_Mz7PWw","heading_QdRqzw","text_Ub8JaM"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/Modelshots_AW23_webshop9.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_BjPjVh":{"type":"image-with-text","blocks":{"caption_9mLyHP":{"type":"caption","settings":{"caption":"why choose","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_PUrVyE":{"type":"heading","settings":{"heading":"ruby jewelry","heading_size":"h2"}},"text_CP3wyY":{"type":"text","settings":{"text":"<p>Our ruby jewelry collection at Shamballa Jewels is crafted with meticulous attention to detail. Each ruby bracelet is a masterpiece, featuring beautifully polished ruby pearls that shine with a deep, vivid red. Designed for versatility, these bracelets can be worn as a stand-alone statement or layered to enhance their visual impact. Experience the luxury of our ruby necklaces, where each ruby pearl is carefully selected to ensure the highest quality. These pieces are perfect for adding a touch of elegance to any outfit, whether casual or formal. Thanks to ruby's hardness, it is an ideal gemstone for jewelry that endures the rigors of daily wear, ensuring lasting beauty and value.<\/p>","text_style":"body"}}},"block_order":["caption_9mLyHP","heading_PUrVyE","text_CP3wyY"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/aw2023_banner_1.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_ftzwzA":{"type":"image-with-text","blocks":{"caption_fLkAtq":{"type":"caption","settings":{"caption":"how is","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_jJmqX8":{"type":"heading","settings":{"heading":"ruby formed","heading_size":"h2"}},"text_BebBLq":{"type":"text","settings":{"text":"<p>Rubies are formed under high temperature and pressure conditions within the Earth's crust, where chromium gives them their characteristic red color. Our rubies are sourced with a commitment to ethical mining practices, ensuring that each gemstone meets our high standards for both beauty and responsibility.<\/p>","text_style":"body"}}},"block_order":["caption_fLkAtq","heading_jJmqX8","text_BebBLq"],"custom_css":[".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"],"settings":{"image":"shopify:\/\/shop_images\/Modelshots_AW23_webshop14.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"featured_collection_kzJCPj":{"type":"featured-collection","settings":{"title":"Ruby bracelets - Elevate Your Style with Timeless Sophistication","heading_size":"h2","description":"<p>Our collection of ruby bracelets showcases the unique charm of this gemstone. Each bracelet is a work of art, featuring high-quality rubies set in a range of designs from classic to modern chic. Ideal for gifting or personal indulgence, a ruby bracelet from Shamballa Jewels is guaranteed to elevate any ensemble.<\/p>","show_description":false,"description_style":"body","collection":"ruby","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"outline","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":8}},"rich_text_WE9kWX":{"type":"rich-text","blocks":{"button_aB678C":{"type":"button","settings":{"button_label":"Discover all ruby bracelets","button_link":"shopify:\/\/collections\/ruby","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_aB678C"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":52}}},"order":["main","slideshow_h89GQy","image_banner_rBJHVC","rich_text_deHPzt","image_with_text_yMLj4y","image_with_text_BjPjVh","image_with_text_ftzwzA","featured_collection_kzJCPj","rich_text_WE9kWX"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "slideshow_h89GQy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_C7qw3h": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/webshop_aquamarine3.jpg",
+            "heading": "Aquamarine Gemstones",
+            "heading_size": "h2",
+            "subheading": "Discover the beauty of Aquamarines",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 50,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_C7qw3h"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--center.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_banner_rBJHVC": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/D208149.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_deHPzt": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_EnAW7h": {
+          "type": "caption",
+          "settings": {
+            "caption": "Experience the Vibrant Allure of",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_KFqhzV": {
+          "type": "heading",
+          "settings": {
+            "heading": "ruby Gemstones",
+            "heading_size": "h2"
+          }
+        },
+        "text_LHqTey": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Shamballa Jewels, where the vibrant allure and rich history of ruby gemstones come to life. Known for their captivating red hues, our rubies transform any jewelry piece into a statement of passion and elegance. Perfect for creating luxurious ruby bracelets, stunning ruby necklaces, and more, our ruby collection enhances both your style and spirit.</p>"
+          }
+        },
+        "button_tUzrTm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore our ruby jewelry now",
+            "button_link": "shopify://collections/aquamarine",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_EnAW7h",
+        "heading_KFqhzV",
+        "text_LHqTey",
+        "button_tUzrTm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_yMLj4y": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_Mz7PWw": {
+          "type": "caption",
+          "settings": {
+            "caption": "What are",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_QdRqzw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rubies",
+            "heading_size": "h2"
+          }
+        },
+        "text_Ub8JaM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ruby is a dazzling red gemstone that belongs to the corundum family, sharing its mineral makeup with sapphire. Revered for its deep crimson to pale rose hues, ruby symbolizes passion and vitality. Its color comes from traces of chromium, and the term \"ruby\" derives from the Latin word <em>ruber</em>, meaning red.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_Mz7PWw",
+        "heading_QdRqzw",
+        "text_Ub8JaM"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Modelshots_AW23_webshop9.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_BjPjVh": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_9mLyHP": {
+          "type": "caption",
+          "settings": {
+            "caption": "why choose",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_PUrVyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "ruby jewelry",
+            "heading_size": "h2"
+          }
+        },
+        "text_CP3wyY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our ruby jewelry collection at Shamballa Jewels is crafted with meticulous attention to detail. Each ruby bracelet is a masterpiece, featuring beautifully polished ruby pearls that shine with a deep, vivid red. Designed for versatility, these bracelets can be worn as a stand-alone statement or layered to enhance their visual impact. Experience the luxury of our ruby necklaces, where each ruby pearl is carefully selected to ensure the highest quality. These pieces are perfect for adding a touch of elegance to any outfit, whether casual or formal. Thanks to ruby's hardness, it is an ideal gemstone for jewelry that endures the rigors of daily wear, ensuring lasting beauty and value.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_9mLyHP",
+        "heading_PUrVyE",
+        "text_CP3wyY"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/aw2023_banner_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ftzwzA": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_fLkAtq": {
+          "type": "caption",
+          "settings": {
+            "caption": "how is",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_jJmqX8": {
+          "type": "heading",
+          "settings": {
+            "heading": "ruby formed",
+            "heading_size": "h2"
+          }
+        },
+        "text_BebBLq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rubies are formed under high temperature and pressure conditions within the Earth's crust, where chromium gives them their characteristic red color. Our rubies are sourced with a commitment to ethical mining practices, ensuring that each gemstone meets our high standards for both beauty and responsibility.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_fLkAtq",
+        "heading_jJmqX8",
+        "text_BebBLq"
+      ],
+      "custom_css": [
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--adapt.content-container.gradient.color-background-1 {background-image: none !important; background-color: #ffffff !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Modelshots_AW23_webshop14.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_kzJCPj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ruby bracelets - Elevate Your Style with Timeless Sophistication",
+        "heading_size": "h2",
+        "description": "<p>Our collection of ruby bracelets showcases the unique charm of this gemstone. Each bracelet is a work of art, featuring high-quality rubies set in a range of designs from classic to modern chic. Ideal for gifting or personal indulgence, a ruby bracelet from Shamballa Jewels is guaranteed to elevate any ensemble.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ruby",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_WE9kWX": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aB678C": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover all ruby bracelets",
+            "button_link": "shopify://collections/ruby",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_aB678C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_h89GQy",
+    "image_banner_rBJHVC",
+    "rich_text_deHPzt",
+    "image_with_text_yMLj4y",
+    "image_with_text_BjPjVh",
+    "image_with_text_ftzwzA",
+    "featured_collection_kzJCPj",
+    "rich_text_WE9kWX"
+  ]
+}

@@ -1,1 +1,826 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"116d3879-4ece-489c-9b57-cb48008b67fc":{"type":"rich-text","blocks":{"template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1":{"type":"heading","settings":{"heading":"OUR STORY","heading_size":"h1"}},"2b4cc505-71f3-4bc0-835a-f80a74c67e5c":{"type":"text","settings":{"text":"<h3>EASTERN PHILOSOPHIES WITH NORDIC DESIGN PRINCIPLES<\/h3>"}}},"block_order":["template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1","2b4cc505-71f3-4bc0-835a-f80a74c67e5c"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":48,"padding_bottom":16}},"video_4RMkRq":{"type":"video","custom_css":[],"settings":{"heading":"","heading_size":"h1","enable_video_looping":false,"video":"shopify:\/\/files\/videos\/home_page_video.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"","full_width":false,"color_scheme":"","padding_top":36,"padding_bottom":36}},"e1a499d8-c90e-4978-8017-5dcdde32e0f9":{"type":"rich-text","blocks":{"template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-heading-1":{"type":"heading","settings":{"heading":"THE BROTHERS","heading_size":"h2"}},"template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-text-1":{"type":"text","settings":{"text":"<p>Shamballa Jewels was founded by Mads & Mikkel Kornerup who both had a burning desire to revolutionize men’s jewelry. And they have done just that since the beginning in 2005. Shamballa Jewels is founded upon ancient Eastern philosophies and strong Nordic design, craft and business traditions. <br\/>Mads Kornerup and Mikkel Kornerup, the dynamic duo behind Shamballa Jewels, are not just visionary founders but also embodiments of the brand's philosophy. <\/p>"}}},"block_order":["template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-heading-1","template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":36,"padding_bottom":56}},"cf13977b-b8d5-4a94-a4f2-0374301fdf2b":{"type":"image-banner","disabled":true,"custom_css":["\/* Ændrer farven på overskriften til #C0A765 *\/h2 {color: #c0a765;}"],"settings":{"image":"shopify:\/\/shop_images\/madsogmikkel5.jpg","image_overlay_opacity":10,"image_height":"large","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"fixed","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"37c1fc24-45ca-4179-a675-b10d0da4ce0d":{"type":"collage","blocks":{"template--19710896865616__37c1fc24-45ca-4179-a675-b10d0da4ce0d-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/madsogmikkel_2.jpg"}},"2479d7f5-a9bd-4d8c-abff-8c3798cec16e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_4022.jpg"}},"6e7b7d28-e08a-480f-9050-009d6399ceb0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/inside_sj_6.jpg"}}},"block_order":["template--19710896865616__37c1fc24-45ca-4179-a675-b10d0da4ce0d-image-1","2479d7f5-a9bd-4d8c-abff-8c3798cec16e","6e7b7d28-e08a-480f-9050-009d6399ceb0"],"settings":{"heading":"","heading_size":"h1","desktop_layout":"left","mobile_layout":"collage","card_styles":"product-card-wrapper","color_scheme":"","padding_top":4,"padding_bottom":36}},"3f954ee2-41cf-4228-8282-a020029bdb42":{"type":"rich-text","blocks":{"template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-heading-1":{"type":"heading","settings":{"heading":"","heading_size":"h1"}},"template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-text-1":{"type":"text","settings":{"text":"<p>Born with a deep appreciation for art, culture, and spirituality, their journey into the world of jewelry was marked by a shared passion and a relentless pursuit of excellence.<br\/><br\/>But a strong faith, a die-hard willingness to do things differently, and courage to challenge the established jewelry industry have made Shamballa Jewels stand the test of time. <\/p>"}},"template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-button-1":{"type":"button","settings":{"button_label":"","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-heading-1","template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-text-1","template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":4,"padding_bottom":40}},"b217e83e-5a4b-44eb-bea6-dbe6a76015b5":{"type":"rich-text","blocks":{"template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-heading-1":{"type":"heading","settings":{"heading":"SHAMBALLA JEWELS TIMELINE","heading_size":"h2"}},"template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-button-1":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-heading-1","template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-text-1","template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":28,"padding_bottom":16}},"9800b4e5-9271-4fc7-a8e9-229b7cbbec8b":{"type":"image-with-text","blocks":{"template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-heading-1":{"type":"heading","settings":{"heading":"The star of SHAMBALLA","heading_size":"h2"}},"template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-text-1":{"type":"text","settings":{"text":"<p>Our guiding star, our spiritual and moral compass which inspires us in everything we do. We look to the Star of Shamballa for inspiration and we feel its power when strength is needed. The Star of Shamballa is a graphic version of a double Dorje – an ancient Buddhist symbol and artefact that has been part of our journey since the beginning. The Dorje is associated with many myths and legendary tales as it is considered the ultimate tool when capturing the ultimate source of energy: Lightning.<br\/><br\/>You can say it is the Buddhist version of Thor’s Hammer from Nordic mythology. Legend has it that the Dorje represents the thunderstroke of lightning which leaves humans in a state of enlightenment in the ultimate sense. Once truly enlightened, humans can detach themselves from love, food and even life itself. We consider the Dorje a pivotal part of our DNA which is why we have incorporated it into our logo, the Star of Shamballa, so that it can guide us throughout life.<\/p>","text_style":"body"}}},"block_order":["template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-heading-1","template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-text-1"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_4022.jpg","height":"adapt","desktop_image_width":"small","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"accent-2","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":0}},"6e3b6f86-efb6-40ef-9361-b1d0819b29a6":{"type":"image-with-text","blocks":{"template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-heading-1":{"type":"heading","settings":{"heading":"Signature logo","heading_size":"h2"}},"template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-text-1":{"type":"text","settings":{"text":"<p>The SOS is part of every Shamballa Jewels piece as our logo is always present on every bracelet, necklace or bangle. Our logo is engraved into our gold beads with a diamond in the centre. We use the Dorje in special pieces, too, like on the Laughing Skull Phurpa where half a Dorje sits on top of a laughing skull receiving ultimate enlightenment.<br\/><br\/>Our spiritual fascination leads us to inspire a compassionate way of living. From early stages of designs to the way we handle our business, treat our valuable employees and how we always consider the environment. Using ancient Buddhist philosophies in the way we do business comes with great responsibility which we strive to honour.<\/p>","text_style":"body"}}},"block_order":["template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-heading-1","template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-text-1"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/beads_sos.jpg","height":"adapt","desktop_image_width":"small","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"accent-2","image_behavior":"none","mobile_content_alignment":"left","padding_top":8,"padding_bottom":0}},"783f1e66-45ef-4e77-8166-150fdf44c96d":{"type":"image-with-text","blocks":{"template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-heading-1":{"type":"heading","settings":{"heading":"Craftsmanship","heading_size":"h2"}},"template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-text-1":{"type":"text","settings":{"text":"<p>Craftsmanship never goes out of style and few others can deliver the bespoke hand-braided bracelets and custom-made pieces Mads and Mikkel can. This craft has been handed down  to the talented production team located at the heart of Shamballa Jewels in Copenhagen, where every braided piece is made by hand. Using only the finest materials, our wide range of gemstones and various colours of gold, a Shamballa Jewels piece can be put together any way our customers wants.<\/p><p>Only the imagination sets the boundaries: A collectors first design often changes over time and year after year, a piece changes colour, stones and materials. But often, pieces from the original design remain and so the journey has begun.<\/p><p>Our collectors, retailers and collaborators around the world are long-time friends of Shamballa Jewels who appreciate the fact that true authenticity and craft can never be replicated. The stories that go into each piece are all unique to the owner; a Shamballa Jewels piece is truly customisable and personal and you feel the dedication to craftsmanship from Mads & Mikkel’s many years of inspired creativity when you put it on for the first time.<\/p>","text_style":"body"}}},"block_order":["template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-heading-1","template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-text-1"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/craftmanship.jpg","height":"adapt","desktop_image_width":"small","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"accent-2","image_behavior":"none","mobile_content_alignment":"left","padding_top":8,"padding_bottom":20}},"57da427d-e57f-4c40-ad0b-cbb696492083":{"type":"slideshow","blocks":{"template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Top-Image.jpg","heading":"A legacy is born","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-2","text_alignment_mobile":"center"}},"template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-2":{"type":"slide","disabled":true,"settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-1","template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-2"],"disabled":true,"settings":{"layout":"grid","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"21356523-ff3e-452b-9b3b-f0b065306103":{"type":"slideshow","blocks":{"template--19710896865616__21356523-ff3e-452b-9b3b-f0b065306103-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/1993-2000.jpg","heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["template--19710896865616__21356523-ff3e-452b-9b3b-f0b065306103-slide-1"],"disabled":true,"settings":{"layout":"grid","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"3738f045-4621-43ac-b9bf-5553e1f4e6fe":{"type":"slideshow","blocks":{"9ce1a10c-2507-4f6c-a5e0-93238ea9c933":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/2001_8a17ae1b-d9bc-4ae9-871d-85c71fb54c06.jpg","heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["9ce1a10c-2507-4f6c-a5e0-93238ea9c933"],"disabled":true,"settings":{"layout":"grid","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"2139a930-ec08-4d93-9011-2705e7841ddb":{"type":"slideshow","blocks":{"09a4304b-42b7-42e1-b601-3c87f7bcbe8f":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/2005.jpg","heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["09a4304b-42b7-42e1-b601-3c87f7bcbe8f"],"disabled":true,"settings":{"layout":"grid","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"1daad00d-5160-4802-9ada-a93b49362129":{"type":"multirow","blocks":{"template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-1":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Star-image_02.jpg","caption":"","heading":"The star of SHAMBALLA","text":"<p>Our guiding star, our spiritual and moral compass which inspires us in everything we do. We look to the Star of Shamballa for inspiration and we feel its power when strength is needed. The Star of Shamballa is a graphic version of a double Dorje – an ancient Buddhist symbol and artefact that has been part of our journey since the beginning. The Dorje is associated with many myths and legendary tales as it is considered the ultimate tool when capturing the ultimate source of energy: Lightning.<br\/><br\/>You can say it is the Buddhist version of Thor’s Hammer from Nordic mythology. Legend has it that the Dorje represents the thunderstroke of lightning which leaves humans in a state of enlightenment in the ultimate sense. Once truly enlightened, humans can detach themselves from love, food and even life itself. We consider the Dorje a pivotal part of our DNA which is why we have incorporated it into our logo, the Star of Shamballa, so that it can guide us throughout life.<\/p>","button_label":"","button_link":""}},"template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-2":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/beads_sos.jpg","caption":"","heading":"Signature logo","text":"<p>The SOS is part of every Shamballa Jewels piece as our logo is always present on every bracelet, necklace or bangle. Our logo is engraved into our gold beads with a diamond in the centre. We use the Dorje in special pieces, too, like on the Laughing Skull Phurpa where half a Dorje sits on top of a laughing skull receiving ultimate enlightenment.<br\/><br\/>Our spiritual fascination leads us to inspire a compassionate way of living. From early stages of designs to the way we handle our business, treat our valuable employees and how we always consider the environment. Using ancient Buddhist philosophies in the way we do business comes with great responsibility which we strive to honour.<\/p>","button_label":"","button_link":""}},"1bb2ff86-6d4b-4798-97a5-7e9eb034b8cd":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/craftmanship.jpg","caption":"","heading":"Craftsmanship","text":"<p>Craftsmanship never goes out of style and few others can deliver the bespoke hand-braided bracelets and custom-made pieces Mads and Mikkel can. This craft has been handed down  to the talented production team located at the heart of Shamballa Jewels in Copenhagen, where every braided piece is made by hand. Using only the finest materials, our wide range of gemstones and various colours of gold, a Shamballa Jewels piece can be put together any way our customers wants.<\/p><p>Only the imagination sets the boundaries: A collectors first design often changes over time and year after year, a piece changes colour, stones and materials. But often, pieces from the original design remain and so the journey has begun.<\/p><p>Our collectors, retailers and collaborators around the world are long-time friends of Shamballa Jewels who appreciate the fact that true authenticity and craft can never be replicated. The stories that go into each piece are all unique to the owner; a Shamballa Jewels piece is truly customisable and personal and you feel the dedication to craftsmanship from Mads & Mikkel’s many years of inspired creativity when you put it on for the first time.<\/p>","button_label":"","button_link":""}}},"block_order":["template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-1","template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-2","1bb2ff86-6d4b-4798-97a5-7e9eb034b8cd"],"disabled":true,"custom_css":[],"settings":{"image_height":"medium","desktop_image_width":"small","heading_size":"h2","text_style":"body","button_style":"primary","desktop_content_position":"top","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"","row_color_scheme":"","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"54e1febd-1987-4dcb-8e37-798bc49bacbe":{"type":"multicolumn","blocks":{"template--19710896865616__54e1febd-1987-4dcb-8e37-798bc49bacbe-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_jay_z.jpg","title":"2001: NYC","text":"<p>Mads Kornerup designs a bracelet for the rapper Jay Z. It features even sized gold beads held together by the macramé braiding technique. The iconic SHAMBALLA® Braided Bracelet is born.<\/p>","link_label":"","link":""}},"7d031864-ad99-4526-9845-1cb81139dad7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_madsandmikkel.jpg","title":"2005: Copenhagen","text":"<p>Shamballa Jewels is founded by two Danish brothers, Mads & Mikkel Kornerup. In the very beginning, a desire to revolutionize how men see, perceive and wear jewelry was the driving force.  <\/p>","link_label":"","link":""}},"5b375c29-c131-46ed-bb41-bc948589072d":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_pave2.jpg","title":"2007: The Pavé Bead is born","text":"<p>The first Shamballa Jewels diamond pavé bead is created and incorporated in a bracelet. An instant bestseller, pavé beads will go on to be intricately linked to our identity.<\/p>","link_label":"","link":""}},"64df33a4-5418-4a4d-b6d7-efff28c8275f":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_helena.jpg","title":"2007: Vanity Fair Oscars afterparty","text":"<p>At Vanity Fair's Oscars afterparty, Danish supermodel Helena Christensen turns heads with her stunning SHAMBALLA® Braided Bracelet. Helena's choice makes her the highlight of the evening showcasing the timeless allure of our unique jewelry.<\/p>","link_label":"","link":""}},"99541c2a-c001-4e8b-a6b8-30d94a0f5711":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_hartmanns.jpg","title":"2007: HARTMANN'S collaboration with SHAMBALLA JEWELS","text":"<p>The famous Danish jeweler Hartmann's collaborates with Shamballa Jewels marking a significant turning point in the Danish luxury jewelry industry and helping to boost Shamballa Jewels' visibility.<\/p>","link_label":"","link":""}},"dbae1b9c-f46d-4dcc-8a52-5dab1b934bbc":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_crownprincess.jpg","title":"2008: Crown Princess Mary","text":"<p>An interview with the Danish crown prince couple is published. In the photos Her Royal Highness Crown Princess Mary wears the SHAMBALLA® Braided Bracelet containing Tahiti pearls and a pavé bead with the very rare Argyle pink diamond.<\/p>","link_label":"","link":""}}},"block_order":["template--19710896865616__54e1febd-1987-4dcb-8e37-798bc49bacbe-column-2","7d031864-ad99-4526-9845-1cb81139dad7","5b375c29-c131-46ed-bb41-bc948589072d","64df33a4-5418-4a4d-b6d7-efff28c8275f","99541c2a-c001-4e8b-a6b8-30d94a0f5711","dbae1b9c-f46d-4dcc-8a52-5dab1b934bbc"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":8}},"70dd01e6-16cb-415f-b29f-23d46293094e":{"type":"multicolumn","blocks":{"5f6d9b10-5c2f-4dac-bcb9-1d25f8bab036":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_frenchvogue.jpg","title":"2010: French Vogue","text":"<p>Vogue Paris publishes a full page article on Shamballa Jewels brand and creations featuring some of the most iconic pieces. <\/p>","link_label":"","link":""}},"3583e217-7cc9-47cc-ab52-5a50e1905df3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_flagshipstore.jpg","title":"2012: New Flagship store in the heart of Copenhagen","text":"<p>An encapsulation of the brand's universe, a flagship store in the epicenter of the founders' birthplace opens its doors for the first time. The visitors are welcomed by impeccable interior design blending with exclusive creations.<\/p>","link_label":"","link":""}},"04830f4e-35f3-46b6-85a3-8ec81290e4aa":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_nyima.jpg","title":"2015: The Nyima Cuff is born","text":"<p>The Nyima Cuff with its sleek, elegant design and unlimited customization possibilities marks the moment when unique, 18K gold creations meet the world of precious stones. In Tibetan, ''Nyima'' symbolizes the ''Sun''.<\/p>","link_label":"","link":""}},"16530342-541e-4a35-8f78-ddf093c798ea":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_setting.jpg","title":"2018: The Invisible setting bracelet","text":"<p>The extravagant SHAMBALLA® Invisible Setting is created in 18K gold with a stunning invisible setting (hence the name) of 108 princess cut diamonds, triangle cut diamonds set into the STAR OF SHAMBALLA® and Sanskrit mantra engraved on the inside.<br\/><\/p>","link_label":"","link":""}},"7f25ace6-1f6f-45c8-b608-0297e4ae969b":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_flip.jpg","title":"2019: The SHAMBALLA JEWELS Flip Lock Cuff is born","text":"<p>Innovation meets high-quality craftsmanship in the Flip Lock Cuff. Crafted in 18k gold with diamonds and precious gemstones, the Flip Lock Cuff represents a luxurious playground with limitless opportunities where every bead can be changed.<br\/><br\/><\/p>","link_label":"","link":""}},"6a885f2c-7f96-4288-9795-bb31007d5877":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_creator.jpg","title":"2019: The Creator tool is launched","text":"<p>Every client can now become their own designer thanks to the newest mobile platform Creator. Bead by bead, every visitor gets to play with their design and explore the broad world of our beads and strings. Only the imagination sets the limits.<\/p>","link_label":"","link":""}},"55b97cbc-34fc-4a69-b825-5516c807087c":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_madlords2.jpg","title":"2022: SHAMBALLA JEWELS opens a showroom in Paris","text":"<p>The international hub of art, culture and luxury welcomes Shamballa Jewels under the wings of retailer Mad Lords on Rue Saint Honoré. <\/p>","link_label":"","link":""}},"b5a8df83-546f-4f9e-b1f9-67803ce03651":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_greenland.jpg","title":"2022: The Greenland Ruby and Sapphire Mine","text":"<p>Our co-founder Mads Kornerup visits the oldest known Ruby mine near Aappaluttoq in Greenland. The pristine landscape is home to intense Ruby and Sapphire deposits that soon adore some of our creations.<\/p>","link_label":"","link":""}},"acdbbf54-7865-4310-a4e4-037c233e69ff":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sj_timeline_holger.jpg","title":"2023: SHAMBALLA JEWELS supports Holger Rune","text":"<p>The rising Danish tennis star Holger Rune is the proud owner of two SHAMBALLA® bracelets that he designed himself. The precius stones were specifically chosen for their character and texture. <\/p>","link_label":"","link":""}}},"block_order":["5f6d9b10-5c2f-4dac-bcb9-1d25f8bab036","3583e217-7cc9-47cc-ab52-5a50e1905df3","04830f4e-35f3-46b6-85a3-8ec81290e4aa","16530342-541e-4a35-8f78-ddf093c798ea","7f25ace6-1f6f-45c8-b608-0297e4ae969b","6a885f2c-7f96-4288-9795-bb31007d5877","55b97cbc-34fc-4a69-b825-5516c807087c","b5a8df83-546f-4f9e-b1f9-67803ce03651","acdbbf54-7865-4310-a4e4-037c233e69ff"],"custom_css":[".multicolumn-card__image-wrapper a {pointer-events: none;}",".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",".button.button--primary {display: none;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":8,"padding_bottom":36}}},"order":["main","116d3879-4ece-489c-9b57-cb48008b67fc","video_4RMkRq","e1a499d8-c90e-4978-8017-5dcdde32e0f9","cf13977b-b8d5-4a94-a4f2-0374301fdf2b","37c1fc24-45ca-4179-a675-b10d0da4ce0d","3f954ee2-41cf-4228-8282-a020029bdb42","b217e83e-5a4b-44eb-bea6-dbe6a76015b5","9800b4e5-9271-4fc7-a8e9-229b7cbbec8b","6e3b6f86-efb6-40ef-9361-b1d0819b29a6","783f1e66-45ef-4e77-8166-150fdf44c96d","57da427d-e57f-4c40-ad0b-cbb696492083","21356523-ff3e-452b-9b3b-f0b065306103","3738f045-4621-43ac-b9bf-5553e1f4e6fe","2139a930-ec08-4d93-9011-2705e7841ddb","1daad00d-5160-4802-9ada-a93b49362129","54e1febd-1987-4dcb-8e37-798bc49bacbe","70dd01e6-16cb-415f-b29f-23d46293094e"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "116d3879-4ece-489c-9b57-cb48008b67fc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR STORY",
+            "heading_size": "h1"
+          }
+        },
+        "2b4cc505-71f3-4bc0-835a-f80a74c67e5c": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>EASTERN PHILOSOPHIES WITH NORDIC DESIGN PRINCIPLES</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1",
+        "2b4cc505-71f3-4bc0-835a-f80a74c67e5c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 16
+      }
+    },
+    "video_4RMkRq": {
+      "type": "video",
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/home_page_video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e1a499d8-c90e-4978-8017-5dcdde32e0f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BROTHERS",
+            "heading_size": "h2"
+          }
+        },
+        "template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shamballa Jewels was founded by Mads & Mikkel Kornerup who both had a burning desire to revolutionize men’s jewelry. And they have done just that since the beginning in 2005. Shamballa Jewels is founded upon ancient Eastern philosophies and strong Nordic design, craft and business traditions. <br/>Mads Kornerup and Mikkel Kornerup, the dynamic duo behind Shamballa Jewels, are not just visionary founders but also embodiments of the brand's philosophy. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-heading-1",
+        "template--19710896865616__e1a499d8-c90e-4978-8017-5dcdde32e0f9-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 56
+      }
+    },
+    "cf13977b-b8d5-4a94-a4f2-0374301fdf2b": {
+      "type": "image-banner",
+      "disabled": true,
+      "custom_css": [
+        "/* Ændrer farven på overskriften til #C0A765 */h2 {color: #c0a765;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/madsogmikkel5.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "37c1fc24-45ca-4179-a675-b10d0da4ce0d": {
+      "type": "collage",
+      "blocks": {
+        "template--19710896865616__37c1fc24-45ca-4179-a675-b10d0da4ce0d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/madsogmikkel_2.jpg"
+          }
+        },
+        "2479d7f5-a9bd-4d8c-abff-8c3798cec16e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4022.jpg"
+          }
+        },
+        "6e7b7d28-e08a-480f-9050-009d6399ceb0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/inside_sj_6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__37c1fc24-45ca-4179-a675-b10d0da4ce0d-image-1",
+        "2479d7f5-a9bd-4d8c-abff-8c3798cec16e",
+        "6e7b7d28-e08a-480f-9050-009d6399ceb0"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "3f954ee2-41cf-4228-8282-a020029bdb42": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Born with a deep appreciation for art, culture, and spirituality, their journey into the world of jewelry was marked by a shared passion and a relentless pursuit of excellence.<br/><br/>But a strong faith, a die-hard willingness to do things differently, and courage to challenge the established jewelry industry have made Shamballa Jewels stand the test of time. </p>"
+          }
+        },
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-heading-1",
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-text-1",
+        "template--19710896865616__3f954ee2-41cf-4228-8282-a020029bdb42-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 40
+      }
+    },
+    "b217e83e-5a4b-44eb-bea6-dbe6a76015b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHAMBALLA JEWELS TIMELINE",
+            "heading_size": "h2"
+          }
+        },
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-heading-1",
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-text-1",
+        "template--19710896865616__b217e83e-5a4b-44eb-bea6-dbe6a76015b5-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "9800b4e5-9271-4fc7-a8e9-229b7cbbec8b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The star of SHAMBALLA",
+            "heading_size": "h2"
+          }
+        },
+        "template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our guiding star, our spiritual and moral compass which inspires us in everything we do. We look to the Star of Shamballa for inspiration and we feel its power when strength is needed. The Star of Shamballa is a graphic version of a double Dorje – an ancient Buddhist symbol and artefact that has been part of our journey since the beginning. The Dorje is associated with many myths and legendary tales as it is considered the ultimate tool when capturing the ultimate source of energy: Lightning.<br/><br/>You can say it is the Buddhist version of Thor’s Hammer from Nordic mythology. Legend has it that the Dorje represents the thunderstroke of lightning which leaves humans in a state of enlightenment in the ultimate sense. Once truly enlightened, humans can detach themselves from love, food and even life itself. We consider the Dorje a pivotal part of our DNA which is why we have incorporated it into our logo, the Star of Shamballa, so that it can guide us throughout life.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-heading-1",
+        "template--19710896865616__9800b4e5-9271-4fc7-a8e9-229b7cbbec8b-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/IMG_4022.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "6e3b6f86-efb6-40ef-9361-b1d0819b29a6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Signature logo",
+            "heading_size": "h2"
+          }
+        },
+        "template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The SOS is part of every Shamballa Jewels piece as our logo is always present on every bracelet, necklace or bangle. Our logo is engraved into our gold beads with a diamond in the centre. We use the Dorje in special pieces, too, like on the Laughing Skull Phurpa where half a Dorje sits on top of a laughing skull receiving ultimate enlightenment.<br/><br/>Our spiritual fascination leads us to inspire a compassionate way of living. From early stages of designs to the way we handle our business, treat our valuable employees and how we always consider the environment. Using ancient Buddhist philosophies in the way we do business comes with great responsibility which we strive to honour.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-heading-1",
+        "template--19710896865616__6e3b6f86-efb6-40ef-9361-b1d0819b29a6-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/beads_sos.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "783f1e66-45ef-4e77-8166-150fdf44c96d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Craftsmanship",
+            "heading_size": "h2"
+          }
+        },
+        "template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Craftsmanship never goes out of style and few others can deliver the bespoke hand-braided bracelets and custom-made pieces Mads and Mikkel can. This craft has been handed down  to the talented production team located at the heart of Shamballa Jewels in Copenhagen, where every braided piece is made by hand. Using only the finest materials, our wide range of gemstones and various colours of gold, a Shamballa Jewels piece can be put together any way our customers wants.</p><p>Only the imagination sets the boundaries: A collectors first design often changes over time and year after year, a piece changes colour, stones and materials. But often, pieces from the original design remain and so the journey has begun.</p><p>Our collectors, retailers and collaborators around the world are long-time friends of Shamballa Jewels who appreciate the fact that true authenticity and craft can never be replicated. The stories that go into each piece are all unique to the owner; a Shamballa Jewels piece is truly customisable and personal and you feel the dedication to craftsmanship from Mads & Mikkel’s many years of inspired creativity when you put it on for the first time.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-heading-1",
+        "template--19710896865616__783f1e66-45ef-4e77-8166-150fdf44c96d-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/craftmanship.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
+    },
+    "57da427d-e57f-4c40-ad0b-cbb696492083": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Top-Image.jpg",
+            "heading": "A legacy is born",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-1",
+        "template--19293482123600__57da427d-e57f-4c40-ad0b-cbb696492083-slide-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "21356523-ff3e-452b-9b3b-f0b065306103": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19710896865616__21356523-ff3e-452b-9b3b-f0b065306103-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1993-2000.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__21356523-ff3e-452b-9b3b-f0b065306103-slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "3738f045-4621-43ac-b9bf-5553e1f4e6fe": {
+      "type": "slideshow",
+      "blocks": {
+        "9ce1a10c-2507-4f6c-a5e0-93238ea9c933": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2001_8a17ae1b-d9bc-4ae9-871d-85c71fb54c06.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "9ce1a10c-2507-4f6c-a5e0-93238ea9c933"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "2139a930-ec08-4d93-9011-2705e7841ddb": {
+      "type": "slideshow",
+      "blocks": {
+        "09a4304b-42b7-42e1-b601-3c87f7bcbe8f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2005.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "09a4304b-42b7-42e1-b601-3c87f7bcbe8f"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1daad00d-5160-4802-9ada-a93b49362129": {
+      "type": "multirow",
+      "blocks": {
+        "template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Star-image_02.jpg",
+            "caption": "",
+            "heading": "The star of SHAMBALLA",
+            "text": "<p>Our guiding star, our spiritual and moral compass which inspires us in everything we do. We look to the Star of Shamballa for inspiration and we feel its power when strength is needed. The Star of Shamballa is a graphic version of a double Dorje – an ancient Buddhist symbol and artefact that has been part of our journey since the beginning. The Dorje is associated with many myths and legendary tales as it is considered the ultimate tool when capturing the ultimate source of energy: Lightning.<br/><br/>You can say it is the Buddhist version of Thor’s Hammer from Nordic mythology. Legend has it that the Dorje represents the thunderstroke of lightning which leaves humans in a state of enlightenment in the ultimate sense. Once truly enlightened, humans can detach themselves from love, food and even life itself. We consider the Dorje a pivotal part of our DNA which is why we have incorporated it into our logo, the Star of Shamballa, so that it can guide us throughout life.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/beads_sos.jpg",
+            "caption": "",
+            "heading": "Signature logo",
+            "text": "<p>The SOS is part of every Shamballa Jewels piece as our logo is always present on every bracelet, necklace or bangle. Our logo is engraved into our gold beads with a diamond in the centre. We use the Dorje in special pieces, too, like on the Laughing Skull Phurpa where half a Dorje sits on top of a laughing skull receiving ultimate enlightenment.<br/><br/>Our spiritual fascination leads us to inspire a compassionate way of living. From early stages of designs to the way we handle our business, treat our valuable employees and how we always consider the environment. Using ancient Buddhist philosophies in the way we do business comes with great responsibility which we strive to honour.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1bb2ff86-6d4b-4798-97a5-7e9eb034b8cd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/craftmanship.jpg",
+            "caption": "",
+            "heading": "Craftsmanship",
+            "text": "<p>Craftsmanship never goes out of style and few others can deliver the bespoke hand-braided bracelets and custom-made pieces Mads and Mikkel can. This craft has been handed down  to the talented production team located at the heart of Shamballa Jewels in Copenhagen, where every braided piece is made by hand. Using only the finest materials, our wide range of gemstones and various colours of gold, a Shamballa Jewels piece can be put together any way our customers wants.</p><p>Only the imagination sets the boundaries: A collectors first design often changes over time and year after year, a piece changes colour, stones and materials. But often, pieces from the original design remain and so the journey has begun.</p><p>Our collectors, retailers and collaborators around the world are long-time friends of Shamballa Jewels who appreciate the fact that true authenticity and craft can never be replicated. The stories that go into each piece are all unique to the owner; a Shamballa Jewels piece is truly customisable and personal and you feel the dedication to craftsmanship from Mads & Mikkel’s many years of inspired creativity when you put it on for the first time.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-1",
+        "template--19293482123600__1daad00d-5160-4802-9ada-a93b49362129-row-2",
+        "1bb2ff86-6d4b-4798-97a5-7e9eb034b8cd"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "54e1febd-1987-4dcb-8e37-798bc49bacbe": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19710896865616__54e1febd-1987-4dcb-8e37-798bc49bacbe-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_jay_z.jpg",
+            "title": "2001: NYC",
+            "text": "<p>Mads Kornerup designs a bracelet for the rapper Jay Z. It features even sized gold beads held together by the macramé braiding technique. The iconic SHAMBALLA® Braided Bracelet is born.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7d031864-ad99-4526-9845-1cb81139dad7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_madsandmikkel.jpg",
+            "title": "2005: Copenhagen",
+            "text": "<p>Shamballa Jewels is founded by two Danish brothers, Mads & Mikkel Kornerup. In the very beginning, a desire to revolutionize how men see, perceive and wear jewelry was the driving force.  </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5b375c29-c131-46ed-bb41-bc948589072d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_pave2.jpg",
+            "title": "2007: The Pavé Bead is born",
+            "text": "<p>The first Shamballa Jewels diamond pavé bead is created and incorporated in a bracelet. An instant bestseller, pavé beads will go on to be intricately linked to our identity.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "64df33a4-5418-4a4d-b6d7-efff28c8275f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_helena.jpg",
+            "title": "2007: Vanity Fair Oscars afterparty",
+            "text": "<p>At Vanity Fair's Oscars afterparty, Danish supermodel Helena Christensen turns heads with her stunning SHAMBALLA® Braided Bracelet. Helena's choice makes her the highlight of the evening showcasing the timeless allure of our unique jewelry.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "99541c2a-c001-4e8b-a6b8-30d94a0f5711": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_hartmanns.jpg",
+            "title": "2007: HARTMANN'S collaboration with SHAMBALLA JEWELS",
+            "text": "<p>The famous Danish jeweler Hartmann's collaborates with Shamballa Jewels marking a significant turning point in the Danish luxury jewelry industry and helping to boost Shamballa Jewels' visibility.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "dbae1b9c-f46d-4dcc-8a52-5dab1b934bbc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_crownprincess.jpg",
+            "title": "2008: Crown Princess Mary",
+            "text": "<p>An interview with the Danish crown prince couple is published. In the photos Her Royal Highness Crown Princess Mary wears the SHAMBALLA® Braided Bracelet containing Tahiti pearls and a pavé bead with the very rare Argyle pink diamond.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19710896865616__54e1febd-1987-4dcb-8e37-798bc49bacbe-column-2",
+        "7d031864-ad99-4526-9845-1cb81139dad7",
+        "5b375c29-c131-46ed-bb41-bc948589072d",
+        "64df33a4-5418-4a4d-b6d7-efff28c8275f",
+        "99541c2a-c001-4e8b-a6b8-30d94a0f5711",
+        "dbae1b9c-f46d-4dcc-8a52-5dab1b934bbc"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "70dd01e6-16cb-415f-b29f-23d46293094e": {
+      "type": "multicolumn",
+      "blocks": {
+        "5f6d9b10-5c2f-4dac-bcb9-1d25f8bab036": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_frenchvogue.jpg",
+            "title": "2010: French Vogue",
+            "text": "<p>Vogue Paris publishes a full page article on Shamballa Jewels brand and creations featuring some of the most iconic pieces. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3583e217-7cc9-47cc-ab52-5a50e1905df3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_flagshipstore.jpg",
+            "title": "2012: New Flagship store in the heart of Copenhagen",
+            "text": "<p>An encapsulation of the brand's universe, a flagship store in the epicenter of the founders' birthplace opens its doors for the first time. The visitors are welcomed by impeccable interior design blending with exclusive creations.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "04830f4e-35f3-46b6-85a3-8ec81290e4aa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_nyima.jpg",
+            "title": "2015: The Nyima Cuff is born",
+            "text": "<p>The Nyima Cuff with its sleek, elegant design and unlimited customization possibilities marks the moment when unique, 18K gold creations meet the world of precious stones. In Tibetan, ''Nyima'' symbolizes the ''Sun''.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16530342-541e-4a35-8f78-ddf093c798ea": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_setting.jpg",
+            "title": "2018: The Invisible setting bracelet",
+            "text": "<p>The extravagant SHAMBALLA® Invisible Setting is created in 18K gold with a stunning invisible setting (hence the name) of 108 princess cut diamonds, triangle cut diamonds set into the STAR OF SHAMBALLA® and Sanskrit mantra engraved on the inside.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f25ace6-1f6f-45c8-b608-0297e4ae969b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_flip.jpg",
+            "title": "2019: The SHAMBALLA JEWELS Flip Lock Cuff is born",
+            "text": "<p>Innovation meets high-quality craftsmanship in the Flip Lock Cuff. Crafted in 18k gold with diamonds and precious gemstones, the Flip Lock Cuff represents a luxurious playground with limitless opportunities where every bead can be changed.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6a885f2c-7f96-4288-9795-bb31007d5877": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_creator.jpg",
+            "title": "2019: The Creator tool is launched",
+            "text": "<p>Every client can now become their own designer thanks to the newest mobile platform Creator. Bead by bead, every visitor gets to play with their design and explore the broad world of our beads and strings. Only the imagination sets the limits.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "55b97cbc-34fc-4a69-b825-5516c807087c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_madlords2.jpg",
+            "title": "2022: SHAMBALLA JEWELS opens a showroom in Paris",
+            "text": "<p>The international hub of art, culture and luxury welcomes Shamballa Jewels under the wings of retailer Mad Lords on Rue Saint Honoré. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b5a8df83-546f-4f9e-b1f9-67803ce03651": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_greenland.jpg",
+            "title": "2022: The Greenland Ruby and Sapphire Mine",
+            "text": "<p>Our co-founder Mads Kornerup visits the oldest known Ruby mine near Aappaluttoq in Greenland. The pristine landscape is home to intense Ruby and Sapphire deposits that soon adore some of our creations.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "acdbbf54-7865-4310-a4e4-037c233e69ff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sj_timeline_holger.jpg",
+            "title": "2023: SHAMBALLA JEWELS supports Holger Rune",
+            "text": "<p>The rising Danish tennis star Holger Rune is the proud owner of two SHAMBALLA® bracelets that he designed himself. The precius stones were specifically chosen for their character and texture. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5f6d9b10-5c2f-4dac-bcb9-1d25f8bab036",
+        "3583e217-7cc9-47cc-ab52-5a50e1905df3",
+        "04830f4e-35f3-46b6-85a3-8ec81290e4aa",
+        "16530342-541e-4a35-8f78-ddf093c798ea",
+        "7f25ace6-1f6f-45c8-b608-0297e4ae969b",
+        "6a885f2c-7f96-4288-9795-bb31007d5877",
+        "55b97cbc-34fc-4a69-b825-5516c807087c",
+        "b5a8df83-546f-4f9e-b1f9-67803ce03651",
+        "acdbbf54-7865-4310-a4e4-037c233e69ff"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper a {pointer-events: none;}",
+        ".multicolumn-card__image-wrapper a img {transform: scale(1); max-width: 100%; height: auto;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "116d3879-4ece-489c-9b57-cb48008b67fc",
+    "video_4RMkRq",
+    "e1a499d8-c90e-4978-8017-5dcdde32e0f9",
+    "cf13977b-b8d5-4a94-a4f2-0374301fdf2b",
+    "37c1fc24-45ca-4179-a675-b10d0da4ce0d",
+    "3f954ee2-41cf-4228-8282-a020029bdb42",
+    "b217e83e-5a4b-44eb-bea6-dbe6a76015b5",
+    "9800b4e5-9271-4fc7-a8e9-229b7cbbec8b",
+    "6e3b6f86-efb6-40ef-9361-b1d0819b29a6",
+    "783f1e66-45ef-4e77-8166-150fdf44c96d",
+    "57da427d-e57f-4c40-ad0b-cbb696492083",
+    "21356523-ff3e-452b-9b3b-f0b065306103",
+    "3738f045-4621-43ac-b9bf-5553e1f4e6fe",
+    "2139a930-ec08-4d93-9011-2705e7841ddb",
+    "1daad00d-5160-4802-9ada-a93b49362129",
+    "54e1febd-1987-4dcb-8e37-798bc49bacbe",
+    "70dd01e6-16cb-415f-b29f-23d46293094e"
+  ]
+}

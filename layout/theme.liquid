@@ -262,10 +262,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        @font-face {
         font-family: 'TrajanPro';
         src: url(https://cdn.shopify.com/s/files/1/0250/0611/2828/files/TrajanPro3-Regular.woff?v=1688392273) format('woff');
+        font-display: swap;
       }
       @font-face {
         font-family: 'GillNewAntique';
-        src: url(https://cdn.shopify.com/s/files/1/0250/0611/2828/files/GILLNA.woff?v=1688392273) format('woff');
+        src: url(https://cdn.shopify.com/s/files/1/0250/0611/2828/files/GillNewAntique-rehinted.woff2?v=1785741358) format('woff2');
+        font-display: swap;
       }
 
       @media screen and (min-width: 750px) {
@@ -328,16 +330,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
  {% render 'cookie-information-consent' %}
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-670776367">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-670776367');
-</script>
 {{ 'custom.css' | asset_url | stylesheet_tag }}
   </head>
 
@@ -416,50 +408,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-      <iframe id="widgetIframe" frameborder="0" title="DS Chat"
-            src="https://ds.distancesales.com/chat?brand=webShamballaProd"
-            width="75px" height="75px" loading="lazy">
-    </iframe>
 
-    <script type="text/javascript" defer>
-      var eventMethod = window.addEventListener ? "addEventListener" :
-          "attachEvent";
-      var eventer = window[eventMethod];
-      var messageEvent = eventMethod == "attachEvent" ? "onmessage" :
-          "message";
-      eventer(messageEvent, function (e) {
-        if (typeof e.data === 'string') {
-          if (e.data.indexOf('documentHeight') > -1) {
-              console.log('documentHeight', e);
-
-              var height = e.data.split('documentHeight:')[1];
-              console.log('height', height);
-
-              if (height=="20%") {                
-                document.getElementById('widgetIframe').style.width = '75px';
-                document.getElementById('widgetIframe').style.height = '75px';
-              } else {
-                if(window.innerWidth > 800){
-                document.getElementById('widgetIframe').style.width = "375px";
-              document.getElementById('widgetIframe').style.height = "65%";
-              } else {
-              document.getElementById('widgetIframe').style.width = height;
-              document.getElementById('widgetIframe').style.height = height;
-              }}
-          }
-        }
-      }, false);
-    </script>
-
-    <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:3222889,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
   </body>
 </html>

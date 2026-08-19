@@ -1,1 +1,314 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":56}},"03d1f650-80c0-4467-8b06-cba99bb13bac":{"type":"slideshow","blocks":{"template--19822277034320__03d1f650-80c0-4467-8b06-cba99bb13bac-slide-1":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/SS25_banner.jpg","heading":"Spring\/Summer 2025","heading_size":"h2","subheading":"Discover the Essence of the Five Elements","button_label":"VIEW COLLECTION","link":"shopify:\/\/collections\/spring-summer-25","button_style_secondary":true,"box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":30,"color_scheme":"accent-1","text_alignment_mobile":"center"}},"slide_LLpqr8":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Core_collection_banner.jpg","heading":"The Core Collection","heading_size":"h2","subheading":"","button_label":"VIEW COLLECTION","link":"shopify:\/\/collections\/the-core","button_style_secondary":true,"box_align":"middle-right","show_text_box":false,"text_alignment":"right","image_overlay_opacity":0,"color_scheme":"accent-1","text_alignment_mobile":"center"}}},"block_order":["template--19822277034320__03d1f650-80c0-4467-8b06-cba99bb13bac-slide-1","slide_LLpqr8"],"custom_css":[".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile--center {background: transparent !important;}",".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--right.slideshow__text-mobile--center {background: transparent !important;}"],"settings":{"layout":"grid","slide_height":"large","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"e5d53796-f053-4836-8a90-caeb34c9a76c":{"type":"rich-text","blocks":{"template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-heading-1":{"type":"heading","settings":{"heading":"Bracelets","heading_size":"h2"}},"template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-text-1":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}}},"block_order":["template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-heading-1","template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-text-1"],"custom_css":[".h2 {font-size: 16px;}","@media (max-width: 768px) {.h2 {font-size: 14px; }}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":48,"padding_bottom":4}},"3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975":{"type":"collection-list","blocks":{"template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-1":{"type":"featured_collection","settings":{"collection":"beaded-bracelets"}},"template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-2":{"type":"featured_collection","settings":{"collection":"lock-bracelets-1"}},"template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-3":{"type":"featured_collection","settings":{"collection":"orb-bracelets"}},"2f4bd2f4-e6c4-4928-b6ab-b28a5ee83d3a":{"type":"featured_collection","settings":{"collection":"solid-bracelets"}}},"block_order":["template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-1","template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-2","template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-3","2f4bd2f4-e6c4-4928-b6ab-b28a5ee83d3a"],"custom_css":[".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}","@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-size: 14px !important; }}"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":4,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":24,"padding_bottom":36}},"617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202":{"type":"collection-list","blocks":{"template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-1":{"type":"featured_collection","settings":{"collection":"all"}},"template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-2":{"type":"featured_collection","settings":{"collection":"the-core"}}},"block_order":["template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-1","template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-2"],"disabled":true,"custom_css":[".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--2-col-desktop.grid--2-col-tablet-down.collection-list--2-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}","@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--2-col-desktop.grid--2-col-tablet-down.collection-list--2-items a {font-size: 14px !important; }}"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":2,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":24}},"2fa652bd-0936-49ed-befa-0eef8d07922a":{"type":"rich-text","blocks":{"5939d8e9-5288-4862-a301-cc60ab3ab852":{"type":"heading","settings":{"heading":"Notable Jewelry","heading_size":"h2"}},"b9ae036a-fc0f-4e34-aca8-55a8bd11fcad":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}}},"block_order":["5939d8e9-5288-4862-a301-cc60ab3ab852","b9ae036a-fc0f-4e34-aca8-55a8bd11fcad"],"disabled":true,"custom_css":[".h2 {font-size: 16px;}","@media (max-width: 768px) {.h2 {font-size: 14px; }}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":36,"padding_bottom":4}},"36c0999f-6a53-48c5-aad0-7def6421075f":{"type":"collection-list","blocks":{"template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-1":{"type":"featured_collection","settings":{"collection":"all-rings"}},"template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-2":{"type":"featured_collection","settings":{"collection":"all-necklaces"}},"template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-3":{"type":"featured_collection","settings":{"collection":"pendants"}},"d83bca1d-f636-4c29-87d9-c57767b05985":{"type":"featured_collection","settings":{"collection":"all-earrings"}}},"block_order":["template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-1","template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-2","template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-3","d83bca1d-f636-4c29-87d9-c57767b05985"],"disabled":true,"custom_css":[".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}","@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-size: 14px !important; }}"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":4,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"8e8c8ee7-7239-4464-a70a-080dcca53881":{"type":"rich-text","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":44,"padding_bottom":12}}},"order":["main","03d1f650-80c0-4467-8b06-cba99bb13bac","e5d53796-f053-4836-8a90-caeb34c9a76c","3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975","617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202","2fa652bd-0936-49ed-befa-0eef8d07922a","36c0999f-6a53-48c5-aad0-7def6421075f","8e8c8ee7-7239-4464-a70a-080dcca53881"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "03d1f650-80c0-4467-8b06-cba99bb13bac": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19822277034320__03d1f650-80c0-4467-8b06-cba99bb13bac-slide-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SS25_banner.jpg",
+            "heading": "Spring/Summer 2025",
+            "heading_size": "h2",
+            "subheading": "Discover the Essence of the Five Elements",
+            "button_label": "VIEW COLLECTION",
+            "link": "shopify://collections/spring-summer-25",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LLpqr8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Core_collection_banner.jpg",
+            "heading": "The Core Collection",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "VIEW COLLECTION",
+            "link": "shopify://collections/the-core",
+            "button_style_secondary": true,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19822277034320__03d1f650-80c0-4467-8b06-cba99bb13bac-slide-1",
+        "slide_LLpqr8"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile--center {background: transparent !important;}",
+        ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--right.slideshow__text-mobile--center {background: transparent !important;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "e5d53796-f053-4836-8a90-caeb34c9a76c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bracelets",
+            "heading_size": "h2"
+          }
+        },
+        "template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-heading-1",
+        "template--19822277034320__e5d53796-f053-4836-8a90-caeb34c9a76c-text-1"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 16px;}",
+        "@media (max-width: 768px) {.h2 {font-size: 14px; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 4
+      }
+    },
+    "3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beaded-bracelets"
+          }
+        },
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lock-bracelets-1"
+          }
+        },
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "orb-bracelets"
+          }
+        },
+        "2f4bd2f4-e6c4-4928-b6ab-b28a5ee83d3a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solid-bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-1",
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-2",
+        "template--19822277034320__3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975-featured_collection-3",
+        "2f4bd2f4-e6c4-4928-b6ab-b28a5ee83d3a"
+      ],
+      "custom_css": [
+        ".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}",
+        "@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-size: 14px !important; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all"
+          }
+        },
+        "template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-core"
+          }
+        }
+      },
+      "block_order": [
+        "template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-1",
+        "template--19822277034320__617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202-featured_collection-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--2-col-desktop.grid--2-col-tablet-down.collection-list--2-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}",
+        "@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--2-col-desktop.grid--2-col-tablet-down.collection-list--2-items a {font-size: 14px !important; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "2fa652bd-0936-49ed-befa-0eef8d07922a": {
+      "type": "rich-text",
+      "blocks": {
+        "5939d8e9-5288-4862-a301-cc60ab3ab852": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notable Jewelry",
+            "heading_size": "h2"
+          }
+        },
+        "b9ae036a-fc0f-4e34-aca8-55a8bd11fcad": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "5939d8e9-5288-4862-a301-cc60ab3ab852",
+        "b9ae036a-fc0f-4e34-aca8-55a8bd11fcad"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".h2 {font-size: 16px;}",
+        "@media (max-width: 768px) {.h2 {font-size: 14px; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "36c0999f-6a53-48c5-aad0-7def6421075f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-rings"
+          }
+        },
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-necklaces"
+          }
+        },
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pendants"
+          }
+        },
+        "d83bca1d-f636-4c29-87d9-c57767b05985": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-earrings"
+          }
+        }
+      },
+      "block_order": [
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-1",
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-2",
+        "template--19822277034320__36c0999f-6a53-48c5-aad0-7def6421075f-featured_collection-3",
+        "d83bca1d-f636-4c29-87d9-c57767b05985"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-family: \"TrajanPro\" !important; font-size: 16px !important;}",
+        "@media (max-width: 768px) {.collection-list.contains-card.contains-card--collection.contains-card--standard.grid.grid--4-col-desktop.grid--2-col-tablet-down.collection-list--4-items a {font-size: 14px !important; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8e8c8ee7-7239-4464-a70a-080dcca53881": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "03d1f650-80c0-4467-8b06-cba99bb13bac",
+    "e5d53796-f053-4836-8a90-caeb34c9a76c",
+    "3b6e5f72-5b5a-4f8d-bb1c-40ac61eb0975",
+    "617fbcc8-f6bf-4fc1-a9a4-a8c5a1fbd202",
+    "2fa652bd-0936-49ed-befa-0eef8d07922a",
+    "36c0999f-6a53-48c5-aad0-7def6421075f",
+    "8e8c8ee7-7239-4464-a70a-080dcca53881"
+  ]
+}
