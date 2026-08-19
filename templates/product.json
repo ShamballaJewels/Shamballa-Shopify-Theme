@@ -132,6 +132,7 @@
         },
         "collapsible_tab_qi8twC": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size Guide",
             "icon": "none",
