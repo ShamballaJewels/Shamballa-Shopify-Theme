@@ -1,0 +1,27 @@
+{% comment %}
+  Renders a link to the product's design collection (a collection flagged with
+  the custom.is_design_collection metafield), e.g. "Spring/Summer 2026",
+  distinct from generic type collections like "Beaded Bracelets" or "All Bracelets".
+
+  Accepts:
+  - product: {Object} product object.
+
+  Usage:
+  {% render 'product-design-collection', product: product %}
+{% endcomment %}
+{%- liquid
+  assign design_collection = blank
+  for collection in product.collections
+    if collection.metafields.custom.is_design_collection.value
+      assign design_collection = collection
+      break
+    endif
+  endfor
+-%}
+{%- if design_collection != blank -%}
+  <p class="product__design-collection-wrap">
+    <a href="{{ design_collection.url }}" class="product__design-collection">
+      {{- design_collection.title | escape -}}
+    </a>
+  </p>
+{%- endif -%}

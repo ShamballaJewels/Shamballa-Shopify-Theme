@@ -1,0 +1,43 @@
+{% comment %}
+  Renders a generic slide-in drawer showing the content of a given page.
+  Multiple drawers can exist on the same page; each is opened by a trigger
+  element carrying data-open-drawer="{{ drawer_id }}".
+
+  Accepts:
+  - page_handle: {String} handle of the Shopify page to render inside the drawer.
+  - drawer_id: {String} unique id used to match trigger buttons.
+
+  Usage:
+  {% render 'info-drawer', page_handle: 'sizing-charts', drawer_id: 'size-guide' %}
+{% endcomment %}
+{%- assign info_page = pages[page_handle] -%}
+{%- if info_page != blank -%}
+  {{ 'component-info-drawer.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'info-drawer.js' | asset_url }}" defer="defer"></script>
+
+  <info-drawer class="info-drawer" data-drawer-id="{{ drawer_id }}">
+    <div class="info-drawer__overlay" data-info-drawer-overlay></div>
+    <div
+      class="info-drawer__inner"
+      role="dialog"
+      aria-modal="true"
+      aria-label="{{ info_page.title | escape }}"
+      tabindex="-1"
+    >
+      <button
+        type="button"
+        class="info-drawer__close"
+        data-info-drawer-close
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {{- 'icon-close.svg' | inline_asset_content -}}
+      </button>
+      <div class="info-drawer__header">
+        <h2 class="info-drawer__heading h4">{{ info_page.title }}</h2>
+      </div>
+      <div class="info-drawer__content rte">
+        {{ info_page.content }}
+      </div>
+    </div>
+  </info-drawer>
+{%- endif -%}

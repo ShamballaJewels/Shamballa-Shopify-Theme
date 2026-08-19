@@ -1,0 +1,177 @@
+{{ 'component-trust-badges.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="trust-badges color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <ul class="trust-badges__list page-width" role="list">
+    {%- for block in section.blocks -%}
+      {%- liquid
+        assign show_badge = true
+
+        if block.settings.required_tag != blank
+          unless product.tags contains block.settings.required_tag
+            assign show_badge = false
+          endunless
+        endif
+
+        if show_badge and block.settings.required_bracelet_designs != blank
+          assign required_designs = block.settings.required_bracelet_designs | split: ','
+          assign bracelet_type_name = product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase
+          assign design_match = false
+          for required in required_designs
+            assign required_trimmed = required | strip | downcase
+            if bracelet_type_name == required_trimmed
+              assign design_match = true
+            endif
+          endfor
+          unless design_match
+            assign show_badge = false
+          endunless
+        endif
+      -%}
+      {%- if show_badge -%}
+        <li class="trust-badges__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}
+            <div class="trust-badges__icon">
+              {{
+                block.settings.icon
+                | image_url: width: 100
+                | image_tag: loading: 'lazy', widths: '40, 60, 80, 100'
+              }}
+            </div>
+          {%- endif -%}
+          {%- if block.settings.heading != blank -%}
+            <h3 class="trust-badges__heading">{{ block.settings.heading | escape }}</h3>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <p class="trust-badges__text">{{ block.settings.text | escape }}</p>
+          {%- endif -%}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Trust badges",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Certified"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Numbered certificate with every piece"
+        },
+        {
+          "type": "text",
+          "id": "required_tag",
+          "label": "Only show if product has this tag",
+          "info": "Leave blank to always show this badge. Example: made-in-copenhagen"
+        },
+        {
+          "type": "text",
+          "id": "required_bracelet_designs",
+          "label": "Only show if Bracelet Type matches (comma-separated)",
+          "info": "Matches the Bracelet Type metafield (custom.bracelet_type). Example: Beaded, Lock, Orb. Leave blank to ignore."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust badges",
+      "blocks": [
+        {
+          "type": "badge",
+          "settings": {
+            "heading": "Certified",
+            "text": "Numbered certificate with every piece"
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "heading": "Made in Copenhagen",
+            "text": "Hand-assembled by our atelier"
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "heading": "Lifetime Service",
+            "text": "Restringing, repair & care"
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "heading": "Insured Delivery",
+            "text": "Complimentary, fully tracked"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

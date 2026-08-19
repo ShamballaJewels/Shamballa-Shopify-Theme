@@ -22,6 +22,9 @@
             "button_label": "Explore the new collection",
             "link": "shopify://blogs/news/high-summer-2026",
             "button_style_secondary": true,
+            "button_label_2": "BROWSE ALL JEWELS",
+            "link_2": "shopify://collections/all-bracelets",
+            "button_style_secondary_2": true,
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -41,6 +44,9 @@
             "button_label": "Discover here",
             "link": "shopify://collections/autumn-winter-2025",
             "button_style_secondary": true,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -60,6 +66,9 @@
             "button_label": "Discover more",
             "link": "shopify://blogs/whats-new/holiday-season-discover-our-festive-collection",
             "button_style_secondary": true,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-right",
             "show_text_box": false,
             "text_alignment": "right",
@@ -87,6 +96,22 @@
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "bracelet_picker_1": {
+      "type": "bracelet-picker",
+      "disabled": true,
+      "settings": {
+        "heading": "Find your bracelet",
+        "subheading": "Answer a few quick questions to discover the styles made for you",
+        "collection": "all-bracelets",
+        "back_label": "Back",
+        "skip_label": "Skip this question",
+        "restart_label": "Start over",
+        "empty_results_text": "We couldn't find a bracelet matching all of your choices. Try starting over with fewer selections.",
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307": {
@@ -890,6 +915,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -961,6 +989,7 @@
   },
   "order": [
     "slideshow_X3pnQk",
+    "bracelet_picker_1",
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
     "rich_text_rJNpdR",

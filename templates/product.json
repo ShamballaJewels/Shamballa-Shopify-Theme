@@ -75,6 +75,14 @@
             "show_gift_card_recipient": true
           }
         },
+        "advisor_contact": {
+          "type": "advisor_contact",
+          "settings": {
+            "heading": "Considering this piece?",
+            "text": "Want to know more about sizing or customization?",
+            "button_label": "Contact a Shamballa advisor"
+          }
+        },
         "icon_with_text_NtNQJr": {
           "type": "icon-with-text",
           "disabled": true,
@@ -105,17 +113,17 @@
             "heading_3": "30 days return policy"
           }
         },
-        "collapsible_tab_qi8twC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size Guide",
-            "icon": "none",
-            "content": "",
-            "page": "sizing-charts"
-          }
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "materials": {
+          "type": "materials",
+          "settings": {}
         },
         "collapsible_tab_UnntA6": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping",
             "icon": "none",
@@ -123,14 +131,26 @@
             "page": "shipping"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "collapsible_tab_qi8twC": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Size Guide",
+            "icon": "none",
+            "content": "",
+            "page": "sizing-charts"
+          }
         },
         "6116aa3f-164e-45a2-a236-6e0a67f85188": {
           "type": "sku",
           "settings": {
             "text_style": "body"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         },
         "0663d01d-c38e-40af-87d7-d9927cd76645": {
@@ -142,12 +162,6 @@
             "content": "",
             "page": "sizing-charts"
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -158,14 +172,16 @@
         "af32eada-4304-4eca-a35c-619c5f5f2895",
         "5c274390-3fa7-45c4-843d-6f0d02d6fb55",
         "buy_buttons",
+        "advisor_contact",
         "icon_with_text_NtNQJr",
         "icon_with_text_DHN9BG",
-        "collapsible_tab_qi8twC",
-        "collapsible_tab_UnntA6",
         "description",
+        "materials",
+        "collapsible_tab_UnntA6",
+        "collapsible_tab_qi8twC",
         "6116aa3f-164e-45a2-a236-6e0a67f85188",
-        "0663d01d-c38e-40af-87d7-d9927cd76645",
-        "share"
+        "share",
+        "0663d01d-c38e-40af-87d7-d9927cd76645"
       ],
       "custom_css": [],
       "settings": {
@@ -182,6 +198,59 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "trust_badges": {
+      "type": "trust-badges",
+      "blocks": {
+        "badge_certified": {
+          "type": "badge",
+          "settings": {
+            "heading": "Certified jewelry",
+            "text": "Certificate always available upon request",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        },
+        "badge_copenhagen": {
+          "type": "badge",
+          "settings": {
+            "heading": "Made in Copenhagen",
+            "text": "Hand-assembled by Shamballa Artisans",
+            "required_tag": "",
+            "required_bracelet_designs": "Beaded, Lock, Orb"
+          }
+        },
+        "badge_service": {
+          "type": "badge",
+          "settings": {
+            "heading": "Never Beyond Repair",
+            "text": "We are always available for restringing and repair upon request",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        },
+        "badge_delivery": {
+          "type": "badge",
+          "settings": {
+            "heading": "Insured Delivery",
+            "text": "No risk if lost or damaged during transit",
+            "required_tag": "",
+            "required_bracelet_designs": ""
+          }
+        }
+      },
+      "block_order": [
+        "badge_certified",
+        "badge_copenhagen",
+        "badge_service",
+        "badge_delivery"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "related-products": {
@@ -227,6 +296,32 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "1723713188c25cff0f": {
+      "type": "apps",
+      "blocks": {
+        "ultimate_recently_viewed_recently_viewed_bnpGjE": {
+          "type": "shopify://apps/ultimate-recently-viewed/blocks/recently-viewed/b33bd8dd-4a93-43a7-b989-694e289aa9e8",
+          "settings": {
+            "headline": "Recently Viewed Products",
+            "product_title_enabled": true,
+            "product_price_enabled": true,
+            "product_type_enabled": false,
+            "product_vendor_enabled": false,
+            "quick_add_button_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "ultimate_recently_viewed_recently_viewed_bnpGjE"
+      ],
+      "custom_css": [
+        ".ultimate-recently-viewed-price-wrap {display: none !important;}",
+        ".ultimate-recently-viewed-info {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_gz4Gzz": {
@@ -278,37 +373,12 @@
         "padding_top": 48,
         "padding_bottom": 36
       }
-    },
-    "1723713188c25cff0f": {
-      "type": "apps",
-      "blocks": {
-        "ultimate_recently_viewed_recently_viewed_bnpGjE": {
-          "type": "shopify://apps/ultimate-recently-viewed/blocks/recently-viewed/b33bd8dd-4a93-43a7-b989-694e289aa9e8",
-          "settings": {
-            "headline": "Recently Viewed Products",
-            "product_title_enabled": true,
-            "product_price_enabled": true,
-            "product_type_enabled": false,
-            "product_vendor_enabled": false,
-            "quick_add_button_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "ultimate_recently_viewed_recently_viewed_bnpGjE"
-      ],
-      "custom_css": [
-        ".ultimate-recently-viewed-price-wrap {display: none !important;}",
-        ".ultimate-recently-viewed-info {text-align: center;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "16947741896a850266",
     "main",
+    "trust_badges",
     "related-products",
     "e3fe9022-f39b-4a25-a7d8-71542822eaef",
     "16947744846cd93355",

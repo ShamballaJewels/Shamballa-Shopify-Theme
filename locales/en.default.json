@@ -8,6 +8,10 @@
  * ------------------------------------------------------------
  */
 {
+  "breadcrumbs": {
+    "home": "Home",
+    "label": "Breadcrumb"
+  },
   "general": {
     "password_page": {
       "login_form_heading": "Enter store using password:",
@@ -274,6 +278,9 @@
     }
   },
   "sections": {
+    "bracelet_picker": {
+      "no_collection": "Select a collection in the section settings to enable the bracelet picker."
+    },
     "announcements": {
       "previous_announcement": "Previous announcement",
       "next_announcement": "Next announcement",
