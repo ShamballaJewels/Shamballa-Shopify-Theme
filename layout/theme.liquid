@@ -281,11 +281,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}
-      {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
-      {{ 'component-cart.css' | asset_url | stylesheet_tag }}
-      {{ 'component-totals.css' | asset_url | stylesheet_tag }}
-      {{ 'component-price.css' | asset_url | stylesheet_tag }}
-      {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+      <link rel="stylesheet" href="{{ 'component-cart-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="{{ 'component-totals.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="{{ 'component-discounts.css' | asset_url }}" media="print" onload="this.media='all'">
     {%- endif -%}
 
     {%- unless settings.type_body_font.system? -%}
@@ -298,6 +298,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
       {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
+
+    <link rel="preload" as="font" href="https://cdn.shopify.com/s/files/1/0250/0611/2828/files/TrajanPro3-Regular.woff?v=1688392273" type="font/woff" crossorigin>
+    <link rel="preload" as="font" href="https://cdn.shopify.com/s/files/1/0250/0611/2828/files/GillNewAntique-rehinted.woff2?v=1785741358" type="font/woff2" crossorigin>
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
@@ -330,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
  {% render 'cookie-information-consent' %}
 
-{{ 'custom.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="print" onload="this.media='all'">
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
