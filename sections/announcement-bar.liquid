@@ -14,7 +14,7 @@
   endif
 -%}
 
-{% if social_icons %}
+{% if social_icons and section.settings.show_social %}
   {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 {% endif %}
 
