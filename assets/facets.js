@@ -363,3 +363,20 @@ class FacetRemove extends HTMLElement {
 }
 
 customElements.define('facet-remove', FacetRemove);
+
+class VerticalFiltersToggle extends HTMLElement {
+  constructor() {
+    super();
+    this.button = this.querySelector('button');
+    this.target = document.getElementById(this.button.getAttribute('aria-controls'));
+    this.button.addEventListener('click', this.toggle.bind(this));
+  }
+
+  toggle() {
+    if (!this.target) return;
+    const isCollapsed = this.target.classList.toggle('facets-wrapper--collapsed');
+    this.button.setAttribute('aria-expanded', String(!isCollapsed));
+  }
+}
+
+customElements.define('vertical-filters-toggle', VerticalFiltersToggle);
