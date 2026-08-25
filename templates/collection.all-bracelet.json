@@ -22,6 +22,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -154,8 +157,9 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "enable_filtering": true,
-        "filter_type": "horizontal",
+        "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 20,
@@ -171,7 +175,10 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "template--19102483808592__40b8517e-e66d-40de-b3fe-143c89f356be-168813338927d7b193-1": {
@@ -180,7 +187,10 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "template--19102483808592__40b8517e-e66d-40de-b3fe-143c89f356be-168813338927d7b193-2": {
@@ -189,7 +199,10 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         }
       },
