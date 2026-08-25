@@ -50,6 +50,7 @@
     },
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 32px; color: #c0a765;}",
         "body {font-size: 24px; color: #c0a765;}"
