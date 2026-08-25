@@ -43,7 +43,16 @@
   </div>
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
-    {%- if (section.settings.enable_sorting or section.settings.enable_filtering) and section.settings.filter_type == 'vertical' -%}
+    {%- liquid
+      assign show_vertical_sort_row = false
+      if section.settings.filter_type == 'vertical' and section.settings.enable_sorting
+        assign show_vertical_sort_row = true
+      endif
+      if section.settings.filter_type == 'vertical' and section.settings.enable_filtering
+        assign show_vertical_sort_row = true
+      endif
+    -%}
+    {%- if show_vertical_sort_row -%}
       <facet-filters-form class="facets facets-vertical-sort page-width small-hide">
         <form class="facets-vertical-form" id="FacetSortForm">
           {%- if section.settings.enable_filtering -%}
