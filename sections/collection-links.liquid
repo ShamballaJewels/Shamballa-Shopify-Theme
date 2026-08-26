@@ -28,10 +28,6 @@
     >
       {%- for block in section.blocks -%}
         <li class="collection-links__item grid__item" {{ block.shopify_attributes }}>
-          {%- if block.settings.title != blank -%}
-            <h3 class="collection-links__title">{{ block.settings.title | escape }}</h3>
-          {%- endif -%}
-
           <a
             href="{{ block.settings.link }}"
             class="collection-links__image-link"
@@ -56,10 +52,8 @@
             </div>
           </a>
 
-          {%- if block.settings.description != blank -%}
-            <div class="collection-links__description rte">
-              {{ block.settings.description }}
-            </div>
+          {%- if block.settings.title != blank -%}
+            <h3 class="collection-links__title">{{ block.settings.title | escape }}</h3>
           {%- endif -%}
         </li>
       {%- endfor -%}
@@ -150,12 +144,6 @@
           "type": "url",
           "id": "link",
           "label": "Link"
-        },
-        {
-          "type": "richtext",
-          "id": "description",
-          "label": "Description",
-          "default": "<p>Short description</p>"
         }
       ]
     }

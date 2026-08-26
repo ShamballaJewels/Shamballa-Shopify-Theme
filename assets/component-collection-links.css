@@ -20,7 +20,7 @@
 }
 
 .collection-links__title {
-  margin: 0 0 1.2rem;
+  margin: 1.2rem 0 0;
   font-size: 1.6rem;
   text-align: center;
 }
@@ -48,15 +48,4 @@
 
 .collection-links__image-link:hover .collection-links__image {
   transform: scale(1.04);
-}
-
-.collection-links__description {
-  margin-top: 1.2rem;
-  text-align: center;
-  font-size: 1.4rem;
-  color: rgba(var(--color-foreground), 0.75);
-}
-
-.collection-links__description p {
-  margin: 0;
 }
