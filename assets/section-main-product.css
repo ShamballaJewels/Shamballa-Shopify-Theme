@@ -1649,3 +1649,29 @@ a.product__text {
 .product__shipping-link:hover {
   text-decoration: underline;
 }
+
+.product-material-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.product-material-info__row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  color: rgb(var(--color-foreground));
+}
+
+.product-material-info__row .svg-wrapper {
+  display: flex;
+  width: 1.8rem;
+  flex-shrink: 0;
+}
+
+.product-material-info__row .svg-wrapper svg {
+  width: 100%;
+  height: auto;
+}
