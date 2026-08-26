@@ -54,7 +54,7 @@
       {%- assign icon_image = entry.color.value -%}
       {%- assign icon_label = entry.name_of_color.value -%}
       {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon">
+        <span class="card-product-attribute-icon" data-label="{{ icon_label | escape }}">
           <span class="card-product-attribute-icon__image">
             {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
           </span>
@@ -67,7 +67,7 @@
       {%- assign icon_image = entry.image.value -%}
       {%- assign icon_label = entry.name.value -%}
       {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon">
+        <span class="card-product-attribute-icon" data-label="{{ icon_label | escape }}">
           <span class="card-product-attribute-icon__image">
             {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
           </span>
@@ -115,6 +115,7 @@
           <a
             href="{{ matched_variant.url | within: collection }}"
             class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}"
+            data-label="{{ icon_label | escape }}"
           >
             <span class="card-product-attribute-icon__image">
               {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
@@ -122,7 +123,10 @@
             <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
           </a>
         {%- else -%}
-          <span class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}">
+          <span
+            class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}"
+            data-label="{{ icon_label | escape }}"
+          >
             <span class="card-product-attribute-icon__image">
               {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
             </span>
@@ -131,5 +135,6 @@
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
+    <div class="card-product-attribute-icons__active-label" aria-hidden="true"></div>
   </div>
 {%- endif -%}
