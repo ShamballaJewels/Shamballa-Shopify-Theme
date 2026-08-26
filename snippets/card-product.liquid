@@ -145,7 +145,9 @@
           </div>
         </div>
       </div>
-      {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
+      <div class="color-{{ settings.card_color_scheme }} gradient">
+        {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
+      </div>
       <div class="card__content">
         <div class="card__information">
           <h3
