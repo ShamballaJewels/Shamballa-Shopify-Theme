@@ -1,7 +1,11 @@
 {% comment %}
-  Renders small square icons for a product's Diamond Color, Gold Color, and
-  Gemstone Color metafields, reusing the icon/image already set on each
-  metaobject entry (no new icons need to be uploaded).
+  Renders small square icons for a product's Diamond Color, Gemstone Color,
+  and Gold Color metafields, reusing the icon/image already set on each
+  metaobject entry (no new icons need to be uploaded). Gold Color is always
+  listed last. When Gold Color is a real variant option on the product, the
+  entry matching the currently displayed variant gets a dark rim, and the
+  other entries link to the matching variant (same other option values,
+  different gold color).
 
   Accepts:
   - card_product: {Object} product object.
@@ -20,25 +24,27 @@
   if card_product.metafields.custom.locks_gemstone_color.value.size > 0
     assign has_icons = true
   endif
+
+  assign current_variant = card_product.selected_or_first_available_variant
+  assign gold_option_position = 0
+  for option in card_product.options_with_values
+    if option.name == 'Gold Color'
+      assign gold_option_position = forloop.index
+    endif
+  endfor
+  if gold_option_position == 1
+    assign gold_option_key = 'option1'
+  elsif gold_option_position == 2
+    assign gold_option_key = 'option2'
+  elsif gold_option_position == 3
+    assign gold_option_key = 'option3'
+  endif
 -%}
 {%- if has_icons -%}
   <div class="card-product-attribute-icons">
     {%- for entry in card_product.metafields.custom.diamond_color.value -%}
       {%- assign icon_image = entry.color.value -%}
       {%- assign icon_label = entry.name_of_color.value -%}
-      {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon">
-          <span class="card-product-attribute-icon__image">
-            {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
-          </span>
-          <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
-        </span>
-      {%- endif -%}
-    {%- endfor -%}
-
-    {%- for entry in card_product.metafields.custom.gold_color.value -%}
-      {%- assign icon_image = entry.image.value -%}
-      {%- assign icon_label = entry.name.value -%}
       {%- if icon_image != blank -%}
         <span class="card-product-attribute-icon">
           <span class="card-product-attribute-icon__image">
@@ -59,6 +65,60 @@
           </span>
           <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- for entry in card_product.metafields.custom.gold_color.value -%}
+      {%- assign icon_image = entry.image.value -%}
+      {%- assign icon_label = entry.name.value -%}
+      {%- if icon_image != blank -%}
+        {%- liquid
+          assign is_active = false
+          assign matched_variant = null
+
+          if gold_option_position > 0
+            if current_variant[gold_option_key] == icon_label
+              assign is_active = true
+            else
+              for variant in card_product.variants
+                assign other_options_match = true
+                if gold_option_position != 1 and variant.option1 != current_variant.option1
+                  assign other_options_match = false
+                endif
+                if gold_option_position != 2 and variant.option2 != current_variant.option2
+                  assign other_options_match = false
+                endif
+                if gold_option_position != 3 and variant.option3 != current_variant.option3
+                  assign other_options_match = false
+                endif
+                if variant[gold_option_key] == icon_label and other_options_match
+                  assign matched_variant = variant
+                  break
+                endif
+              endfor
+            endif
+          elsif card_product.metafields.custom.gold_color.value.size == 1
+            assign is_active = true
+          endif
+        -%}
+        {%- if matched_variant -%}
+          <a
+            href="{{ matched_variant.url | within: collection }}"
+            class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}"
+          >
+            <span class="card-product-attribute-icon__image">
+              {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+            </span>
+            <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
+          </a>
+        {%- else -%}
+          <span class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}">
+            <span class="card-product-attribute-icon__image">
+              {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+            </span>
+            <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
+          </span>
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   </div>

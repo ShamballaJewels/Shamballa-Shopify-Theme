@@ -640,6 +640,10 @@
   box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.25);
 }
 
+.card-product-attribute-icon--active .card-product-attribute-icon__image {
+  border: 0.2rem solid rgb(var(--color-foreground));
+}
+
 .card-product-attribute-icon img {
   display: block;
   width: 100%;
