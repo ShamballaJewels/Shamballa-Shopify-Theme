@@ -16,9 +16,14 @@ function showActiveLabel(icon) {
 }
 
 document.addEventListener('click', function (event) {
-  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-
   const icon = event.target.closest('.card-product-attribute-icon');
+
+  // The overlay layout (floats on the photo, desktop widths) relies on
+  // real :hover and its own nested label, so leave clicks on it alone.
+  // Only the inline layout (a plain row below the photo, mobile widths)
+  // has no hover at all and needs tap-to-reveal handled here.
+  const row = icon && icon.closest('.card-product-attribute-icons');
+  if (row && row.classList.contains('card-product-attribute-icons--overlay')) return;
 
   document.querySelectorAll('.card-product-attribute-icon--show-label').forEach(function (openIcon) {
     if (openIcon !== icon) hideActiveLabel(openIcon);
