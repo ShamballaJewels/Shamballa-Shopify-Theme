@@ -31,7 +31,7 @@
       assign gold_text = '18K ' | append: entry.name.value
     endfor
   elsif gold_color_count > 1
-    assign gold_text = gold_color_count | append: ' types of 18K Gold'
+    assign gold_text = '18K Gold'
   endif
 
   assign gemstone_count = product.metafields.custom.locks_gemstone_color.value.size
