@@ -594,6 +594,18 @@
   }
 }
 
+.card:has(.card-product-attribute-icons) {
+  position: relative;
+  isolation: isolate;
+  z-index: 2;
+}
+
+.card__inner:has(.card-product-attribute-icons) {
+  isolation: isolate;
+  z-index: 2;
+  pointer-events: none;
+}
+
 .card .card__media .media > .card-product-attribute-icons {
   position: absolute;
   z-index: 1;
@@ -605,6 +617,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.card-product-attribute-icon {
+  pointer-events: auto;
 }
 
 .card-product-attribute-icon {
