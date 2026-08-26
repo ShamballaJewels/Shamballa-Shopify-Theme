@@ -594,11 +594,14 @@
   }
 }
 
-.card-product-attribute-icons {
+.card .card__media .media > .card-product-attribute-icons {
   position: absolute;
   z-index: 1;
+  top: auto;
   left: 0.8rem;
   bottom: 0.8rem;
+  height: auto;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
