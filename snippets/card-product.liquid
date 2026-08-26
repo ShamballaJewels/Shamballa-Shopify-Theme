@@ -27,6 +27,7 @@
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'quick-order-list.css' | asset_url | stylesheet_tag }}
   <link rel="stylesheet" href="{{ 'quantity-popover.css' | asset_url }}" media="print" onload="this.media='all'">
+  <script src="{{ 'card-attribute-icons.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
 {%- if card_product and card_product != empty -%}
   {%- liquid

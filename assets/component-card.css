@@ -630,6 +630,13 @@
   height: 1.8rem;
 }
 
+@media screen and (max-width: 749px) {
+  .card-product-attribute-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+
 .card-product-attribute-icon__image {
   display: block;
   width: 100%;
@@ -669,7 +676,8 @@
 }
 
 .card-product-attribute-icon:hover .card-product-attribute-icon__label,
-.card-product-attribute-icon:focus-within .card-product-attribute-icon__label {
+.card-product-attribute-icon:focus-within .card-product-attribute-icon__label,
+.card-product-attribute-icon--show-label .card-product-attribute-icon__label {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
