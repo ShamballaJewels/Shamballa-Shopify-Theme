@@ -14,14 +14,21 @@
     don't cover the image).
   - display_variant: {Object} Variant Liquid object (optional). When present,
     this variant (rather than the product's selected/first available variant)
-    is treated as "currently shown" for the active-rim gold color check.
+    is treated as "currently shown" for the active-rim gold color check, and
+    for the Diamond Color icon, which lives on the variant.
 
   Usage:
   {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
 {% endcomment %}
 {%- liquid
+  assign current_variant = card_product.selected_or_first_available_variant
+  if display_variant
+    assign current_variant = display_variant
+  endif
+  assign diamond_entry = current_variant.metafields.custom.diamond_color.value
+
   assign has_icons = false
-  if card_product.metafields.custom.diamond_color.value.size > 0
+  if diamond_entry
     assign has_icons = true
   endif
   if card_product.metafields.custom.gold_color.value.size > 0
@@ -31,10 +38,6 @@
     assign has_icons = true
   endif
 
-  assign current_variant = card_product.selected_or_first_available_variant
-  if display_variant
-    assign current_variant = display_variant
-  endif
   assign gold_color_count = card_product.metafields.custom.gold_color.value.size
   assign gold_option_position = 0
   for option in card_product.options_with_values
@@ -56,9 +59,9 @@
 -%}
 {%- if has_icons -%}
   <div class="card-product-attribute-icons card-product-attribute-icons--{{ layout }}">
-    {%- for entry in card_product.metafields.custom.diamond_color.value -%}
-      {%- assign icon_image = entry.color.value -%}
-      {%- assign icon_label = entry.name_of_color.value -%}
+    {%- if diamond_entry -%}
+      {%- assign icon_image = diamond_entry.color.value -%}
+      {%- assign icon_label = diamond_entry.name_of_color.value -%}
       {%- if icon_image != blank -%}
         <span class="card-product-attribute-icon" data-label="{{ icon_label | escape }}">
           <span class="card-product-attribute-icon__image">
@@ -67,7 +70,7 @@
           <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
       {%- endif -%}
-    {%- endfor -%}
+    {%- endif -%}
 
     {%- for entry in card_product.metafields.custom.locks_gemstone_color.value -%}
       {%- assign icon_image = entry.image.value -%}

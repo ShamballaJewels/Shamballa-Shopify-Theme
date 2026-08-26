@@ -11,18 +11,15 @@
   {% render 'product-material-info', product: product, section_id: section.id %}
 {% endcomment %}
 {%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign diamond_entry = current_variant.metafields.custom.diamond_color.value
   assign diamond_text = ''
-  for entry in product.metafields.custom.diamond_color.value
-    assign diamond_name = entry.name_of_color.value
+  if diamond_entry
+    assign diamond_name = diamond_entry.name_of_color.value
     if diamond_name != blank
-      assign diamond_name = diamond_name | append: 's'
-      if diamond_text == blank
-        assign diamond_text = diamond_name
-      else
-        assign diamond_text = diamond_text | append: ', ' | append: diamond_name
-      endif
+      assign diamond_text = diamond_name | append: 's'
     endif
-  endfor
+  endif
 
   assign gold_color_count = product.metafields.custom.gold_color.value.size
   assign gold_text = ''
