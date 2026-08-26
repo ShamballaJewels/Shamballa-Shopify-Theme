@@ -627,6 +627,12 @@
   pointer-events: none;
 }
 
+.card-product-attribute-icons__scheme-wrapper {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
 @media screen and (max-width: 749px) {
   .card .card__media .media > .card-product-attribute-icons--overlay {
     display: none;
