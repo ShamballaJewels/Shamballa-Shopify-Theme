@@ -26,6 +26,7 @@
   endif
 
   assign current_variant = card_product.selected_or_first_available_variant
+  assign gold_color_count = card_product.metafields.custom.gold_color.value.size
   assign gold_option_position = 0
   for option in card_product.options_with_values
     if option.name == 'Gold Color'
@@ -97,8 +98,10 @@
                 endif
               endfor
             endif
-          elsif card_product.metafields.custom.gold_color.value.size == 1
-            assign is_active = true
+          endif
+
+          if gold_color_count <= 1
+            assign is_active = false
           endif
         -%}
         {%- if matched_variant -%}
