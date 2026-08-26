@@ -104,7 +104,7 @@
                   height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
-              {% render 'card-product-attribute-icons', card_product: card_product %}
+              {% render 'card-product-attribute-icons', card_product: card_product, layout: 'overlay' %}
             </div>
           </div>
         {%- endif -%}
@@ -145,6 +145,7 @@
           </div>
         </div>
       </div>
+      {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
       <div class="card__content">
         <div class="card__information">
           <h3

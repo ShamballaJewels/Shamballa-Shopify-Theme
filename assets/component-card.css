@@ -606,7 +606,7 @@
   pointer-events: none;
 }
 
-.card .card__media .media > .card-product-attribute-icons {
+.card .card__media .media > .card-product-attribute-icons--overlay {
   position: absolute;
   z-index: 1;
   top: auto;
@@ -617,6 +617,28 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.card-product-attribute-icons--inline {
+  display: none;
+  position: relative;
+  isolation: isolate;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 749px) {
+  .card .card__media .media > .card-product-attribute-icons--overlay {
+    display: none;
+  }
+
+  .card-product-attribute-icons--inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.8rem 0 0;
+    padding: 0 1.5rem;
+  }
 }
 
 .card-product-attribute-icon {

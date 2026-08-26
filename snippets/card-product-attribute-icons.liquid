@@ -9,9 +9,12 @@
 
   Accepts:
   - card_product: {Object} product object.
+  - layout: {String} 'overlay' (default, floats on the product photo) or
+    'inline' (a plain row below the photo, used on mobile so the icons
+    don't cover the image).
 
   Usage:
-  {% render 'card-product-attribute-icons', card_product: card_product %}
+  {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
 {% endcomment %}
 {%- liquid
   assign has_icons = false
@@ -40,9 +43,13 @@
   elsif gold_option_position == 3
     assign gold_option_key = 'option3'
   endif
+
+  if layout == blank
+    assign layout = 'overlay'
+  endif
 -%}
 {%- if has_icons -%}
-  <div class="card-product-attribute-icons">
+  <div class="card-product-attribute-icons card-product-attribute-icons--{{ layout }}">
     {%- for entry in card_product.metafields.custom.diamond_color.value -%}
       {%- assign icon_image = entry.color.value -%}
       {%- assign icon_label = entry.name_of_color.value -%}
