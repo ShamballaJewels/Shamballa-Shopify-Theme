@@ -12,6 +12,9 @@
   - layout: {String} 'overlay' (default, floats on the product photo) or
     'inline' (a plain row below the photo, used on mobile so the icons
     don't cover the image).
+  - display_variant: {Object} Variant Liquid object (optional). When present,
+    this variant (rather than the product's selected/first available variant)
+    is treated as "currently shown" for the active-rim gold color check.
 
   Usage:
   {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
@@ -29,6 +32,9 @@
   endif
 
   assign current_variant = card_product.selected_or_first_available_variant
+  if display_variant
+    assign current_variant = display_variant
+  endif
   assign gold_color_count = card_product.metafields.custom.gold_color.value.size
   assign gold_option_position = 0
   for option in card_product.options_with_values

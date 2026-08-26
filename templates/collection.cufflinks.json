@@ -136,6 +136,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
+        "expand_variants": true,
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
