@@ -10,13 +10,42 @@
   {% render 'card-product-attribute-icons', card_product: card_product %}
 {% endcomment %}
 {%- liquid
-  assign attribute_icons = card_product.metafields.custom.diamond_color.value | concat: card_product.metafields.custom.gold_color.value | concat: card_product.metafields.custom.locks_gemstone_color.value
+  assign has_icons = false
+  if card_product.metafields.custom.diamond_color.value.size > 0
+    assign has_icons = true
+  endif
+  if card_product.metafields.custom.gold_color.value.size > 0
+    assign has_icons = true
+  endif
+  if card_product.metafields.custom.locks_gemstone_color.value.size > 0
+    assign has_icons = true
+  endif
 -%}
-{%- if attribute_icons.size > 0 -%}
+{%- if has_icons -%}
   <div class="card-product-attribute-icons">
-    {%- for entry in attribute_icons -%}
-      {%- assign icon_image = entry.color.value | default: entry.image.value -%}
-      {%- assign icon_label = entry.name_of_color.value | default: entry.name.value -%}
+    {%- for entry in card_product.metafields.custom.diamond_color.value -%}
+      {%- assign icon_image = entry.color.value -%}
+      {%- assign icon_label = entry.name_of_color.value -%}
+      {%- if icon_image != blank -%}
+        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+          {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+        </span>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- for entry in card_product.metafields.custom.gold_color.value -%}
+      {%- assign icon_image = entry.image.value -%}
+      {%- assign icon_label = entry.name.value -%}
+      {%- if icon_image != blank -%}
+        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+          {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+        </span>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- for entry in card_product.metafields.custom.locks_gemstone_color.value -%}
+      {%- assign icon_image = entry.image.value -%}
+      {%- assign icon_label = entry.name.value -%}
       {%- if icon_image != blank -%}
         <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
           {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
