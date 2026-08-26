@@ -1,0 +1,29 @@
+{% comment %}
+  Renders small square icons for a product's Diamond Color, Gold Color, and
+  Gemstone Color metafields, reusing the icon/image already set on each
+  metaobject entry (no new icons need to be uploaded).
+
+  Accepts:
+  - card_product: {Object} product object.
+
+  Usage:
+  {% render 'card-product-attribute-icons', card_product: card_product %}
+{% endcomment %}
+{%- liquid
+  assign attribute_icons = card_product.metafields.custom.diamond_color.value
+    | concat: card_product.metafields.custom.gold_color.value
+    | concat: card_product.metafields.custom.locks_gemstone_color.value
+-%}
+{%- if attribute_icons.size > 0 -%}
+  <div class="card-product-attribute-icons">
+    {%- for entry in attribute_icons -%}
+      {%- assign icon_image = entry.color.value | default: entry.image.value -%}
+      {%- assign icon_label = entry.name_of_color.value | default: entry.name.value -%}
+      {%- if icon_image != blank -%}
+        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+          {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+        </span>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
