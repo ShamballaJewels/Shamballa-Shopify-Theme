@@ -641,7 +641,7 @@
 }
 
 .card-product-attribute-icon--active .card-product-attribute-icon__image {
-  border: 0.2rem solid rgb(var(--color-foreground));
+  border: 0.2rem solid #000;
 }
 
 .card-product-attribute-icon img {
