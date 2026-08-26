@@ -98,22 +98,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "bracelet_picker_1": {
-      "type": "bracelet-picker",
-      "disabled": true,
-      "settings": {
-        "heading": "Find your bracelet",
-        "subheading": "Answer a few quick questions to discover the styles made for you",
-        "collection": "all-bracelets",
-        "back_label": "Back",
-        "skip_label": "Skip this question",
-        "restart_label": "Start over",
-        "empty_results_text": "We couldn't find a bracelet matching all of your choices. Try starting over with fewer selections.",
-        "color_scheme": "scheme-4",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307": {
       "type": "custom-liquid",
       "disabled": true,
@@ -989,7 +973,6 @@
   },
   "order": [
     "slideshow_X3pnQk",
-    "bracelet_picker_1",
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
     "rich_text_rJNpdR",
