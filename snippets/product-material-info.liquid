@@ -4,9 +4,11 @@
 
   Accepts:
   - product: {Object} product object.
+  - section_id: {String} The ID of the section that contains this block,
+    used so the variant-switching JS can find and refresh this block.
 
   Usage:
-  {% render 'product-material-info', product: product %}
+  {% render 'product-material-info', product: product, section_id: section.id %}
 {% endcomment %}
 {%- liquid
   assign diamond_text = ''
@@ -22,23 +24,49 @@
     endif
   endfor
 
-  assign gold_text = ''
-  for entry in product.metafields.custom.gold_color.value
-    assign gold_name = entry.name.value
-    if gold_name != blank
-      assign gold_name = '18K ' | append: gold_name
-      if gold_text == blank
-        assign gold_text = gold_name
-      else
-        assign gold_text = gold_text | append: ', ' | append: gold_name
-      endif
+  assign current_variant = product.selected_or_first_available_variant
+  assign gold_option_position = 0
+  for option in product.options_with_values
+    if option.name == 'Gold Color'
+      assign gold_option_position = forloop.index
     endif
   endfor
+  if gold_option_position == 1
+    assign gold_option_key = 'option1'
+  elsif gold_option_position == 2
+    assign gold_option_key = 'option2'
+  elsif gold_option_position == 3
+    assign gold_option_key = 'option3'
+  endif
+
+  assign gold_text = ''
+  if gold_option_position > 0
+    assign current_gold_value = current_variant[gold_option_key]
+    for entry in product.metafields.custom.gold_color.value
+      assign gold_name = entry.name.value
+      if gold_name == current_gold_value
+        assign gold_text = '18K ' | append: gold_name
+        break
+      endif
+    endfor
+  else
+    for entry in product.metafields.custom.gold_color.value
+      assign gold_name = entry.name.value
+      if gold_name != blank
+        assign gold_name = '18K ' | append: gold_name
+        if gold_text == blank
+          assign gold_text = gold_name
+        else
+          assign gold_text = gold_text | append: ', ' | append: gold_name
+        endif
+      endif
+    endfor
+  endif
 
   assign gemstone_count = product.metafields.custom.locks_gemstone_color.value.size
 -%}
 {%- if diamond_text != blank or gold_text != blank or gemstone_count > 0 -%}
-  <div class="product-material-info">
+  <div class="product-material-info" id="product-material-info-{{ section_id }}">
     {%- if diamond_text != blank -%}
       <div class="product-material-info__row">
         <span class="svg-wrapper">{{- 'icon-diamond.svg' | inline_asset_content -}}</span>

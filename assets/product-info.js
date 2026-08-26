@@ -190,6 +190,7 @@ if (!customElements.get('product-info')) {
           updateSourceFromDestination('Sku', ({ classList }) => classList.contains('hidden'));
           updateSourceFromDestination('Inventory', ({ innerText }) => innerText === '');
           updateSourceFromDestination('Volume');
+          updateSourceFromDestination('product-material-info');
           updateSourceFromDestination('Price-Per-Item', ({ classList }) => classList.contains('hidden'));
 
           this.updateQuantityRules(this.sectionId, html);
