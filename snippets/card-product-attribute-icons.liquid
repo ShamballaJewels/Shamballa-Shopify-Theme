@@ -27,8 +27,9 @@
       {%- assign icon_image = entry.color.value -%}
       {%- assign icon_label = entry.name_of_color.value -%}
       {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+        <span class="card-product-attribute-icon">
           {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+          <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
       {%- endif -%}
     {%- endfor -%}
@@ -37,8 +38,9 @@
       {%- assign icon_image = entry.image.value -%}
       {%- assign icon_label = entry.name.value -%}
       {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+        <span class="card-product-attribute-icon">
           {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+          <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
       {%- endif -%}
     {%- endfor -%}
@@ -47,8 +49,9 @@
       {%- assign icon_image = entry.image.value -%}
       {%- assign icon_label = entry.name.value -%}
       {%- if icon_image != blank -%}
-        <span class="card-product-attribute-icon" title="{{ icon_label | escape }}">
+        <span class="card-product-attribute-icon">
           {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
+          <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
       {%- endif -%}
     {%- endfor -%}

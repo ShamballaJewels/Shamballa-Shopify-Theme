@@ -103,6 +103,7 @@
                   height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
+              {% render 'card-product-attribute-icons', card_product: card_product %}
             </div>
           </div>
         {%- endif -%}
@@ -160,7 +161,6 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-          {% render 'card-product-attribute-icons', card_product: card_product %}
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
