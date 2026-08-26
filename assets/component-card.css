@@ -649,9 +649,9 @@
 
 .card-product-attribute-icon__label {
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: calc(100% + 0.6rem);
-  transform: translateX(-50%) translateY(0.3rem);
+  transform: translateY(0.3rem);
   padding: 0.3rem 0.8rem;
   border-radius: 2px;
   background-color: rgb(var(--color-foreground));
@@ -668,5 +668,5 @@
 .card-product-attribute-icon:focus-within .card-product-attribute-icon__label {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0);
+  transform: translateY(0);
 }
