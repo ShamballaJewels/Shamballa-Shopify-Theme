@@ -14,8 +14,8 @@
     don't cover the image).
   - display_variant: {Object} Variant Liquid object (optional). When present,
     this variant (rather than the product's selected/first available variant)
-    is treated as "currently shown" for the active-rim gold color check, and
-    for the Diamond Color icon, which lives on the variant.
+    is treated as "currently shown" for the Gold Color and Diamond Color
+    icons, which are variant-specific.
 
   Usage:
   {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline' %}
@@ -27,18 +27,6 @@
   endif
   assign diamond_entry = current_variant.metafields.custom.diamond_color.value
 
-  assign has_icons = false
-  if diamond_entry
-    assign has_icons = true
-  endif
-  if card_product.metafields.custom.gold_color.value.size > 0
-    assign has_icons = true
-  endif
-  if card_product.metafields.custom.locks_gemstone_color.value.size > 0
-    assign has_icons = true
-  endif
-
-  assign gold_color_count = card_product.metafields.custom.gold_color.value.size
   assign gold_option_position = 0
   for option in card_product.options_with_values
     if option.name == 'Gold Color'
@@ -51,6 +39,35 @@
     assign gold_option_key = 'option2'
   elsif gold_option_position == 3
     assign gold_option_key = 'option3'
+  endif
+
+  # Only show the gold color of the variant this card is actually showing,
+  # not every gold color the product offers.
+  assign gold_entry = null
+  if gold_option_position > 0
+    assign current_gold_value = current_variant[gold_option_key]
+    for entry in card_product.metafields.custom.gold_color.value
+      if entry.name.value == current_gold_value
+        assign gold_entry = entry
+        break
+      endif
+    endfor
+  else
+    for entry in card_product.metafields.custom.gold_color.value
+      assign gold_entry = entry
+      break
+    endfor
+  endif
+
+  assign has_icons = false
+  if diamond_entry
+    assign has_icons = true
+  endif
+  if gold_entry
+    assign has_icons = true
+  endif
+  if card_product.metafields.custom.locks_gemstone_color.value.size > 0
+    assign has_icons = true
   endif
 
   if layout == blank
@@ -85,65 +102,18 @@
       {%- endif -%}
     {%- endfor -%}
 
-    {%- for entry in card_product.metafields.custom.gold_color.value -%}
-      {%- assign icon_image = entry.image.value -%}
-      {%- assign icon_label = entry.name.value -%}
+    {%- if gold_entry -%}
+      {%- assign icon_image = gold_entry.image.value -%}
+      {%- assign icon_label = gold_entry.name.value -%}
       {%- if icon_image != blank -%}
-        {%- liquid
-          assign is_active = false
-          assign matched_variant = null
-
-          if gold_option_position > 0
-            if current_variant[gold_option_key] == icon_label
-              assign is_active = true
-            else
-              for variant in card_product.variants
-                assign other_options_match = true
-                if gold_option_position != 1 and variant.option1 != current_variant.option1
-                  assign other_options_match = false
-                endif
-                if gold_option_position != 2 and variant.option2 != current_variant.option2
-                  assign other_options_match = false
-                endif
-                if gold_option_position != 3 and variant.option3 != current_variant.option3
-                  assign other_options_match = false
-                endif
-                if variant[gold_option_key] == icon_label and other_options_match
-                  assign matched_variant = variant
-                  break
-                endif
-              endfor
-            endif
-          endif
-
-          if gold_color_count <= 1
-            assign is_active = false
-          endif
-        -%}
-        {%- if matched_variant -%}
-          <a
-            href="{{ matched_variant.url | within: collection }}"
-            class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}"
-            data-label="{{ icon_label | escape }}"
-          >
-            <span class="card-product-attribute-icon__image">
-              {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
-            </span>
-            <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
-          </a>
-        {%- else -%}
-          <span
-            class="card-product-attribute-icon{% if is_active %} card-product-attribute-icon--active{% endif %}"
-            data-label="{{ icon_label | escape }}"
-          >
-            <span class="card-product-attribute-icon__image">
-              {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
-            </span>
-            <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
+        <span class="card-product-attribute-icon" data-label="{{ icon_label | escape }}">
+          <span class="card-product-attribute-icon__image">
+            {{ icon_image | image_url: width: 60 | image_tag: loading: 'lazy', alt: icon_label, sizes: '2.4rem' }}
           </span>
-        {%- endif -%}
+          <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
+        </span>
       {%- endif -%}
-    {%- endfor -%}
+    {%- endif -%}
     <div class="card-product-attribute-icons__active-label" aria-hidden="true"></div>
   </div>
 {%- endif -%}
