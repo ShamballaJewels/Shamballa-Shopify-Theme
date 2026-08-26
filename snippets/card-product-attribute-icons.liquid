@@ -10,9 +10,7 @@
   {% render 'card-product-attribute-icons', card_product: card_product %}
 {% endcomment %}
 {%- liquid
-  assign attribute_icons = card_product.metafields.custom.diamond_color.value
-    | concat: card_product.metafields.custom.gold_color.value
-    | concat: card_product.metafields.custom.locks_gemstone_color.value
+  assign attribute_icons = card_product.metafields.custom.diamond_color.value | concat: card_product.metafields.custom.gold_color.value | concat: card_product.metafields.custom.locks_gemstone_color.value
 -%}
 {%- if attribute_icons.size > 0 -%}
   <div class="card-product-attribute-icons">
