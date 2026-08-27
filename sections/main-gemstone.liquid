@@ -1,3 +1,5 @@
+{{ 'component-breadcrumbs.css' | asset_url | stylesheet_tag }}
+
 <div class="gemstone-detail color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="page-width">
     {%- render 'breadcrumbs', current_title: metaobject.name.value, collection_object: pages['gemstones'] -%}
