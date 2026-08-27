@@ -141,8 +141,7 @@
           "settings": {
             "image": "shopify://shop_images/blackallibangle_9a615031-c7a3-462c-b00f-c9999e1a82cb.jpg",
             "title": "Solid Bracelets",
-            "link": "shopify://collections/solid-bracelets",
-            "description": "<p>Short description</p>"
+            "link": "shopify://collections/solid-bracelets"
           }
         },
         "link_item_mFcXFQ": {
@@ -150,8 +149,7 @@
           "settings": {
             "image": "shopify://shop_images/D253174.png",
             "title": "Lock bracelets",
-            "link": "shopify://collections/lock-bracelets-1",
-            "description": "<p>Short description</p>"
+            "link": "shopify://collections/lock-bracelets-1"
           }
         },
         "link_item_RQQxVE": {
@@ -159,8 +157,7 @@
           "settings": {
             "image": "shopify://shop_images/D253239.png",
             "title": "Beaded bracelets",
-            "link": "shopify://collections/beaded-bracelets",
-            "description": "<p>Short description</p>"
+            "link": "shopify://collections/beaded-bracelets"
           }
         },
         "link_item_8aUUfG": {
@@ -168,8 +165,7 @@
           "settings": {
             "image": "shopify://shop_images/Orb6SOSR.jpg",
             "title": "orb bracelets",
-            "link": "shopify://collections/orb-bracelets",
-            "description": "<p>Short description</p>"
+            "link": "shopify://collections/orb-bracelets"
           }
         }
       },
