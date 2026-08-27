@@ -9,7 +9,7 @@
   {%- assign gemstones = shop.metaobjects.gemstone_color.values -%}
   <div class="gemstone-list__grid grid grid--3-col-desktop grid--2-col-tablet-down">
     {%- for gemstone in gemstones -%}
-      <a href="{{ gemstone.url | default: '#' }}" class="gemstone-list__card">
+      <a href="{{ gemstone.system.url | default: '#' }}" class="gemstone-list__card">
         {%- if gemstone.image.value -%}
           {{ gemstone.image.value | image_url: width: 600 | image_tag: loading: 'lazy', alt: gemstone.name.value }}
         {%- endif -%}
