@@ -1,8 +1,6 @@
 <div class="gemstone-list color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="page-width--narrow">
-      {%- render 'breadcrumbs', current_title: section.settings.heading -%}
-    </div>
+    {%- render 'breadcrumbs', current_title: section.settings.heading -%}
 
     <div class="gemstone-list__header">
       <h1 class="gemstone-list__title title {{ section.settings.heading_size }}">
