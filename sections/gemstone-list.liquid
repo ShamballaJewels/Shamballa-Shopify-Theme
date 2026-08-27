@@ -1,56 +1,141 @@
-<div class="page-width section-{{ section.id }}-padding">
-  <div class="gemstone-list__header">
-    <h1 class="gemstone-list__title">{{ section.settings.heading | default: 'Our Gemstones' }}</h1>
-    {%- if section.settings.intro != blank -%}
-      <div class="gemstone-list__intro rte">{{ section.settings.intro }}</div>
-    {%- endif -%}
-  </div>
+<div class="gemstone-list color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="page-width--narrow">
+      {%- render 'breadcrumbs', current_title: section.settings.heading -%}
+    </div>
 
-  {%- assign gemstones = shop.metaobjects.gemstone_color.values -%}
-  <div class="gemstone-list__grid grid grid--3-col-desktop grid--2-col-tablet-down">
-    {%- for gemstone in gemstones -%}
-      <a href="{{ gemstone.system.url | default: '#' }}" class="gemstone-list__card">
-        {%- if gemstone.image.value -%}
-          {{ gemstone.image.value | image_url: width: 600 | image_tag: loading: 'lazy', alt: gemstone.name.value }}
-        {%- endif -%}
-        <h2 class="gemstone-list__card-title h4">{{ gemstone.name.value }}</h2>
-        {%- if gemstone.description.value != blank -%}
-          <p class="gemstone-list__card-excerpt">{{ gemstone.description.value | truncate: 120 }}</p>
-        {%- endif -%}
-      </a>
-    {%- endfor -%}
+    <div class="gemstone-list__header">
+      <h1 class="gemstone-list__title title {{ section.settings.heading_size }}">
+        {{ section.settings.heading | escape }}
+      </h1>
+      {%- if section.settings.intro != blank -%}
+        <div class="gemstone-list__intro rte">{{ section.settings.intro }}</div>
+      {%- endif -%}
+    </div>
+
+    {%- assign gemstones = shop.metaobjects.gemstone_color.values -%}
+    {%- if gemstones.size > 0 -%}
+      <ul
+        class="gemstone-list__grid grid grid--2-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
+        role="list"
+      >
+        {%- for gemstone in gemstones -%}
+          <li class="gemstone-list__item grid__item">
+            <a href="{{ gemstone.system.url | default: '#' }}" class="gemstone-list__card">
+              <div class="gemstone-list__image-wrapper">
+                {%- if gemstone.image.value -%}
+                  {{
+                    gemstone.image.value
+                    | image_url: width: 700
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '165, 360, 533, 700',
+                      sizes: '(min-width: 990px) 25vw, (min-width: 750px) 33vw, 50vw',
+                      class: 'gemstone-list__image',
+                      alt: gemstone.name.value
+                  }}
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg gemstone-list__image' }}
+                {%- endif -%}
+              </div>
+              <h2 class="gemstone-list__card-title h5">{{ gemstone.name.value }}</h2>
+              {%- if gemstone.description.value != blank -%}
+                <p class="gemstone-list__card-excerpt caption-large light">
+                  {{- gemstone.description.value | truncate: 90 -}}
+                </p>
+              {%- endif -%}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      <div class="gemstone-list__empty">
+        <p>{{ 'sections.collection_template.empty' | t }}</p>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .gemstone-list {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  .gemstone-list .breadcrumbs {
+    margin-bottom: 2.5rem;
+  }
+
   .gemstone-list__header {
+    max-width: 60rem;
+    margin: 0 auto 4rem;
     text-align: center;
-    margin-bottom: 3rem;
   }
+
+  .gemstone-list__title {
+    margin-bottom: 1.2rem;
+  }
+
+  .gemstone-list__intro {
+    color: rgba(var(--color-foreground), 0.75);
+  }
+
   .gemstone-list__grid {
-    row-gap: 3rem;
+    row-gap: 4rem;
   }
+
   .gemstone-list__card {
     display: block;
     text-decoration: none;
     color: inherit;
   }
-  .gemstone-list__card img {
+
+  .gemstone-list__image-wrapper {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background-color: rgba(var(--color-foreground), 0.06);
+    margin-bottom: 1.5rem;
+  }
+
+  .gemstone-list__image,
+  .gemstone-list__image-wrapper .placeholder-svg {
+    display: block;
     width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--duration-long) ease;
   }
+
+  .gemstone-list__card:hover .gemstone-list__image {
+    transform: scale(1.04);
+  }
+
   .gemstone-list__card-title {
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem;
+    text-align: center;
   }
+
   .gemstone-list__card-excerpt {
-    color: rgb(var(--color-foreground));
-    opacity: 0.75;
+    margin: 0;
+    text-align: center;
+    color: rgba(var(--color-foreground), 0.65);
+  }
+
+  .gemstone-list__empty {
+    text-align: center;
+    padding: 4rem 0;
   }
 {%- endstyle -%}
 
@@ -59,9 +144,31 @@
   "name": "Gemstone list",
   "settings": [
     { "type": "text", "id": "heading", "label": "Heading", "default": "Our Gemstones" },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
     { "type": "richtext", "id": "intro", "label": "Intro text" },
-    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
-    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }
+    { "type": "color_scheme", "id": "color_scheme", "label": "t:sections.all.colors.label", "default": "scheme-1" },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 4,
+      "label": "Number of columns on desktop"
+    },
+    { "type": "header", "content": "t:sections.all.padding.section_padding_heading" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "t:sections.all.padding.padding_top", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "t:sections.all.padding.padding_bottom", "default": 36 }
   ],
   "presets": [{ "name": "Gemstone list" }]
 }
