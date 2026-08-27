@@ -28,9 +28,8 @@
         {%- if metaobject.description.value != blank -%}
           <div class="rte gemstone-detail__description">{{ metaobject.description.value | newline_to_br }}</div>
         {%- endif -%}
-        <a href="/pages/gemstones" class="link link--text animate-arrow gemstone-detail__back">
-          {{- 'products.product.back_to_collection' | t: collection: 'All Gemstones' -}}
-          <span class="svg-wrapper">{{- 'icon-arrow.svg' | inline_asset_content -}}</span>
+        <a href="/pages/gemstones" class="link underlined-link gemstone-detail__back">
+          &larr; Back to all gemstones
         </a>
       </div>
     </div>
@@ -98,9 +97,7 @@
   }
 
   .gemstone-detail__back {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
+    display: inline-block;
   }
 {%- endstyle -%}
 
