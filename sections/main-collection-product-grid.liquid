@@ -52,94 +52,197 @@
         assign show_vertical_sort_row = true
       endif
 
-      # Expand each product's variants into their own card. Only enabled where
-      # the "Expand variants into individual cards" setting is turned on for
-      # this section, so it has no effect on any other collection.
-      assign expand_variants = section.settings.expand_variants
-      assign display_count = null
-      assign display_all_count = null
+      # Show one card per variant whenever a product varies by something
+      # other than Size (e.g. Gold Color) - Size alone stays one card per
+      # product, using its default/first-available size, exactly as before.
+      # Applies to every collection; nothing changes for size-only products.
+      assign price_filter = null
+      for filter in collection.filters
+        if filter.type == 'price_range'
+          assign price_filter = filter
+        endif
+      endfor
 
-      if expand_variants
-        assign active_gold_filter = null
-        assign price_filter = null
-        for filter in collection.filters
-          if filter.param_name == 'filter.p.m.custom.gold_color'
-            assign active_gold_filter = filter
-          endif
-          if filter.type == 'price_range'
-            assign price_filter = filter
+      assign price_min = null
+      assign price_max = null
+      if price_filter
+        assign price_min = price_filter.min_value.value
+        assign price_max = price_filter.max_value.value
+      endif
+
+      assign sort_by = collection.sort_by | default: collection.default_sort_by
+      assign is_price_sort = false
+      if sort_by == 'price-ascending' or sort_by == 'price-descending'
+        assign is_price_sort = true
+      endif
+
+      assign display_variants = collection.products.first.variants | where: 'id', -1
+      assign total_variant_count = 0
+
+      for product in collection.products
+        assign default_variant = product.selected_or_first_available_variant
+
+        # Find Size's position (if any) so it stays fixed at the default
+        # while other options are free to vary into their own cards, and
+        # find each other option's active-filter values, if any is
+        # currently narrowed by a filter whose selected values are
+        # actually values of that option (so unrelated filters, like
+        # product type, never accidentally gate anything here).
+        assign size_key = null
+        assign option1_key = null
+        assign option2_key = null
+        assign option3_key = null
+        assign option1_active_values = null
+        assign option2_active_values = null
+        assign option3_active_values = null
+
+        for option in product.options_with_values
+          if option.name == 'Size'
+            if option.position == 1
+              assign size_key = 'option1'
+            elsif option.position == 2
+              assign size_key = 'option2'
+            elsif option.position == 3
+              assign size_key = 'option3'
+            endif
+          else
+            if option.position == 1
+              assign option1_key = 'option1'
+            elsif option.position == 2
+              assign option2_key = 'option2'
+            elsif option.position == 3
+              assign option3_key = 'option3'
+            endif
+
+            for filter in collection.filters
+              if filter.active_values.size > 0
+                assign all_values_match_option = true
+                for active_value in filter.active_values
+                  unless option.values contains active_value.label
+                    assign all_values_match_option = false
+                  endunless
+                endfor
+                if all_values_match_option
+                  if option.position == 1
+                    assign option1_active_values = filter.active_values
+                  elsif option.position == 2
+                    assign option2_active_values = filter.active_values
+                  elsif option.position == 3
+                    assign option3_active_values = filter.active_values
+                  endif
+                endif
+              endif
+            endfor
           endif
         endfor
 
-        assign price_min = null
-        assign price_max = null
-        if price_filter
-          assign price_min = price_filter.min_value.value
-          assign price_max = price_filter.max_value.value
+        assign has_expandable_option = false
+        if option1_key or option2_key or option3_key
+          assign has_expandable_option = true
         endif
 
-        assign sort_by = collection.sort_by | default: collection.default_sort_by
-        assign is_price_sort = false
-        if sort_by == 'price-ascending' or sort_by == 'price-descending'
-          assign is_price_sort = true
-        endif
-
-        assign display_variants = collection.products.first.variants | where: 'id', -1
-        assign total_variant_count = 0
-        for product in collection.products
-          assign gold_option_position = 0
-          for option in product.options_with_values
-            if option.name == 'Gold Color'
-              assign gold_option_position = forloop.index
-            endif
-          endfor
-          assign gold_option_key = null
-          if gold_option_position == 1
-            assign gold_option_key = 'option1'
-          elsif gold_option_position == 2
-            assign gold_option_key = 'option2'
-          elsif gold_option_position == 3
-            assign gold_option_key = 'option3'
-          endif
-
+        if has_expandable_option
           for variant in product.variants
-            assign total_variant_count = total_variant_count | plus: 1
+            assign matches = true
 
-            assign passes_gold_filter = true
-            if active_gold_filter and active_gold_filter.active_values.size > 0 and gold_option_key
-              assign passes_gold_filter = false
-              for active_value in active_gold_filter.active_values
-                if variant[gold_option_key] == active_value.label
-                  assign passes_gold_filter = true
+            if size_key and variant[size_key] != default_variant[size_key]
+              assign matches = false
+            endif
+
+            if option1_active_values
+              assign option1_matches = false
+              for active_value in option1_active_values
+                if variant.option1 == active_value.label
+                  assign option1_matches = true
                 endif
               endfor
+              unless option1_matches
+                assign matches = false
+              endunless
             endif
 
-            assign passes_price_filter = true
+            if option2_active_values
+              assign option2_matches = false
+              for active_value in option2_active_values
+                if variant.option2 == active_value.label
+                  assign option2_matches = true
+                endif
+              endfor
+              unless option2_matches
+                assign matches = false
+              endunless
+            endif
+
+            if option3_active_values
+              assign option3_matches = false
+              for active_value in option3_active_values
+                if variant.option3 == active_value.label
+                  assign option3_matches = true
+                endif
+              endfor
+              unless option3_matches
+                assign matches = false
+              endunless
+            endif
+
             if price_min and variant.price < price_min
-              assign passes_price_filter = false
+              assign matches = false
             endif
             if price_max and variant.price > price_max
-              assign passes_price_filter = false
+              assign matches = false
             endif
 
-            if passes_gold_filter and passes_price_filter
+            if matches
+              assign total_variant_count = total_variant_count | plus: 1
               assign single_variant = product.variants | where: 'id', variant.id
               assign display_variants = display_variants | concat: single_variant
             endif
           endfor
-        endfor
-
-        if is_price_sort
-          assign display_variants = display_variants | sort: 'price'
-          if sort_by == 'price-descending'
-            assign display_variants = display_variants | reverse
+        else
+          # No non-Size option to expand by - one card for the product,
+          # picking a variant that satisfies the active price filter (if
+          # any) rather than assuming the default variant does.
+          assign representative_variant = default_variant
+          if price_min or price_max
+            assign default_in_range = true
+            if price_min and default_variant.price < price_min
+              assign default_in_range = false
+            endif
+            if price_max and default_variant.price > price_max
+              assign default_in_range = false
+            endif
+            unless default_in_range
+              for variant in product.variants
+                assign in_range = true
+                if price_min and variant.price < price_min
+                  assign in_range = false
+                endif
+                if price_max and variant.price > price_max
+                  assign in_range = false
+                endif
+                if in_range
+                  assign representative_variant = variant
+                  break
+                endif
+              endfor
+            endunless
           endif
-        endif
 
-        assign display_count = display_variants.size
-        assign display_all_count = total_variant_count
+          assign total_variant_count = total_variant_count | plus: 1
+          assign single_variant = product.variants | where: 'id', representative_variant.id
+          assign display_variants = display_variants | concat: single_variant
+        endif
+      endfor
+
+      if is_price_sort
+        assign display_variants = display_variants | sort: 'price'
+        if sort_by == 'price-descending'
+          assign display_variants = display_variants | reverse
+        endif
       endif
+
+      assign display_count = display_variants.size
+      assign display_all_count = total_variant_count
     -%}
     {%- if show_vertical_sort_row -%}
       <facet-filters-form class="facets facets-vertical-sort page-width small-hide">
@@ -281,64 +384,46 @@
               "
             >
               {% assign skip_card_product_styles = false %}
-              {%- if expand_variants -%}
-                {%- for variant in display_variants -%}
-                  {% assign lazy_load = false %}
-                  {%- if forloop.index > 2 -%}
-                    {%- assign lazy_load = true -%}
-                  {%- endif -%}
-                  <li
-                    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                    {% if settings.animations_reveal_on_scroll %}
-                      data-cascade
-                      style="--animation-order: {{ forloop.index }};"
-                    {% endif %}
-                  >
-                    {% render 'card-product',
-                      card_product: variant.product,
-                      display_variant: variant,
-                      media_aspect_ratio: section.settings.image_ratio,
-                      image_shape: section.settings.image_shape,
-                      show_secondary_image: section.settings.show_secondary_image,
-                      show_vendor: section.settings.show_vendor,
-                      show_rating: section.settings.show_rating,
-                      lazy_load: lazy_load,
-                      skip_styles: skip_card_product_styles,
-                      quick_add: section.settings.quick_add,
-                      section_id: section.id
-                    %}
-                  </li>
-                  {%- assign skip_card_product_styles = true -%}
-                {%- endfor -%}
-              {%- else -%}
-                {%- for product in collection.products -%}
-                  {% assign lazy_load = false %}
-                  {%- if forloop.index > 2 -%}
-                    {%- assign lazy_load = true -%}
-                  {%- endif -%}
-                  <li
-                    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                    {% if settings.animations_reveal_on_scroll %}
-                      data-cascade
-                      style="--animation-order: {{ forloop.index }};"
-                    {% endif %}
-                  >
-                    {% render 'card-product',
-                      card_product: product,
-                      media_aspect_ratio: section.settings.image_ratio,
-                      image_shape: section.settings.image_shape,
-                      show_secondary_image: section.settings.show_secondary_image,
-                      show_vendor: section.settings.show_vendor,
-                      show_rating: section.settings.show_rating,
-                      lazy_load: lazy_load,
-                      skip_styles: skip_card_product_styles,
-                      quick_add: section.settings.quick_add,
-                      section_id: section.id
-                    %}
-                  </li>
-                  {%- assign skip_card_product_styles = true -%}
-                {%- endfor -%}
-              {%- endif -%}
+              {%- for variant in display_variants -%}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                {%- liquid
+                  # Only pin the card to this specific variant when the
+                  # product actually varies by something other than Size -
+                  # otherwise let the card show its normal product-level
+                  # defaults (default image, "From $X" price range).
+                  assign card_display_variant = null
+                  for option in variant.product.options_with_values
+                    unless option.name == 'Size'
+                      assign card_display_variant = variant
+                    endunless
+                  endfor
+                -%}
+                <li
+                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                    style="--animation-order: {{ forloop.index }};"
+                  {% endif %}
+                >
+                  {% render 'card-product',
+                    card_product: variant.product,
+                    display_variant: card_display_variant,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    image_shape: section.settings.image_shape,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    lazy_load: lazy_load,
+                    skip_styles: skip_card_product_styles,
+                    quick_add: section.settings.quick_add,
+                    section_id: section.id
+                  %}
+                </li>
+                {%- assign skip_card_product_styles = true -%}
+              {%- endfor -%}
             </ul>
 
             {%- if paginate.pages > 1 -%}
@@ -488,13 +573,6 @@
           "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_3"
         }
       ]
-    },
-    {
-      "type": "checkbox",
-      "id": "expand_variants",
-      "default": false,
-      "label": "Expand variants into individual cards",
-      "info": "Shows one card per variant instead of one card per product, using each variant's own image, price, and link. Sorting, the Gold Color and price filters, and the product count are adjusted to match. Intended for collections like Cufflinks where a single product's variants should each be browsable on their own."
     },
     {
       "type": "header",
