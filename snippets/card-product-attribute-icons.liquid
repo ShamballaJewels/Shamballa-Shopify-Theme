@@ -25,7 +25,7 @@
   if display_variant
     assign current_variant = display_variant
   endif
-  assign diamond_entry = current_variant.metafields.custom.diamond_color.value
+  assign diamond_entries = current_variant.metafields.custom.diamond_color.value
 
   assign gold_option_position = 0
   for option in card_product.options_with_values
@@ -60,7 +60,7 @@
   endif
 
   assign has_icons = false
-  if diamond_entry
+  if diamond_entries.size > 0
     assign has_icons = true
   endif
   if gold_entry
@@ -76,9 +76,9 @@
 -%}
 {%- if has_icons -%}
   <div class="card-product-attribute-icons card-product-attribute-icons--{{ layout }}">
-    {%- if diamond_entry -%}
-      {%- assign icon_image = diamond_entry.color.value -%}
-      {%- assign icon_label = diamond_entry.name_of_color.value -%}
+    {%- for entry in diamond_entries -%}
+      {%- assign icon_image = entry.color.value -%}
+      {%- assign icon_label = entry.name_of_color.value -%}
       {%- if icon_image != blank -%}
         <span class="card-product-attribute-icon" data-label="{{ icon_label | escape }}">
           <span class="card-product-attribute-icon__image">
@@ -87,7 +87,7 @@
           <span class="card-product-attribute-icon__label">{{ icon_label | escape }}</span>
         </span>
       {%- endif -%}
-    {%- endif -%}
+    {%- endfor -%}
 
     {%- for entry in card_product.metafields.custom.locks_gemstone_color.value -%}
       {%- assign icon_image = entry.image.value -%}

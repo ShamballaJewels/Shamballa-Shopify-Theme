@@ -12,14 +12,18 @@
 {% endcomment %}
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
-  assign diamond_entry = current_variant.metafields.custom.diamond_color.value
   assign diamond_text = ''
-  if diamond_entry
-    assign diamond_name = diamond_entry.name_of_color.value
+  for entry in current_variant.metafields.custom.diamond_color.value
+    assign diamond_name = entry.name_of_color.value
     if diamond_name != blank
-      assign diamond_text = diamond_name | append: 's'
+      assign diamond_name = diamond_name | append: 's'
+      if diamond_text == blank
+        assign diamond_text = diamond_name
+      else
+        assign diamond_text = diamond_text | append: ', ' | append: diamond_name
+      endif
     endif
-  endif
+  endfor
 
   assign gold_color_count = product.metafields.custom.gold_color.value.size
   assign gold_text = ''
