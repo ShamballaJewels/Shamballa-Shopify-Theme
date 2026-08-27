@@ -12,18 +12,33 @@
 {% endcomment %}
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
-  assign diamond_text = ''
+  assign diamond_colors = ''
   for entry in current_variant.metafields.custom.diamond_color.value
     assign diamond_name = entry.name_of_color.value
     if diamond_name != blank
-      assign diamond_name = diamond_name | append: 's'
-      if diamond_text == blank
-        assign diamond_text = diamond_name
+      assign diamond_color = diamond_name | split: ' ' | first
+      if diamond_colors == blank
+        assign diamond_colors = diamond_color
       else
-        assign diamond_text = diamond_text | append: ', ' | append: diamond_name
+        assign diamond_colors = diamond_colors | append: '|' | append: diamond_color
       endif
     endif
   endfor
+  assign diamond_color_list = diamond_colors | split: '|'
+
+  assign diamond_text = ''
+  for color in diamond_color_list
+    if forloop.first
+      assign diamond_text = color
+    elsif forloop.last
+      assign diamond_text = diamond_text | append: ' and ' | append: color
+    else
+      assign diamond_text = diamond_text | append: ', ' | append: color
+    endif
+  endfor
+  unless diamond_text == blank
+    assign diamond_text = diamond_text | append: ' Diamonds'
+  endunless
 
   assign gold_color_count = product.metafields.custom.gold_color.value.size
   assign gold_text = ''
