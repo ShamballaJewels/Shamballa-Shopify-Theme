@@ -70,7 +70,11 @@
       <div class="product-material-info__row">
         <span class="svg-wrapper">{{- 'icon-gemstone.svg' | inline_asset_content -}}</span>
         <span>
-          {{- gemstone_count }} types of gemstone{% if gemstone_count > 1 %}s{% endif -%}
+          {%- if gemstone_count == 1 -%}
+            {{- gemstone_count }} type of gemstone
+          {%- else -%}
+            {{- gemstone_count }} types of gemstones
+          {%- endif -%}
         </span>
       </div>
     {%- endif -%}
