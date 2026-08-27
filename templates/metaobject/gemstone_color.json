@@ -8,6 +8,11 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "main": {
+      "type": "main-gemstone",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
 }
