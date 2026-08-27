@@ -4,7 +4,7 @@
   <div class="page-width">
     {%- render 'breadcrumbs', current_title: metaobject.name.value, collection_object: pages['gemstones'] -%}
 
-    <div class="gemstone-detail__grid grid grid--2-col-tablet-up">
+    <div class="gemstone-detail__grid grid grid--2-col-desktop">
       <div class="gemstone-detail__media grid__item">
         <div class="gemstone-detail__image-wrapper">
           {%- if metaobject.image.value -%}
@@ -81,7 +81,7 @@
     margin-top: 3rem;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 990px) {
     .gemstone-detail__content {
       margin-top: 0;
     }
