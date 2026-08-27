@@ -133,6 +133,58 @@
         "padding_bottom": 12
       }
     },
+    "collection_links_EwikqG": {
+      "type": "collection-links",
+      "blocks": {
+        "link_item_FYUV9x": {
+          "type": "link_item",
+          "settings": {
+            "image": "shopify://shop_images/blackallibangle_9a615031-c7a3-462c-b00f-c9999e1a82cb.jpg",
+            "title": "Solid Bracelets",
+            "link": "shopify://collections/solid-bracelets"
+          }
+        },
+        "link_item_mFcXFQ": {
+          "type": "link_item",
+          "settings": {
+            "image": "shopify://shop_images/D253174.png",
+            "title": "Lock bracelets",
+            "link": "shopify://collections/lock-bracelets-1"
+          }
+        },
+        "link_item_RQQxVE": {
+          "type": "link_item",
+          "settings": {
+            "image": "shopify://shop_images/D253239.png",
+            "title": "Beaded bracelets",
+            "link": "shopify://collections/beaded-bracelets"
+          }
+        },
+        "link_item_8aUUfG": {
+          "type": "link_item",
+          "settings": {
+            "image": "shopify://shop_images/Orb6SOSR.jpg",
+            "title": "orb bracelets",
+            "link": "shopify://collections/orb-bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "link_item_FYUV9x",
+        "link_item_mFcXFQ",
+        "link_item_RQQxVE",
+        "link_item_8aUUfG"
+      ],
+      "name": "Collection links",
+      "settings": {
+        "heading": "Popular categories",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "columns_desktop": 4,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -341,6 +393,7 @@
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
+    "collection_links_EwikqG",
     "banner",
     "product-grid",
     "40b8517e-e66d-40de-b3fe-143c89f356be",
