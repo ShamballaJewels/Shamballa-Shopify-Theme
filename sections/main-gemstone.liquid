@@ -24,12 +24,13 @@
         </div>
       </div>
       <div class="gemstone-detail__content grid__item">
+        <p class="gemstone-detail__eyebrow caption-with-letter-spacing">{{ 'sections.main-gemstone.eyebrow' | t }}</p>
         <h1 class="gemstone-detail__title title h0">{{ metaobject.name.value }}</h1>
         {%- if metaobject.gemstone_description.value != blank -%}
           <div class="rte gemstone-detail__description">{{ metaobject.gemstone_description.value | newline_to_br }}</div>
         {%- endif -%}
-        <a href="/pages/gemstones" class="link underlined-link gemstone-detail__back">
-          &larr; Back to all gemstones
+        <a href="/pages/gemstones" class="link gemstone-detail__back caption-with-letter-spacing">
+          &larr; {{ 'sections.main-gemstone.back_link' | t }}
         </a>
       </div>
     </div>
@@ -55,7 +56,7 @@
   }
 
   .gemstone-detail .breadcrumbs {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
   }
 
   .gemstone-detail__grid {
@@ -63,8 +64,9 @@
   }
 
   .gemstone-detail__image-wrapper {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 4 / 5;
     overflow: hidden;
+    border: 0.1rem solid rgba(var(--color-foreground), 0.08);
     background-color: rgba(var(--color-foreground), 0.06);
   }
 
@@ -78,25 +80,39 @@
 
   .gemstone-detail__content {
     margin-top: 3rem;
+    max-width: 44rem;
   }
 
   @media screen and (min-width: 990px) {
     .gemstone-detail__content {
       margin-top: 0;
+      padding-left: 2rem;
     }
   }
 
+  .gemstone-detail__eyebrow {
+    margin: 0 0 1rem;
+    color: rgba(var(--color-foreground), 0.6);
+  }
+
   .gemstone-detail__title {
-    margin: 0 0 2rem;
+    margin: 0 0 2.5rem;
   }
 
   .gemstone-detail__description {
-    margin: 0 0 3rem;
+    margin: 0 0 3.5rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
     color: rgba(var(--color-foreground), 0.8);
+  }
+
+  .gemstone-detail__description p + p {
+    margin-top: 1.5rem;
   }
 
   .gemstone-detail__back {
     display: inline-block;
+    padding-top: 2rem;
+    border-top: 0.1rem solid rgba(var(--color-foreground), 0.12);
   }
 {%- endstyle -%}
 
