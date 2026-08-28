@@ -205,6 +205,47 @@
         "lazy": true
       }
     },
+    "collection_list_qkymQx": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_LrMTmA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-summer-2026"
+          }
+        },
+        "featured_collection_PPhB37": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "autumn-winter-2025"
+          }
+        },
+        "featured_collection_kPFGbM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-summer-25"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_LrMTmA",
+        "featured_collection_PPhB37",
+        "featured_collection_kPFGbM"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_rJNpdR": {
       "type": "rich-text",
       "blocks": {
@@ -975,6 +1016,7 @@
     "slideshow_X3pnQk",
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
+    "collection_list_qkymQx",
     "rich_text_rJNpdR",
     "featured_collection_f8F9BT",
     "rich_text_pFxqYa",
