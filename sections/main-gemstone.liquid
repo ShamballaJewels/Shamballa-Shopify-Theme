@@ -1,4 +1,6 @@
 {{ 'component-breadcrumbs.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 <div class="gemstone-detail color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="page-width">
@@ -34,6 +36,26 @@
         </a>
       </div>
     </div>
+
+    {%- if metaobject.related_products.value.size > 0 -%}
+      <div class="gemstone-detail__related">
+        <h2 class="gemstone-detail__related-heading h2">Featured in these designs</h2>
+        <ul class="grid product-grid grid--4-col-desktop grid--2-col-tablet-down" role="list">
+          {%- assign skip_card_product_styles = false -%}
+          {%- for related_product in metaobject.related_products.value limit: 8 -%}
+            <li class="grid__item">
+              {% render 'card-product',
+                card_product: related_product,
+                media_aspect_ratio: 'square',
+                show_secondary_image: true,
+                skip_styles: skip_card_product_styles
+              %}
+            </li>
+            {%- assign skip_card_product_styles = true -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
