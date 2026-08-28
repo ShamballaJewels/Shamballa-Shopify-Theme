@@ -59,3 +59,10 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+@media screen and (min-width: 990px) {
+  .collection-list.collection-list--2-items:not(.slider) {
+    justify-content: center;
+    column-gap: 6rem;
+  }
+}
