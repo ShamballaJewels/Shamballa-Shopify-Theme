@@ -11,14 +11,15 @@
   "sections": {
     "main": {
       "type": "main-gemstone",
+      "settings": {}
+    },
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "color_scheme": "",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "title": "Featured in these designs",
+        "collection": "{{ metaobject.featured_collection.value }}"
       }
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main", "featured_collection"]
 }
