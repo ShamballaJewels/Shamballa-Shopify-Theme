@@ -24,13 +24,13 @@
         </div>
       </div>
       <div class="gemstone-detail__content grid__item">
-        <p class="gemstone-detail__eyebrow caption-with-letter-spacing">{{ 'sections.main-gemstone.eyebrow' | t }}</p>
+        <p class="gemstone-detail__eyebrow caption-with-letter-spacing">Gemstone</p>
         <h1 class="gemstone-detail__title title h0">{{ metaobject.name.value }}</h1>
         {%- if metaobject.gemstone_description.value != blank -%}
           <div class="rte gemstone-detail__description">{{ metaobject.gemstone_description.value | newline_to_br }}</div>
         {%- endif -%}
         <a href="/pages/gemstones" class="link gemstone-detail__back caption-with-letter-spacing">
-          &larr; {{ 'sections.main-gemstone.back_link' | t }}
+          &larr; Back to all gemstones
         </a>
       </div>
     </div>
