@@ -22,7 +22,7 @@
             "button_label": "Explore the new collection",
             "link": "shopify://blogs/news/high-summer-2026",
             "button_style_secondary": true,
-            "button_label_2": "BROWSE ALL JEWELS",
+            "button_label_2": "",
             "link_2": "shopify://collections/all-bracelets",
             "button_style_secondary_2": true,
             "box_align": "bottom-left",
@@ -797,6 +797,7 @@
         "image_K4fKUU",
         "image_JCkqD4"
       ],
+      "disabled": true,
       "settings": {
         "feature_row": 4,
         "feature_row_mobile": 2,
@@ -855,6 +856,7 @@
         },
         "38c7783e-daf9-42d6-a160-d98231f214f3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h3><a href=\"https://www.instagram.com/shamballajewels/\" title=\"https://www.instagram.com/shamballajewels/\">FOLLOW US ON INSTAGRAM</a></h3>"
           }
