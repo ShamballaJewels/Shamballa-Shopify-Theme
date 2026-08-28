@@ -11,8 +11,14 @@
   "sections": {
     "main": {
       "type": "main-gemstone",
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
