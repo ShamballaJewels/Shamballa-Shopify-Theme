@@ -22,6 +22,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -47,6 +50,7 @@
     },
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 32px; color: #c0a765;}",
         "body {font-size: 24px; color: #c0a765;}"
@@ -104,17 +108,10 @@
             "heading": "{{ collection.title }}",
             "heading_size": "h2"
           }
-        },
-        "text_9NYJ9y": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Welcome to our exclusive collection of 4mm Non-Braided Bracelets, where timeless design meets exceptional craftsmanship. These luxury gold bracelets are a perfect blend of sophistication and simplicity, making them an essential addition to any jewelry collection.</p>"
-          }
         }
       },
       "block_order": [
-        "template--19564640010576__df2f56dc-83ce-4f73-865c-53eabce271cb-heading-1",
-        "text_9NYJ9y"
+        "template--19564640010576__df2f56dc-83ce-4f73-865c-53eabce271cb-heading-1"
       ],
       "custom_css": [
         "h2 {font-size: 20px; color: #c0a765;}",
@@ -323,6 +320,7 @@
         "text_3aUDJc",
         "button_JBMYdg"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
