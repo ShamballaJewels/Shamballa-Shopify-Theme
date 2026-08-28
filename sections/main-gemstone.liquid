@@ -60,7 +60,17 @@
   }
 
   .gemstone-detail__grid {
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  @media screen and (min-width: 990px) {
+    .gemstone-detail__media {
+      order: 2;
+    }
+
+    .gemstone-detail__content {
+      order: 1;
+    }
   }
 
   .gemstone-detail__image-wrapper {
@@ -86,7 +96,7 @@
   @media screen and (min-width: 990px) {
     .gemstone-detail__content {
       margin-top: 0;
-      padding-left: 2rem;
+      padding-right: 2rem;
     }
   }
 
