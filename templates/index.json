@@ -568,7 +568,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Dive into our collections",
+        "title": "BROWSE BY CATEGORY",
         "heading_size": "h1",
         "image_ratio": "landscape",
         "columns_desktop": 3,
