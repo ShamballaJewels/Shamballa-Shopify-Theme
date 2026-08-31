@@ -51,8 +51,19 @@
   endif
 
   assign gemstone_count = product.metafields.custom.locks_gemstone_color.value.size
+
+  assign unique_components = product.metafields.custom.unique_components.value
+  assign unique_component_names = ''
+  if unique_components and unique_components.size > 0
+    for unique_component in unique_components
+      assign unique_component_names = unique_component_names | append: unique_component.unique_component.value
+      unless forloop.last
+        assign unique_component_names = unique_component_names | append: ', '
+      endunless
+    endfor
+  endif
 -%}
-{%- if diamond_text != blank or gold_text != blank or gemstone_count > 0 -%}
+{%- if diamond_text != blank or gold_text != blank or gemstone_count > 0 or unique_component_names != blank -%}
   <div class="product-material-info" id="product-material-info-{{ section_id }}">
     {%- if diamond_text != blank -%}
       <div class="product-material-info__row">
@@ -71,11 +82,17 @@
         <span class="svg-wrapper">{{- 'icon-gemstone.svg' | inline_asset_content -}}</span>
         <span>
           {%- if gemstone_count == 1 -%}
-            {{- gemstone_count }} type of gemstone
+            {{- gemstone_count }} type of Gemstone
           {%- else -%}
-            {{- gemstone_count }} types of gemstones
+            {{- gemstone_count }} types of Gemstones
           {%- endif -%}
         </span>
+      </div>
+    {%- endif -%}
+    {%- if unique_component_names != blank -%}
+      <div class="product-material-info__row">
+        <span class="svg-wrapper">{{- 'icon-unique-component.svg' | inline_asset_content -}}</span>
+        <span>{{ 'products.product.contains_unique_component' | t: components: unique_component_names }}</span>
       </div>
     {%- endif -%}
   </div>
