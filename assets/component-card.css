@@ -13,9 +13,9 @@
   max-width: calc(100% - var(--image-padding) - 0.8rem);
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.4rem;
   line-height: 1;
 }
