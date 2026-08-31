@@ -8,9 +8,9 @@
 .card__unique-component-badge {
   position: absolute;
   top: var(--image-padding);
-  left: var(--image-padding);
+  left: 0.8rem;
   z-index: 2;
-  max-width: calc(100% - 2 * var(--image-padding));
+  max-width: calc(100% - var(--image-padding) - 0.8rem);
 }
 
 .badge--unique-component {
