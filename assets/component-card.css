@@ -7,13 +7,13 @@
 
 .collection .card__heading.h5,
 .collection .card__heading.h5 a {
-  font-size: calc(var(--font-heading-scale) * 0.6rem);
+  font-size: calc(var(--font-heading-scale) * 0.72rem);
 }
 
 @media only screen and (min-width: 750px) {
   .collection .card__heading.h5,
   .collection .card__heading.h5 a {
-    font-size: calc(var(--font-heading-scale) * 0.65rem);
+    font-size: calc(var(--font-heading-scale) * 0.78rem);
   }
 }
 
