@@ -136,44 +136,44 @@
     "collection_links_EwikqG": {
       "type": "collection-links",
       "blocks": {
-        "link_item_FYUV9x": {
+        "link_item_RQQxVE": {
           "type": "link_item",
           "settings": {
-            "image": "shopify://shop_images/blackallibangle_9a615031-c7a3-462c-b00f-c9999e1a82cb.jpg",
-            "title": "Solid Bracelets",
-            "link": "shopify://collections/solid-bracelets"
+            "image": "shopify://shop_images/D206064_SHOPIFY.jpg",
+            "title": "Beaded bracelets",
+            "link": "shopify://collections/beaded-bracelets"
           }
         },
         "link_item_mFcXFQ": {
           "type": "link_item",
           "settings": {
-            "image": "shopify://shop_images/D253174.png",
+            "image": "shopify://shop_images/D232620.jpg",
             "title": "Lock bracelets",
             "link": "shopify://collections/lock-bracelets-1"
-          }
-        },
-        "link_item_RQQxVE": {
-          "type": "link_item",
-          "settings": {
-            "image": "shopify://shop_images/D253239.png",
-            "title": "Beaded bracelets",
-            "link": "shopify://collections/beaded-bracelets"
           }
         },
         "link_item_8aUUfG": {
           "type": "link_item",
           "settings": {
-            "image": "shopify://shop_images/Orb6SOSR.jpg",
+            "image": "shopify://shop_images/Orb6SOSY.jpg",
             "title": "orb bracelets",
             "link": "shopify://collections/orb-bracelets"
+          }
+        },
+        "link_item_FYUV9x": {
+          "type": "link_item",
+          "settings": {
+            "image": "shopify://shop_images/sosbyg.jpg",
+            "title": "Solid Bracelets",
+            "link": "shopify://collections/solid-bracelets"
           }
         }
       },
       "block_order": [
-        "link_item_FYUV9x",
-        "link_item_mFcXFQ",
         "link_item_RQQxVE",
-        "link_item_8aUUfG"
+        "link_item_mFcXFQ",
+        "link_item_8aUUfG",
+        "link_item_FYUV9x"
       ],
       "name": "Collection links",
       "settings": {
