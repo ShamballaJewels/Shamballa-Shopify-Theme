@@ -690,6 +690,7 @@
                   assign make_it_your_own_types = 'orb,beaded,lock' | split: ','
                   assign current_sku = product.selected_or_first_available_variant.sku
                 -%}
+                <!-- DEBUG bracelet_type_handle={{ product.metafields.custom.bracelet_type.value.handle }} sku={{ current_sku }} -->
                 <div id="MakeItYourOwn-{{ section.id }}">
                   {%- if make_it_your_own_types contains product.metafields.custom.bracelet_type.value.handle and current_sku != blank -%}
                     <a
