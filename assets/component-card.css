@@ -21,7 +21,7 @@
 
 .card__unique-component .svg-wrapper {
   display: flex;
-  width: 1.4rem;
+  width: 2.2rem;
   flex-shrink: 0;
   filter: drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.8));
 }
@@ -35,26 +35,6 @@
 
 .card__unique-component--below {
   display: none;
-}
-
-@media screen and (max-width: 749px) {
-  .card__unique-component:not(.card__unique-component--below) {
-    display: none;
-  }
-
-  .card__unique-component--below {
-    position: relative;
-    display: flex;
-    top: auto;
-    left: auto;
-    max-width: 100%;
-    margin: 0.8rem 0 0;
-    text-shadow: none;
-  }
-
-  .card__unique-component--below .svg-wrapper {
-    filter: none;
-  }
 }
 
 .card {
