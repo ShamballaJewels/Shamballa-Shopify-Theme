@@ -5,6 +5,16 @@
   text-decoration: none;
 }
 
+.collection .card__heading.h5 {
+  font-size: calc(var(--font-heading-scale) * 0.6rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .collection .card__heading.h5 {
+    font-size: calc(var(--font-heading-scale) * 0.65rem);
+  }
+}
+
 .card__unique-component {
   position: absolute;
   top: var(--image-padding);
