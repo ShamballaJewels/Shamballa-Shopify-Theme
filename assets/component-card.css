@@ -5,6 +5,21 @@
   text-decoration: none;
 }
 
+.card__unique-component-badge {
+  position: absolute;
+  top: var(--image-padding);
+  left: var(--image-padding);
+  z-index: 2;
+  max-width: calc(100% - 2 * var(--image-padding));
+}
+
+.badge--unique-component {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(17, 17, 17);
+  color: rgb(17, 17, 17);
+  border-radius: 999px;
+}
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
