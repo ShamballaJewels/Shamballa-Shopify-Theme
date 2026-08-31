@@ -9,12 +9,19 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "gemstone-list",
-      "settings": {}
+    "page_JQV9tY": {
+      "type": "page",
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "page_JQV9tY"
   ]
 }
