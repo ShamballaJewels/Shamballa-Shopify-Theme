@@ -13,11 +13,30 @@
   max-width: calc(100% - var(--image-padding) - 0.8rem);
 }
 
+.card__unique-component-badge--below {
+  display: none;
+}
+
 .badge--unique-component {
   background-color: rgb(255, 255, 255);
   border-color: rgb(17, 17, 17);
   color: rgb(17, 17, 17);
-  border-radius: 999px;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .card__unique-component-badge:not(.card__unique-component-badge--below) {
+    display: none;
+  }
+
+  .card__unique-component-badge--below {
+    position: relative;
+    display: block;
+    top: auto;
+    left: auto;
+    max-width: 100%;
+    margin: 0.8rem 0 0;
+  }
 }
 
 .card {
