@@ -278,9 +278,6 @@
     }
   },
   "sections": {
-    "bracelet_picker": {
-      "no_collection": "Select a collection in the section settings to enable the bracelet picker."
-    },
     "announcements": {
       "previous_announcement": "Previous announcement",
       "next_announcement": "Next announcement",
