@@ -13,28 +13,10 @@
   max-width: calc(100% - var(--image-padding) - 0.8rem);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  color: rgb(17, 17, 17);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
-  text-shadow: 0 0 0.4rem rgba(255, 255, 255, 0.8), 0 0 0.2rem rgba(255, 255, 255, 0.8);
-}
-
-.card__unique-component .svg-wrapper {
-  display: flex;
-  width: 2.2rem;
-  flex-shrink: 0;
-  filter: drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.8));
-}
-
-.card__unique-component .svg-wrapper svg,
-.card__unique-component .svg-wrapper img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.card__unique-component--below {
-  display: none;
+  padding: 0.6rem;
 }
 
 .card {
