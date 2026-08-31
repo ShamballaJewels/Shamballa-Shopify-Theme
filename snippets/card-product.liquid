@@ -59,6 +59,17 @@
     if ratio == 0 or ratio == null
       assign ratio = 1
     endif
+
+    assign unique_components = card_product.metafields.custom.unique_components.value
+    assign unique_component_names = ''
+    if unique_components and unique_components.size > 0
+      for unique_component in unique_components
+        assign unique_component_names = unique_component_names | append: unique_component.unique_component.value
+        unless forloop.last
+          assign unique_component_names = unique_component_names | append: ', '
+        endunless
+      endfor
+    endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
