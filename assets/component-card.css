@@ -7,10 +7,10 @@
 
 .card__unique-component {
   position: absolute;
-  top: var(--image-padding);
+  top: 0.8rem;
   left: 0.8rem;
   z-index: 2;
-  max-width: calc(100% - var(--image-padding) - 0.8rem);
+  max-width: calc(100% - 1.6rem);
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
