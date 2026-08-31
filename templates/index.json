@@ -234,7 +234,41 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Explore our seasons",
+        "title": "Explore the seasons",
+        "heading_size": "h1",
+        "image_ratio": "landscape",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_88RyDE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_PHWMU7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "timeless-collection"
+          }
+        },
+        "featured_collection_LeLFjA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-core"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_PHWMU7",
+        "featured_collection_LeLFjA"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Discover the collections",
         "heading_size": "h1",
         "image_ratio": "landscape",
         "columns_desktop": 3,
@@ -321,6 +355,7 @@
       "block_order": [
         "heading_kMgxHe"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
       ],
@@ -336,6 +371,7 @@
     },
     "featured_collection_dCRzkD": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".full-unstyled-link {text-align: center;}",
         ".price {display: none !important;}",
@@ -382,6 +418,7 @@
       "block_order": [
         "heading_ageti6"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
       ],
@@ -397,6 +434,7 @@
     },
     "featured_collection_NLf8By": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".full-unstyled-link {text-align: center;}",
         ".price {display: none !important;}",
@@ -1017,6 +1055,7 @@
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
     "collection_list_qkymQx",
+    "collection_list_88RyDE",
     "rich_text_rJNpdR",
     "featured_collection_f8F9BT",
     "rich_text_pFxqYa",
