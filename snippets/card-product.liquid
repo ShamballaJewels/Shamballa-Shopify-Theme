@@ -138,10 +138,9 @@
             </div>
           </div>
           {%- if unique_component_names != blank -%}
-            <div class="card__unique-component-badge">
-              <span class="badge badge--unique-component">
-                {{ 'products.product.contains_unique_component' | t: components: unique_component_names }}
-              </span>
+            <div class="card__unique-component">
+              <span class="svg-wrapper">{{- 'icon-unique-component.svg' | inline_asset_content -}}</span>
+              <span>{{ unique_component_names }}</span>
             </div>
           {%- endif -%}
         {%- endif -%}
