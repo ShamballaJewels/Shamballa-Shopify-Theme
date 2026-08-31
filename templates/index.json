@@ -308,11 +308,12 @@
         "row_h3HeN8": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify://shop_images/Orb6SOSY.jpg",
+            "caption": "Discover the",
+            "heading": "Orb Bracelet",
+            "text": "<p>Discover our Orb Bracelets, featuring customizable options that allow you to express your unique style. Choose from a variety of materials, including diamonds and 18K gold, to create a piece that is truly your own. These versatile bracelets are suitable for any occasion.</p>",
+            "button_label": "Shop orb bracelets",
+            "button_link": "shopify://collections/orb-bracelets"
           }
         }
       },
