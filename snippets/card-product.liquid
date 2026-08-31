@@ -139,7 +139,7 @@
           </div>
           {%- if unique_component_names != blank -%}
             <div class="card__unique-component">
-              <span class="svg-wrapper">{{ 'icon-shamballa-mark.png' | asset_url | image_tag: loading: 'lazy', alt: '', width: 40, height: 40 }}</span>
+              <span class="svg-wrapper"><img src="{{ 'icon-shamballa-mark.png' | asset_url }}" alt="" loading="lazy" width="40" height="40"></span>
               <span>{{ unique_component_names }}</span>
             </div>
           {%- endif -%}
@@ -186,7 +186,7 @@
       </div>
       {%- if unique_component_names != blank -%}
         <div class="card__unique-component card__unique-component--below">
-          <span class="svg-wrapper">{{ 'icon-shamballa-mark.png' | asset_url | image_tag: loading: 'lazy', alt: '', width: 40, height: 40 }}</span>
+          <span class="svg-wrapper"><img src="{{ 'icon-shamballa-mark.png' | asset_url }}" alt="" loading="lazy" width="40" height="40"></span>
           <span>{{ unique_component_names }}</span>
         </div>
       {%- endif -%}
