@@ -186,7 +186,7 @@
       </div>
       {%- if unique_component_names != blank -%}
         <div class="card__unique-component card__unique-component--below">
-          <span class="svg-wrapper">{{- 'icon-unique-component.svg' | inline_asset_content -}}</span>
+          <span class="svg-wrapper">{{ 'icon-shamballa-mark.png' | asset_url | image_tag: loading: 'lazy', widths: '40, 80', sizes: '1.4rem', alt: '' }}</span>
           <span>{{ unique_component_names }}</span>
         </div>
       {%- endif -%}
