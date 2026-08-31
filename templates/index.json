@@ -280,6 +280,64 @@
         "padding_bottom": 36
       }
     },
+    "multirow_CWT7MV": {
+      "type": "multirow",
+      "blocks": {
+        "row_kUTiH6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/D206064_SHOPIFY.jpg",
+            "caption": "Discover the",
+            "heading": "Beaded Bracelet",
+            "text": "<p>Celebrate the essence of Shamballa Jewels with our Beaded Bracelets. Each piece features intricately designed beads, including G/VS diamonds and vibrant gemstones, crafted to perfection for a unique and luxurious look. Perfect for both men and women, these high-end bracelets elevate any outfit.</p>",
+            "button_label": "Shop beaded bracelets",
+            "button_link": "shopify://collections/beaded-bracelets"
+          }
+        },
+        "row_yVHVgk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/D232620.jpg",
+            "caption": "Discover the",
+            "heading": "Lock Bracelet",
+            "text": "<p>Experience elegance and security with our Lock Bracelets. These designs showcase innovative locking mechanisms and exquisite materials, offering both style and functionality for the modern individual. Crafted from 18K gold, they are ideal for those seeking sophistication and durability.</p>",
+            "button_label": "Shop lock bracelets",
+            "button_link": "shopify://collections/lock-bracelets-1"
+          }
+        },
+        "row_h3HeN8": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kUTiH6",
+        "row_yVHVgk",
+        "row_h3HeN8"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_rJNpdR": {
       "type": "rich-text",
       "blocks": {
@@ -1056,6 +1114,7 @@
     "ss_feature_1_ky4DWc",
     "collection_list_qkymQx",
     "collection_list_88RyDE",
+    "multirow_CWT7MV",
     "rich_text_rJNpdR",
     "featured_collection_f8F9BT",
     "rich_text_pFxqYa",
