@@ -188,6 +188,7 @@ if (!customElements.get('product-info')) {
 
           updateSourceFromDestination('price');
           updateSourceFromDestination('Sku', ({ classList }) => classList.contains('hidden'));
+          updateSourceFromDestination('MakeItYourOwn');
           updateSourceFromDestination('Inventory', ({ innerText }) => innerText === '');
           updateSourceFromDestination('Volume');
           updateSourceFromDestination('product-material-info');

@@ -686,6 +686,22 @@
                     Worldwide shipping
                   </button>
                 {%- endif -%}
+                {%- liquid
+                  assign make_it_your_own_types = 'orb,beaded,lock' | split: ','
+                  assign current_sku = product.selected_or_first_available_variant.sku
+                -%}
+                <div id="MakeItYourOwn-{{ section.id }}">
+                  {%- if make_it_your_own_types contains product.metafields.custom.bracelet_type.value.handle and current_sku != blank -%}
+                    <a
+                      href="https://creator.shamballajewels.com/{{ current_sku }}"
+                      class="button button--full-width button--secondary"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Make it your own
+                    </a>
+                  {%- endif -%}
+                </div>
                 {%- render 'product-material-info', product: product, section_id: section.id -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
