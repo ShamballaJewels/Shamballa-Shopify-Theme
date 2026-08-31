@@ -26,9 +26,11 @@
   filter: drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.8));
 }
 
-.card__unique-component .svg-wrapper svg {
+.card__unique-component .svg-wrapper svg,
+.card__unique-component .svg-wrapper img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .card__unique-component--below {
