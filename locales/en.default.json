@@ -131,6 +131,7 @@
       "inventory_out_of_stock_continue_selling": "In stock",
       "sku": "SKU",
       "on_sale": "Sale",
+      "contains_unique_component": "Contains {{ components }}",
       "product_variants": "Product variants",
       "media": {
         "gallery_viewer": "Gallery Viewer",
