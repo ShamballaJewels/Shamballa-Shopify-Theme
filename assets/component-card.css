@@ -36,6 +36,7 @@
     left: auto;
     max-width: 100%;
     margin: 0.8rem 0 0;
+    text-align: left;
   }
 
   .card__unique-component-badge--below .badge--unique-component {
