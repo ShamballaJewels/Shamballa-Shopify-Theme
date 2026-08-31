@@ -185,10 +185,9 @@
         {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline', display_variant: display_variant %}
       </div>
       {%- if unique_component_names != blank -%}
-        <div class="card__unique-component-badge card__unique-component-badge--below">
-          <span class="badge badge--unique-component">
-            {{ 'products.product.contains_unique_component' | t: components: unique_component_names }}
-          </span>
+        <div class="card__unique-component card__unique-component--below">
+          <span class="svg-wrapper">{{- 'icon-unique-component.svg' | inline_asset_content -}}</span>
+          <span>{{ unique_component_names }}</span>
         </div>
       {%- endif -%}
       <div class="card__content">
