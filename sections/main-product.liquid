@@ -680,12 +680,6 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
-                {%- if pages['shipping'] != blank -%}
-                  <button type="button" class="product__shipping-link link" data-open-drawer="shipping">
-                    <span class="svg-wrapper">{{- 'icon-box.svg' | inline_asset_content -}}</span>
-                    Worldwide shipping
-                  </button>
-                {%- endif -%}
                 {%- liquid
                   assign make_it_your_own_types = 'orb,beaded,lock' | split: ','
                   assign current_sku = product.selected_or_first_available_variant.sku
@@ -702,6 +696,12 @@
                     </a>
                   {%- endif -%}
                 </div>
+                {%- if pages['shipping'] != blank -%}
+                  <button type="button" class="product__shipping-link link" data-open-drawer="shipping">
+                    <span class="svg-wrapper">{{- 'icon-box.svg' | inline_asset_content -}}</span>
+                    Worldwide shipping
+                  </button>
+                {%- endif -%}
                 {%- render 'product-material-info', product: product, section_id: section.id -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
