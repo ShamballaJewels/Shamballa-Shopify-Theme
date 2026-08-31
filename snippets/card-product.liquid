@@ -183,12 +183,6 @@
       <div class="color-{{ settings.card_color_scheme }} gradient card-product-attribute-icons__scheme-wrapper">
         {% render 'card-product-attribute-icons', card_product: card_product, layout: 'inline', display_variant: display_variant %}
       </div>
-      {%- if unique_component_names != blank -%}
-        <div class="card__unique-component card__unique-component--below">
-          <span class="svg-wrapper"><img src="{{ 'icon-shamballa-mark.png' | asset_url }}" alt="" loading="lazy" width="40" height="40"></span>
-          <span>{{ unique_component_names }}</span>
-        </div>
-      {%- endif -%}
       <div class="card__content">
         <div class="card__information">
           <h3
