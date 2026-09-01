@@ -6,7 +6,7 @@
 }
 
 .card__inner.gradient {
-  background: rgba(0, 0, 0, 0.06) !important;
+  background: rgba(0, 0, 0, 0.15) !important;
 }
 
 .card__unique-component {
