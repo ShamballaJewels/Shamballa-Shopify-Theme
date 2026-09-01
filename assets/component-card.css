@@ -9,8 +9,8 @@
   background: linear-gradient(
     135deg,
     rgb(237, 232, 225) 0%,
-    rgba(237, 232, 225, 0.6) 55%,
-    rgba(237, 232, 225, 0) 90%
+    rgba(237, 232, 225, 0.4) 45%,
+    rgba(237, 232, 225, 0) 80%
   ) !important;
 }
 
