@@ -16,7 +16,11 @@
   >
     {%- for option in product.options_with_values -%}
       {%- liquid
-        assign is_size_option = option.name | downcase | strip == 'size'
+        assign option_name_normalized = option.name | downcase | strip
+        assign is_size_option = false
+        if option_name_normalized == 'size'
+          assign is_size_option = true
+        endif
         assign swatch_count = option.values | map: 'swatch' | compact | size
         assign picker_type = block.settings.picker_type
 
