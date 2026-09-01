@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+.card__inner.gradient {
+  background: none !important;
+}
+
 .card__unique-component {
   position: absolute;
   top: 0.8rem;
