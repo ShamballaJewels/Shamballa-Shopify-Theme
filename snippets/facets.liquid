@@ -7,6 +7,11 @@
   - enable_sorting: {Boolean} Show sorting when true
   - filter_type: {String} Type of filter
   - paginate: {Object}
+  - display_count: {Number} Overrides results.products_count in the shown
+    count (optional). Used when a collection expands each product's variants
+    into their own card, so the count reflects cards shown, not products.
+  - display_all_count: {Number} Overrides results.all_products_count
+    alongside display_count (optional).
 
   Usage:
   {% render 'facets', results: collection, enable_filtering: true, enable_sorting: true, filter_type: 'vertical', paginate: paginate %}
@@ -420,6 +425,12 @@
               <span id="ProductCountDesktop">
                 {%- if results.results_count -%}
                   {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+                {%- elsif display_count -%}
+                  {%- if display_count == display_all_count -%}
+                    {{ 'products.facets.product_count_simple' | t: count: display_count }}
+                  {%- else -%}
+                    {{ 'products.facets.product_count' | t: product_count: display_count, count: display_all_count }}
+                  {%- endif -%}
                 {%- elsif results.products_count == results.all_products_count -%}
                   {{ 'products.facets.product_count_simple' | t: count: results.products_count }}
                 {%- else -%}
@@ -490,6 +501,12 @@
                 <p class="mobile-facets__count">
                   {%- if results.results_count -%}
                     {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+                  {%- elsif display_count -%}
+                    {%- if display_count == display_all_count -%}
+                      {{ 'products.facets.product_count_simple' | t: count: display_count }}
+                    {%- else -%}
+                      {{ 'products.facets.product_count' | t: product_count: display_count, count: display_all_count }}
+                    {%- endif -%}
                   {%- elsif results.products_count == results.all_products_count -%}
                     {{ 'products.facets.product_count_simple' | t: count: results.products_count }}
                   {%- else -%}
@@ -870,6 +887,12 @@
       <span id="ProductCount">
         {%- if results.results_count -%}
           {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+        {%- elsif display_count -%}
+          {%- if display_count == display_all_count -%}
+            {{ 'products.facets.product_count_simple' | t: count: display_count }}
+          {%- else -%}
+            {{ 'products.facets.product_count' | t: product_count: display_count, count: display_all_count }}
+          {%- endif -%}
         {%- elsif results.products_count == results.all_products_count -%}
           {{ 'products.facets.product_count_simple' | t: count: results.products_count }}
         {%- else -%}

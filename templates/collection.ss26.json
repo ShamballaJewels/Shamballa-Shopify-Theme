@@ -22,9 +22,6 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -291,6 +288,48 @@
         "padding_top": 4,
         "padding_bottom": 60
       }
+    },
+    "rich_text_cTmpQb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HJKnyt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the Elegance of 4mm Non-Braided Bracelets",
+            "heading_size": "h2"
+          }
+        },
+        "text_3aUDJc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Sleek and Refined Design<br/></strong>Crafted from high-quality 18K gold, our 4mm non-braided bracelets feature a sleek profile that enhances their refined appearance. Whether you prefer a minimalist look or want to layer them with other pieces, these classic bracelets are versatile enough to suit any occasion. The elegant design ensures that they can be worn effortlessly from day to night, making them a staple in your jewelry wardrobe.</p><p><strong>Versatile Luxury for Everyone<br/></strong>Our 4mm Non-Braided Bracelets are designed for both men and women, embodying a universal appeal that transcends fashion trends. Whether you are dressing up for a special event or looking for a subtle piece to elevate your everyday wear, these bracelets add a touch of luxury that complements any outfit.</p><p><strong>Premium Materials for Lasting Quality<br/></strong>We believe in using only the finest materials to create our jewelry. Each 4mm non-braided bracelet is meticulously crafted with premium gemstones, ensuring durability and brilliance. The combination of high-quality gold and carefully selected gemstones guarantees that each piece not only looks stunning but also stands the test of time.</p><p><strong>Perfect Gift for Any Occasion<br/></strong>Looking for a meaningful gift? Our 4mm Non-Braided Bracelets make the perfect choice for birthdays, anniversaries, or special milestones. Their classic elegance and timeless appeal make them a cherished present that your loved ones will treasure for years to come.</p><p><strong>Explore Our Collection Today!<br/></strong>Elevate your jewelry collection with our exquisite 4mm Non-Braided Bracelets. Browse our selection and discover the perfect piece that resonates with your style. Experience the luxury of refined jewelry and make a statement with every wear.</p>"
+          }
+        },
+        "button_JBMYdg": {
+          "type": "button",
+          "settings": {
+            "button_label": "contact us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HJKnyt",
+        "text_3aUDJc",
+        "button_JBMYdg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -301,6 +340,7 @@
     "banner",
     "product-grid",
     "40b8517e-e66d-40de-b3fe-143c89f356be",
-    "8eb17f9f-5721-4a7e-8123-3234e56b555b"
+    "8eb17f9f-5721-4a7e-8123-3234e56b555b",
+    "rich_text_cTmpQb"
   ]
 }
