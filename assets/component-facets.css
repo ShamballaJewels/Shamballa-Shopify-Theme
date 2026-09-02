@@ -1170,49 +1170,13 @@ input.mobile-facets__checkbox {
     display: none;
   }
 
-  .facets-vertical .facets-wrapper--collapsed {
-    display: none;
-  }
-
   .facets-vertical .product-grid-container {
     width: 100%;
   }
 
   .facets-vertical-form {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .facets-vertical-sort-fields {
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
-  }
-
-  .facets-toggle-vertical {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    font-size: 1.4rem;
-    color: rgb(var(--color-foreground));
-  }
-
-  .facets-toggle-vertical .svg-wrapper {
-    width: 1.6rem;
-  }
-
-  .facets-toggle-vertical .svg-wrapper svg {
-    width: 100%;
-    height: auto;
-  }
-
-  .facets-toggle-vertical:hover {
-    color: rgba(var(--color-foreground), 0.75);
   }
 
   .product-count-vertical {
