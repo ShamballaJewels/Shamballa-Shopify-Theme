@@ -40,6 +40,7 @@
     assign card_available = card_product.available
     assign card_price = card_product.price
     assign card_compare_at_price = card_product.compare_at_price
+    assign display_variant_label = ''
     if display_variant
       assign card_url = display_variant.url
       assign card_available = display_variant.available
@@ -48,6 +49,26 @@
       if display_variant.featured_image
         assign card_media = display_variant.featured_image
       endif
+
+      # Only call out the option(s) that actually vary from card to card
+      # (e.g. Gold Color) - Size stays fixed at its default across every
+      # card for a given product, so it's left out of the label here.
+      for option in card_product.options_with_values
+        unless option.name == 'Size'
+          if option.position == 1
+            assign option_value = display_variant.option1
+          elsif option.position == 2
+            assign option_value = display_variant.option2
+          elsif option.position == 3
+            assign option_value = display_variant.option3
+          endif
+          if display_variant_label == blank
+            assign display_variant_label = option_value
+          else
+            assign display_variant_label = display_variant_label | append: ' / ' | append: option_value
+          endif
+        endunless
+      endfor
     endif
 
     assign ratio = 1
