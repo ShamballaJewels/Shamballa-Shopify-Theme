@@ -219,9 +219,7 @@
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
-              {%- if display_variant and display_variant.title != 'Default Title' -%}
-                - {{ display_variant.title | escape }}
-              {%- endif -%}
+              {%- if display_variant_label != blank %} - {{ display_variant_label | escape }}{% endif -%}
             </a>
           </h3>
           <div class="card-information">
