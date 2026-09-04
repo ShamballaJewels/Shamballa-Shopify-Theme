@@ -6,12 +6,15 @@
 }
 
 .card__inner.gradient {
+  /* Saved atmospheric fade background - restore by uncommenting below and removing the white background rule
   background: linear-gradient(
     135deg,
     rgb(237, 232, 225) 0%,
     rgba(237, 232, 225, 0.4) 45%,
     rgba(237, 232, 225, 0) 80%
   ) !important;
+  */
+  background: rgb(255, 255, 255) !important;
 }
 
 .card__unique-component {
