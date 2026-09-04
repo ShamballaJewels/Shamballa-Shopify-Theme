@@ -280,6 +280,7 @@
               </p>
             {%- endif -%}
 
+            {%- unless hide_price -%}
             {% render 'price', product: card_product, variant: display_variant, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
@@ -362,6 +363,7 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
+            {%- endunless -%}
           </div>
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
