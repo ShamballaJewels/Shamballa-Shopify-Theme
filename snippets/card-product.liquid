@@ -590,12 +590,14 @@
                         <a href="{{ card_product.url | within: collection }}" class="full-unstyled-link">
                           <h3>{{ card_product.title | escape }}</h3>
                         </a>
+                        {%- unless hide_price -%}
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                             <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
                           </div>
                         {%- endif -%}
+                        {%- endunless -%}
                       </div>
                     </div>
                     <div>
@@ -605,12 +607,14 @@
                             {{ card_product.title | escape }}
                           </h3>
                         </a>
+                        {%- unless hide_price -%}
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                             <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
                           </div>
                         {%- endif -%}
+                        {%- endunless -%}
                       </div>
                       <bulk-modal
                         id="QuickBulkModal-{{ card_product.id }}-{{ section_id }}"
