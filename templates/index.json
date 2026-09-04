@@ -205,43 +205,49 @@
         "lazy": true
       }
     },
-    "collection_list_qkymQx": {
-      "type": "collection-list",
+    "image_with_text_RwTybT": {
+      "type": "image-with-text",
       "blocks": {
-        "featured_collection_LrMTmA": {
-          "type": "featured_collection",
+        "heading_FhL9PN": {
+          "type": "heading",
           "settings": {
-            "collection": "spring-summer-2026"
+            "heading": "Every knot is tied by hand, wrapping your memories around your wrist.",
+            "heading_size": "h2"
           }
         },
-        "featured_collection_PPhB37": {
-          "type": "featured_collection",
+        "text_znTLQG": {
+          "type": "text",
           "settings": {
-            "collection": "autumn-winter-2025"
+            "text": "<p>Wear it through the life chapter you're in. Add to it when the next one starts. This isn't jewelry that waits in a box, it's built for motion, for chanmge, for whoever you're becoming next.</p>",
+            "text_style": "body"
           }
         },
-        "featured_collection_kPFGbM": {
-          "type": "featured_collection",
+        "button_7w97Et": {
+          "type": "button",
           "settings": {
-            "collection": "spring-summer-25"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "featured_collection_LrMTmA",
-        "featured_collection_PPhB37",
-        "featured_collection_kPFGbM"
+        "heading_FhL9PN",
+        "text_znTLQG",
+        "button_7w97Et"
       ],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "title": "Explore the seasons",
-        "heading_size": "h1",
-        "image_ratio": "landscape",
-        "columns_desktop": 3,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -987,7 +993,7 @@
     "slideshow_X3pnQk",
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
-    "collection_list_qkymQx",
+    "image_with_text_RwTybT",
     "collection_list_88RyDE",
     "multirow_CWT7MV",
     "rich_text_rJNpdR",
