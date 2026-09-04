@@ -91,6 +91,20 @@
         endunless
       endfor
     endif
+
+    # Necklaces, pendants, cufflinks, earrings and rings never show a price on
+    # collection view, and neither do bracelets whose Bracelet type metafield
+    # is Solid - these are made-to-order / quote-only product groups.
+    assign product_type_normalized = card_product.type | downcase | strip
+    assign hide_price = false
+    if product_type_normalized == 'necklace' or product_type_normalized == 'pendant' or product_type_normalized == 'cufflink' or product_type_normalized == 'earring' or product_type_normalized == 'ring'
+      assign hide_price = true
+    else
+      assign bracelet_type_name = card_product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase
+      if bracelet_type_name == 'solid'
+        assign hide_price = true
+      endif
+    endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
