@@ -91,6 +91,20 @@
         endunless
       endfor
     endif
+
+    # Necklaces, pendants, cufflinks, earrings and rings never show a price on
+    # collection view, and neither do bracelets whose Bracelet type metafield
+    # is Solid - these are made-to-order / quote-only product groups.
+    assign product_type_normalized = card_product.type | downcase | strip
+    assign hide_price = false
+    if product_type_normalized == 'necklace' or product_type_normalized == 'pendant' or product_type_normalized == 'cufflinks' or product_type_normalized == 'earring' or product_type_normalized == 'ring'
+      assign hide_price = true
+    else
+      assign bracelet_type_name = card_product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase
+      if bracelet_type_name == 'solid'
+        assign hide_price = true
+      endif
+    endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
@@ -266,6 +280,7 @@
               </p>
             {%- endif -%}
 
+            {%- unless hide_price -%}
             {% render 'price', product: card_product, variant: display_variant, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
@@ -348,6 +363,7 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
+            {%- endunless -%}
           </div>
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
@@ -574,12 +590,14 @@
                         <a href="{{ card_product.url | within: collection }}" class="full-unstyled-link">
                           <h3>{{ card_product.title | escape }}</h3>
                         </a>
+                        {%- unless hide_price -%}
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                             <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
                           </div>
                         {%- endif -%}
+                        {%- endunless -%}
                       </div>
                     </div>
                     <div>
@@ -589,12 +607,14 @@
                             {{ card_product.title | escape }}
                           </h3>
                         </a>
+                        {%- unless hide_price -%}
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                             <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
                           </div>
                         {%- endif -%}
+                        {%- endunless -%}
                       </div>
                       <bulk-modal
                         id="QuickBulkModal-{{ card_product.id }}-{{ section_id }}"
