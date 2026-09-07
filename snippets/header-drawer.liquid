@@ -133,15 +133,6 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
-              <ul class="menu-drawer__secondary-menu list-menu" role="list">
-              {%- for link in menus.version_2_second.links -%}
-                  <li>
-                    <a href="{{ link.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}">
-                      {{ link.title | escape }}
-                    </a>
-                  </li>
-              {%- endfor -%}
-            </ul>
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">
