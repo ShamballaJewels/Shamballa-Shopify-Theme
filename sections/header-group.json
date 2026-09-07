@@ -56,11 +56,7 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        ".gradient.menu-drawer.motion-reduce.color-background-1 {background: #fafafa !important; background-image: none !important;}",
-        ".menu-drawer__submenu.has-submenu.gradient.motion-reduce {background: #fafafa !important; background-image: none !important;}",
-        ".menu-drawer__navigation,.menu-drawer__menu-item,.list-menu__item,.link,.link--text,.focus-inset,.menu-drawer__menu-item--active {font-family: \"TrajanPro\" !important; font-size: 14px !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "top-center",
         "menu": "simon-menu-test",
