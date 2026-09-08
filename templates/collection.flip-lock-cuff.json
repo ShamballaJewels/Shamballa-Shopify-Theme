@@ -98,20 +98,29 @@
         "show_text_below": false
       }
     },
+    "page_title_BhaiAX": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "df2f56dc-83ce-4f73-865c-53eabce271cb": {
       "type": "rich-text",
       "blocks": {
         "text_mxMBrt": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Discover the stylish elegance of the Lock Cuff from Shamballa Jewels – a unique piece of jewelry that combines functionality with luxurious design. This collection is created for those who wish to express their personal style with a piece that is both eye-catching and practical. Each Lock Cuff is designed with a focus on quality and detail, making it an essential part of any jewelry collection.</p>"
           }
         }
       },
       "block_order": [
         "text_mxMBrt"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-size: 20px; color: #c0a765;}",
         "body {font-size: 24px; color: #c0a765;}"
@@ -292,14 +301,14 @@
         "heading_6FEcha": {
           "type": "heading",
           "settings": {
-            "heading": "Flip Lock Cuff from Shamballa Jewels",
+            "heading": "Lock Cuff from Shamballa Jewels",
             "heading_size": "h2"
           }
         },
         "text_JUFAKp": {
           "type": "text",
           "settings": {
-            "text": "<p>Flip Lock Cuff from Shamballa Jewels<br/>Discover the stylish elegance of the Flip Lock Cuff from Shamballa Jewels – a unique piece of jewelry that combines functionality with luxurious design. This collection is created for those who wish to express their personal style with a piece that is both eye-catching and practical. Each Flip Lock Cuff is designed with a focus on quality and detail, making it an essential part of any jewelry collection.<br/><br/>Innovative Design<br/>The Flip Lock Cuff is characterized by its modern and unique design. The innovative locking mechanism provides a secure and stylish look that sets it apart from traditional bracelets. This piece is perfect for both everyday wear and festive occasions, making it a versatile addition to your wardrobe. Whether worn alone or layered with other jewelry, the Flip Lock Cuff will add a refined touch to your look.<br/><br/>High-Quality Materials<br/>Each Flip Lock Cuff is made from exclusive materials, including 18-karat gold, rose gold, white gold, and black rhodinated gold. These luxurious materials ensure that each cuff not only looks fantastic but is also designed to maintain its beauty over the years. The quality and durability of our cuffs allow you to wear them with pride, regardless of the occasion.<br/><br/>Adorned with Diamonds and Gemstones<br/>To add an extra level of glamour, the Flip Lock Cuff can be embellished with diamonds and colorful gemstones. These sparkling details make each cuff a unique piece of jewelry that can celebrate the most important moments in your life. Whether you choose a simple version or one with diamonds, the Flip Lock Cuff will be a statement piece that stands out.<br/><br/>Perfect for Any Occasion<br/>The Flip Lock Cuff is designed for both men and women who want to express their style with exclusive jewelry. Whether you are attending a formal event or looking to elevate your everyday look, this piece is the ideal choice. It can be worn alone for an elegant expression or styled together with other jewelry to create a personal style.<br/><br/>Explore the Flip Lock Cuff<br/>We invite you to discover the Flip Lock Cuff in our store or online. Our dedicated team is ready to help you find the perfect cuff that matches your style and occasion. Experience the unique beauty and quality of Shamballa Jewels’ Flip Lock Cuff and add a luxurious touch to your jewelry collection.</p>"
+            "text": "<p>Innovative Design<br/>The Lock Cuff is characterized by its modern and unique design. The innovative locking mechanism provides a secure and stylish look that sets it apart from traditional bracelets. This piece is perfect for both everyday wear and festive occasions, making it a versatile addition to your wardrobe. Whether worn alone or layered with other jewelry, the Lock Cuff will add a refined touch to your look.<br/><br/>High-Quality Materials<br/>Each Lock Cuff is made from exclusive materials, including 18-karat gold, rose gold, white gold, and black rhodinated gold. These luxurious materials ensure that each cuff not only looks fantastic but is also designed to maintain its beauty over the years. The quality and durability of our cuffs allow you to wear them with pride, regardless of the occasion.<br/><br/>Adorned with Diamonds and Gemstones<br/>To add an extra level of glamour, the Lock Cuff can be embellished with diamonds and colorful gemstones. These sparkling details make each cuff a unique piece of jewelry that can celebrate the most important moments in your life. Whether you choose a simple version or one with diamonds, the Lock Cuff will be a statement piece that stands out.<br/><br/>Perfect for Any Occasion<br/>The Lock Cuff is designed for both men and women who want to express their style with exclusive jewelry. Whether you are attending a formal event or looking to elevate your everyday look, this piece is the ideal choice. It can be worn alone for an elegant expression or styled together with other jewelry to create a personal style.<br/><br/>Explore the Lock Cuff<br/>We invite you to discover the Lock Cuff in our store or online. Our dedicated team is ready to help you find the perfect cuff that matches your style and occasion. Experience the unique beauty and quality of Shamballa Jewels’ Lock Cuff and add a luxurious touch to your jewelry collection.</p>"
           }
         },
         "button_VnVxeT": {
@@ -333,6 +342,7 @@
     "af9c628d-9a13-4764-a8a4-621ada42e965",
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
+    "page_title_BhaiAX",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
     "product-grid",
