@@ -12,10 +12,12 @@
   }
 {%- endstyle -%}
 
-<div class="page-width color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  <h1 class="page-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{- collection.title | escape -}}
-  </h1>
+<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <div class="page-width">
+    <h1 class="page-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" style="text-align: center;">
+      {{- collection.title | escape -}}
+    </h1>
+  </div>
 </div>
 
 {% schema %}
