@@ -17,26 +17,25 @@
         "padding_bottom": 56
       }
     },
+    "page_title_AEKrAQ": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "e1284905-99e5-4fb9-933b-fdf2d0e4ca3d": {
       "type": "rich-text",
-      "blocks": {
-        "template--19294038557008__e1284905-99e5-4fb9-933b-fdf2d0e4ca3d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Care and Maintenance",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19294038557008__e1284905-99e5-4fb9-933b-fdf2d0e4ca3d-heading-1"
-      ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 32
       }
     },
@@ -149,6 +148,7 @@
   },
   "order": [
     "main",
+    "page_title_AEKrAQ",
     "e1284905-99e5-4fb9-933b-fdf2d0e4ca3d",
     "4b516dae-942c-4a33-a863-4f364550261d"
   ]
