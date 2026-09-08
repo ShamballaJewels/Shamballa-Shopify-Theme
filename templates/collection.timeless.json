@@ -98,6 +98,16 @@
         "show_text_below": false
       }
     },
+    "page_title_9EwziB": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "df2f56dc-83ce-4f73-865c-53eabce271cb": {
       "type": "rich-text",
       "blocks": {
@@ -291,6 +301,7 @@
     "af9c628d-9a13-4764-a8a4-621ada42e965",
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
+    "page_title_9EwziB",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
     "product-grid",
