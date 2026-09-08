@@ -163,6 +163,16 @@
         "padding_bottom": 36
       }
     },
+    "page_title_RKfeFL": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "cdf996b3-3dc8-44e8-8e1f-e833ccbffe19": {
       "type": "multirow",
       "blocks": {
@@ -242,6 +252,7 @@
     "main",
     "1d4f2738-e1ee-4357-8f27-425f48b2f706",
     "65103046-c516-4469-a257-24f8674de06d",
+    "page_title_RKfeFL",
     "cdf996b3-3dc8-44e8-8e1f-e833ccbffe19",
     "video_HFUKNw"
   ]
