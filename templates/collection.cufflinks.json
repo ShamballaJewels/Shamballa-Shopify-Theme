@@ -22,6 +22,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -75,16 +78,19 @@
         "show_text_below": false
       }
     },
+    "page_title_w7PWnR": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "df2f56dc-83ce-4f73-865c-53eabce271cb": {
       "type": "rich-text",
       "blocks": {
-        "template--19564640010576__df2f56dc-83ce-4f73-865c-53eabce271cb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.title }}",
-            "heading_size": "h2"
-          }
-        },
         "text_rPEnh7": {
           "type": "text",
           "settings": {
@@ -93,7 +99,6 @@
         }
       },
       "block_order": [
-        "template--19564640010576__df2f56dc-83ce-4f73-865c-53eabce271cb-heading-1",
         "text_rPEnh7"
       ],
       "custom_css": [
@@ -105,7 +110,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 56,
+        "padding_top": 0,
         "padding_bottom": 12
       }
     },
@@ -251,6 +256,7 @@
   "order": [
     "af9c628d-9a13-4764-a8a4-621ada42e965",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
+    "page_title_w7PWnR",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
     "product-grid",
