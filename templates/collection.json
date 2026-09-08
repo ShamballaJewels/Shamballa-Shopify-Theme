@@ -136,7 +136,7 @@
     "test-page-title": {
       "type": "page-title",
       "settings": {
-        "color_scheme": "background-2"
+        "color_scheme": "scheme-1"
       }
     },
     "banner": {
