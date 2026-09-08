@@ -32,6 +32,7 @@
       "blocks": {
         "template--19710897127760__eb74327b-02cd-4953-8ed8-80bbf0f3356e-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our trusted retailers",
             "heading_size": "h1"
