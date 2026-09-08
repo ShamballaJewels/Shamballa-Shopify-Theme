@@ -14,9 +14,13 @@
   .section-{{ section.id }}-title {
     text-align: center;
   }
+
+  .section-{{ section.id }}-wrapper {
+    background: transparent !important;
+  }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding section-{{ section.id }}-wrapper">
   <div class="page-width">
     <h1 class="page-title section-{{ section.id }}-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{- collection.title | escape -}}
