@@ -17,16 +17,19 @@
         "padding_bottom": 36
       }
     },
+    "page_title_ema638": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "fc7b9eb3-b918-43e8-bfba-73d2d3c4de64": {
       "type": "rich-text",
       "blocks": {
-        "template--19102483906896__fc7b9eb3-b918-43e8-bfba-73d2d3c4de64-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact us",
-            "heading_size": "h1"
-          }
-        },
         "template--19102483906896__fc7b9eb3-b918-43e8-bfba-73d2d3c4de64-text-1": {
           "type": "text",
           "settings": {
@@ -35,7 +38,6 @@
         }
       },
       "block_order": [
-        "template--19102483906896__fc7b9eb3-b918-43e8-bfba-73d2d3c4de64-heading-1",
         "template--19102483906896__fc7b9eb3-b918-43e8-bfba-73d2d3c4de64-text-1"
       ],
       "settings": {
@@ -43,7 +45,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 24
       }
     },
@@ -60,6 +62,7 @@
   },
   "order": [
     "main",
+    "page_title_ema638",
     "fc7b9eb3-b918-43e8-bfba-73d2d3c4de64",
     "form"
   ]
