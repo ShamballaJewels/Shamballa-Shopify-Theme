@@ -663,7 +663,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Learn more",
-            "button_link": "shopify://pages/stores",
+            "button_link": "shopify://pages/flagshipstore",
             "button_style_secondary": false
           }
         }
