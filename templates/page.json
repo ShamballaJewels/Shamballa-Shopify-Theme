@@ -17,6 +17,16 @@
         "padding_bottom": 56
       }
     },
+    "page_title_QUWpFT": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "eb74327b-02cd-4953-8ed8-80bbf0f3356e": {
       "type": "rich-text",
       "blocks": {
@@ -43,7 +53,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 8
       }
     },
@@ -59,6 +69,7 @@
   },
   "order": [
     "main",
+    "page_title_QUWpFT",
     "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
     "ca6bd71a-4f6b-4519-87ed-eaa60beb5242"
   ]
