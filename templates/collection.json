@@ -133,10 +133,6 @@
         "padding_bottom": 12
       }
     },
-    "test-page-title": {
-      "type": "page-title",
-      "settings": {}
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -304,7 +300,6 @@
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
-    "test-page-title",
     "banner",
     "product-grid",
     "40b8517e-e66d-40de-b3fe-143c89f356be",
