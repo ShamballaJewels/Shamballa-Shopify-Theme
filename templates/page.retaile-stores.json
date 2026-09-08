@@ -27,6 +27,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_yWPhiL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_GrWQDq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find SHAMBALLAJewels at our retail locations worldwide. Discover where you can experience our luxurious jewelry collection in person, explore exquisite designs, and receive personalized service from our dedicated team. Visit us today!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_GrWQDq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
     "custom_liquid_PVTQYM": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -41,6 +64,7 @@
   "order": [
     "main",
     "page_title_kdL4zk",
+    "rich_text_yWPhiL",
     "custom_liquid_PVTQYM"
   ]
 }
