@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "test-page-title": {
+      "type": "page-title",
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -58,6 +62,7 @@
     }
   },
   "order": [
+    "test-page-title",
     "main",
     "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
     "ca6bd71a-4f6b-4519-87ed-eaa60beb5242"
