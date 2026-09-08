@@ -17,16 +17,19 @@
         "padding_bottom": 28
       }
     },
+    "page_title_XU6PAV": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "116d3879-4ece-489c-9b57-cb48008b67fc": {
       "type": "rich-text",
       "blocks": {
-        "template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "OUR STORY",
-            "heading_size": "h1"
-          }
-        },
         "2b4cc505-71f3-4bc0-835a-f80a74c67e5c": {
           "type": "text",
           "settings": {
@@ -35,7 +38,6 @@
         }
       },
       "block_order": [
-        "template--19710896865616__116d3879-4ece-489c-9b57-cb48008b67fc-heading-1",
         "2b4cc505-71f3-4bc0-835a-f80a74c67e5c"
       ],
       "settings": {
@@ -43,7 +45,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 48,
+        "padding_top": 0,
         "padding_bottom": 16
       }
     },
@@ -367,6 +369,9 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -385,6 +390,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -423,6 +431,9 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -460,6 +471,9 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -497,6 +511,9 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -591,7 +608,10 @@
             "title": "2001: NYC",
             "text": "<p>Mads Kornerup designs a bracelet for the rapper Jay Z. It features even sized gold beads held together by the macramé braiding technique. The iconic SHAMBALLA® Braided Bracelet is born.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "7d031864-ad99-4526-9845-1cb81139dad7": {
@@ -601,7 +621,10 @@
             "title": "2005: Copenhagen",
             "text": "<p>Shamballa Jewels is founded by two Danish brothers, Mads & Mikkel Kornerup. In the very beginning, a desire to revolutionize how men see, perceive and wear jewelry was the driving force.  </p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "5b375c29-c131-46ed-bb41-bc948589072d": {
@@ -611,7 +634,10 @@
             "title": "2007: The Pavé Bead is born",
             "text": "<p>The first Shamballa Jewels diamond pavé bead is created and incorporated in a bracelet. An instant bestseller, pavé beads will go on to be intricately linked to our identity.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "64df33a4-5418-4a4d-b6d7-efff28c8275f": {
@@ -621,7 +647,10 @@
             "title": "2007: Vanity Fair Oscars afterparty",
             "text": "<p>At Vanity Fair's Oscars afterparty, Danish supermodel Helena Christensen turns heads with her stunning SHAMBALLA® Braided Bracelet. Helena's choice makes her the highlight of the evening showcasing the timeless allure of our unique jewelry.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "99541c2a-c001-4e8b-a6b8-30d94a0f5711": {
@@ -631,7 +660,10 @@
             "title": "2007: HARTMANN'S collaboration with SHAMBALLA JEWELS",
             "text": "<p>The famous Danish jeweler Hartmann's collaborates with Shamballa Jewels marking a significant turning point in the Danish luxury jewelry industry and helping to boost Shamballa Jewels' visibility.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "dbae1b9c-f46d-4dcc-8a52-5dab1b934bbc": {
@@ -641,7 +673,10 @@
             "title": "2008: Crown Princess Mary",
             "text": "<p>An interview with the Danish crown prince couple is published. In the photos Her Royal Highness Crown Princess Mary wears the SHAMBALLA® Braided Bracelet containing Tahiti pearls and a pavé bead with the very rare Argyle pink diamond.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         }
       },
@@ -685,7 +720,10 @@
             "title": "2010: French Vogue",
             "text": "<p>Vogue Paris publishes a full page article on Shamballa Jewels brand and creations featuring some of the most iconic pieces. </p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "3583e217-7cc9-47cc-ab52-5a50e1905df3": {
@@ -695,7 +733,10 @@
             "title": "2012: New Flagship store in the heart of Copenhagen",
             "text": "<p>An encapsulation of the brand's universe, a flagship store in the epicenter of the founders' birthplace opens its doors for the first time. The visitors are welcomed by impeccable interior design blending with exclusive creations.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "04830f4e-35f3-46b6-85a3-8ec81290e4aa": {
@@ -705,7 +746,10 @@
             "title": "2015: The Nyima Cuff is born",
             "text": "<p>The Nyima Cuff with its sleek, elegant design and unlimited customization possibilities marks the moment when unique, 18K gold creations meet the world of precious stones. In Tibetan, ''Nyima'' symbolizes the ''Sun''.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "16530342-541e-4a35-8f78-ddf093c798ea": {
@@ -715,7 +759,10 @@
             "title": "2018: The Invisible setting bracelet",
             "text": "<p>The extravagant SHAMBALLA® Invisible Setting is created in 18K gold with a stunning invisible setting (hence the name) of 108 princess cut diamonds, triangle cut diamonds set into the STAR OF SHAMBALLA® and Sanskrit mantra engraved on the inside.<br/></p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "7f25ace6-1f6f-45c8-b608-0297e4ae969b": {
@@ -725,7 +772,10 @@
             "title": "2019: The SHAMBALLA JEWELS Flip Lock Cuff is born",
             "text": "<p>Innovation meets high-quality craftsmanship in the Flip Lock Cuff. Crafted in 18k gold with diamonds and precious gemstones, the Flip Lock Cuff represents a luxurious playground with limitless opportunities where every bead can be changed.<br/><br/></p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "6a885f2c-7f96-4288-9795-bb31007d5877": {
@@ -735,7 +785,10 @@
             "title": "2019: The Creator tool is launched",
             "text": "<p>Every client can now become their own designer thanks to the newest mobile platform Creator. Bead by bead, every visitor gets to play with their design and explore the broad world of our beads and strings. Only the imagination sets the limits.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "55b97cbc-34fc-4a69-b825-5516c807087c": {
@@ -745,7 +798,10 @@
             "title": "2022: SHAMBALLA JEWELS opens a showroom in Paris",
             "text": "<p>The international hub of art, culture and luxury welcomes Shamballa Jewels under the wings of retailer Mad Lords on Rue Saint Honoré. </p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "b5a8df83-546f-4f9e-b1f9-67803ce03651": {
@@ -755,7 +811,10 @@
             "title": "2022: The Greenland Ruby and Sapphire Mine",
             "text": "<p>Our co-founder Mads Kornerup visits the oldest known Ruby mine near Aappaluttoq in Greenland. The pristine landscape is home to intense Ruby and Sapphire deposits that soon adore some of our creations.</p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         },
         "acdbbf54-7865-4310-a4e4-037c233e69ff": {
@@ -765,7 +824,10 @@
             "title": "2023: SHAMBALLA JEWELS supports Holger Rune",
             "text": "<p>The rising Danish tennis star Holger Rune is the proud owner of two SHAMBALLA® bracelets that he designed himself. The precius stones were specifically chosen for their character and texture. </p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "landing_page_url": "",
+            "title_button": "Test",
+            "url_button": "/"
           }
         }
       },
@@ -805,6 +867,7 @@
   },
   "order": [
     "main",
+    "page_title_XU6PAV",
     "116d3879-4ece-489c-9b57-cb48008b67fc",
     "video_4RMkRq",
     "e1a499d8-c90e-4978-8017-5dcdde32e0f9",
