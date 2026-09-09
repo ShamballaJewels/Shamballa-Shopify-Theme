@@ -126,6 +126,24 @@
             "row_content": "<h3><em><strong>How do I measure my wrist for a bracelet?</strong></em></h3><p>To find your perfect fit, please measure your wrist with a measuring tape, positioning it just below the small bump/bone. Once you have your measurement, refer to the guideline chart on the website. Alternatively, you can visit <a href=\"https://www.shamballajewels.com/pages/flagshipstore\" title=\"https://www.shamballajewels.com/pages/flagshipstore\">the flagship store </a>in Copenhagen or visit our<a href=\"https://www.shamballajewels.com/pages/retail-stores\" title=\"https://www.shamballajewels.com/pages/retail-stores\"> nearest retailer</a>.</p><h3><em><strong>What if my bracelet arrives too big or too small?</strong></em></h3><p>We will send you a return label, resize the bracelet,<br/>and send it back, free of charge. If you purchase it in store, simply bring it<br/>back and we will adjust it for you as fast as possible.</p><h3><em><strong>Is resizing free, and how long does it take?</strong></em></h3><p>If your bracelet arrives in the wrong size and you reach out right away, resizing is complimentary. Any later changes to the string are priced extra. The timeframe depends on whether we handle it in store or by mail, but our aim is to have it back on your wrist as quickly as possible.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_AVCegB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "7. Necklaces & Rings",
+            "icon": "none",
+            "row_content": "<h3><em><strong>Can necklaces be customized?</strong></em></h3><p>Yes, necklaces can be fully customized with the same<br/>range of gold, gemstones and string options. This is done through our store team<br/>rather than the online Creator, so please reach out to us directly to begin the<br/>process.</p><h3><em><strong>Can rings be resized after purchase?</strong></em></h3><p>In some cases, yes. It depends on the design and the extent of the resizing needed.</p><h3><em><strong>Does SHAMBALLA JEWELS offer engagement or wedding-appropriate pieces?</strong></em></h3><p>We carry a wide selection of rings, many of which lend themselves beautifully to marking a moment like an engagement or wedding. With our engraving service, you can add initials, a date, or any detail that holds meaning, making the piece uniquely yours.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XbJdBm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "8. Ordering, Shipping & Returns",
+            "icon": "none",
+            "row_content": "<h3><em><strong>How long does shipping take?</strong></em></h3><p>Orders within the EU typically arrive within 24–48 hours. Shipments outside the EU typically arrive within 48–72 hours. Please note that delivery times are estimates and may vary due to customs clearance and other circumstances beyond our control.</p><h3><em><strong>How do I send a piece back to you?</strong></em></h3><p>If you need to send a piece to us for re-braiding, resizing, repair, or any other reason, this must always be arranged with our team in advance.</p><h3><em><strong>Does SHAMBALLA JEWELS ship internationally?</strong></em></h3><p>Yes, we ship internationally. For details on duties and<br/>taxes specific to your destination, please contact our customer service team at<br/><a href=\"mailto:info@shamballajewels.com\" title=\"mailto:info@shamballajewels.com\">info@shamballajewels.com.</a></p><h3><em><strong>What is your return and exchange policy?</strong></em></h3>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -134,7 +152,9 @@
         "collapsible_row_Xh4GRa",
         "collapsible_row_QEQUPV",
         "collapsible_row_TfeLmQ",
-        "collapsible_row_zXTj9g"
+        "collapsible_row_zXTj9g",
+        "collapsible_row_AVCegB",
+        "collapsible_row_XbJdBm"
       ],
       "settings": {
         "caption": "",
