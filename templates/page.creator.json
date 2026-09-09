@@ -27,17 +27,19 @@
         "padding_bottom": 20
       }
     },
+    "page_title_NtW8jD": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "7aac1615-f158-4153-865c-4abc9ba38403": {
       "type": "rich-text",
       "blocks": {
-        "template--19291389821264__7aac1615-f158-4153-865c-4abc9ba38403-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "The Creator",
-            "heading_size": "h1"
-          }
-        },
         "88ed6f74-ab04-4930-a01c-ed010954dabc": {
           "type": "caption",
           "disabled": true,
@@ -46,19 +48,12 @@
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
-        },
-        "text_bYbfPQ": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>THE CREATOR</h1>"
-          }
         }
       },
       "block_order": [
-        "template--19291389821264__7aac1615-f158-4153-865c-4abc9ba38403-heading-1",
-        "88ed6f74-ab04-4930-a01c-ed010954dabc",
-        "text_bYbfPQ"
+        "88ed6f74-ab04-4930-a01c-ed010954dabc"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 768px) {h1 {font-size: 20px; padding-top: 0px; padding-bottom: 0px; margin-top: -10px; margin-bottom: -5px; }}"
       ],
@@ -173,6 +168,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -223,6 +219,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -234,6 +231,7 @@
   "order": [
     "main",
     "c79f84f3-e189-4ada-b009-5b2b0c888f59",
+    "page_title_NtW8jD",
     "7aac1615-f158-4153-865c-4abc9ba38403",
     "video_pFakRx",
     "rich_text_ryadxd",
