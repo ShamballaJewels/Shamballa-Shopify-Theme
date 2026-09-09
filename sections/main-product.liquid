@@ -75,6 +75,21 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+  {%- liquid
+    # Necklaces, pendants, cufflinks, earrings and rings never show a price on
+    # the product page, and neither do bracelets whose Bracelet type metafield
+    # is Solid - these are made-to-order / quote-only product groups.
+    assign product_type_normalized = product.type | downcase | strip
+    assign hide_price = false
+    if product_type_normalized == 'necklace' or product_type_normalized == 'pendant' or product_type_normalized == 'cufflinks' or product_type_normalized == 'earring' or product_type_normalized == 'ring'
+      assign hide_price = true
+    else
+      assign bracelet_type_name = product.metafields.custom.bracelet_type.value.brace_type_name.value | strip | downcase
+      if bracelet_type_name == 'solid'
+        assign hide_price = true
+      endif
+    endif
+  -%}
   <div class="page-width">
     {%- render 'breadcrumbs', current_title: product.title, collection_object: collection -%}
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -143,6 +158,7 @@
                   </a>
                 </div>
               {%- when 'price' -%}
+                {%- unless hide_price -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
@@ -177,6 +193,7 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
+                {%- endunless -%}
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
