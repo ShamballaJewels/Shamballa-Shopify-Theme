@@ -144,6 +144,15 @@
             "row_content": "<h3><em><strong>How long does shipping take?</strong></em></h3><p>Orders within the EU typically arrive within 24–48 hours. Shipments outside the EU typically arrive within 48–72 hours. Please note that delivery times are estimates and may vary due to customs clearance and other circumstances beyond our control.</p><h3><em><strong>How do I send a piece back to you?</strong></em></h3><p>If you need to send a piece to us for re-braiding, resizing, repair, or any other reason, this must always be arranged with our team in advance.</p><h3><em><strong>Does SHAMBALLA JEWELS ship internationally?</strong></em></h3><p>Yes, we ship internationally. For details on duties and<br/>taxes specific to your destination, please contact our customer service team at<br/><a href=\"mailto:info@shamballajewels.com\" title=\"mailto:info@shamballajewels.com\">info@shamballajewels.com.</a></p><h3><em><strong>What is your return and exchange policy?</strong></em></h3><p>For online orders placed through shamballajewels.com, we offer returns and exchanges within 14 days of receiving your piece. Items must be in their original packaging and show no signs of wear. To start the process, simply email <a href=\"mailto:support@shamballajewels.com\" title=\"mailto:support@shamballajewels.com\">support@shamballajewels.com</a> with your order number, and our team will guide you from there. Please note that return shipping is the responsibility of the buyer, and we recommend using a traceable shipping service. In-store purchases are eligible for exchange only.</p><h3><em><strong>Are custom Creator or bespoke pieces eligible for return?</strong></em></h3><p>Customized pieces are made to your personal vision and are therefore final. These cannot be returned or exchanged, whether purchased online or in store. If a custom piece arrives damaged or defective, please contact us at <a href=\"mailto:support@shamballajewels.com\" title=\"mailto:support@shamballajewels.com\">support@shamballajewels</a>.com and we will do our best to make it right.</p><h3><em><strong>What payment methods and financing options are accepted?</strong></em></h3><p>We accept Visa, Mastercard, American Express, Dankort, MobilePay, bank transfer and payment links.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_mtHjMt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "9. Gifting & Choosing a Piece",
+            "icon": "none",
+            "row_content": "<h3><em><strong>What's a good first SHAMBALLA JEWELS piece for someone new to the brand?</strong></em></h3><p>Choosing your first SHAMBALLA JEWELS piece is a personal<br/>decision, and our team can guide you. For those still exploring, a base<br/>bracelet is a wonderful place to start, one gold component, a certificate lock,<br/>and our signature black matte ceramic beads. Simple, meaningful, and ready to<br/>grow with you over time.</p><h3><em><strong>Can I buy a gift card or store credit?</strong></em></h3><p>Gift cards are available at our flagship store in Copenhagen and can also be <a href=\"https://www.shamballajewels.com/products/gift-card\" title=\"https://www.shamballajewels.com/products/gift-card\">purchased online</a>. When you order a gift card through our website, it will be sent directly to your email, ready to share with someone special.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -154,7 +163,8 @@
         "collapsible_row_TfeLmQ",
         "collapsible_row_zXTj9g",
         "collapsible_row_AVCegB",
-        "collapsible_row_XbJdBm"
+        "collapsible_row_XbJdBm",
+        "collapsible_row_mtHjMt"
       ],
       "settings": {
         "caption": "",
