@@ -99,7 +99,7 @@
         "button_eemTay": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Read more",
             "button_link": "",
             "button_style_secondary": false
           }
