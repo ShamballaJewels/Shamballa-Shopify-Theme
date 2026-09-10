@@ -50,6 +50,7 @@
     },
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 32px; color: #c0a765;}",
         "body {font-size: 24px; color: #c0a765;}"
@@ -66,6 +67,53 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "image_with_text_bqQtih": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jQdhj8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_QyrJnH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_eemTay": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jQdhj8",
+        "text_QyrJnH",
+        "button_eemTay"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1f561958-011b-4c9b-b2ea-746a7c8bf733": {
@@ -119,6 +167,7 @@
         "template--19564640010576__df2f56dc-83ce-4f73-865c-53eabce271cb-heading-1",
         "text_9NYJ9y"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 20px; color: #c0a765;}",
         "body {font-size: 24px; color: #c0a765;}"
@@ -338,6 +387,7 @@
   "order": [
     "af9c628d-9a13-4764-a8a4-621ada42e965",
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
+    "image_with_text_bqQtih",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
