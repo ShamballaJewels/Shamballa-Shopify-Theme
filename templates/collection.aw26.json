@@ -22,6 +22,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -322,7 +325,6 @@
         "text_3aUDJc",
         "button_JBMYdg"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
