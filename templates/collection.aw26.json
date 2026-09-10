@@ -48,6 +48,16 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "page_title_YpMtGi": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a": {
       "type": "image-banner",
       "disabled": true,
@@ -112,7 +122,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -386,6 +396,7 @@
   },
   "order": [
     "af9c628d-9a13-4764-a8a4-621ada42e965",
+    "page_title_YpMtGi",
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "image_with_text_bqQtih",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
