@@ -373,7 +373,7 @@
           "type": "text_column",
           "settings": {
             "heading": "Craftmanship",
-            "text": "<p>Each bracelet is braided by hand in Copenhagen, the same knot turned again and again until it holds. The work is slow on purpose. A story worth keeping is rarely made in a hurry.</p>"
+            "text": "<p>Each bracelet is braided by hand in Copenhagen, the same knot turned again and again until it holds. The work is slow on purpose because a story worth keeping is rarely made in a hurry.</p>"
           }
         },
         "image_gkTfDE": {
