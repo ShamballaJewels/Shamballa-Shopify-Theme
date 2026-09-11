@@ -358,7 +358,7 @@
         "text_column_Bdj6bW": {
           "type": "text_column",
           "settings": {
-            "heading": "Column heading",
+            "heading": "Trust, built in",
             "text": "<p>Describe this part of the story.</p>"
           }
         },
@@ -372,8 +372,8 @@
         "text_column_BFUYdT": {
           "type": "text_column",
           "settings": {
-            "heading": "Column heading",
-            "text": "<p>Describe this part of the story.</p>"
+            "heading": "Made by hand, over & over",
+            "text": "<p>Each bracelet is braided by hand in Copenhagen, the same knot turned again and again until it holds. The work is slow on purpose. A story worth keeping is rarely made in a hurry.</p>"
           }
         },
         "image_gkTfDE": {
