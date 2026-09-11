@@ -352,46 +352,63 @@
         "padding_bottom": 60
       }
     },
-    "rich_text_cTmpQb": {
-      "type": "rich-text",
+    "storytelling_multicolumn_9TMXML": {
+      "type": "storytelling-multicolumn",
       "blocks": {
-        "heading_HJKnyt": {
-          "type": "heading",
+        "text_column_Bdj6bW": {
+          "type": "text_column",
           "settings": {
-            "heading": "Discover the Elegance of 4mm Non-Braided Bracelets",
-            "heading_size": "h2"
+            "heading": "Column heading",
+            "text": "<p>Describe this part of the story.</p>"
           }
         },
-        "text_3aUDJc": {
-          "type": "text",
+        "text_column_UqE4cc": {
+          "type": "text_column",
           "settings": {
-            "text": "<p><strong>Sleek and Refined Design<br/></strong>Crafted from high-quality 18K gold, our 4mm non-braided bracelets feature a sleek profile that enhances their refined appearance. Whether you prefer a minimalist look or want to layer them with other pieces, these classic bracelets are versatile enough to suit any occasion. The elegant design ensures that they can be worn effortlessly from day to night, making them a staple in your jewelry wardrobe.</p><p><strong>Versatile Luxury for Everyone<br/></strong>Our 4mm Non-Braided Bracelets are designed for both men and women, embodying a universal appeal that transcends fashion trends. Whether you are dressing up for a special event or looking for a subtle piece to elevate your everyday wear, these bracelets add a touch of luxury that complements any outfit.</p><p><strong>Premium Materials for Lasting Quality<br/></strong>We believe in using only the finest materials to create our jewelry. Each 4mm non-braided bracelet is meticulously crafted with premium gemstones, ensuring durability and brilliance. The combination of high-quality gold and carefully selected gemstones guarantees that each piece not only looks stunning but also stands the test of time.</p><p><strong>Perfect Gift for Any Occasion<br/></strong>Looking for a meaningful gift? Our 4mm Non-Braided Bracelets make the perfect choice for birthdays, anniversaries, or special milestones. Their classic elegance and timeless appeal make them a cherished present that your loved ones will treasure for years to come.</p><p><strong>Explore Our Collection Today!<br/></strong>Elevate your jewelry collection with our exquisite 4mm Non-Braided Bracelets. Browse our selection and discover the perfect piece that resonates with your style. Experience the luxury of refined jewelry and make a statement with every wear.</p>"
+            "heading": "Column heading",
+            "text": "<p>Describe this part of the story.</p>"
           }
         },
-        "button_JBMYdg": {
-          "type": "button",
+        "text_column_BFUYdT": {
+          "type": "text_column",
           "settings": {
-            "button_label": "contact us",
-            "button_link": "shopify://pages/contact-us",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Column heading",
+            "text": "<p>Describe this part of the story.</p>"
           }
+        },
+        "image_gkTfDE": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_C3T8ar": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_EirD3M": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_rGjr9t": {
+          "type": "image",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_HJKnyt",
-        "text_3aUDJc",
-        "button_JBMYdg"
+        "text_column_Bdj6bW",
+        "text_column_UqE4cc",
+        "text_column_BFUYdT",
+        "image_gkTfDE",
+        "image_C3T8ar",
+        "image_EirD3M",
+        "image_rGjr9t"
       ],
+      "name": "Storytelling multicolumn",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "heading": "It holds the philosophy without lecturing on Buddhism, and sells without listing.",
+        "heading_size": "h1",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
@@ -406,6 +423,6 @@
     "product-grid",
     "40b8517e-e66d-40de-b3fe-143c89f356be",
     "8eb17f9f-5721-4a7e-8123-3234e56b555b",
-    "rich_text_cTmpQb"
+    "storytelling_multicolumn_9TMXML"
   ]
 }
