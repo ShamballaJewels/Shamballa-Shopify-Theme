@@ -85,7 +85,7 @@
         "heading_jQdhj8": {
           "type": "heading",
           "settings": {
-            "heading": "Your bracelet. With its own story.",
+            "heading": "Close to you, as years go by",
             "heading_size": "h1"
           }
         },
@@ -112,6 +112,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/93B53F05-2408-4DCD-9487-E22F097197C9-m.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
