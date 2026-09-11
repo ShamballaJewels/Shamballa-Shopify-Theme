@@ -358,21 +358,21 @@
         "text_column_Bdj6bW": {
           "type": "text_column",
           "settings": {
-            "heading": "Trust, built in",
+            "heading": "Durability",
             "text": "<p>Describe this part of the story.</p>"
           }
         },
         "text_column_UqE4cc": {
           "type": "text_column",
           "settings": {
-            "heading": "Column heading",
-            "text": "<p>Describe this part of the story.</p>"
+            "heading": "Held close, just like your memories",
+            "text": "<p><br/>A bracelet moves with its collector, through one chapter and into the next, gaining rather than losing something along the way. </p>"
           }
         },
         "text_column_BFUYdT": {
           "type": "text_column",
           "settings": {
-            "heading": "Made by hand, over & over",
+            "heading": "Craftmanship",
             "text": "<p>Each bracelet is braided by hand in Copenhagen, the same knot turned again and again until it holds. The work is slow on purpose. A story worth keeping is rarely made in a hurry.</p>"
           }
         },
