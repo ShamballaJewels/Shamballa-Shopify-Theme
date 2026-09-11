@@ -27,9 +27,13 @@
   .storytelling-multicolumn-{{ section.id }}__column-text {
     margin: 0;
   }
+
+  .storytelling-multicolumn-{{ section.id }}__wrapper {
+    background: transparent !important;
+  }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }}">
+<div class="color-{{ section.settings.color_scheme }} storytelling-multicolumn-{{ section.id }}__wrapper">
   <div class="page-width section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="storytelling-multicolumn-{{ section.id }}__heading">
