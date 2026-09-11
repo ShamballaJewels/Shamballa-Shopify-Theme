@@ -378,19 +378,27 @@
         },
         "image_gkTfDE": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/39A28546-369B-46F9-8492-C072D43DF26B-m.jpg"
+          }
         },
         "image_C3T8ar": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/C928659A-7313-4E9D-A039-03E89CDFF75E-m.jpg"
+          }
         },
         "image_EirD3M": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/31D05203-AD88-4818-B0B5-A781F29CA2ED-m.jpg"
+          }
         },
         "image_rGjr9t": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/534B3DD1-C9FC-4C65-A307-F204104EE09F-m.jpg"
+          }
         }
       },
       "block_order": [
