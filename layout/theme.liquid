@@ -32,11 +32,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+    {%- liquid
+      assign meta_description = page_description
+      if template.name == 'list-collections' and shop.metafields.custom.collections_meta_description.value != blank
+        assign meta_description = shop.metafields.custom.collections_meta_description.value
+      endif
+    -%}
+    {% if meta_description %}
+      <meta name="description" content="{{ meta_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', meta_description: meta_description %}
     {% render 'pre-loads' %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
