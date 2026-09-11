@@ -133,41 +133,6 @@
         "padding_bottom": 12
       }
     },
-    "test-storytelling": {
-      "type": "storytelling-multicolumn",
-      "blocks": {
-        "tc1": {
-          "type": "text_column",
-          "settings": {
-            "heading": "Durability as trust",
-            "text": "<p>We lead with durability as a trust signal.</p>"
-          }
-        },
-        "tc2": {
-          "type": "text_column",
-          "settings": {
-            "heading": "Possession reframed",
-            "text": "<p>\"You move with it\" is the Buddhist inspiration - possession is reframed as companionship.</p>"
-          }
-        },
-        "tc3": {
-          "type": "text_column",
-          "settings": {
-            "heading": "Neither lecture nor pitch",
-            "text": "<p>Together they avoid either sounding like a philosophy lecture on buddhism or a pure product pitch.</p>"
-          }
-        },
-        "img1": { "type": "image", "settings": {} },
-        "img2": { "type": "image", "settings": {} },
-        "img3": { "type": "image", "settings": {} },
-        "img4": { "type": "image", "settings": {} }
-      },
-      "block_order": ["tc1", "tc2", "tc3", "img1", "img2", "img3", "img4"],
-      "settings": {
-        "heading": "It holds the philosophy without lecturing on Buddhism, and sells without listing.",
-        "color_scheme": "background-2"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -335,7 +300,6 @@
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
-    "test-storytelling",
     "banner",
     "product-grid",
     "40b8517e-e66d-40de-b3fe-143c89f356be",
