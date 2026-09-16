@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "test-page-title": {
+      "type": "page-title",
+      "settings": {}
+    },
     "main": {
       "type": "main-list-collections",
       "disabled": true,
@@ -352,6 +356,7 @@
     }
   },
   "order": [
+    "test-page-title",
     "main",
     "rich_text_BxCXYK",
     "58087abc-0d5f-47fc-a2d9-8e985331eb7e",
