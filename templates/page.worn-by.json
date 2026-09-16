@@ -58,34 +58,14 @@
         "padding_bottom": 52
       }
     },
-    "8509d1a8-ecf4-4bb3-af69-d47a2d4058c3": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "OUR COLLECTORS",
-            "heading_size": "h1"
-          }
-        },
-        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-heading-1",
-        "template--19747420373328__8509d1a8-ecf4-4bb3-af69-d47a2d4058c3-text-1"
-      ],
+    "page_title_BNBPGh": {
+      "type": "page-title",
+      "name": "Page Title",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "heading_size": "h1",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 8
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "dee84769-1138-4e12-a6a5-bd34ae1887c1": {
@@ -826,7 +806,7 @@
     "main",
     "eb74327b-02cd-4953-8ed8-80bbf0f3356e",
     "ca6bd71a-4f6b-4519-87ed-eaa60beb5242",
-    "8509d1a8-ecf4-4bb3-af69-d47a2d4058c3",
+    "page_title_BNBPGh",
     "dee84769-1138-4e12-a6a5-bd34ae1887c1",
     "5fe6985f-109d-4bb6-a3c5-9635679fab22",
     "149dca5a-ce3c-4fab-b0cb-75edd1351a97",
