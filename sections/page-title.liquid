@@ -25,8 +25,10 @@
     <h1 class="page-title section-{{ section.id }}-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- if page -%}
         {{- page.title | escape -}}
-      {%- else -%}
+      {%- elsif collection -%}
         {{- collection.title | escape -}}
+      {%- else -%}
+        {{- page_title | escape -}}
       {%- endif -%}
     </h1>
   </div>
@@ -39,7 +41,7 @@
   "class": "section",
   "limit": 1,
   "enabled_on": {
-    "templates": ["collection", "page"]
+    "templates": ["collection", "page", "list-collections"]
   },
   "settings": [
     {
