@@ -17,6 +17,16 @@
         "padding_bottom": 56
       }
     },
+    "page_title_rKGmdN": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "171887644913e67373": {
       "type": "apps",
       "blocks": {
@@ -37,6 +47,7 @@
   },
   "order": [
     "main",
+    "page_title_rKGmdN",
     "171887644913e67373"
   ]
 }
