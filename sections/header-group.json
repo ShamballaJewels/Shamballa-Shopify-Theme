@@ -41,6 +41,7 @@
         "announcement-bar-0",
         "announcement_f677Vr"
       ],
+      "disabled": true,
       "custom_css": [
         ".utility-bar.color-background-1.gradient {background: #ffffff !important; background-image: none !important;}"
       ],
