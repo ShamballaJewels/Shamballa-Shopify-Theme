@@ -85,7 +85,7 @@
         "heading_jQdhj8": {
           "type": "heading",
           "settings": {
-            "heading": "Close to you, as years go by",
+            "heading": "Jewelry for a lifetime",
             "heading_size": "h1"
           }
         },
@@ -113,7 +113,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/AutumnWinter26_06_SoMe_1080x1350_sRGB_72DPI_eadf6d49-d8d8-4977-8042-e477e22bc8b1.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
