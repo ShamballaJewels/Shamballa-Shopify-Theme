@@ -9,6 +9,89 @@
  */
 {
   "sections": {
+    "ss_video_banner_4bBFPq": {
+      "type": "ss-video-banner",
+      "blocks": {
+        "slide_LCJPUr": {
+          "type": "slide",
+          "settings": {
+            "autoplay": true,
+            "video": "shopify://files/videos/AutumnWinter26_Web_1920x1080_15sec.mp4",
+            "video_url": "",
+            "title": "<h3>Autumn/Winter 2026</h3>",
+            "subtitle": "<p>Crafted with devotion. Destined to evolve over a lifetime.</p>",
+            "button": "Explore the new collection",
+            "button_url": "shopify://collections/autumn-winter-2026",
+            "second_button": "Browse all jewelry",
+            "second_button_url": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "slide_LCJPUr"
+      ],
+      "name": "SS - Video Banner",
+      "settings": {
+        "height": 700,
+        "height_mobile": 600,
+        "overlay_opacity": 0,
+        "interval": 5,
+        "image_object_fit": "cover",
+        "vertical_alignment": "flex-end",
+        "horizontal_alignment": "flex-start",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 50,
+        "title_size_mobile": 32,
+        "title_height": 130,
+        "subtitle_custom": false,
+        "subtitle_font": "josefin_sans_n4",
+        "subtitle_size": 16,
+        "subtitle_size_mobile": 14,
+        "subtitle_height": 130,
+        "subtitle_mt": 20,
+        "buttons_mt": 20,
+        "buttons_gap": 20,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 120,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 10,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 26,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_color": "#000000",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#FFFFFF",
+        "button_bg_hover_color": "rgba(0,0,0,0)",
+        "button_border_color": "rgba(0,0,0,0)",
+        "button_border_hover_color": "#FFFFFF",
+        "second_button_color": "#FFFFFF",
+        "second_button_hover_color": "#000000",
+        "second_button_bg_color": "rgba(0,0,0,0)",
+        "second_button_bg_hover_color": "#FFFFFF",
+        "second_button_border_color": "#FFFFFF",
+        "second_button_border_hover_color": "rgba(0,0,0,0)",
+        "title_color": "#FFFFFF",
+        "subtitle_color": "#FFFFFF",
+        "overlay_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_horizontal": 3,
+        "padding_horizontal_mobile": 1.5,
+        "margin_top": 4,
+        "margin_bottom": 4,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "section_width": 120,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
     "slideshow_X3pnQk": {
       "type": "slideshow",
       "blocks": {
@@ -83,6 +166,7 @@
         "slide_kPCnCW",
         "slide_iKrTQF"
       ],
+      "disabled": true,
       "custom_css": [
         ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--left.slideshow__text-mobile--center {background: transparent !important;}",
         ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient.slideshow__text--right.slideshow__text-mobile--center {background: transparent !important;}"
@@ -227,7 +311,7 @@
         "heading_Ewid9T": {
           "type": "heading",
           "settings": {
-            "heading": "Spring/Summer 2026",
+            "heading": "Autumn/Winter 2026&nbsp;",
             "heading_size": "h2"
           }
         }
@@ -262,11 +346,11 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "spring-summer-2026",
+        "collection": "autumn-winter-2026",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "",
@@ -279,7 +363,38 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 4,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_ziKwtE": {
+      "type": "rich-text",
+      "blocks": {
+        "button_YHRmbp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover the new collection",
+            "button_link": "shopify://collections/autumn-winter-2026",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_YHRmbp"
+      ],
+      "custom_css": [
+        ".button {opacity: 100%;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "rich_text_pFxqYa": {
@@ -990,12 +1105,14 @@
     }
   },
   "order": [
+    "ss_video_banner_4bBFPq",
     "slideshow_X3pnQk",
     "bracelet_picker_1",
     "5d2fd6c4-0aae-43b1-99e6-de4a64bae307",
     "ss_feature_1_ky4DWc",
     "rich_text_rJNpdR",
     "featured_collection_f8F9BT",
+    "rich_text_ziKwtE",
     "rich_text_pFxqYa",
     "featured_collection_dCRzkD",
     "rich_text_Xx8mkj",
