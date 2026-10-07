@@ -30,3 +30,41 @@
     </li>
   </ol>
 </nav>
+
+{%- liquid
+  assign shop_origin = request.origin
+  assign home_url = shop_origin | append: routes.root_url
+  assign current_position = 2
+  if collection_object != blank and collection_object.title != blank
+    assign current_position = 3
+  endif
+-%}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": {{ 'breadcrumbs.home' | t | json }},
+        "item": {{ home_url | json }}
+      },
+      {%- if collection_object != blank and collection_object.title != blank -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": {{ collection_object.title | json }},
+        "item": {{ shop_origin | append: collection_object.url | json }}
+      },
+      {%- endif -%}
+      {
+        "@type": "ListItem",
+        "position": {{ current_position }},
+        "name": {{ current_title | json }},
+        "item": {{ canonical_url | json }}
+      }
+    ]
+  }
+</script>
