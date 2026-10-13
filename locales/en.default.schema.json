@@ -427,6 +427,9 @@
           "label": "Extra extra large"
         }
       },
+      "heading_size_tag": {
+        "label": "Heading HTML tag"
+      },
       "image_shape": {
         "options__1": {
           "label": "Default"
