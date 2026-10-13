@@ -3712,3 +3712,8 @@ details-disclosure > details {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+/* Cookie consent - Hide the button when the overlay menu is active */
+body.overflow-hidden-tablet #Coi-Renew {
+  transform: translate(-100%, 100%);
+}
