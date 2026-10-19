@@ -1,8 +1,14 @@
-{%- for group in robots.default_groups -%}
+{%- assign allowed_paths = '/cart,/*/cart,/carts,/*/carts' | split: ',' -%}
+
+{% for group in robots.default_groups %}
   {{- group.user_agent }}
 
   {%- for rule in group.rules -%}
-    {{ rule }}
+    {% comment %} {{ rule }} {% endcomment %}
+
+    {%- unless rule.directive == 'Disallow' and allowed_paths contains rule.value -%}
+      {{ rule }}
+    {%- endunless -%}
   {%- endfor -%}
 
   {%- if group.user_agent.value == '*' -%}
@@ -13,7 +19,7 @@
     Disallow: /*?*pr_seq=
   {%- endif %}
 
-  {%- if group.sitemap != blank -%}
+  {%- if group.sitemap != blank %}
     {{ group.sitemap }}
-  {%- endif -%}
-{%- endfor -%}
+  {%- endif %}
+{% endfor %}
