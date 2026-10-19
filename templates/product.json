@@ -216,7 +216,7 @@
           "type": "badge",
           "settings": {
             "heading": "Made in Copenhagen",
-            "text": "Hand-assembled by Shamballa Artisans",
+            "text": "Hand-assembled by artisans",
             "required_tag": "",
             "required_bracelet_designs": "Beaded, Lock, Orb"
           }
@@ -225,7 +225,7 @@
           "type": "badge",
           "settings": {
             "heading": "Never Beyond Repair",
-            "text": "We are always available for restringing and repair upon request",
+            "text": "Always available for restringing and repair upon request",
             "required_tag": "",
             "required_bracelet_designs": ""
           }
@@ -298,32 +298,6 @@
         "padding_bottom": 52
       }
     },
-    "1723713188c25cff0f": {
-      "type": "apps",
-      "blocks": {
-        "ultimate_recently_viewed_recently_viewed_bnpGjE": {
-          "type": "shopify://apps/ultimate-recently-viewed/blocks/recently-viewed/b33bd8dd-4a93-43a7-b989-694e289aa9e8",
-          "settings": {
-            "headline": "Recently Viewed Products",
-            "product_title_enabled": true,
-            "product_price_enabled": true,
-            "product_type_enabled": false,
-            "product_vendor_enabled": false,
-            "quick_add_button_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "ultimate_recently_viewed_recently_viewed_bnpGjE"
-      ],
-      "custom_css": [
-        ".ultimate-recently-viewed-price-wrap {display: none !important;}",
-        ".ultimate-recently-viewed-info {text-align: center;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "image_with_text_gz4Gzz": {
       "type": "image-with-text",
       "blocks": {
@@ -372,6 +346,32 @@
         "mobile_content_alignment": "left",
         "padding_top": 48,
         "padding_bottom": 36
+      }
+    },
+    "1723713188c25cff0f": {
+      "type": "apps",
+      "blocks": {
+        "ultimate_recently_viewed_recently_viewed_bnpGjE": {
+          "type": "shopify://apps/ultimate-recently-viewed/blocks/recently-viewed/b33bd8dd-4a93-43a7-b989-694e289aa9e8",
+          "settings": {
+            "headline": "Recently Viewed Products",
+            "product_title_enabled": true,
+            "product_price_enabled": true,
+            "product_type_enabled": false,
+            "product_vendor_enabled": false,
+            "quick_add_button_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "ultimate_recently_viewed_recently_viewed_bnpGjE"
+      ],
+      "custom_css": [
+        ".ultimate-recently-viewed-price-wrap {display: none !important;}",
+        ".ultimate-recently-viewed-info {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
