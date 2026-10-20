@@ -48,9 +48,9 @@
         <form class="facets-vertical-form" id="FacetSortForm">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
-              <h2 class="facet-filters__label caption-large text-body">
+              <div class="facet-filters__label caption-large text-body">
                 <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-              </h2>
+              </div>
               <div class="select">
                 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
                 <select
@@ -78,7 +78,7 @@
           </div>
 
           <div class="product-count-vertical light" role="status">
-            <h2 class="product-count__text text-body">
+            <p class="product-count__text text-body">
               <span id="ProductCountDesktop">
                 {%- if collection.results_count -%}
                   {{
@@ -94,7 +94,7 @@
                   }}
                 {%- endif -%}
               </span>
-            </h2>
+            </p>
             {%- render 'loading-spinner' -%}
           </div>
         </form>
@@ -132,14 +132,14 @@
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
             <div class="loading-overlay gradient"></div>
             <div class="title-wrapper center">
-              <h2 class="title title--primary">
+              <p class="title title--primary h4">
                 {{ 'sections.collection_template.empty' | t -}}
                 <br>
                 {{
                   'sections.collection_template.use_fewer_filters_html'
                   | t: link: collection.url, class: 'underlined-link link'
                 }}
-              </h2>
+              </p>
             </div>
           </div>
         {%- else -%}
@@ -157,6 +157,7 @@
               "
             >
               {% assign skip_card_product_styles = false %}
+              <h2 class="visually-hidden">{{ 'templates.search.products' | t }}</h2>
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
