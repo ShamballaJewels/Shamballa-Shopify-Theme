@@ -322,12 +322,12 @@
     "rich_text_rJNpdR": {
       "type": "rich-text",
       "blocks": {
-        "caption_ynfHUV": {
+        "caption_rHQt4j": {
           "type": "caption",
           "settings": {
             "caption": "Trusted, worldwide shipping · 30-day returns on online orders · Hand-braided in Copenhagen · natural, conflict-free diamonds",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "heading_Ewid9T": {
@@ -339,7 +339,7 @@
         }
       },
       "block_order": [
-        "caption_ynfHUV",
+        "caption_rHQt4j",
         "heading_Ewid9T"
       ],
       "custom_css": [
