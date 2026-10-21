@@ -12,6 +12,19 @@
     "ss_video_banner_4bBFPq": {
       "type": "ss-video-banner",
       "blocks": {
+        "slide_biidWU": {
+          "type": "slide",
+          "settings": {
+            "autoplay": true,
+            "video_url": "",
+            "title": "<h1>Meet The Perfect Travel Shoes</h1>",
+            "subtitle": "<p>Super Packable. Versatile. And All-Day (And Night) Adventure Ready.</p>",
+            "button": "Shop Now",
+            "button_url": "shopify://collections/all",
+            "second_button": "Shop Now",
+            "second_button_url": "shopify://collections/all"
+          }
+        },
         "slide_LCJPUr": {
           "type": "slide",
           "settings": {
@@ -41,6 +54,7 @@
         }
       },
       "block_order": [
+        "slide_biidWU",
         "slide_LCJPUr",
         "slide_tpLcHJ"
       ],
@@ -322,25 +336,23 @@
     "rich_text_rJNpdR": {
       "type": "rich-text",
       "blocks": {
-        "caption_rHQt4j": {
-          "type": "caption",
-          "settings": {
-            "caption": "Trusted, worldwide shipping · 30-day returns on online orders · Hand-braided in Copenhagen · natural, conflict-free diamonds",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
-          }
-        },
         "heading_Ewid9T": {
           "type": "heading",
           "settings": {
             "heading": "Autumn/Winter 2026&nbsp;",
             "heading_size": "h2"
           }
+        },
+        "text_fnyBfQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Warm 18K gold with brown diamonds, sapphires and carnelian - a palette drawn from the Himalayan spirituality and Nordic design.</p>"
+          }
         }
       },
       "block_order": [
-        "caption_rHQt4j",
-        "heading_Ewid9T"
+        "heading_Ewid9T",
+        "text_fnyBfQ"
       ],
       "custom_css": [
         "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
@@ -429,10 +441,26 @@
             "heading": "The Core Collection",
             "heading_size": "h2"
           }
+        },
+        "caption_cB7itt": {
+          "type": "caption",
+          "settings": {
+            "caption": "Where every SHAMBALLA® story begins. These bracelets pair an 18K gold bead and a gold lock with ceramic beads, hand-braided in Copenhagen. Wear them just as they are, or personalize them with new beads.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_3ctwW9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Where every SHAMBALLA® story begins. These bracelets pair an 18K gold bead and a gold lock with ceramic beads, hand-braided in Copenhagen. Wear them just as they are, or personalize them with new beads.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_kMgxHe"
+        "heading_kMgxHe",
+        "caption_cB7itt",
+        "text_3ctwW9"
       ],
       "custom_css": [
         "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
