@@ -481,10 +481,17 @@
             "heading": "The Timeless Collection",
             "heading_size": "h2"
           }
+        },
+        "text_QKNM3D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These bracelets in this collection bring together gold and platinum with pavé diamonds, sapphires, milky aquamarines and other precious gemstones. Heirloom pieces made to be worn for a lifetime and passed on.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_ageti6"
+        "heading_ageti6",
+        "text_QKNM3D"
       ],
       "custom_css": [
         "@media (max-width: 768px) {.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-size: 14px; }}"
