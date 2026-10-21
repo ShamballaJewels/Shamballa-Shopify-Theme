@@ -607,14 +607,14 @@
         "template--19710896800080__afbafc88-a6ee-4eb0-9164-62a4eae78f66-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/aw24-front-page.jpg",
+            "image": "shopify://shop_images/AutumnWinter26_07_Web_1920x1080_sRGB_72DPI.jpg",
             "title": "",
-            "text": "",
+            "text": "<p>Autumn/Winter 2026 brings together warm 18K gold, brown diamonds, sapphires and carnelian in a palette inspired by Himalayan spirituality and Nordic design.</p>",
             "link_label": "",
-            "link": "https://www.shamballajewels.com/collections/all",
+            "link": "shopify://collections/autumn-winter-2026",
             "landing_page_url": "",
-            "title_button": "Start your story",
-            "url_button": "https://www.shamballajewels.com/collections/all"
+            "title_button": "Discover latest collection",
+            "url_button": "shopify://collections/autumn-winter-2026"
           }
         },
         "column_nU7w6J": {
