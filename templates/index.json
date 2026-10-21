@@ -781,14 +781,14 @@
         "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-0": {
           "type": "heading",
           "settings": {
-            "heading": "FLAGSHIP STORE",
+            "heading": "Visit our Flagship Store",
             "heading_size": "h1"
           }
         },
         "template--19102483841360__d8ede82c-9bbb-4c9b-bba0-f0afc99580b8-1688116920f15f503c-1": {
           "type": "text",
           "settings": {
-            "text": "<h2>Copenhagen</h2><p>Opening hours:</p><p>Monday 10:00 - 18:00<br/>Tuesday 10:00 - 18:00<br/>Wednesday 10:00 - 18:00<br/>Thursday 10:00 - 18:00<br/>Friday 10:00 - 19:00<br/>Saturday 10:00 - 16:00<br/>Sunday: Closed</p><p><a href=\"/pages/stores\" title=\"Flagship Stores\">Learn more</a></p>",
+            "text": "<h2><strong>Ny Østergade 7, Copenhagen</strong></h2><p><strong>See the full collections and get personal advice on designing your bracelet.</strong></p><p><strong>Mon–Thu 10:00–18:00 · Fri 10:00–19:00 · Sat 10:00–16:00 · Sun closed</strong></p><h5><a href=\"/pages/stores\" title=\"Flagship Stores\"><strong>Plan your visit</strong></a></h5>",
             "text_style": "body"
           }
         },
