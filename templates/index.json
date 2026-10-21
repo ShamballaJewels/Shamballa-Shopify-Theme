@@ -666,7 +666,7 @@
           "settings": {
             "image": "shopify://shop_images/the_phil_bead_1_abef7346-19f1-4bd6-b69a-c64c4a98fdb5.jpg",
             "title": "1. THE BEADS",
-            "text": "<p>The creation of a SHAMBALLA JEWELS bracelet starts with selecting the beads, a step that infuses the piece with personal meaning. Choose from a variety of 18K gold beads, precious and semi-precious stones, each representing different aspects of life and personal values.</p>",
+            "text": "<p>Every SHAMBALLA® bracelet begins with the beads. Choose from 18K gold, diamonds, precious and semi-precious stones. Each with its own meaning, create a piece that reflects who you are and what you value.</p>",
             "link_label": "",
             "link": "",
             "landing_page_url": "shopify://pages/the-philosophy",
@@ -679,7 +679,7 @@
           "settings": {
             "image": "shopify://shop_images/the_phil_string_1_2df90488-c20b-4733-8913-dcda470a3106.jpg",
             "title": "2. THE STRINGS",
-            "text": "<p>Selecting the string color is a crucial step that not only allows for personal expression but also brings the entire bracelet together, both visually and symbolically. It's a unique opportunity for clients to add a layer of meaning, whether through a favorite color or one that holds special significance.</p>",
+            "text": "<p>Your string color ties the bracelet together, visually and symbolically. Choose a favorite shade, or one that holds a special memory.</p>",
             "link_label": "",
             "link": "",
             "landing_page_url": "shopify://pages/the-philosophy",
@@ -692,7 +692,7 @@
           "settings": {
             "image": "shopify://shop_images/the_phil_braiding_1_2617bf89-7c64-44dd-b7da-dc768a3ccd5e.jpg",
             "title": "3. THE BRAIDING",
-            "text": "<p>The final step of a SHAMBALLA JEWELS bracelet is the art of macramé braiding which is hallmark of every bracelet, executed with unparalleled skill by our artisans in Copenhagen. The handbraiding reflects our dedication to craftsmanship, merging traditional techniques with individual expression.</p>",
+            "text": "<p>Instead of buying new jewelry for every trend, refresh your bracelet by changing the beads or the string. Over time it becomes a living record of your growth and the chapters of your story.</p>",
             "link_label": "",
             "link": "",
             "landing_page_url": "shopify://pages/the-philosophy",
@@ -705,7 +705,7 @@
           "settings": {
             "image": "shopify://shop_images/your_bracelet_2_09e5c5df-d461-4c6b-a068-1688722c5acd.jpg",
             "title": "4. YOUR BRACELET",
-            "text": "<p>Rather than acquiring a new piece  of jewelry for every trend or whim, you have the option to refresh your bracelet by simply altering the beads or string. As you modify your jewelry, it becomes a living reflection of your personal growth and the chapters that shape your story.</p>",
+            "text": "<p>Instead of buying new jewelry for every trend, refresh your bracelet by changing the beads or the string. Over time it becomes a living record of your growth and the chapters of your story.</p>",
             "link_label": "",
             "link": "",
             "landing_page_url": "shopify://pages/the-philosophy",
@@ -729,7 +729,7 @@
         "@media (max-width: 768px) {.h2, h3 {font-size: 12px; }}"
       ],
       "settings": {
-        "title": "THE PHILOSOPHY",
+        "title": "The Philosophy: four steps to a bracelet that's entirely yours",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -839,7 +839,7 @@
         "@media (max-width: 768px) {.h2 {font-size: 12px; }}"
       ],
       "settings": {
-        "heading": "STORIES",
+        "heading": "BLOG",
         "heading_size": "h2",
         "blog": "whats-new",
         "post_limit": 3,
