@@ -108,6 +108,48 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_yMFT8C": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iL3rcQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Where every SHAMBALLA story begins. Our signature bracelets with 18K gold, Blue or Brown Sapphires, finished with ceramic or gold end beads and black or white diamonds. Wear yours just as it is, or personalize it bead by bead over the years.</p>"
+          }
+        },
+        "text_iAVKe7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to make it your own? Choose the gold, stones and string in our bracelet creator.</p>"
+          }
+        },
+        "button_EJHrHx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Design your bracelet",
+            "button_link": "shopify://pages/the-creator",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_iL3rcQ",
+        "text_iAVKe7",
+        "button_EJHrHx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "df2f56dc-83ce-4f73-865c-53eabce271cb": {
       "type": "rich-text",
       "blocks": {
@@ -346,6 +388,7 @@
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "page_title_EXNhJf",
+    "rich_text_yMFT8C",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
     "product-grid",
