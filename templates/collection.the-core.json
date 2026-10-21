@@ -111,10 +111,12 @@
     "rich_text_yMFT8C": {
       "type": "rich-text",
       "blocks": {
-        "text_iL3rcQ": {
-          "type": "text",
+        "caption_k6gXHy": {
+          "type": "caption",
           "settings": {
-            "text": "<p>Where every SHAMBALLA story begins. Our signature bracelets with 18K gold, Blue or Brown Sapphires, finished with ceramic or gold end beads and black or white diamonds. Wear yours just as it is, or personalize it bead by bead over the years.</p>"
+            "caption": "Where every SHAMBALLA story begins. Our signature bracelets with 18K gold, Blue or Brown Sapphires, finished with ceramic or gold end beads and black or white diamonds. Wear yours just as it is, or personalize it bead by bead over the years.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         },
         "text_iAVKe7": {
@@ -136,7 +138,7 @@
         }
       },
       "block_order": [
-        "text_iL3rcQ",
+        "caption_k6gXHy",
         "text_iAVKe7",
         "button_EJHrHx"
       ],

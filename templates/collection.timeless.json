@@ -108,6 +108,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_LrrzQ4": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hw69P8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bracelets, bangles and rings brought together in 18K gold and platinum with pavé diamonds, sapphires, brown & black diamonds & milky aquamarines. Heirloom pieces, made to be worn for a lifetime and passed on.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hw69P8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "df2f56dc-83ce-4f73-865c-53eabce271cb": {
       "type": "rich-text",
       "blocks": {
@@ -302,6 +325,7 @@
     "fe1019e7-29cc-4b0b-b4c2-7a5268d30b9a",
     "1f561958-011b-4c9b-b2ea-746a7c8bf733",
     "page_title_9EwziB",
+    "rich_text_LrrzQ4",
     "df2f56dc-83ce-4f73-865c-53eabce271cb",
     "banner",
     "product-grid",
