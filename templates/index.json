@@ -751,7 +751,7 @@
         "button_aeGcmT": {
           "type": "button",
           "settings": {
-            "button_label": "LEARN MORE",
+            "button_label": "Discover our philosophy",
             "button_link": "shopify://pages/the-philosophy",
             "button_style_secondary": false,
             "button_label_2": "",
