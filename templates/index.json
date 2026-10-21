@@ -12,19 +12,6 @@
     "ss_video_banner_4bBFPq": {
       "type": "ss-video-banner",
       "blocks": {
-        "slide_biidWU": {
-          "type": "slide",
-          "settings": {
-            "autoplay": true,
-            "video_url": "",
-            "title": "<h1>Meet The Perfect Travel Shoes</h1>",
-            "subtitle": "<p>Super Packable. Versatile. And All-Day (And Night) Adventure Ready.</p>",
-            "button": "Shop Now",
-            "button_url": "shopify://collections/all",
-            "second_button": "Shop Now",
-            "second_button_url": "shopify://collections/all"
-          }
-        },
         "slide_LCJPUr": {
           "type": "slide",
           "settings": {
@@ -37,6 +24,19 @@
             "button_url": "shopify://collections/autumn-winter-2026",
             "second_button": "Design your own",
             "second_button_url": "shopify://pages/the-creator"
+          }
+        },
+        "slide_biidWU": {
+          "type": "slide",
+          "settings": {
+            "autoplay": true,
+            "video_url": "",
+            "title": "<h1>Meet The Perfect Travel Shoes</h1>",
+            "subtitle": "<p>Super Packable. Versatile. And All-Day (And Night) Adventure Ready.</p>",
+            "button": "Shop Now",
+            "button_url": "shopify://collections/all",
+            "second_button": "Shop Now",
+            "second_button_url": "shopify://collections/all"
           }
         },
         "slide_tpLcHJ": {
@@ -54,8 +54,8 @@
         }
       },
       "block_order": [
-        "slide_biidWU",
         "slide_LCJPUr",
+        "slide_biidWU",
         "slide_tpLcHJ"
       ],
       "name": "SS - Video Banner",
