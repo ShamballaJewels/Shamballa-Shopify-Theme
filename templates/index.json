@@ -414,14 +414,6 @@
             "heading_size": "h2"
           }
         },
-        "caption_cB7itt": {
-          "type": "caption",
-          "settings": {
-            "caption": "Where every SHAMBALLA® story begins. These bracelets pair an 18K gold bead and a gold lock with ceramic beads, hand-braided in Copenhagen. Wear them just as they are, or personalize them with new beads.",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "text_3ctwW9": {
           "type": "text",
           "settings": {
@@ -431,7 +423,6 @@
       },
       "block_order": [
         "heading_kMgxHe",
-        "caption_cB7itt",
         "text_3ctwW9"
       ],
       "custom_css": [
