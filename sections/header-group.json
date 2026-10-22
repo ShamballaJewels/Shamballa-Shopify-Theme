@@ -24,7 +24,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "WORLDWIDE SHIPPING",
+            "text": "Worldwide shipping · 30-day returns on online orders · Hand-braided in Copenhagen · Natural diamonds",
             "link": ""
           }
         },
@@ -41,7 +41,6 @@
         "announcement-bar-0",
         "announcement_f677Vr"
       ],
-      "disabled": true,
       "custom_css": [
         ".utility-bar.color-background-1.gradient {background: #ffffff !important; background-image: none !important;}"
       ],
