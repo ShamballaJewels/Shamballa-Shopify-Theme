@@ -266,6 +266,14 @@ a.product__text {
   margin-top: 0;
 }
 
+.product__title .product__title--combined span {
+  display: block;
+}
+
+.product__title .product-title__sub {
+  margin-top: 0.5rem;
+}
+
 .product__accordion .accordion__content {
   padding: 0 1rem;
 }
