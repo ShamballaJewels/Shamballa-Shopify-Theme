@@ -1,0 +1,58 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .section-{{ section.id }}-title {
+    text-align: center;
+  }
+
+  .section-{{ section.id }}-wrapper {
+    background: transparent !important;
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding section-{{ section.id }}-wrapper">
+
+  <div class="page-width">
+    {%- render 'breadcrumbs', current_title: page.title, collection_object: page -%}
+  </div>
+
+  <div class="page-width">
+    <h1 class="page-title section-{{ section.id }}-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {%- if page -%}
+        {{- page.title | escape -}}
+      {%- elsif collection -%}
+        {{- collection.title | escape -}}
+      {%- else -%}
+        {{- page_title | escape -}}
+      {%- endif -%}
+    </h1>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Breadcrumbs",
+  "tag": "section",
+  "class": "section",
+  "limit": 1,
+  "enabled_on": {
+    "templates": ["page", "blog"]
+  },
+  "settings": [],
+  "presets": [
+    {
+      "name": "Breadcrumbs"
+    }
+  ]
+}
+{% endschema %}
