@@ -21,21 +21,8 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding section-{{ section.id }}-wrapper">
-
   <div class="page-width">
     {%- render 'breadcrumbs', current_title: page.title, collection_object: page -%}
-  </div>
-
-  <div class="page-width">
-    <h1 class="page-title section-{{ section.id }}-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {%- if page -%}
-        {{- page.title | escape -}}
-      {%- elsif collection -%}
-        {{- collection.title | escape -}}
-      {%- else -%}
-        {{- page_title | escape -}}
-      {%- endif -%}
-    </h1>
   </div>
 </div>
 
