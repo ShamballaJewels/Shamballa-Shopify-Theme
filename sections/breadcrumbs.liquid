@@ -28,7 +28,16 @@
   }
 {%- endstyle -%}
 
-{%- assign breadcrumb_title = page.title | default: blog.title -%}
+{%- liquid
+  if article
+    assign breadcrumb_title = article.title
+    assign breadcrumb_parent = blog
+  elsif page
+    assign breadcrumb_title = page.title
+  else
+    assign breadcrumb_title = blog.title
+  endif
+-%}
 
 {%- case section.settings.container_width -%}
   {%- when 'narrow' -%}
@@ -41,7 +50,7 @@
 
 <div class="section-{{ section.id }}-padding section-{{ section.id }}-wrapper">
   <div class="{{ container_class }}">
-    {%- render 'breadcrumbs', current_title: breadcrumb_title -%}
+    {%- render 'breadcrumbs', current_title: breadcrumb_title, collection_object: breadcrumb_parent -%}
   </div>
 </div>
 

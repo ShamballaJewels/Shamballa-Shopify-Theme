@@ -17,13 +17,22 @@
         "padding_bottom": 28
       }
     },
+    "breadcrumbs_xzi64T": {
+      "type": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "settings": {
+        "container_width": "default",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_title_XU6PAV": {
       "type": "page-title",
       "name": "Page Title",
       "settings": {
         "heading_size": "h1",
         "color_scheme": "",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 0
       }
     },
@@ -867,6 +876,7 @@
   },
   "order": [
     "main",
+    "breadcrumbs_xzi64T",
     "page_title_XU6PAV",
     "116d3879-4ece-489c-9b57-cb48008b67fc",
     "video_4RMkRq",
