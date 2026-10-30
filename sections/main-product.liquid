@@ -75,6 +75,7 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+  {% assign display_title_lines = product.metafields.custom.display_title.value %}
   {%- liquid
     # Necklaces, pendants, cufflinks, earrings and rings never show a price on
     # the product page, and neither do bracelets whose Bracelet type metafield
@@ -97,7 +98,17 @@
         {%- if block.type == 'title' -%}
           <div class="grid__item product__title product__title--mobile medium-hide large-up-hide">
             {% render 'product-design-collection', product: product %}
-            <h1>{{ product.title | escape }}</h1>
+            {% if display_title_lines.size > 0 %}
+              {% for line in display_title_lines limit: 2 %}
+                <h1 class="product__title--combined">
+                  <span class="{% if forloop.first %}product-title__main{% else %}h2 product-title__sub{% endif %}">
+                    {{- line -}}
+                  </span>
+                </h1>
+              {% endfor %}
+            {% else %}
+              <h1>{{ product.title | escape }}</h1>
+            {% endif %}
             <a href="{{ product.url }}" class="product__title">
               <h2 class="h1">
                 {{ product.title | escape }}
@@ -135,7 +146,7 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+          
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
@@ -150,7 +161,17 @@
               {%- when 'title' -%}
                 <div class="product__title small-hide" {{ block.shopify_attributes }}>
                   {% render 'product-design-collection', product: product %}
-                  <h1>{{ product.title | escape }}</h1>
+                  {% if display_title_lines.size > 0 %}
+                    {% for line in display_title_lines limit: 2 %}
+                      <h1 class="product__title--combined">
+                        <span class="{% if forloop.first %}product-title__main{% else %}h2 product-title__sub{% endif %}">
+                          {{- line -}}
+                        </span>
+                      </h1>
+                    {% endfor %}
+                  {% else %}
+                    <h1>{{ product.title | escape }}</h1>
+                  {% endif %}
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
                       {{ product.title | escape }}

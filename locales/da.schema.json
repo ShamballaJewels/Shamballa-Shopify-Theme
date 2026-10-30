@@ -409,6 +409,9 @@
           "label": "Ekstra, ekstra stor"
         }
       },
+      "heading_size_tag": {
+        "label": "Overskrift HTML tag"
+      },
       "image_shape": {
         "options__1": {
           "label": "Standard"
